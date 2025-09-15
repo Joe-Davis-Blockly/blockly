@@ -1,0 +1,58 @@
+
+- label: 'Get started'
+  items:
+    - label: 'What is Blockly?'
+      id: 'guides/get-started/what-is-blockly'
+    - label: 'Visual glossary'
+      id: 'guides/get-started/workspace-anatomy'
+
+- label: 'Programming considerations'
+  items:
+    - label: 'Fork Blockly'
+      id: 'guides/programming/forking_blockly'
+
+- label: 'Build your editor'
+  items:
+    - label: 'Workspaces'
+      items:
+        - label: 'Create a workspace'
+          items:
+            - label: 'Create a workspace'
+              id: 'guides/configure/web/configuration_struct'
+
+    - label: 'Localization'
+      id: 'guides/configure/web/translations'
+
+- label: 'Build your blocks'
+  items:
+    - label: 'Block definitions'
+      items:
+        - label: 'Ways to define blocks'
+          items:
+            - label: 'JSON and JavaScript'
+              id: 'guides/create-custom-blocks/define/json-and-js'
+
+            - label: 'Legacy Blockly Developer Tools'
+              id: 'guides/create-custom-blocks/define/legacy-blockly-developer-tools'
+
+        - label: 'Block structure'
+          items:
+            - label: 'Anatomy of a block'
+              id: 'guides/create-custom-blocks/define/block-anatomy'
+
+    - label: 'Code generation'
+      items:
+        - label: 'Block-code generators'
+          id: 'guides/create-custom-blocks/code-generation/block-code'
+
+    - label: 'Fields'
+      items:
+        - label: 'Built-in fields'
+          items:
+            - label: 'Dropdown'
+              id: 'guides/create-custom-blocks/fields/built-in-fields/dropdown'
+        - label: 'Custom fields'
+          items:
+            - label: 'Create a custom field'
+              id: 'guides/create-custom-blocks/fields/customizing-fields/creating'
+
