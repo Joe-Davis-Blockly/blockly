@@ -1,113 +1,113 @@
 {
   "docusaurus-plugin-content-docs": {
     "default": {
-      "path": "/docs",
+      "path": "/blockly/docs",
       "versions": [
         {
           "name": "current",
           "label": "Next",
           "isLast": true,
-          "path": "/docs",
+          "path": "/blockly/docs",
           "mainDocId": "intro",
           "docs": [
             {
               "id": "guides/configure/web/configuration_struct",
-              "path": "/docs/guides/configure/web/configuration_struct",
+              "path": "/blockly/docs/guides/configure/web/configuration_struct",
               "sidebar": "guidesSidebar"
             },
             {
               "id": "guides/configure/web/translations",
-              "path": "/docs/guides/configure/web/translations",
+              "path": "/blockly/docs/guides/configure/web/translations",
               "sidebar": "guidesSidebar"
             },
             {
               "id": "guides/create-custom-blocks/code-generation/block-code",
-              "path": "/docs/guides/create-custom-blocks/code-generation/block-code",
+              "path": "/blockly/docs/guides/create-custom-blocks/code-generation/block-code",
               "sidebar": "guidesSidebar"
             },
             {
               "id": "guides/create-custom-blocks/define/block-anatomy",
-              "path": "/docs/guides/create-custom-blocks/define/block-anatomy",
+              "path": "/blockly/docs/guides/create-custom-blocks/define/block-anatomy",
               "sidebar": "guidesSidebar"
             },
             {
               "id": "guides/create-custom-blocks/define/json-and-js",
-              "path": "/docs/guides/create-custom-blocks/define/json-and-js",
+              "path": "/blockly/docs/guides/create-custom-blocks/define/json-and-js",
               "sidebar": "guidesSidebar"
             },
             {
               "id": "guides/create-custom-blocks/define/legacy-blockly-developer-tools",
-              "path": "/docs/guides/create-custom-blocks/define/legacy-blockly-developer-tools",
+              "path": "/blockly/docs/guides/create-custom-blocks/define/legacy-blockly-developer-tools",
               "sidebar": "guidesSidebar"
             },
             {
               "id": "guides/create-custom-blocks/fields/built-in-fields/dropdown",
-              "path": "/docs/guides/create-custom-blocks/fields/built-in-fields/dropdown",
+              "path": "/blockly/docs/guides/create-custom-blocks/fields/built-in-fields/dropdown",
               "sidebar": "guidesSidebar"
             },
             {
               "id": "guides/create-custom-blocks/fields/customizing-fields/creating",
-              "path": "/docs/guides/create-custom-blocks/fields/customizing-fields/creating",
+              "path": "/blockly/docs/guides/create-custom-blocks/fields/customizing-fields/creating",
               "sidebar": "guidesSidebar"
             },
             {
               "id": "guides/get-started/what-is-blockly",
-              "path": "/docs/guides/get-started/what-is-blockly",
+              "path": "/blockly/docs/guides/get-started/what-is-blockly",
               "sidebar": "guidesSidebar"
             },
             {
               "id": "guides/get-started/workspace-anatomy",
-              "path": "/docs/guides/get-started/workspace-anatomy",
+              "path": "/blockly/docs/guides/get-started/workspace-anatomy",
               "sidebar": "guidesSidebar"
             },
             {
               "id": "guides/programming/forking_blockly",
-              "path": "/docs/guides/programming/forking_blockly",
+              "path": "/blockly/docs/guides/programming/forking_blockly",
               "sidebar": "guidesSidebar"
             },
             {
               "id": "intro",
-              "path": "/docs/intro",
+              "path": "/blockly/docs/intro",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "tutorial-basics/congratulations",
-              "path": "/docs/tutorial-basics/congratulations",
+              "path": "/blockly/docs/tutorial-basics/congratulations",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "tutorial-basics/create-a-blog-post",
-              "path": "/docs/tutorial-basics/create-a-blog-post",
+              "path": "/blockly/docs/tutorial-basics/create-a-blog-post",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "tutorial-basics/create-a-document",
-              "path": "/docs/tutorial-basics/create-a-document",
+              "path": "/blockly/docs/tutorial-basics/create-a-document",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "tutorial-basics/create-a-page",
-              "path": "/docs/tutorial-basics/create-a-page",
+              "path": "/blockly/docs/tutorial-basics/create-a-page",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "tutorial-basics/deploy-your-site",
-              "path": "/docs/tutorial-basics/deploy-your-site",
+              "path": "/blockly/docs/tutorial-basics/deploy-your-site",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "tutorial-basics/markdown-features",
-              "path": "/docs/tutorial-basics/markdown-features",
+              "path": "/blockly/docs/tutorial-basics/markdown-features",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "tutorial-extras/manage-docs-versions",
-              "path": "/docs/tutorial-extras/manage-docs-versions",
+              "path": "/blockly/docs/tutorial-extras/manage-docs-versions",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "tutorial-extras/translate-your-site",
-              "path": "/docs/tutorial-extras/translate-your-site",
+              "path": "/blockly/docs/tutorial-extras/translate-your-site",
               "sidebar": "tutorialSidebar"
             }
           ],
@@ -115,13 +115,13 @@
           "sidebars": {
             "tutorialSidebar": {
               "link": {
-                "path": "/docs/intro",
+                "path": "/blockly/docs/intro",
                 "label": "Tutorial Intro"
               }
             },
             "guidesSidebar": {
               "link": {
-                "path": "/docs/guides/get-started/what-is-blockly",
+                "path": "/blockly/docs/guides/get-started/what-is-blockly",
                 "label": "What is Blockly?"
               }
             }

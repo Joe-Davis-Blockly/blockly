@@ -1,5 +1,5 @@
 {
-  "blogBasePath": "/blog",
+  "blogBasePath": "/blockly/blog",
   "blogTitle": "Blog",
-  "authorsListPath": "/blog/authors"
+  "authorsListPath": "/blockly/blog/authors"
 }

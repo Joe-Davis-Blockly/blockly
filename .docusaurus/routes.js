@@ -3,249 +3,214 @@ import ComponentCreator from '@docusaurus/ComponentCreator';
 
 export default [
   {
-    path: '/__docusaurus/debug',
-    component: ComponentCreator('/__docusaurus/debug', '5ff'),
+    path: '/blockly/blog',
+    component: ComponentCreator('/blockly/blog', 'a5c'),
     exact: true
   },
   {
-    path: '/__docusaurus/debug/config',
-    component: ComponentCreator('/__docusaurus/debug/config', '5ba'),
+    path: '/blockly/blog/archive',
+    component: ComponentCreator('/blockly/blog/archive', 'fa2'),
     exact: true
   },
   {
-    path: '/__docusaurus/debug/content',
-    component: ComponentCreator('/__docusaurus/debug/content', 'a2b'),
+    path: '/blockly/blog/authors',
+    component: ComponentCreator('/blockly/blog/authors', 'e9b'),
     exact: true
   },
   {
-    path: '/__docusaurus/debug/globalData',
-    component: ComponentCreator('/__docusaurus/debug/globalData', 'c3c'),
+    path: '/blockly/blog/authors/all-sebastien-lorber-articles',
+    component: ComponentCreator('/blockly/blog/authors/all-sebastien-lorber-articles', '70a'),
     exact: true
   },
   {
-    path: '/__docusaurus/debug/metadata',
-    component: ComponentCreator('/__docusaurus/debug/metadata', '156'),
+    path: '/blockly/blog/authors/yangshun',
+    component: ComponentCreator('/blockly/blog/authors/yangshun', 'f72'),
     exact: true
   },
   {
-    path: '/__docusaurus/debug/registry',
-    component: ComponentCreator('/__docusaurus/debug/registry', '88c'),
+    path: '/blockly/blog/first-blog-post',
+    component: ComponentCreator('/blockly/blog/first-blog-post', '753'),
     exact: true
   },
   {
-    path: '/__docusaurus/debug/routes',
-    component: ComponentCreator('/__docusaurus/debug/routes', '000'),
+    path: '/blockly/blog/long-blog-post',
+    component: ComponentCreator('/blockly/blog/long-blog-post', '35e'),
     exact: true
   },
   {
-    path: '/blog',
-    component: ComponentCreator('/blog', 'b2f'),
+    path: '/blockly/blog/mdx-blog-post',
+    component: ComponentCreator('/blockly/blog/mdx-blog-post', 'ea8'),
     exact: true
   },
   {
-    path: '/blog/archive',
-    component: ComponentCreator('/blog/archive', '182'),
+    path: '/blockly/blog/tags',
+    component: ComponentCreator('/blockly/blog/tags', '5c6'),
     exact: true
   },
   {
-    path: '/blog/authors',
-    component: ComponentCreator('/blog/authors', '0b7'),
+    path: '/blockly/blog/tags/docusaurus',
+    component: ComponentCreator('/blockly/blog/tags/docusaurus', '167'),
     exact: true
   },
   {
-    path: '/blog/authors/all-sebastien-lorber-articles',
-    component: ComponentCreator('/blog/authors/all-sebastien-lorber-articles', '4a1'),
+    path: '/blockly/blog/tags/facebook',
+    component: ComponentCreator('/blockly/blog/tags/facebook', '273'),
     exact: true
   },
   {
-    path: '/blog/authors/yangshun',
-    component: ComponentCreator('/blog/authors/yangshun', 'a68'),
+    path: '/blockly/blog/tags/hello',
+    component: ComponentCreator('/blockly/blog/tags/hello', 'a88'),
     exact: true
   },
   {
-    path: '/blog/first-blog-post',
-    component: ComponentCreator('/blog/first-blog-post', '89a'),
+    path: '/blockly/blog/tags/hola',
+    component: ComponentCreator('/blockly/blog/tags/hola', '8b8'),
     exact: true
   },
   {
-    path: '/blog/long-blog-post',
-    component: ComponentCreator('/blog/long-blog-post', '9ad'),
+    path: '/blockly/blog/welcome',
+    component: ComponentCreator('/blockly/blog/welcome', 'd48'),
     exact: true
   },
   {
-    path: '/blog/mdx-blog-post',
-    component: ComponentCreator('/blog/mdx-blog-post', 'e9f'),
+    path: '/blockly/markdown-page',
+    component: ComponentCreator('/blockly/markdown-page', '05e'),
     exact: true
   },
   {
-    path: '/blog/tags',
-    component: ComponentCreator('/blog/tags', '287'),
+    path: '/blockly/search',
+    component: ComponentCreator('/blockly/search', 'fae'),
     exact: true
   },
   {
-    path: '/blog/tags/docusaurus',
-    component: ComponentCreator('/blog/tags/docusaurus', '704'),
-    exact: true
-  },
-  {
-    path: '/blog/tags/facebook',
-    component: ComponentCreator('/blog/tags/facebook', '858'),
-    exact: true
-  },
-  {
-    path: '/blog/tags/hello',
-    component: ComponentCreator('/blog/tags/hello', '299'),
-    exact: true
-  },
-  {
-    path: '/blog/tags/hola',
-    component: ComponentCreator('/blog/tags/hola', '00d'),
-    exact: true
-  },
-  {
-    path: '/blog/welcome',
-    component: ComponentCreator('/blog/welcome', 'd2b'),
-    exact: true
-  },
-  {
-    path: '/markdown-page',
-    component: ComponentCreator('/markdown-page', '3d7'),
-    exact: true
-  },
-  {
-    path: '/search',
-    component: ComponentCreator('/search', '5de'),
-    exact: true
-  },
-  {
-    path: '/docs',
-    component: ComponentCreator('/docs', 'a4b'),
+    path: '/blockly/docs',
+    component: ComponentCreator('/blockly/docs', '83b'),
     routes: [
       {
-        path: '/docs',
-        component: ComponentCreator('/docs', '83c'),
+        path: '/blockly/docs',
+        component: ComponentCreator('/blockly/docs', 'ce5'),
         routes: [
           {
-            path: '/docs',
-            component: ComponentCreator('/docs', '671'),
+            path: '/blockly/docs',
+            component: ComponentCreator('/blockly/docs', 'e46'),
             routes: [
               {
-                path: '/docs/guides/configure/web/configuration_struct',
-                component: ComponentCreator('/docs/guides/configure/web/configuration_struct', '1f1'),
+                path: '/blockly/docs/guides/configure/web/configuration_struct',
+                component: ComponentCreator('/blockly/docs/guides/configure/web/configuration_struct', '71d'),
                 exact: true,
                 sidebar: "guidesSidebar"
               },
               {
-                path: '/docs/guides/configure/web/translations',
-                component: ComponentCreator('/docs/guides/configure/web/translations', '2f5'),
+                path: '/blockly/docs/guides/configure/web/translations',
+                component: ComponentCreator('/blockly/docs/guides/configure/web/translations', '794'),
                 exact: true,
                 sidebar: "guidesSidebar"
               },
               {
-                path: '/docs/guides/create-custom-blocks/code-generation/block-code',
-                component: ComponentCreator('/docs/guides/create-custom-blocks/code-generation/block-code', '7c9'),
+                path: '/blockly/docs/guides/create-custom-blocks/code-generation/block-code',
+                component: ComponentCreator('/blockly/docs/guides/create-custom-blocks/code-generation/block-code', '7cb'),
                 exact: true,
                 sidebar: "guidesSidebar"
               },
               {
-                path: '/docs/guides/create-custom-blocks/define/block-anatomy',
-                component: ComponentCreator('/docs/guides/create-custom-blocks/define/block-anatomy', '854'),
+                path: '/blockly/docs/guides/create-custom-blocks/define/block-anatomy',
+                component: ComponentCreator('/blockly/docs/guides/create-custom-blocks/define/block-anatomy', '5b6'),
                 exact: true,
                 sidebar: "guidesSidebar"
               },
               {
-                path: '/docs/guides/create-custom-blocks/define/json-and-js',
-                component: ComponentCreator('/docs/guides/create-custom-blocks/define/json-and-js', '4b0'),
+                path: '/blockly/docs/guides/create-custom-blocks/define/json-and-js',
+                component: ComponentCreator('/blockly/docs/guides/create-custom-blocks/define/json-and-js', 'e28'),
                 exact: true,
                 sidebar: "guidesSidebar"
               },
               {
-                path: '/docs/guides/create-custom-blocks/define/legacy-blockly-developer-tools',
-                component: ComponentCreator('/docs/guides/create-custom-blocks/define/legacy-blockly-developer-tools', '2e4'),
+                path: '/blockly/docs/guides/create-custom-blocks/define/legacy-blockly-developer-tools',
+                component: ComponentCreator('/blockly/docs/guides/create-custom-blocks/define/legacy-blockly-developer-tools', '6b3'),
                 exact: true,
                 sidebar: "guidesSidebar"
               },
               {
-                path: '/docs/guides/create-custom-blocks/fields/built-in-fields/dropdown',
-                component: ComponentCreator('/docs/guides/create-custom-blocks/fields/built-in-fields/dropdown', '292'),
+                path: '/blockly/docs/guides/create-custom-blocks/fields/built-in-fields/dropdown',
+                component: ComponentCreator('/blockly/docs/guides/create-custom-blocks/fields/built-in-fields/dropdown', 'cbf'),
                 exact: true,
                 sidebar: "guidesSidebar"
               },
               {
-                path: '/docs/guides/create-custom-blocks/fields/customizing-fields/creating',
-                component: ComponentCreator('/docs/guides/create-custom-blocks/fields/customizing-fields/creating', 'f39'),
+                path: '/blockly/docs/guides/create-custom-blocks/fields/customizing-fields/creating',
+                component: ComponentCreator('/blockly/docs/guides/create-custom-blocks/fields/customizing-fields/creating', 'e95'),
                 exact: true,
                 sidebar: "guidesSidebar"
               },
               {
-                path: '/docs/guides/get-started/what-is-blockly',
-                component: ComponentCreator('/docs/guides/get-started/what-is-blockly', '323'),
+                path: '/blockly/docs/guides/get-started/what-is-blockly',
+                component: ComponentCreator('/blockly/docs/guides/get-started/what-is-blockly', '6fc'),
                 exact: true,
                 sidebar: "guidesSidebar"
               },
               {
-                path: '/docs/guides/get-started/workspace-anatomy',
-                component: ComponentCreator('/docs/guides/get-started/workspace-anatomy', 'd49'),
+                path: '/blockly/docs/guides/get-started/workspace-anatomy',
+                component: ComponentCreator('/blockly/docs/guides/get-started/workspace-anatomy', 'e00'),
                 exact: true,
                 sidebar: "guidesSidebar"
               },
               {
-                path: '/docs/guides/programming/forking_blockly',
-                component: ComponentCreator('/docs/guides/programming/forking_blockly', '474'),
+                path: '/blockly/docs/guides/programming/forking_blockly',
+                component: ComponentCreator('/blockly/docs/guides/programming/forking_blockly', '8ea'),
                 exact: true,
                 sidebar: "guidesSidebar"
               },
               {
-                path: '/docs/intro',
-                component: ComponentCreator('/docs/intro', '61d'),
+                path: '/blockly/docs/intro',
+                component: ComponentCreator('/blockly/docs/intro', 'cd4'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/tutorial-basics/congratulations',
-                component: ComponentCreator('/docs/tutorial-basics/congratulations', '458'),
+                path: '/blockly/docs/tutorial-basics/congratulations',
+                component: ComponentCreator('/blockly/docs/tutorial-basics/congratulations', 'c11'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/tutorial-basics/create-a-blog-post',
-                component: ComponentCreator('/docs/tutorial-basics/create-a-blog-post', '108'),
+                path: '/blockly/docs/tutorial-basics/create-a-blog-post',
+                component: ComponentCreator('/blockly/docs/tutorial-basics/create-a-blog-post', '523'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/tutorial-basics/create-a-document',
-                component: ComponentCreator('/docs/tutorial-basics/create-a-document', '8fc'),
+                path: '/blockly/docs/tutorial-basics/create-a-document',
+                component: ComponentCreator('/blockly/docs/tutorial-basics/create-a-document', '99e'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/tutorial-basics/create-a-page',
-                component: ComponentCreator('/docs/tutorial-basics/create-a-page', '951'),
+                path: '/blockly/docs/tutorial-basics/create-a-page',
+                component: ComponentCreator('/blockly/docs/tutorial-basics/create-a-page', '316'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/tutorial-basics/deploy-your-site',
-                component: ComponentCreator('/docs/tutorial-basics/deploy-your-site', '4f5'),
+                path: '/blockly/docs/tutorial-basics/deploy-your-site',
+                component: ComponentCreator('/blockly/docs/tutorial-basics/deploy-your-site', '0b6'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/tutorial-basics/markdown-features',
-                component: ComponentCreator('/docs/tutorial-basics/markdown-features', 'b05'),
+                path: '/blockly/docs/tutorial-basics/markdown-features',
+                component: ComponentCreator('/blockly/docs/tutorial-basics/markdown-features', '1bc'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/tutorial-extras/manage-docs-versions',
-                component: ComponentCreator('/docs/tutorial-extras/manage-docs-versions', '978'),
+                path: '/blockly/docs/tutorial-extras/manage-docs-versions',
+                component: ComponentCreator('/blockly/docs/tutorial-extras/manage-docs-versions', 'cbd'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/tutorial-extras/translate-your-site',
-                component: ComponentCreator('/docs/tutorial-extras/translate-your-site', 'f9a'),
+                path: '/blockly/docs/tutorial-extras/translate-your-site',
+                component: ComponentCreator('/blockly/docs/tutorial-extras/translate-your-site', '2c8'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               }
@@ -256,8 +221,8 @@ export default [
     ]
   },
   {
-    path: '/',
-    component: ComponentCreator('/', '2e1'),
+    path: '/blockly/',
+    component: ComponentCreator('/blockly/', '2aa'),
     exact: true
   },
   {

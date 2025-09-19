@@ -28,10 +28,10 @@ export default {
     },
     "experimental_router": "browser"
   },
-  "url": "https://docusaurus-v1-dot-play-academy-api-integration.appspot.com",
-  "baseUrl": "/",
+  "url": "https://joe-davis-blockly.github.io",
+  "baseUrl": "/blockly/",
   "organizationName": "facebook",
-  "projectName": "docusaurus",
+  "projectName": "blockly",
   "onBrokenLinks": "ignore",
   "onBrokenMarkdownLinks": "ignore",
   "i18n": {
