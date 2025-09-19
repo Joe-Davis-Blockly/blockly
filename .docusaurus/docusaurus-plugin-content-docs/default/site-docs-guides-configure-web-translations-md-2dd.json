@@ -1,0 +1,26 @@
+{
+  "id": "guides/configure/web/translations",
+  "title": "Localization",
+  "description": "Blockly provides a system for localizing the text in an application, such as",
+  "source": "@site/docs/guides/configure/web/translations.md",
+  "sourceDirName": "guides/configure/web",
+  "slug": "/guides/configure/web/translations",
+  "permalink": "/docs/guides/configure/web/translations",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/guides/configure/web/translations.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "sidebar": "guidesSidebar"
+  },
+  "sidebar": "guidesSidebar",
+  "previous": {
+    "title": "Create a workspace",
+    "permalink": "/docs/guides/configure/web/configuration_struct"
+  },
+  "next": {
+    "title": "JSON and JavaScript",
+    "permalink": "/docs/guides/create-custom-blocks/define/json-and-js"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "id": "guides/create-custom-blocks/define/json-and-js",
+  "title": "JSON and JavaScript",
+  "description": "Blockly has two ways of defining blocks: JSON objects, which use key-value",
+  "source": "@site/docs/guides/create-custom-blocks/define/json-and-js.md",
+  "sourceDirName": "guides/create-custom-blocks/define",
+  "slug": "/guides/create-custom-blocks/define/json-and-js",
+  "permalink": "/docs/guides/create-custom-blocks/define/json-and-js",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/guides/create-custom-blocks/define/json-and-js.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "sidebar": "guidesSidebar"
+  },
+  "sidebar": "guidesSidebar",
+  "previous": {
+    "title": "Localization",
+    "permalink": "/docs/guides/configure/web/translations"
+  },
+  "next": {
+    "title": "Legacy Blockly Developer Tools",
+    "permalink": "/docs/guides/create-custom-blocks/define/legacy-blockly-developer-tools"
+  }
+}
