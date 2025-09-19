@@ -30,7 +30,7 @@ export default {
   },
   "url": "https://joe-davis-blockly.github.io",
   "baseUrl": "/blockly/",
-  "organizationName": "facebook",
+  "organizationName": "joe-davis-blockly",
   "projectName": "blockly",
   "onBrokenLinks": "ignore",
   "onBrokenMarkdownLinks": "ignore",

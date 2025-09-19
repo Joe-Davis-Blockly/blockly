@@ -642,7 +642,7 @@
       "js": [
         {
           "file": "assets/js/runtime~main.5a8a37f1.js",
-          "hash": "15b9839f460ee2b2",
+          "hash": "cc85bc415b9cceef",
           "publicPath": "/blockly/assets/js/runtime~main.5a8a37f1.js"
         }
       ]
@@ -821,9 +821,9 @@
     "8792": {
       "js": [
         {
-          "file": "assets/js/main.0e90ffcb.js",
-          "hash": "585aaf9be6b78c56",
-          "publicPath": "/blockly/assets/js/main.0e90ffcb.js"
+          "file": "assets/js/main.a6844a3c.js",
+          "hash": "7ad5da67f1e6e47b",
+          "publicPath": "/blockly/assets/js/main.a6844a3c.js"
         }
       ]
     },

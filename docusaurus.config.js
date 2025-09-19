@@ -27,7 +27,7 @@ const config = {
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'ayush-gupta-blockly', // Usually your GitHub org/user name.
+  organizationName: 'Joe-Davis-Blockly', // Usually your GitHub org/user name.
   projectName: 'blockly', // Usually your repo name.
 
   onBrokenLinks: 'ignore',
