@@ -72,6 +72,10 @@ const config = {
         theme: {
           customCss: './src/css/custom.css',
         },
+        // Will be passed to @docusaurus/plugin-google-tag-manager (only enabled when explicitly specified)
+        googleTagManager: {
+          containerId: 'GTM-NSSCB6XT',
+        },
       }),
     ],
   ],
