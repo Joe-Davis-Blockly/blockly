@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkblockly=self.webpackChunkblockly||[]).push([[56],{3529:l=>{l.exports=JSON.parse('{"metadata":{"permalink":"/blockly/fr/blog","page":1,"postsPerPage":10,"totalPages":1,"totalCount":4,"blogDescription":"Blog","blogTitle":"Blog"}}')}}]);

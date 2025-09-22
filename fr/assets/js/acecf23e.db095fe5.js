@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkblockly=self.webpackChunkblockly||[]).push([[1903],{1912:l=>{l.exports=JSON.parse('{"blogBasePath":"/blockly/fr/blog","blogTitle":"Blog","authorsListPath":"/blockly/fr/blog/authors"}')}}]);
