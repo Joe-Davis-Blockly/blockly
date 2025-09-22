@@ -13,6 +13,7 @@ const config = {
   title: 'My Site',
   tagline: 'Dinosaurs are cool',
   favicon: 'img/favicon.ico',
+  noIndex: true,
 
   // Future flags, see https://docusaurus.io/docs/api/docusaurus-config#future
   future: {

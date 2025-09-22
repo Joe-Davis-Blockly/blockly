@@ -7,6 +7,7 @@ export default {
   "title": "My Site",
   "tagline": "Dinosaurs are cool",
   "favicon": "img/favicon.ico",
+  "noIndex": true,
   "future": {
     "v4": {
       "removeLegacyPostBuildHeadAttribute": true,
@@ -30,7 +31,7 @@ export default {
   },
   "url": "https://joe-davis-blockly.github.io",
   "baseUrl": "/blockly/",
-  "organizationName": "joe-davis-blockly",
+  "organizationName": "Joe-Davis-Blockly",
   "projectName": "blockly",
   "onBrokenLinks": "ignore",
   "onBrokenMarkdownLinks": "ignore",
@@ -398,7 +399,6 @@ export default {
   "stylesheets": [],
   "clientModules": [],
   "titleDelimiter": "|",
-  "noIndex": false,
   "markdown": {
     "format": "mdx",
     "mermaid": false,
