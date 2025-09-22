@@ -42,8 +42,8 @@ export default function Home() {
       <HomepageHeader />
       <div>
         <Tabs groupId='tab'>
-          <TabItem value="apple" label="Apple" default>
-            This is an apple 🍎
+          <TabItem value="puzzle" label="Puzzle" default>
+            This is a Puzzle Piece 🧩
           </TabItem>
           <TabItem value="orange" label="Orange">
             This is an orange 🍊
