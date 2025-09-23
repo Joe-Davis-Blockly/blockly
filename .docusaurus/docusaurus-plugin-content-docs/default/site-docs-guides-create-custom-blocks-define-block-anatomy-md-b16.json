@@ -5,7 +5,7 @@
   "source": "@site/docs/guides/create-custom-blocks/define/block-anatomy.md",
   "sourceDirName": "guides/create-custom-blocks/define",
   "slug": "/guides/create-custom-blocks/define/block-anatomy",
-  "permalink": "/blockly/docs/guides/create-custom-blocks/define/block-anatomy",
+  "permalink": "/blockly/fr/docs/guides/create-custom-blocks/define/block-anatomy",
   "draft": false,
   "unlisted": false,
   "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/guides/create-custom-blocks/define/block-anatomy.md",
@@ -17,10 +17,10 @@
   "sidebar": "guidesSidebar",
   "previous": {
     "title": "Legacy Blockly Developer Tools",
-    "permalink": "/blockly/docs/guides/create-custom-blocks/define/legacy-blockly-developer-tools"
+    "permalink": "/blockly/fr/docs/guides/create-custom-blocks/define/legacy-blockly-developer-tools"
   },
   "next": {
     "title": "Block-code generators",
-    "permalink": "/blockly/docs/guides/create-custom-blocks/code-generation/block-code"
+    "permalink": "/blockly/fr/docs/guides/create-custom-blocks/code-generation/block-code"
   }
 }

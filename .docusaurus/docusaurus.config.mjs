@@ -30,7 +30,7 @@ export default {
     "experimental_router": "browser"
   },
   "url": "https://joe-davis-blockly.github.io",
-  "baseUrl": "/blockly/",
+  "baseUrl": "/blockly/fr/",
   "organizationName": "Joe-Davis-Blockly",
   "projectName": "blockly",
   "onBrokenLinks": "ignore",
@@ -38,7 +38,8 @@ export default {
   "i18n": {
     "defaultLocale": "en",
     "locales": [
-      "en"
+      "en",
+      "fr"
     ],
     "path": "i18n",
     "localeConfigs": {}
@@ -67,6 +68,9 @@ export default {
         },
         "theme": {
           "customCss": "./src/css/custom.css"
+        },
+        "googleTagManager": {
+          "containerId": "GTM-NSSCB6XT"
         }
       }
     ]
@@ -101,6 +105,12 @@ export default {
           "label": "GitHub",
           "href": "https://github.com/facebook/docusaurus",
           "position": "right"
+        },
+        {
+          "type": "localeDropdown",
+          "position": "right",
+          "dropdownItemsBefore": [],
+          "dropdownItemsAfter": []
         }
       ],
       "hideOnScroll": false

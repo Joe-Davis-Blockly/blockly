@@ -1,315 +1,358 @@
 {
-  "/blockly/blog-a5c": {
-    "__comp": "a6aa9e1f",
+  "/blockly/fr/__docusaurus/debug-030": {
+    "__comp": "__comp---theme-debug-config-23-a-2ff",
     "__context": {
-      "plugin": "36994c47"
-    },
-    "sidebar": "814f3328",
-    "items": [
-      {
-        "content": "7661071f"
-      },
-      {
-        "content": "f4f34a3a"
-      },
-      {
-        "content": "8717b14a"
-      },
-      {
-        "content": "925b3f96"
-      }
-    ],
-    "__props": "8698c538"
-  },
-  "/blockly/blog/archive-fa2": {
-    "__comp": "9e4087bc",
-    "__context": {
-      "plugin": "36994c47"
-    },
-    "__props": "47f094e5"
-  },
-  "/blockly/blog/authors-e9b": {
-    "__comp": "621db11d",
-    "__context": {
-      "data": {
-        "blogMetadata": "acecf23e"
-      },
-      "plugin": "36994c47"
-    },
-    "sidebar": "814f3328",
-    "__props": "17d44db9"
-  },
-  "/blockly/blog/authors/all-sebastien-lorber-articles-70a": {
-    "__comp": "33fc5bb8",
-    "__context": {
-      "data": {
-        "blogMetadata": "acecf23e"
-      },
-      "plugin": "36994c47"
-    },
-    "items": [
-      {
-        "content": "7661071f"
-      },
-      {
-        "content": "f4f34a3a"
-      },
-      {
-        "content": "925b3f96"
-      }
-    ],
-    "sidebar": "814f3328",
-    "__props": "4f8c543a"
-  },
-  "/blockly/blog/authors/yangshun-f72": {
-    "__comp": "33fc5bb8",
-    "__context": {
-      "data": {
-        "blogMetadata": "acecf23e"
-      },
-      "plugin": "36994c47"
-    },
-    "items": [
-      {
-        "content": "7661071f"
-      },
-      {
-        "content": "8717b14a"
-      },
-      {
-        "content": "925b3f96"
-      }
-    ],
-    "sidebar": "814f3328",
-    "__props": "3a9649ea"
-  },
-  "/blockly/blog/first-blog-post-753": {
-    "__comp": "ccc49370",
-    "__context": {
-      "data": {
-        "blogMetadata": "acecf23e"
-      },
-      "plugin": "36994c47"
-    },
-    "sidebar": "814f3328",
-    "content": "e273c56f"
-  },
-  "/blockly/blog/long-blog-post-35e": {
-    "__comp": "ccc49370",
-    "__context": {
-      "data": {
-        "blogMetadata": "acecf23e"
-      },
-      "plugin": "36994c47"
-    },
-    "sidebar": "814f3328",
-    "content": "73664a40"
-  },
-  "/blockly/blog/mdx-blog-post-ea8": {
-    "__comp": "ccc49370",
-    "__context": {
-      "data": {
-        "blogMetadata": "acecf23e"
-      },
-      "plugin": "36994c47"
-    },
-    "sidebar": "814f3328",
-    "content": "59362658"
-  },
-  "/blockly/blog/tags-5c6": {
-    "__comp": "01a85c17",
-    "__context": {
-      "plugin": "36994c47"
-    },
-    "sidebar": "814f3328",
-    "__props": "e663796c"
-  },
-  "/blockly/blog/tags/docusaurus-167": {
-    "__comp": "6875c492",
-    "__context": {
-      "plugin": "36994c47"
-    },
-    "sidebar": "814f3328",
-    "items": [
-      {
-        "content": "7661071f"
-      },
-      {
-        "content": "f4f34a3a"
-      },
-      {
-        "content": "8717b14a"
-      },
-      {
-        "content": "925b3f96"
-      }
-    ],
-    "__props": "7ca4489e"
-  },
-  "/blockly/blog/tags/facebook-273": {
-    "__comp": "6875c492",
-    "__context": {
-      "plugin": "36994c47"
-    },
-    "sidebar": "814f3328",
-    "items": [
-      {
-        "content": "7661071f"
-      }
-    ],
-    "__props": "ff6a9b02"
-  },
-  "/blockly/blog/tags/hello-a88": {
-    "__comp": "6875c492",
-    "__context": {
-      "plugin": "36994c47"
-    },
-    "sidebar": "814f3328",
-    "items": [
-      {
-        "content": "7661071f"
-      },
-      {
-        "content": "8717b14a"
-      }
-    ],
-    "__props": "1163cf97"
-  },
-  "/blockly/blog/tags/hola-8b8": {
-    "__comp": "6875c492",
-    "__context": {
-      "plugin": "36994c47"
-    },
-    "sidebar": "814f3328",
-    "items": [
-      {
-        "content": "925b3f96"
-      }
-    ],
-    "__props": "d7c62eae"
-  },
-  "/blockly/blog/welcome-d48": {
-    "__comp": "ccc49370",
-    "__context": {
-      "data": {
-        "blogMetadata": "acecf23e"
-      },
-      "plugin": "36994c47"
-    },
-    "sidebar": "814f3328",
-    "content": "d9f32620"
-  },
-  "/blockly/markdown-page-05e": {
-    "__comp": "1f391b9e",
-    "__context": {
-      "plugin": "a7456010"
-    },
-    "content": "393be207"
-  },
-  "/blockly/search-fae": {
-    "__comp": "1a4e3797",
-    "__context": {
-      "plugin": "c141421f"
+      "plugin": "plugin---blockly-fr-docusaurus-debugb-38-d6d"
     }
   },
-  "/blockly/docs-83b": {
-    "__comp": "5e95c892",
+  "/blockly/fr/__docusaurus/debug/config-e6e": {
+    "__comp": "__comp---theme-debug-config-23-a-2ff",
     "__context": {
-      "plugin": "aba21aa0"
+      "plugin": "plugin---blockly-fr-docusaurus-debugb-38-d6d"
     }
   },
-  "/blockly/docs-ce5": {
-    "__comp": "a7bd4aaa",
-    "__props": "05bc0c4d"
-  },
-  "/blockly/docs-e46": {
-    "__comp": "a94703ab"
-  },
-  "/blockly/docs/guides/configure/web/configuration_struct-71d": {
-    "__comp": "17896441",
-    "content": "e6ec92b1"
-  },
-  "/blockly/docs/guides/configure/web/translations-794": {
-    "__comp": "17896441",
-    "content": "2ddae9b4"
-  },
-  "/blockly/docs/guides/create-custom-blocks/code-generation/block-code-7cb": {
-    "__comp": "17896441",
-    "content": "a9ed588b"
-  },
-  "/blockly/docs/guides/create-custom-blocks/define/block-anatomy-5b6": {
-    "__comp": "17896441",
-    "content": "b16aa488"
-  },
-  "/blockly/docs/guides/create-custom-blocks/define/json-and-js-e28": {
-    "__comp": "17896441",
-    "content": "cabd7a18"
-  },
-  "/blockly/docs/guides/create-custom-blocks/define/legacy-blockly-developer-tools-6b3": {
-    "__comp": "17896441",
-    "content": "986fad9c"
-  },
-  "/blockly/docs/guides/create-custom-blocks/fields/built-in-fields/dropdown-cbf": {
-    "__comp": "17896441",
-    "content": "8c8a76f2"
-  },
-  "/blockly/docs/guides/create-custom-blocks/fields/customizing-fields/creating-e95": {
-    "__comp": "17896441",
-    "content": "bf3f89cf"
-  },
-  "/blockly/docs/guides/get-started/what-is-blockly-6fc": {
-    "__comp": "17896441",
-    "content": "1ac713a8"
-  },
-  "/blockly/docs/guides/get-started/workspace-anatomy-e00": {
-    "__comp": "17896441",
-    "content": "984f24d9"
-  },
-  "/blockly/docs/guides/programming/forking_blockly-8ea": {
-    "__comp": "17896441",
-    "content": "1d80dbde"
-  },
-  "/blockly/docs/intro-cd4": {
-    "__comp": "17896441",
-    "content": "0e384e19"
-  },
-  "/blockly/docs/tutorial-basics/congratulations-c11": {
-    "__comp": "17896441",
-    "content": "822bd8ab"
-  },
-  "/blockly/docs/tutorial-basics/create-a-blog-post-523": {
-    "__comp": "17896441",
-    "content": "533a09ca"
-  },
-  "/blockly/docs/tutorial-basics/create-a-document-99e": {
-    "__comp": "17896441",
-    "content": "1e4232ab"
-  },
-  "/blockly/docs/tutorial-basics/create-a-page-316": {
-    "__comp": "17896441",
-    "content": "5c868d36"
-  },
-  "/blockly/docs/tutorial-basics/deploy-your-site-0b6": {
-    "__comp": "17896441",
-    "content": "f55d3e7a"
-  },
-  "/blockly/docs/tutorial-basics/markdown-features-1bc": {
-    "__comp": "17896441",
-    "content": "18c41134"
-  },
-  "/blockly/docs/tutorial-extras/manage-docs-versions-cbd": {
-    "__comp": "17896441",
-    "content": "dff1c289"
-  },
-  "/blockly/docs/tutorial-extras/translate-your-site-2c8": {
-    "__comp": "17896441",
-    "content": "e44a2883"
-  },
-  "/blockly/-2aa": {
-    "__comp": "c4f5d8e4",
+  "/blockly/fr/__docusaurus/debug/content-e10": {
+    "__comp": "__comp---theme-debug-contentba-8-ce7",
     "__context": {
-      "plugin": "a7456010"
+      "plugin": "plugin---blockly-fr-docusaurus-debugb-38-d6d"
     },
-    "config": "5e9f5e1a"
+    "__props": "__props---blockly-fr-docusaurus-debug-content-5-ec-e55"
+  },
+  "/blockly/fr/__docusaurus/debug/globalData-0e6": {
+    "__comp": "__comp---theme-debug-global-dataede-0fa",
+    "__context": {
+      "plugin": "plugin---blockly-fr-docusaurus-debugb-38-d6d"
+    }
+  },
+  "/blockly/fr/__docusaurus/debug/metadata-0c4": {
+    "__comp": "__comp---theme-debug-site-metadata-68-e-3d4",
+    "__context": {
+      "plugin": "plugin---blockly-fr-docusaurus-debugb-38-d6d"
+    }
+  },
+  "/blockly/fr/__docusaurus/debug/registry-b05": {
+    "__comp": "__comp---theme-debug-registry-679-501",
+    "__context": {
+      "plugin": "plugin---blockly-fr-docusaurus-debugb-38-d6d"
+    }
+  },
+  "/blockly/fr/__docusaurus/debug/routes-2c4": {
+    "__comp": "__comp---theme-debug-routes-946-699",
+    "__context": {
+      "plugin": "plugin---blockly-fr-docusaurus-debugb-38-d6d"
+    }
+  },
+  "/blockly/fr/blog-b96": {
+    "__comp": "__comp---theme-blog-list-pagea-6-a-7ba",
+    "__context": {
+      "plugin": "plugin---blockly-fr-blog-369-54c"
+    },
+    "sidebar": "sidebar---blockly-fr-blog-814-661",
+    "items": [
+      {
+        "content": "content---blockly-fr-blog-766-d28"
+      },
+      {
+        "content": "content---blockly-fr-blogf-4-f-c3e"
+      },
+      {
+        "content": "content---blockly-fr-blog-871-f57"
+      },
+      {
+        "content": "content---blockly-fr-blog-925-98a"
+      }
+    ],
+    "__props": "__props---blockly-fr-blog-98-a-a0a"
+  },
+  "/blockly/fr/blog/archive-ded": {
+    "__comp": "__comp---theme-blog-archive-page-9-e-4-1d8",
+    "__context": {
+      "plugin": "plugin---blockly-fr-blog-369-54c"
+    },
+    "__props": "__props---blockly-fr-blog-archive-666-5a8"
+  },
+  "/blockly/fr/blog/authors-4a2": {
+    "__comp": "__comp---theme-blog-pages-blog-authors-list-page-621-70c",
+    "__context": {
+      "data": {
+        "blogMetadata": "blogMetadata---blockly-fr-blog-authorsace-dec"
+      },
+      "plugin": "plugin---blockly-fr-blog-369-54c"
+    },
+    "sidebar": "sidebar---blockly-fr-blog-814-661",
+    "__props": "__props---blockly-fr-blog-authorsdf-8-d44"
+  },
+  "/blockly/fr/blog/authors/all-sebastien-lorber-articles-aa4": {
+    "__comp": "__comp---theme-blog-pages-blog-authors-posts-page-33-f-bd5",
+    "__context": {
+      "data": {
+        "blogMetadata": "blogMetadata---blockly-fr-blog-authorsace-dec"
+      },
+      "plugin": "plugin---blockly-fr-blog-369-54c"
+    },
+    "items": [
+      {
+        "content": "content---blockly-fr-blog-766-d28"
+      },
+      {
+        "content": "content---blockly-fr-blogf-4-f-c3e"
+      },
+      {
+        "content": "content---blockly-fr-blog-925-98a"
+      }
+    ],
+    "sidebar": "sidebar---blockly-fr-blog-814-661",
+    "__props": "__props---blockly-fr-blog-authors-all-sebastien-lorber-articles-31-f-5d0"
+  },
+  "/blockly/fr/blog/authors/yangshun-7b2": {
+    "__comp": "__comp---theme-blog-pages-blog-authors-posts-page-33-f-bd5",
+    "__context": {
+      "data": {
+        "blogMetadata": "blogMetadata---blockly-fr-blog-authorsace-dec"
+      },
+      "plugin": "plugin---blockly-fr-blog-369-54c"
+    },
+    "items": [
+      {
+        "content": "content---blockly-fr-blog-766-d28"
+      },
+      {
+        "content": "content---blockly-fr-blog-871-f57"
+      },
+      {
+        "content": "content---blockly-fr-blog-925-98a"
+      }
+    ],
+    "sidebar": "sidebar---blockly-fr-blog-814-661",
+    "__props": "__props---blockly-fr-blog-authors-yangshun-3-f-6-e9e"
+  },
+  "/blockly/fr/blog/first-blog-post-4b2": {
+    "__comp": "__comp---theme-blog-post-pageccc-cab",
+    "__context": {
+      "data": {
+        "blogMetadata": "blogMetadata---blockly-fr-blog-authorsace-dec"
+      },
+      "plugin": "plugin---blockly-fr-blog-369-54c"
+    },
+    "sidebar": "sidebar---blockly-fr-blog-814-661",
+    "content": "content---blockly-fr-blog-first-blog-poste-27-90d"
+  },
+  "/blockly/fr/blog/long-blog-post-65c": {
+    "__comp": "__comp---theme-blog-post-pageccc-cab",
+    "__context": {
+      "data": {
+        "blogMetadata": "blogMetadata---blockly-fr-blog-authorsace-dec"
+      },
+      "plugin": "plugin---blockly-fr-blog-369-54c"
+    },
+    "sidebar": "sidebar---blockly-fr-blog-814-661",
+    "content": "content---blockly-fr-blog-long-blog-post-736-1e0"
+  },
+  "/blockly/fr/blog/mdx-blog-post-6aa": {
+    "__comp": "__comp---theme-blog-post-pageccc-cab",
+    "__context": {
+      "data": {
+        "blogMetadata": "blogMetadata---blockly-fr-blog-authorsace-dec"
+      },
+      "plugin": "plugin---blockly-fr-blog-369-54c"
+    },
+    "sidebar": "sidebar---blockly-fr-blog-814-661",
+    "content": "content---blockly-fr-blog-mdx-blog-post-593-7af"
+  },
+  "/blockly/fr/blog/tags-224": {
+    "__comp": "__comp---theme-blog-tags-list-page-01-a-d0b",
+    "__context": {
+      "plugin": "plugin---blockly-fr-blog-369-54c"
+    },
+    "sidebar": "sidebar---blockly-fr-blog-814-661",
+    "__props": "__props---blockly-fr-blog-tagsd-68-c7a"
+  },
+  "/blockly/fr/blog/tags/docusaurus-1de": {
+    "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
+    "__context": {
+      "plugin": "plugin---blockly-fr-blog-369-54c"
+    },
+    "sidebar": "sidebar---blockly-fr-blog-814-661",
+    "items": [
+      {
+        "content": "content---blockly-fr-blog-766-d28"
+      },
+      {
+        "content": "content---blockly-fr-blogf-4-f-c3e"
+      },
+      {
+        "content": "content---blockly-fr-blog-871-f57"
+      },
+      {
+        "content": "content---blockly-fr-blog-925-98a"
+      }
+    ],
+    "__props": "__props---blockly-fr-blog-tags-docusaurusb-0-d-6c0"
+  },
+  "/blockly/fr/blog/tags/facebook-180": {
+    "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
+    "__context": {
+      "plugin": "plugin---blockly-fr-blog-369-54c"
+    },
+    "sidebar": "sidebar---blockly-fr-blog-814-661",
+    "items": [
+      {
+        "content": "content---blockly-fr-blog-766-d28"
+      }
+    ],
+    "__props": "__props---blockly-fr-blog-tags-facebook-74-a-dd5"
+  },
+  "/blockly/fr/blog/tags/hello-e1c": {
+    "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
+    "__context": {
+      "plugin": "plugin---blockly-fr-blog-369-54c"
+    },
+    "sidebar": "sidebar---blockly-fr-blog-814-661",
+    "items": [
+      {
+        "content": "content---blockly-fr-blog-766-d28"
+      },
+      {
+        "content": "content---blockly-fr-blog-871-f57"
+      }
+    ],
+    "__props": "__props---blockly-fr-blog-tags-hello-161-a37"
+  },
+  "/blockly/fr/blog/tags/hola-2c6": {
+    "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
+    "__context": {
+      "plugin": "plugin---blockly-fr-blog-369-54c"
+    },
+    "sidebar": "sidebar---blockly-fr-blog-814-661",
+    "items": [
+      {
+        "content": "content---blockly-fr-blog-925-98a"
+      }
+    ],
+    "__props": "__props---blockly-fr-blog-tags-hola-0-cb-f04"
+  },
+  "/blockly/fr/blog/welcome-ad2": {
+    "__comp": "__comp---theme-blog-post-pageccc-cab",
+    "__context": {
+      "data": {
+        "blogMetadata": "blogMetadata---blockly-fr-blog-authorsace-dec"
+      },
+      "plugin": "plugin---blockly-fr-blog-369-54c"
+    },
+    "sidebar": "sidebar---blockly-fr-blog-814-661",
+    "content": "content---blockly-fr-blog-welcomed-9-f-8c2"
+  },
+  "/blockly/fr/markdown-page-16e": {
+    "__comp": "__comp---theme-mdx-page-1-f-3-b90",
+    "__context": {
+      "plugin": "plugin---blockly-fr-markdown-pagea-74-0de"
+    },
+    "content": "content---blockly-fr-markdown-page-393-116"
+  },
+  "/blockly/fr/search-709": {
+    "__comp": "__comp---theme-search-page-1-a-4-d6f",
+    "__context": {
+      "plugin": "plugin---blockly-fr-searchc-14-fa5"
+    }
+  },
+  "/blockly/fr/docs-83f": {
+    "__comp": "__comp---theme-docs-root-5-e-9-0b6",
+    "__context": {
+      "plugin": "plugin---blockly-fr-docsaba-b6d"
+    }
+  },
+  "/blockly/fr/docs-521": {
+    "__comp": "__comp---theme-doc-version-roota-7-b-5de",
+    "__props": "__props---blockly-fr-docs-48-b-352"
+  },
+  "/blockly/fr/docs-1fd": {
+    "__comp": "__comp---theme-doc-roota-94-67a"
+  },
+  "/blockly/fr/docs/guides/configure/web/configuration_struct-043": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---blockly-fr-docs-guides-configure-web-configuration-structe-9-a-853"
+  },
+  "/blockly/fr/docs/guides/configure/web/translations-605": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---blockly-fr-docs-guides-configure-web-translations-97-f-d7d"
+  },
+  "/blockly/fr/docs/guides/create-custom-blocks/code-generation/block-code-ebe": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---blockly-fr-docs-guides-create-custom-blocks-code-generation-block-code-78-f-aa0"
+  },
+  "/blockly/fr/docs/guides/create-custom-blocks/define/block-anatomy-549": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---blockly-fr-docs-guides-create-custom-blocks-define-block-anatomydc-7-00d"
+  },
+  "/blockly/fr/docs/guides/create-custom-blocks/define/json-and-js-0f2": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---blockly-fr-docs-guides-create-custom-blocks-define-json-and-js-04-c-935"
+  },
+  "/blockly/fr/docs/guides/create-custom-blocks/define/legacy-blockly-developer-tools-9f6": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---blockly-fr-docs-guides-create-custom-blocks-define-legacy-blockly-developer-toolse-1-b-d96"
+  },
+  "/blockly/fr/docs/guides/create-custom-blocks/fields/built-in-fields/dropdown-9f4": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---blockly-fr-docs-guides-create-custom-blocks-fields-built-in-fields-dropdown-60-c-790"
+  },
+  "/blockly/fr/docs/guides/create-custom-blocks/fields/customizing-fields/creating-9dc": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---blockly-fr-docs-guides-create-custom-blocks-fields-customizing-fields-creating-69-c-7b6"
+  },
+  "/blockly/fr/docs/guides/get-started/what-is-blockly-db3": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---blockly-fr-docs-guides-get-started-what-is-blocklydb-4-47e"
+  },
+  "/blockly/fr/docs/guides/get-started/workspace-anatomy-679": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---blockly-fr-docs-guides-get-started-workspace-anatomy-2-b-0-a62"
+  },
+  "/blockly/fr/docs/guides/programming/forking_blockly-e0f": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---blockly-fr-docs-guides-programming-forking-blockly-85-f-582"
+  },
+  "/blockly/fr/docs/intro-966": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---blockly-fr-docs-intro-57-a-3bb"
+  },
+  "/blockly/fr/docs/tutorial-basics/congratulations-bf6": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---blockly-fr-docs-tutorial-basics-congratulationsc-55-47f"
+  },
+  "/blockly/fr/docs/tutorial-basics/create-a-blog-post-bfb": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---blockly-fr-docs-tutorial-basics-create-a-blog-postab-1-dcf"
+  },
+  "/blockly/fr/docs/tutorial-basics/create-a-document-7f1": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---blockly-fr-docs-tutorial-basics-create-a-document-44-b-50d"
+  },
+  "/blockly/fr/docs/tutorial-basics/create-a-page-755": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---blockly-fr-docs-tutorial-basics-create-a-page-484-455"
+  },
+  "/blockly/fr/docs/tutorial-basics/deploy-your-site-2ea": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---blockly-fr-docs-tutorial-basics-deploy-your-siteae-3-d09"
+  },
+  "/blockly/fr/docs/tutorial-basics/markdown-features-ad0": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---blockly-fr-docs-tutorial-basics-markdown-features-1-b-4-b22"
+  },
+  "/blockly/fr/docs/tutorial-extras/manage-docs-versions-5b1": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---blockly-fr-docs-tutorial-extras-manage-docs-versionsc-7-c-070"
+  },
+  "/blockly/fr/docs/tutorial-extras/translate-your-site-250": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---blockly-fr-docs-tutorial-extras-translate-your-siteb-86-b65"
+  },
+  "/blockly/fr/-dff": {
+    "__comp": "__comp---site-src-pages-index-jsc-4-f-f99",
+    "__context": {
+      "plugin": "plugin---blockly-fr-markdown-pagea-74-0de"
+    },
+    "config": "config---blockly-fr-5-e-9-916"
   }
 }

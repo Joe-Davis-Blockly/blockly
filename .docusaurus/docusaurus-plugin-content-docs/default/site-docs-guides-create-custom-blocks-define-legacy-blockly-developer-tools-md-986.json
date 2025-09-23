@@ -5,7 +5,7 @@
   "source": "@site/docs/guides/create-custom-blocks/define/legacy-blockly-developer-tools.md",
   "sourceDirName": "guides/create-custom-blocks/define",
   "slug": "/guides/create-custom-blocks/define/legacy-blockly-developer-tools",
-  "permalink": "/blockly/docs/guides/create-custom-blocks/define/legacy-blockly-developer-tools",
+  "permalink": "/blockly/fr/docs/guides/create-custom-blocks/define/legacy-blockly-developer-tools",
   "draft": false,
   "unlisted": false,
   "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/guides/create-custom-blocks/define/legacy-blockly-developer-tools.md",
@@ -17,10 +17,10 @@
   "sidebar": "guidesSidebar",
   "previous": {
     "title": "JSON and JavaScript",
-    "permalink": "/blockly/docs/guides/create-custom-blocks/define/json-and-js"
+    "permalink": "/blockly/fr/docs/guides/create-custom-blocks/define/json-and-js"
   },
   "next": {
     "title": "Anatomy of a block",
-    "permalink": "/blockly/docs/guides/create-custom-blocks/define/block-anatomy"
+    "permalink": "/blockly/fr/docs/guides/create-custom-blocks/define/block-anatomy"
   }
 }

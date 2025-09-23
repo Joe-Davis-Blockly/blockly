@@ -1,5 +1,5 @@
 {
-  "permalink": "/blockly/blog/long-blog-post",
+  "permalink": "/blockly/fr/blog/long-blog-post",
   "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/blog/2019-05-29-long-blog-post.md",
   "source": "@site/blog/2019-05-29-long-blog-post.md",
   "title": "Long Blog Post",
@@ -9,13 +9,13 @@
     {
       "inline": false,
       "label": "Hello",
-      "permalink": "/blockly/blog/tags/hello",
+      "permalink": "/blockly/fr/blog/tags/hello",
       "description": "Hello tag description"
     },
     {
       "inline": false,
       "label": "Docusaurus",
-      "permalink": "/blockly/blog/tags/docusaurus",
+      "permalink": "/blockly/fr/blog/tags/docusaurus",
       "description": "Docusaurus tag description"
     }
   ],
@@ -27,7 +27,7 @@
       "title": "Ex-Meta Staff Engineer, Co-founder GreatFrontEnd",
       "url": "https://linkedin.com/in/yangshun",
       "page": {
-        "permalink": "/blockly/blog/authors/yangshun"
+        "permalink": "/blockly/fr/blog/authors/yangshun"
       },
       "socials": {
         "x": "https://x.com/yangshunz",
@@ -51,10 +51,10 @@
   "unlisted": false,
   "prevItem": {
     "title": "MDX Blog Post",
-    "permalink": "/blockly/blog/mdx-blog-post"
+    "permalink": "/blockly/fr/blog/mdx-blog-post"
   },
   "nextItem": {
     "title": "First Blog Post",
-    "permalink": "/blockly/blog/first-blog-post"
+    "permalink": "/blockly/fr/blog/first-blog-post"
   }
 }

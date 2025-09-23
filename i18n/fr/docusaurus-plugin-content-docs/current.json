@@ -1,0 +1,114 @@
+{
+  "version.label": {
+    "message": "Next",
+    "description": "The label for version current"
+  },
+  "sidebar.tutorialSidebar.category.Tutorial - Basics": {
+    "message": "Tutorial - Basics",
+    "description": "The label for category Tutorial - Basics in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Tutorial - Extras": {
+    "message": "Tutorial - Extras",
+    "description": "The label for category Tutorial - Extras in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.doc.Tutorial Intro": {
+    "message": "Tutorial Intro",
+    "description": "The label for the doc item Tutorial Intro in sidebar tutorialSidebar, linking to the doc intro"
+  },
+  "sidebar.guidesSidebar.category.Get started": {
+    "message": "Get started",
+    "description": "The label for category Get started in sidebar guidesSidebar"
+  },
+  "sidebar.guidesSidebar.category.Programming considerations": {
+    "message": "Programming considerations",
+    "description": "The label for category Programming considerations in sidebar guidesSidebar"
+  },
+  "sidebar.guidesSidebar.category.Build your editor": {
+    "message": "Build your editor",
+    "description": "The label for category Build your editor in sidebar guidesSidebar"
+  },
+  "sidebar.guidesSidebar.category.Workspaces": {
+    "message": "Workspaces",
+    "description": "The label for category Workspaces in sidebar guidesSidebar"
+  },
+  "sidebar.guidesSidebar.category.Create a workspace": {
+    "message": "Create a workspace",
+    "description": "The label for category Create a workspace in sidebar guidesSidebar"
+  },
+  "sidebar.guidesSidebar.category.Build your blocks": {
+    "message": "Build your blocks",
+    "description": "The label for category Build your blocks in sidebar guidesSidebar"
+  },
+  "sidebar.guidesSidebar.category.Block definitions": {
+    "message": "Block definitions",
+    "description": "The label for category Block definitions in sidebar guidesSidebar"
+  },
+  "sidebar.guidesSidebar.category.Ways to define blocks": {
+    "message": "Ways to define blocks",
+    "description": "The label for category Ways to define blocks in sidebar guidesSidebar"
+  },
+  "sidebar.guidesSidebar.category.Block structure": {
+    "message": "Block structure",
+    "description": "The label for category Block structure in sidebar guidesSidebar"
+  },
+  "sidebar.guidesSidebar.category.Code generation": {
+    "message": "Code generation",
+    "description": "The label for category Code generation in sidebar guidesSidebar"
+  },
+  "sidebar.guidesSidebar.category.Fields": {
+    "message": "Fields",
+    "description": "The label for category Fields in sidebar guidesSidebar"
+  },
+  "sidebar.guidesSidebar.category.Built-in fields": {
+    "message": "Built-in fields",
+    "description": "The label for category Built-in fields in sidebar guidesSidebar"
+  },
+  "sidebar.guidesSidebar.category.Custom fields": {
+    "message": "Custom fields",
+    "description": "The label for category Custom fields in sidebar guidesSidebar"
+  },
+  "sidebar.guidesSidebar.doc.What is Blockly?": {
+    "message": "What is Blockly?",
+    "description": "The label for the doc item What is Blockly? in sidebar guidesSidebar, linking to the doc guides/get-started/what-is-blockly"
+  },
+  "sidebar.guidesSidebar.doc.Visual glossary": {
+    "message": "Visual glossary",
+    "description": "The label for the doc item Visual glossary in sidebar guidesSidebar, linking to the doc guides/get-started/workspace-anatomy"
+  },
+  "sidebar.guidesSidebar.doc.Fork Blockly": {
+    "message": "Fork Blockly",
+    "description": "The label for the doc item Fork Blockly in sidebar guidesSidebar, linking to the doc guides/programming/forking_blockly"
+  },
+  "sidebar.guidesSidebar.doc.Create a workspace": {
+    "message": "Create a workspace",
+    "description": "The label for the doc item Create a workspace in sidebar guidesSidebar, linking to the doc guides/configure/web/configuration_struct"
+  },
+  "sidebar.guidesSidebar.doc.Localization": {
+    "message": "Localization",
+    "description": "The label for the doc item Localization in sidebar guidesSidebar, linking to the doc guides/configure/web/translations"
+  },
+  "sidebar.guidesSidebar.doc.JSON and JavaScript": {
+    "message": "JSON and JavaScript",
+    "description": "The label for the doc item JSON and JavaScript in sidebar guidesSidebar, linking to the doc guides/create-custom-blocks/define/json-and-js"
+  },
+  "sidebar.guidesSidebar.doc.Legacy Blockly Developer Tools": {
+    "message": "Legacy Blockly Developer Tools",
+    "description": "The label for the doc item Legacy Blockly Developer Tools in sidebar guidesSidebar, linking to the doc guides/create-custom-blocks/define/legacy-blockly-developer-tools"
+  },
+  "sidebar.guidesSidebar.doc.Anatomy of a block": {
+    "message": "Anatomy of a block",
+    "description": "The label for the doc item Anatomy of a block in sidebar guidesSidebar, linking to the doc guides/create-custom-blocks/define/block-anatomy"
+  },
+  "sidebar.guidesSidebar.doc.Block-code generators": {
+    "message": "Block-code generators",
+    "description": "The label for the doc item Block-code generators in sidebar guidesSidebar, linking to the doc guides/create-custom-blocks/code-generation/block-code"
+  },
+  "sidebar.guidesSidebar.doc.Dropdown": {
+    "message": "Dropdown",
+    "description": "The label for the doc item Dropdown in sidebar guidesSidebar, linking to the doc guides/create-custom-blocks/fields/built-in-fields/dropdown"
+  },
+  "sidebar.guidesSidebar.doc.Create a custom field": {
+    "message": "Create a custom field",
+    "description": "The label for the doc item Create a custom field in sidebar guidesSidebar, linking to the doc guides/create-custom-blocks/fields/customizing-fields/creating"
+  }
+}

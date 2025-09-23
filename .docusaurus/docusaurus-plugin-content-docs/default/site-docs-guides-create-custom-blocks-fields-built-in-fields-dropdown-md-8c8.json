@@ -5,7 +5,7 @@
   "source": "@site/docs/guides/create-custom-blocks/fields/built-in-fields/dropdown.md",
   "sourceDirName": "guides/create-custom-blocks/fields/built-in-fields",
   "slug": "/guides/create-custom-blocks/fields/built-in-fields/dropdown",
-  "permalink": "/blockly/docs/guides/create-custom-blocks/fields/built-in-fields/dropdown",
+  "permalink": "/blockly/fr/docs/guides/create-custom-blocks/fields/built-in-fields/dropdown",
   "draft": false,
   "unlisted": false,
   "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/guides/create-custom-blocks/fields/built-in-fields/dropdown.md",
@@ -17,10 +17,10 @@
   "sidebar": "guidesSidebar",
   "previous": {
     "title": "Block-code generators",
-    "permalink": "/blockly/docs/guides/create-custom-blocks/code-generation/block-code"
+    "permalink": "/blockly/fr/docs/guides/create-custom-blocks/code-generation/block-code"
   },
   "next": {
     "title": "Create a custom field",
-    "permalink": "/blockly/docs/guides/create-custom-blocks/fields/customizing-fields/creating"
+    "permalink": "/blockly/fr/docs/guides/create-custom-blocks/fields/customizing-fields/creating"
   }
 }

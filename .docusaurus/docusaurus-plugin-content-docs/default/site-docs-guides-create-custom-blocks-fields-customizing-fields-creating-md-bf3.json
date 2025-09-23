@@ -5,7 +5,7 @@
   "source": "@site/docs/guides/create-custom-blocks/fields/customizing-fields/creating.md",
   "sourceDirName": "guides/create-custom-blocks/fields/customizing-fields",
   "slug": "/guides/create-custom-blocks/fields/customizing-fields/creating",
-  "permalink": "/blockly/docs/guides/create-custom-blocks/fields/customizing-fields/creating",
+  "permalink": "/blockly/fr/docs/guides/create-custom-blocks/fields/customizing-fields/creating",
   "draft": false,
   "unlisted": false,
   "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/guides/create-custom-blocks/fields/customizing-fields/creating.md",
@@ -17,6 +17,6 @@
   "sidebar": "guidesSidebar",
   "previous": {
     "title": "Dropdown",
-    "permalink": "/blockly/docs/guides/create-custom-blocks/fields/built-in-fields/dropdown"
+    "permalink": "/blockly/fr/docs/guides/create-custom-blocks/fields/built-in-fields/dropdown"
   }
 }
