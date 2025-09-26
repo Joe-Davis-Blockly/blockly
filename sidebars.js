@@ -1,5 +1,6 @@
+    import {referenceSidebar} from './docs/reference/_reference'
 
-    // @ts-check
+    // @ts-nocheck
 
     // This runs in Node.js - Don't use client-side code here (browser APIs, JSX...)
 
@@ -38,141 +39,142 @@
         },
       ],
       guidesSidebar: [
-  {
-    "type": "category",
-    "label": "Get started",
-    "items": [
-      {
-        "type": "doc",
-        "label": "What is Blockly?",
-        "id": "guides/get-started/what-is-blockly"
-      },
-      {
-        "type": "doc",
-        "label": "Visual glossary",
-        "id": "guides/get-started/workspace-anatomy"
-      }
-    ]
-  },
-  {
-    "type": "category",
-    "label": "Programming considerations",
-    "items": [
-      {
-        "type": "doc",
-        "label": "Fork Blockly",
-        "id": "guides/programming/forking_blockly"
-      }
-    ]
-  },
-  {
-    "type": "category",
-    "label": "Build your editor",
-    "items": [
-      {
-        "type": "category",
-        "label": "Workspaces",
-        "items": [
-          {
-            "type": "category",
-            "label": "Create a workspace",
-            "items": [
-              {
-                "type": "doc",
-                "label": "Create a workspace",
-                "id": "guides/configure/web/configuration_struct"
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "type": "doc",
-        "label": "Localization",
-        "id": "guides/configure/web/translations"
-      }
-    ]
-  },
-  {
-    "type": "category",
-    "label": "Build your blocks",
-    "items": [
-      {
-        "type": "category",
-        "label": "Block definitions",
-        "items": [
-          {
-            "type": "category",
-            "label": "Ways to define blocks",
-            "items": [
-              {
-                "type": "doc",
-                "label": "JSON and JavaScript",
-                "id": "guides/create-custom-blocks/define/json-and-js"
-              },
-              {
-                "type": "doc",
-                "label": "Legacy Blockly Developer Tools",
-                "id": "guides/create-custom-blocks/define/legacy-blockly-developer-tools"
-              }
-            ]
-          },
-          {
-            "type": "category",
-            "label": "Block structure",
-            "items": [
-              {
-                "type": "doc",
-                "label": "Anatomy of a block",
-                "id": "guides/create-custom-blocks/define/block-anatomy"
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "type": "category",
-        "label": "Code generation",
-        "items": [
-          {
-            "type": "doc",
-            "label": "Block-code generators",
-            "id": "guides/create-custom-blocks/code-generation/block-code"
-          }
-        ]
-      },
-      {
-        "type": "category",
-        "label": "Fields",
-        "items": [
-          {
-            "type": "category",
-            "label": "Built-in fields",
-            "items": [
-              {
-                "type": "doc",
-                "label": "Dropdown",
-                "id": "guides/create-custom-blocks/fields/built-in-fields/dropdown"
-              }
-            ]
-          },
-          {
-            "type": "category",
-            "label": "Custom fields",
-            "items": [
-              {
-                "type": "doc",
-                "label": "Create a custom field",
-                "id": "guides/create-custom-blocks/fields/customizing-fields/creating"
-              }
-            ]
-          }
-        ]
-      }
-    ]
-  }
-]
-    };
+        {
+          "type": "category",
+          "label": "Get started",
+          "items": [
+            {
+              "type": "doc",
+              "label": "What is Blockly?",
+              "id": "guides/get-started/what-is-blockly"
+            },
+            {
+              "type": "doc",
+              "label": "Visual glossary",
+              "id": "guides/get-started/workspace-anatomy"
+            }
+          ]
+        },
+        {
+          "type": "category",
+          "label": "Programming considerations",
+          "items": [
+            {
+              "type": "doc",
+              "label": "Fork Blockly",
+              "id": "guides/programming/forking_blockly"
+            }
+          ]
+        },
+        {
+          "type": "category",
+          "label": "Build your editor",
+          "items": [
+            {
+              "type": "category",
+              "label": "Workspaces",
+              "items": [
+                {
+                  "type": "category",
+                  "label": "Create a workspace",
+                  "items": [
+                    {
+                      "type": "doc",
+                      "label": "Create a workspace",
+                      "id": "guides/configure/web/configuration_struct"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "doc",
+              "label": "Localization",
+              "id": "guides/configure/web/translations"
+            }
+          ]
+        },
+        {
+          "type": "category",
+          "label": "Build your blocks",
+          "items": [
+            {
+              "type": "category",
+              "label": "Block definitions",
+              "items": [
+                {
+                  "type": "category",
+                  "label": "Ways to define blocks",
+                  "items": [
+                    {
+                      "type": "doc",
+                      "label": "JSON and JavaScript",
+                      "id": "guides/create-custom-blocks/define/json-and-js"
+                    },
+                    {
+                      "type": "doc",
+                      "label": "Legacy Blockly Developer Tools",
+                      "id": "guides/create-custom-blocks/define/legacy-blockly-developer-tools"
+                    }
+                  ]
+                },
+                {
+                  "type": "category",
+                  "label": "Block structure",
+                  "items": [
+                    {
+                      "type": "doc",
+                      "label": "Anatomy of a block",
+                      "id": "guides/create-custom-blocks/define/block-anatomy"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "category",
+              "label": "Code generation",
+              "items": [
+                {
+                  "type": "doc",
+                  "label": "Block-code generators",
+                  "id": "guides/create-custom-blocks/code-generation/block-code"
+                }
+              ]
+            },
+            {
+              "type": "category",
+              "label": "Fields",
+              "items": [
+                {
+                  "type": "category",
+                  "label": "Built-in fields",
+                  "items": [
+                    {
+                      "type": "doc",
+                      "label": "Dropdown",
+                      "id": "guides/create-custom-blocks/fields/built-in-fields/dropdown"
+                    }
+                  ]
+                },
+                {
+                  "type": "category",
+                  "label": "Custom fields",
+                  "items": [
+                    {
+                      "type": "doc",
+                      "label": "Create a custom field",
+                      "id": "guides/create-custom-blocks/fields/customizing-fields/creating"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
 
-    export default sidebars;
-    
+referenceSidebar: referenceSidebar
+};
+
+export default sidebars;

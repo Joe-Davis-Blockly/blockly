@@ -38,3 +38,11 @@
 .pagination-nav {
   display: none;
 }
+
+.theme-doc-sidebar-item-link-level-3 {
+  display: none;
+}
+
+.menu__caret {
+  display: none;
+}
