@@ -52,6 +52,11 @@
               "type": "doc",
               "label": "Visual glossary",
               "id": "guides/get-started/workspace-anatomy"
+            },
+            {
+              "type": "doc",
+              "label": "Visual glossary copy",
+              "id": "guides/get-started/workspace-anatomy-copy"
             }
           ]
         },
@@ -82,6 +87,11 @@
                       "type": "doc",
                       "label": "Create a workspace",
                       "id": "guides/configure/web/configuration_struct"
+                    },
+                    {
+                      "type": "doc",
+                      "label": "Create a workspace copy",
+                      "id": "guides/configure/web/configuration_struct_copy"
                     }
                   ]
                 }
