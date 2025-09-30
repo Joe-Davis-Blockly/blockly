@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkblockly=self.webpackChunkblockly||[]).push([[8913],{8913:(k,l,c)=>{c.r(l)}}]);
