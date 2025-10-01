@@ -8,7 +8,7 @@ export const referenceSidebar = [
     "type": "category",
     "label": "Classes",
     "collapsible": true,
-    "collapsed": false,
+    // "collapsed": false,
     "items": [
       {
         "type": "category",
@@ -6656,7 +6656,7 @@ export const referenceSidebar = [
     "type": "category",
     "label": "Abstract Classes",
     "collapsible": true,
-    "collapsed": false,
+    // "collapsed": false,
     "items": [
       {
         "type": "category",
@@ -7409,7 +7409,7 @@ export const referenceSidebar = [
     "type": "category",
     "label": "Enumerations",
     "collapsible": true,
-    "collapsed": false,
+    // "collapsed": false,
     "items": [
       {
         "type": "category",
@@ -7432,7 +7432,7 @@ export const referenceSidebar = [
     "type": "category",
     "label": "Functions",
     "collapsible": true,
-    "collapsed": false,
+    // "collapsed": false,
     "items": [
       {
         "type": "category",
@@ -7680,7 +7680,7 @@ export const referenceSidebar = [
     "type": "category",
     "label": "Interfaces",
     "collapsible": true,
-    "collapsed": false,
+    // "collapsed": false,
     "items": [
       {
         "type": "category",
@@ -9448,7 +9448,7 @@ export const referenceSidebar = [
     "type": "category",
     "label": "Namespaces",
     "collapsible": true,
-    "collapsed": false,
+    // "collapsed": false,
     "items": [
       {
         "type": "category",
@@ -20921,7 +20921,7 @@ export const referenceSidebar = [
     "type": "category",
     "label": "Variables",
     "collapsible": true,
-    "collapsed": false,
+    // "collapsed": false,
     "items": [
       {
         "type": "category",
@@ -21364,7 +21364,7 @@ export const referenceSidebar = [
     "type": "category",
     "label": "Type Aliases",
     "collapsible": true,
-    "collapsed": false,
+    // "collapsed": false,
     "items": [
       {
         "type": "category",

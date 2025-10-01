@@ -13,7 +13,6 @@ const config = {
   title: 'My Site',
   tagline: 'Dinosaurs are cool',
   favicon: 'img/favicon.ico',
-  noIndex: true,
 
   // Future flags, see https://docusaurus.io/docs/api/docusaurus-config#future
   future: {
@@ -35,7 +34,7 @@ const config = {
   onBrokenMarkdownLinks: 'ignore',
 
   markdown: {
-    format: 'detect'
+    format: 'detect',
   },
   // Even if you don't use internationalization, you can use this field to set
   // useful metadata like html lang. For example, if your site is Chinese, you
@@ -57,7 +56,7 @@ const config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+            'https://github.com/Joe-Davis-Blockly/blockly/tree/cybage-blockly/',
         },
         blog: {
           showReadingTime: true,
@@ -68,7 +67,7 @@ const config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+            'https://github.com/Joe-Davis-Blockly/blockly/tree/cybage-blockly/',
           // Useful options to enforce blogging best practices
           onInlineTags: 'warn',
           onInlineAuthors: 'warn',
@@ -183,6 +182,12 @@ const config = {
         contextualSearch: true,
         searchParameters: {},
         searchPagePath: "search", // creates a dedicated search page
+      },
+      docs: {
+        sidebar: {
+          hideable: true,
+          autoCollapseCategories: true,
+        },
       },
     }),
 };

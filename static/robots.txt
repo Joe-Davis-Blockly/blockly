@@ -1,3 +1,7 @@
+# Allow the Algolia Crawler to access the entire site
+User-agent: Algolia Crawler
+Allow: /
+
 # Tell all web crawlers not to index any part of the site
 User-agent: *
 Disallow: /
