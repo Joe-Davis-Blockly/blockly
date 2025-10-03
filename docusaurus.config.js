@@ -178,7 +178,7 @@ const config = {
       algolia: {
         appId: "3L7M0G58CU",
         apiKey: "829449d897d77038c5d39153d1313ec1", // safe to expose
-        indexName: "Documentation Website",
+        indexName: "Docs websites",
         contextualSearch: true,
         searchParameters: {},
         searchPagePath: "search", // creates a dedicated search page
