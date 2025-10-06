@@ -46,3 +46,8 @@
 .menu__caret {
   display: none;
 }
+
+/* Hides the main h1 title on doc pages */
+.theme-doc-markdown h1:first-child {
+  display: none;
+}

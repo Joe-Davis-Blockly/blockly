@@ -6,6 +6,43 @@
 
 import {themes as prismThemes} from 'prism-react-renderer';
 
+/**
+ * A custom function to generate URL-friendly slugs with underscores.
+ * This avoids needing external dependencies.
+ * @param {string} str The heading text.
+ * @returns {string} The generated slug.
+ */
+const createUnderscoreSlug = (str) => {
+  return str
+    .toString()
+    .toLowerCase()
+    .trim()
+    .replace(/<[^>]*>/g, '')      // Remove HTML tags from heading text
+    .replace(/[\s-]+/g, '_')      // Replace spaces and hyphens with underscores
+    .replace(/[^\w_]+/g, '')      // Remove all non-word chars except underscores
+    .replace(/__+/g, '_')         // Replace multiple underscores with a single one
+    .replace(/^_+|_+$/g, '');    // Trim leading/trailing underscores
+};
+
+// =============================================================================
+// PART 2: THE PREPROCESSOR BOILERPLATE (You can safely ignore this part)
+// =============================================================================
+
+const headingIdPreprocessor = ({fileContent}) => {
+  const lines = fileContent.split('\n');
+  const processedLines = lines.map((line) => {
+    const headingRegex = /^(#{1,6}\s+.*)/;
+    if (headingRegex.test(line) && !line.includes('{#')) {
+      const headingText = line.replace(/^#{1,6}\s+/, '');
+      // ✅ It now calls our simple, self-contained function.
+      const slug = createUnderscoreSlug(headingText);
+      return `${line} {#${slug}}`;
+    }
+    return line;
+  });
+  return processedLines.join('\n');
+};
+
 // This runs in Node.js - Don't use client-side code here (browser APIs, JSX...)
 
 /** @type {import('@docusaurus/types').Config} */
@@ -35,6 +72,7 @@ const config = {
 
   markdown: {
     format: 'detect',
+    preprocessor: headingIdPreprocessor,
   },
   // Even if you don't use internationalization, you can use this field to set
   // useful metadata like html lang. For example, if your site is Chinese, you
@@ -110,7 +148,7 @@ const config = {
           },
           {
             type: 'docSidebar',
-            label: 'Tutorial',
+            label: 'Codelabs',
             sidebarId: 'tutorialSidebar',
             position: 'left',
           },

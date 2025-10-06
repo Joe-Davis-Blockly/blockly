@@ -1,0 +1,72 @@
+/*
+  Styles for the Codelab landing page components.
+*/
+
+.codelabGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 1.5rem;
+  margin-top: 2rem;
+}
+
+.codelabCard {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid var(--ifm-color-emphasis-300);
+  border-radius: var(--ifm-global-radius);
+  text-decoration: none;
+  color: var(--ifm-font-color-base);
+  transition: all 0.2s ease-in-out;
+  overflow: hidden;
+}
+
+.codelabCard:hover {
+  border-color: var(--ifm-color-primary);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  transform: translateY(-2px);
+  color: var(--ifm-font-color-base);
+}
+
+.cardIcon {
+  padding: 1.5rem;
+  background-color: var(--ifm-background-surface-color);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--ifm-color-primary);
+}
+
+.cardContent {
+  padding: 1.5rem;
+  flex-grow: 1; /* Ensures content area fills available space */
+}
+
+.cardTitle {
+  font-size: 1.25rem;
+  margin: 0 0 0.5rem 0;
+  color: var(--ifm-color-emphasis-800);
+}
+
+.cardDescription {
+  margin: 0;
+  font-size: 1rem;
+  color: var(--ifm-color-emphasis-600);
+}
+
+.cardFooter {
+  padding: 1rem 1.5rem;
+  border-top: 1px solid var(--ifm-color-emphasis-200);
+  margin-top: auto; /* Pushes the footer to the bottom */
+}
+
+.cardButton {
+  font-weight: bold;
+  color: var(--ifm-color-primary);
+}
+
+module.exports = {
+  mySidebar: [
+    'intro',
+    'codelabs/index', // 👈 Add the path to your new landing page
+  ],
+};
