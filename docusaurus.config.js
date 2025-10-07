@@ -18,10 +18,8 @@ const createUnderscoreSlug = (str) => {
     .toLowerCase()
     .trim()
     .replace(/<[^>]*>/g, '')      // Remove HTML tags from heading text
-    .replace(/[\s-]+/g, '_')      // Replace spaces and hyphens with underscores
-    .replace(/[^\w_]+/g, '')      // Remove all non-word chars except underscores
+    .replace(/[\s]+/g, '_')      // Replace spaces and hyphens with underscores
     .replace(/__+/g, '_')         // Replace multiple underscores with a single one
-    .replace(/^_+|_+$/g, '');    // Trim leading/trailing underscores
 };
 
 // =============================================================================
@@ -34,7 +32,6 @@ const headingIdPreprocessor = ({fileContent}) => {
     const headingRegex = /^(#{1,6}\s+.*)/;
     if (headingRegex.test(line) && !line.includes('{#')) {
       const headingText = line.replace(/^#{1,6}\s+/, '');
-      // ✅ It now calls our simple, self-contained function.
       const slug = createUnderscoreSlug(headingText);
       return `${line} {#${slug}}`;
     }
