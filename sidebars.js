@@ -1,4 +1,4 @@
-import {referenceSidebar} from './docs/blockly/reference/_reference'
+import {referenceSidebar} from './docs/reference/_reference'
 
 // @ts-nocheck
 
@@ -21,7 +21,7 @@ const sidebars = {
     {
       "type": "doc",
       "label": "Codelabs",
-      "id": "blockly/codelabs/index",
+      "id": "codelabs/index",
     },
     {
       type: 'category',
@@ -30,22 +30,22 @@ const sidebars = {
         {
           "type": "doc",
           "label": "1. Codelab-overview",
-          "id": "blockly/codelabs/getting-started/getting_started"
+          "id": "codelabs/getting-started/getting_started"
         },
         {
           "type": "doc",
           "label": "2. Setup",
-          "id": "blockly/codelabs/getting-started/setup"
+          "id": "codelabs/getting-started/setup"
         },
         {
           "type": "doc",
           "label": "3. Explore the app",
-          "id": "blockly/codelabs/getting-started/explore-the-app"
+          "id": "codelabs/getting-started/explore-the-app"
         },
         {
           "type": "doc",
           "label": "4. Add Blockly libraries",
-          "id": "blockly/codelabs/getting-started/add-blockly-libraries"
+          "id": "codelabs/getting-started/add-blockly-libraries"
         },
       ]
     },
@@ -56,7 +56,7 @@ const sidebars = {
         {
           "type": "doc",
           "label": "1. Codelab-overview",
-          "id": "blockly/codelabs/custom-generator/custom_generator",
+          "id": "codelabs/custom-generator/custom_generator",
         },
       ]
     },
@@ -69,22 +69,22 @@ const sidebars = {
         {
           type: "doc",
           label: "What Is Blockly",
-          id: "blockly/guides/get-started/what-is-blockly",
+          id: "guides/get-started/what-is-blockly",
         },
         {
           type: "doc",
           label: "Why Blockly",
-          id: "blockly/guides/get-started/why-blockly",
+          id: "guides/get-started/why-blockly",
         },
         {
           type: "doc",
           label: "Get The Code",
-          id: "blockly/guides/get-started/get-the-code",
+          id: "guides/get-started/get-the-code",
         },
         {
           type: "doc",
           label: "Workspace Anatomy",
-          id: "blockly/guides/get-started/workspace-anatomy",
+          id: "guides/get-started/workspace-anatomy",
         },
         {
           type: "category",
@@ -93,27 +93,27 @@ const sidebars = {
             {
               type: "doc",
               label: "Create a workspace",
-              id: "blockly/guides/get-started/workspace-creation",
+              id: "guides/get-started/workspace-creation",
             },
             {
               type: "doc",
               label: "Add a toolbox",
-              id: "blockly/guides/get-started/toolbox",
+              id: "guides/get-started/toolbox",
             },
             {
               type: "doc",
               label: "Define custom blocks",
-              id: "blockly/guides/get-started/blocks",
+              id: "guides/get-started/blocks",
             },
             {
               type: "doc",
               label: "Generate code",
-              id: "blockly/guides/get-started/code-generation",
+              id: "guides/get-started/code-generation",
             },
             {
               type: "doc",
               label: "Save and load",
-              id: "blockly/guides/get-started/save-and-load",
+              id: "guides/get-started/save-and-load",
             },
           ],
         },
@@ -124,7 +124,7 @@ const sidebars = {
             {
               type: "link",
               label: "Get started codelab",
-              href: "https://blocklycodelabs.dev/blockly/codelabs/getting-started/index.html?index=..%2F..index#0",
+              href: "https://blocklycodelabs.dev/codelabs/getting-started/index.html?index=..%2F..index#0",
             },
             {
               type: "link",
@@ -147,32 +147,32 @@ const sidebars = {
         {
           type: "doc",
           label: "Introduction to Blockly applications",
-          id: "blockly/guides/design/app-overview",
+          id: "guides/design/app-overview",
         },
         {
           type: "doc",
           label: "Application design",
-          id: "blockly/guides/design/applications",
+          id: "guides/design/applications",
         },
         {
           type: "doc",
           label: "Educational applications",
-          id: "blockly/guides/design/education",
+          id: "guides/design/education",
         },
         {
           type: "doc",
           label: "Block design",
-          id: "blockly/guides/design/blocks",
+          id: "guides/design/blocks",
         },
         {
           type: "doc",
           label: "Block- vs text-based languages",
-          id: "blockly/guides/design/languages",
+          id: "guides/design/languages",
         },
         {
           type: "doc",
           label: "Block appearance",
-          id: "blockly/guides/design/appearance",
+          id: "guides/design/appearance",
         },
       ],
     },
@@ -183,22 +183,22 @@ const sidebars = {
         {
           type: "doc",
           label: "API visibility",
-          id: "blockly/guides/programming/using_blockly_apis",
+          id: "guides/programming/using_blockly_apis",
         },
         {
           type: "doc",
           label: "Plugins",
-          id: "blockly/guides/programming/plugin_overview",
+          id: "guides/programming/plugin_overview",
         },
         {
           type: "doc",
           label: "Fork Blockly",
-          id: "blockly/guides/programming/forking_blockly",
+          id: "guides/programming/forking_blockly",
         },
         {
           type: "doc",
           label: "Unfork Blockly",
-          id: "blockly/guides/programming/unforking_blockly",
+          id: "guides/programming/unforking_blockly",
         },
       ],
     },
@@ -217,27 +217,27 @@ const sidebars = {
                 {
                   type: "doc",
                   label: "Create a workspace",
-                  id: "blockly/guides/configure/web/configuration_struct",
+                  id: "guides/configure/web/configuration_struct",
                 },
                 {
                   type: "doc",
                   label: "Grid option",
-                  id: "blockly/guides/configure/web/grid",
+                  id: "guides/configure/web/grid",
                 },
                 {
                   type: "doc",
                   label: "Media folder option",
-                  id: "blockly/guides/configure/web/media",
+                  id: "guides/configure/web/media",
                 },
                 {
                   type: "doc",
                   label: "Move option",
-                  id: "blockly/guides/configure/web/move",
+                  id: "guides/configure/web/move",
                 },
                 {
                   type: "doc",
                   label: "Zoom option",
-                  id: "blockly/guides/configure/web/zoom",
+                  id: "guides/configure/web/zoom",
                 },
               ],
             },
@@ -248,17 +248,17 @@ const sidebars = {
                 {
                   type: "doc",
                   label: "Fixed-size workspace",
-                  id: "blockly/guides/configure/web/fixed-size",
+                  id: "guides/configure/web/fixed-size",
                 },
                 {
                   type: "doc",
                   label: "Resizable workspace",
-                  id: "blockly/guides/configure/web/resizable",
+                  id: "guides/configure/web/resizable",
                 },
                 {
                   type: "doc",
                   label: "Metrics Manager",
-                  id: "blockly/guides/configure/web/metrics_manager",
+                  id: "guides/configure/web/metrics_manager",
                 },
               ],
             },
@@ -271,7 +271,7 @@ const sidebars = {
             {
               type: "doc",
               label: "Overview",
-              id: "blockly/guides/configure/web/toolboxes/toolbox",
+              id: "guides/configure/web/toolboxes/toolbox",
             },
             {
               type: "category",
@@ -280,7 +280,7 @@ const sidebars = {
                 {
                   type: "doc",
                   label: "Define a flyout toolbox",
-                  id: "blockly/guides/configure/web/toolboxes/flyout",
+                  id: "guides/configure/web/toolboxes/flyout",
                 },
               ],
             },
@@ -291,54 +291,54 @@ const sidebars = {
                 {
                   type: "doc",
                   label: "Define a category toolbox",
-                  id: "blockly/guides/configure/web/toolboxes/category",
+                  id: "guides/configure/web/toolboxes/category",
                 },
                 {
                   type: "doc",
                   label: "Nested categories",
-                  id: "blockly/guides/configure/web/toolboxes/nested",
+                  id: "guides/configure/web/toolboxes/nested",
                 },
                 {
                   type: "doc",
                   label: "Dynamic categories",
-                  id: "blockly/guides/configure/web/toolboxes/dynamic",
+                  id: "guides/configure/web/toolboxes/dynamic",
                 },
                 {
                   type: "doc",
                   label: "Disable, hide, or expand categories",
-                  id: "blockly/guides/configure/web/toolboxes/disable-categories",
+                  id: "guides/configure/web/toolboxes/disable-categories",
                 },
                 {
                   type: "doc",
                   label: "Category appearance",
-                  id: "blockly/guides/configure/web/toolboxes/appearance",
+                  id: "guides/configure/web/toolboxes/appearance",
                 },
                 {
                   type: "doc",
                   label: "Programmatic access",
-                  id: "blockly/guides/configure/web/toolboxes/programmatic",
+                  id: "guides/configure/web/toolboxes/programmatic",
                 },
               ],
             },
             {
               type: "doc",
               label: "Preset blocks",
-              id: "blockly/guides/configure/web/toolboxes/preset",
+              id: "guides/configure/web/toolboxes/preset",
             },
             {
               type: "doc",
               label: "Separators",
-              id: "blockly/guides/configure/web/toolboxes/separators",
+              id: "guides/configure/web/toolboxes/separators",
             },
             {
               type: "doc",
               label: "Buttons and labels",
-              id: "blockly/guides/configure/web/toolboxes/buttons",
+              id: "guides/configure/web/toolboxes/buttons",
             },
             {
               type: "doc",
               label: "Programmatic access",
-              id: "blockly/guides/configure/web/toolboxes/modify",
+              id: "guides/configure/web/toolboxes/modify",
             },
           ],
         },
@@ -349,34 +349,34 @@ const sidebars = {
             {
               type: "doc",
               label: "Style with CSS",
-              id: "blockly/guides/configure/web/appearance/css",
+              id: "guides/configure/web/appearance/css",
             },
             {
               type: "doc",
               label: "Colour formats",
-              id: "blockly/guides/configure/web/appearance/colour-formats",
+              id: "guides/configure/web/appearance/colour-formats",
             },
             {
               type: "doc",
               label: "Block colours",
-              id: "blockly/guides/configure/web/appearance/block-colour",
+              id: "guides/configure/web/appearance/block-colour",
             },
             {
               type: "doc",
               label: "Themes",
-              id: "blockly/guides/configure/web/appearance/themes",
+              id: "guides/configure/web/appearance/themes",
             },
           ],
         },
         {
           type: "doc",
           label: "Save and load",
-          id: "blockly/guides/configure/web/serialization",
+          id: "guides/configure/web/serialization",
         },
         {
           type: "doc",
           label: "Events",
-          id: "blockly/guides/configure/web/events",
+          id: "guides/configure/web/events",
         },
         {
           type: "category",
@@ -385,17 +385,17 @@ const sidebars = {
             {
               type: "doc",
               label: "Keyboard shortcuts",
-              id: "blockly/guides/configure/web/keyboard-shortcuts",
+              id: "guides/configure/web/keyboard-shortcuts",
             },
             {
               type: "doc",
               label: "Copy and paste",
-              id: "blockly/guides/configure/web/copy-paste",
+              id: "guides/configure/web/copy-paste",
             },
             {
               type: "doc",
               label: "Context menus",
-              id: "blockly/guides/configure/web/context-menus",
+              id: "guides/configure/web/context-menus",
             },
           ],
         },
@@ -406,17 +406,17 @@ const sidebars = {
             {
               type: "doc",
               label: "Custom draggables",
-              id: "blockly/guides/configure/web/dragging/draggable",
+              id: "guides/configure/web/dragging/draggable",
             },
             {
               type: "doc",
               label: "Custom block drag strategies",
-              id: "blockly/guides/configure/web/dragging/block-drag-strategies",
+              id: "guides/configure/web/dragging/block-drag-strategies",
             },
             {
               type: "doc",
               label: "Custom draggers",
-              id: "blockly/guides/configure/web/dragging/dragger",
+              id: "guides/configure/web/dragging/dragger",
             },
           ],
         },
@@ -427,29 +427,29 @@ const sidebars = {
             {
               type: "doc",
               label: "Workspace comments",
-              id: "blockly/guides/configure/web/workspace_comment",
+              id: "guides/configure/web/workspace_comment",
             },
             {
               type: "doc",
               label: "Block comments",
-              id: "blockly/guides/configure/web/block_comment",
+              id: "guides/configure/web/block_comment",
             },
           ],
         },
         {
           type: "doc",
           label: "Localization",
-          id: "blockly/guides/configure/web/translations",
+          id: "guides/configure/web/translations",
         },
         {
           type: "doc",
           label: "Focus system",
-          id: "blockly/guides/configure/web/focus",
+          id: "guides/configure/web/focus",
         },
         {
           type: "doc",
           label: "Advanced customization",
-          id: "blockly/guides/configure/web/customization",
+          id: "guides/configure/web/customization",
         },
         {
           type: "category",
@@ -458,12 +458,12 @@ const sidebars = {
             {
               type: "doc",
               label: "Keyboard navigation",
-              id: "blockly/guides/configure/web/keyboard-nav",
+              id: "guides/configure/web/keyboard-nav",
             },
             {
               type: "doc",
               label: "Colour and accessibility",
-              id: "blockly/guides/configure/web/colour-a11y",
+              id: "guides/configure/web/colour-a11y",
             },
           ],
         },
@@ -476,7 +476,7 @@ const sidebars = {
         {
           type: "doc",
           label: "Overview",
-          id: "blockly/guides/create-custom-blocks/overview",
+          id: "guides/create-custom-blocks/overview",
         },
         {
           type: "category",
@@ -485,7 +485,7 @@ const sidebars = {
             {
               type: "doc",
               label: "What's a block definition?",
-              id: "blockly/guides/create-custom-blocks/define/block-definitions",
+              id: "guides/create-custom-blocks/define/block-definitions",
             },
             {
               type: "category",
@@ -494,22 +494,22 @@ const sidebars = {
                 {
                   type: "doc",
                   label: "Blockly Developer Tools",
-                  id: "blockly/guides/create-custom-blocks/blockly-developer-tools",
+                  id: "guides/create-custom-blocks/blockly-developer-tools",
                 },
                 {
                   type: "doc",
                   label: "JSON and JavaScript",
-                  id: "blockly/guides/create-custom-blocks/define/json-and-js",
+                  id: "guides/create-custom-blocks/define/json-and-js",
                 },
                 {
                   type: "doc",
                   label: "Extensions and mixins",
-                  id: "blockly/guides/create-custom-blocks/define/extensions",
+                  id: "guides/create-custom-blocks/define/extensions",
                 },
                 {
                   type: "doc",
                   label: "Modify block definitions",
-                  id: "blockly/guides/create-custom-blocks/define/modify-definitions",
+                  id: "guides/create-custom-blocks/define/modify-definitions",
                 },
               ],
             },
@@ -520,44 +520,44 @@ const sidebars = {
                 {
                   type: "doc",
                   label: "Anatomy of a block",
-                  id: "blockly/guides/create-custom-blocks/define/block-anatomy",
+                  id: "guides/create-custom-blocks/define/block-anatomy",
                 },
                 {
                   type: "doc",
                   label: "Top-level connections",
-                  id: "blockly/guides/create-custom-blocks/define/top-level-connections",
+                  id: "guides/create-custom-blocks/define/top-level-connections",
                 },
                 {
                   type: "doc",
                   label: "Block structure in JSON",
-                  id: "blockly/guides/create-custom-blocks/define/structure-json",
+                  id: "guides/create-custom-blocks/define/structure-json",
                 },
                 {
                   type: "doc",
                   label: "Block structure in JavaScript",
-                  id: "blockly/guides/create-custom-blocks/define/structure-js",
+                  id: "guides/create-custom-blocks/define/structure-js",
                 },
                 {
                   type: "doc",
                   label: "Inline vs external inputs",
-                  id: "blockly/guides/create-custom-blocks/define/inline-vs-external",
+                  id: "guides/create-custom-blocks/define/inline-vs-external",
                 },
               ],
             },
             {
               type: "doc",
               label: "Block state",
-              id: "blockly/guides/create-custom-blocks/define/block-state",
+              id: "guides/create-custom-blocks/define/block-state",
             },
             {
               type: "doc",
               label: "Destroy hook",
-              id: "blockly/guides/create-custom-blocks/define/destroy",
+              id: "guides/create-custom-blocks/define/destroy",
             },
             {
               type: "doc",
               label: "Block help",
-              id: "blockly/guides/create-custom-blocks/define/block-help",
+              id: "guides/create-custom-blocks/define/block-help",
             },
           ],
         },
@@ -568,27 +568,27 @@ const sidebars = {
             {
               type: "doc",
               label: "Overview",
-              id: "blockly/guides/create-custom-blocks/code-generation/overview",
+              id: "guides/create-custom-blocks/code-generation/overview",
             },
             {
               type: "doc",
               label: "Block-code generators",
-              id: "blockly/guides/create-custom-blocks/code-generation/block-code",
+              id: "guides/create-custom-blocks/code-generation/block-code",
             },
             {
               type: "doc",
               label: "Transform field values",
-              id: "blockly/guides/create-custom-blocks/code-generation/fields",
+              id: "guides/create-custom-blocks/code-generation/fields",
             },
             {
               type: "doc",
               label: "Add parentheses",
-              id: "blockly/guides/create-custom-blocks/code-generation/operator-precedence",
+              id: "guides/create-custom-blocks/code-generation/operator-precedence",
             },
             {
               type: "doc",
               label: "Cache inner value block code",
-              id: "blockly/guides/create-custom-blocks/code-generation/caching-arguments",
+              id: "guides/create-custom-blocks/code-generation/caching-arguments",
             },
           ],
         },
@@ -599,22 +599,22 @@ const sidebars = {
             {
               type: "doc",
               label: "CConnection checks",
-              id: "blockly/guides/create-custom-blocks/inputs/connection-checks",
+              id: "guides/create-custom-blocks/inputs/connection-checks",
             },
             {
               type: "doc",
               label: "Connection check playbook",
-              id: "blockly/guides/create-custom-blocks/inputs/connection-check-playbook",
+              id: "guides/create-custom-blocks/inputs/connection-check-playbook",
             },
             {
               type: "doc",
               label: "Custom connection checkers",
-              id: "blockly/guides/create-custom-blocks/inputs/connection_checker",
+              id: "guides/create-custom-blocks/inputs/connection_checker",
             },
             {
               type: "doc",
               label: "Connection previewers",
-              id: "blockly/guides/create-custom-blocks/inputs/connection-previews",
+              id: "guides/create-custom-blocks/inputs/connection-previews",
             },
           ],
         },
@@ -625,7 +625,7 @@ const sidebars = {
             {
               type: "doc",
               label: "Create custom inputs",
-              id: "blockly/guides/create-custom-blocks/inputs/creating-custom-inputs",
+              id: "guides/create-custom-blocks/inputs/creating-custom-inputs",
             },
           ],
         },
@@ -636,22 +636,22 @@ const sidebars = {
             {
               type: "doc",
               label: "Overview",
-              id: "blockly/guides/create-custom-blocks/fields/overview",
+              id: "guides/create-custom-blocks/fields/overview",
             },
             {
               type: "doc",
               label: "Fields vs icons",
-              id: "blockly/guides/create-custom-blocks/fields/fields-vs-icons",
+              id: "guides/create-custom-blocks/fields/fields-vs-icons",
             },
             {
               type: "doc",
               label: "Anatomy of a field",
-              id: "blockly/guides/create-custom-blocks/fields/anatomy-of-a-field",
+              id: "guides/create-custom-blocks/fields/anatomy-of-a-field",
             },
             {
               type: "doc",
               label: "Validators",
-              id: "blockly/guides/create-custom-blocks/fields/validators",
+              id: "guides/create-custom-blocks/fields/validators",
             },
             {
               type: "category",
@@ -660,47 +660,47 @@ const sidebars = {
                 {
                   type: "doc",
                   label: "Overview",
-                  id: "blockly/guides/create-custom-blocks/fields/built-in-fields/overview",
+                  id: "guides/create-custom-blocks/fields/built-in-fields/overview",
                 },
                 {
                   type: "doc",
                   label: "Checkbox",
-                  id: "blockly/guides/create-custom-blocks/fields/built-in-fields/checkbox",
+                  id: "guides/create-custom-blocks/fields/built-in-fields/checkbox",
                 },
                 {
                   type: "doc",
                   label: "Dropdown",
-                  id: "blockly/guides/create-custom-blocks/fields/built-in-fields/dropdown",
+                  id: "guides/create-custom-blocks/fields/built-in-fields/dropdown",
                 },
                 {
                   type: "doc",
                   label: "Image",
-                  id: "blockly/guides/create-custom-blocks/fields/built-in-fields/image",
+                  id: "guides/create-custom-blocks/fields/built-in-fields/image",
                 },
                 {
                   type: "doc",
                   label: "Label",
-                  id: "blockly/guides/create-custom-blocks/fields/built-in-fields/label",
+                  id: "guides/create-custom-blocks/fields/built-in-fields/label",
                 },
                 {
                   type: "doc",
                   label: "Label (serializable)",
-                  id: "blockly/guides/create-custom-blocks/fields/built-in-fields/label-serializable",
+                  id: "guides/create-custom-blocks/fields/built-in-fields/label-serializable",
                 },
                 {
                   type: "doc",
                   label: "Number",
-                  id: "blockly/guides/create-custom-blocks/fields/built-in-fields/number",
+                  id: "guides/create-custom-blocks/fields/built-in-fields/number",
                 },
                 {
                   type: "doc",
                   label: "Text input",
-                  id: "blockly/guides/create-custom-blocks/fields/built-in-fields/text-input",
+                  id: "guides/create-custom-blocks/fields/built-in-fields/text-input",
                 },
                 {
                   type: "doc",
                   label: "Variable",
-                  id: "blockly/guides/create-custom-blocks/fields/built-in-fields/variable",
+                  id: "guides/create-custom-blocks/fields/built-in-fields/variable",
                 },
               ],
             },
@@ -711,22 +711,22 @@ const sidebars = {
                 {
                   type: "doc",
                   label: "Overview",
-                  id: "blockly/guides/create-custom-blocks/fields/customizing-fields/overview",
+                  id: "guides/create-custom-blocks/fields/customizing-fields/overview",
                 },
                 {
                   type: "doc",
                   label: "Extend an existing field",
-                  id: "blockly/guides/create-custom-blocks/fields/customizing-fields/extending",
+                  id: "guides/create-custom-blocks/fields/customizing-fields/extending",
                 },
                 {
                   type: "doc",
                   label: "Create a custom field",
-                  id: "blockly/guides/create-custom-blocks/fields/customizing-fields/creating",
+                  id: "guides/create-custom-blocks/fields/customizing-fields/creating",
                 },
                 {
                   type: "doc",
                   label: "Upgrade a custom field",
-                  id: "blockly/guides/create-custom-blocks/fields/customizing-fields/upgrading",
+                  id: "guides/create-custom-blocks/fields/customizing-fields/upgrading",
                 },
               ],
             },
@@ -735,7 +735,7 @@ const sidebars = {
         {
           type: "doc",
           label: "Variables",
-          id: "blockly/guides/create-custom-blocks/variables",
+          id: "guides/create-custom-blocks/variables",
         },
         {
           type: "category",
@@ -744,22 +744,22 @@ const sidebars = {
             {
               type: "doc",
               label: "Overview",
-              id: "blockly/guides/create-custom-blocks/procedures/overview",
+              id: "guides/create-custom-blocks/procedures/overview",
             },
             {
               type: "doc",
               label: "Use built-in procedure blocks",
-              id: "blockly/guides/create-custom-blocks/procedures/using-procedures",
+              id: "guides/create-custom-blocks/procedures/using-procedures",
             },
             {
               type: "doc",
               label: "Create custom procedure blocks",
-              id: "blockly/guides/create-custom-blocks/procedures/creating-custom-procedure-blocks",
+              id: "guides/create-custom-blocks/procedures/creating-custom-procedure-blocks",
             },
             {
               type: "doc",
               label: "Create custom procedure data models",
-              id: "blockly/guides/create-custom-blocks/procedures/creating-custom-procedure-data-models",
+              id: "guides/create-custom-blocks/procedures/creating-custom-procedure-data-models",
             },
           ],
         },
@@ -770,17 +770,17 @@ const sidebars = {
             {
               type: "doc",
               label: "Overview",
-              id: "blockly/guides/create-custom-blocks/icons/overview",
+              id: "guides/create-custom-blocks/icons/overview",
             },
             {
               type: "doc",
               label: "Fields vs icons",
-              id: "blockly/guides/create-custom-blocks/fields/fields-vs-icons",
+              id: "guides/create-custom-blocks/fields/fields-vs-icons",
             },
             {
               type: "doc",
               label: "Override comment icon",
-              id: "blockly/guides/create-custom-blocks/icons/creating-custom-icons/override-built-in",
+              id: "guides/create-custom-blocks/icons/creating-custom-icons/override-built-in",
             },
             {
               type: "category",
@@ -789,27 +789,27 @@ const sidebars = {
                 {
                   type: "doc",
                   label: "Overview",
-                  id: "blockly/guides/create-custom-blocks/icons/creating-custom-icons/basic-implementation",
+                  id: "guides/create-custom-blocks/icons/creating-custom-icons/basic-implementation",
                 },
                 {
                   type: "doc",
                   label: "Save and load icons",
-                  id: "blockly/guides/create-custom-blocks/icons/creating-custom-icons/save-and-load",
+                  id: "guides/create-custom-blocks/icons/creating-custom-icons/save-and-load",
                 },
                 {
                   type: "doc",
                   label: "Use pop-up bubbles",
-                  id: "blockly/guides/create-custom-blocks/icons/creating-custom-icons/use-bubbles",
+                  id: "guides/create-custom-blocks/icons/creating-custom-icons/use-bubbles",
                 },
                 {
                   type: "doc",
                   label: "Create custom bubbles",
-                  id: "blockly/guides/create-custom-blocks/icons/creating-custom-icons/creating-custom-bubbles",
+                  id: "guides/create-custom-blocks/icons/creating-custom-icons/creating-custom-bubbles",
                 },
                 {
                   type: "doc",
                   label: "Use custom icons",
-                  id: "blockly/guides/create-custom-blocks/icons/creating-custom-icons/use-custom-icons",
+                  id: "guides/create-custom-blocks/icons/creating-custom-icons/use-custom-icons",
                 },
               ],
             },
@@ -822,7 +822,7 @@ const sidebars = {
             {
               type: "doc",
               label: "Mutators",
-              id: "blockly/guides/create-custom-blocks/mutators",
+              id: "guides/create-custom-blocks/mutators",
             },
             {
               type: "category",
@@ -831,7 +831,7 @@ const sidebars = {
                 {
                   type: "doc",
                   label: "Overview",
-                  id: "blockly/guides/create-custom-blocks/renderers/overview",
+                  id: "guides/create-custom-blocks/renderers/overview",
                 },
                 {
                   type: "category",
@@ -840,54 +840,54 @@ const sidebars = {
                     {
                       type: "doc",
                       label: "Overview",
-                      id: "blockly/guides/create-custom-blocks/renderers/concepts/overview",
+                      id: "guides/create-custom-blocks/renderers/concepts/overview",
                     },
                     {
                       type: "doc",
                       label: "Renderer",
-                      id: "blockly/guides/create-custom-blocks/renderers/concepts/renderer",
+                      id: "guides/create-custom-blocks/renderers/concepts/renderer",
                     },
                     {
                       type: "doc",
                       label: "Constant provider",
-                      id: "blockly/guides/create-custom-blocks/renderers/concepts/constants",
+                      id: "guides/create-custom-blocks/renderers/concepts/constants",
                     },
                     {
                       type: "doc",
                       label: "Render info",
-                      id: "blockly/guides/create-custom-blocks/renderers/concepts/info",
+                      id: "guides/create-custom-blocks/renderers/concepts/info",
                     },
                     {
                       type: "doc",
                       label: "Path object",
-                      id: "blockly/guides/create-custom-blocks/renderers/concepts/path-object",
+                      id: "guides/create-custom-blocks/renderers/concepts/path-object",
                     },
                     {
                       type: "doc",
                       label: "Drawer",
-                      id: "blockly/guides/create-custom-blocks/renderers/concepts/drawer",
+                      id: "guides/create-custom-blocks/renderers/concepts/drawer",
                     },
                     {
                       type: "doc",
                       label: "Rows",
-                      id: "blockly/guides/create-custom-blocks/renderers/concepts/rows",
+                      id: "guides/create-custom-blocks/renderers/concepts/rows",
                     },
                     {
                       type: "doc",
                       label: "Elements",
-                      id: "blockly/guides/create-custom-blocks/renderers/concepts/elements",
+                      id: "guides/create-custom-blocks/renderers/concepts/elements",
                     },
                   ],
                 },
                 {
                   type: "doc",
                   label: "Create custom renderers",
-                  id: "blockly/guides/create-custom-blocks/renderers/create-custom-renderers/basic-implementation",
+                  id: "guides/create-custom-blocks/renderers/create-custom-renderers/basic-implementation",
                 },
                 {
                   type: "doc",
                   label: "Connection shapes",
-                  id: "blockly/guides/create-custom-blocks/renderers/create-custom-renderers/connection-shapes",
+                  id: "guides/create-custom-blocks/renderers/create-custom-renderers/connection-shapes",
                 },
               ],
             },
@@ -906,19 +906,19 @@ const sidebars = {
             {
               type: "doc",
               label: "Generate and run code",
-              id: "blockly/guides/app-integration/run-code",
+              id: "guides/app-integration/run-code",
             },
             {
               type: "doc",
               label: "Generate and run JavaScript",
-              id: "blockly/guides/app-integration/running-javascript",
+              id: "guides/app-integration/running-javascript",
             },
           ],
         },
         {
           type: "doc",
           label: "Attribute Blockly",
-          id: "blockly/guides/app-integration/attribution",
+          id: "guides/app-integration/attribution",
         },
       ],
     },
@@ -929,7 +929,7 @@ const sidebars = {
         {
           type: "doc",
           label: "Overview",
-          id: "blockly/guides/contribute/index",
+          id: "guides/contribute/index",
         },
         {
           type: "category",
@@ -938,42 +938,42 @@ const sidebars = {
             {
               type: "doc",
               label: "Overview",
-              id: "blockly/guides/contribute/get-started/index",
+              id: "guides/contribute/get-started/index",
             },
             {
               type: "doc",
               label: "Development tools",
-              id: "blockly/guides/contribute/get-started/development_tools",
+              id: "guides/contribute/get-started/development_tools",
             },
             {
               type: "doc",
               label: "Write a good issue",
-              id: "blockly/guides/contribute/get-started/write_a_good_issue",
+              id: "guides/contribute/get-started/write_a_good_issue",
             },
             {
               type: "doc",
               label: "Write a good pull request",
-              id: "blockly/guides/contribute/get-started/write_a_good_pr",
+              id: "guides/contribute/get-started/write_a_good_pr",
             },
             {
               type: "doc",
               label: "Commit message guide",
-              id: "blockly/guides/contribute/get-started/commits",
+              id: "guides/contribute/get-started/commits",
             },
             {
               type: "doc",
               label: "Code review process",
-              id: "blockly/guides/contribute/get-started/pr_review_process",
+              id: "guides/contribute/get-started/pr_review_process",
             },
             {
               type: "doc",
               label: "Issue labels",
-              id: "blockly/guides/contribute/get-started/issue_labels",
+              id: "guides/contribute/get-started/issue_labels",
             },
             {
               type: "doc",
               label: "Use the playground",
-              id: "blockly/guides/contribute/get-started/playground",
+              id: "guides/contribute/get-started/playground",
             },
           ],
         },
@@ -984,7 +984,7 @@ const sidebars = {
             {
               type: "doc",
               label: "Overview",
-              id: "blockly/guides/contribute/core/index",
+              id: "guides/contribute/core/index",
             },
             {
               type: "category",
@@ -993,24 +993,24 @@ const sidebars = {
                 {
                   type: "doc",
                   label: "Render management",
-                  id: "blockly/guides/contribute/core-architecture/render-management",
+                  id: "guides/contribute/core-architecture/render-management",
                 },
               ],
             },
             {
               type: "doc",
               label: "Style guide",
-              id: "blockly/guides/contribute/core/style_guide",
+              id: "guides/contribute/core/style_guide",
             },
             {
               type: "doc",
               label: "Build scripts",
-              id: "blockly/guides/contribute/core/building",
+              id: "guides/contribute/core/building",
             },
             {
               type: "doc",
               label: "Advanced compilation",
-              id: "blockly/guides/contribute/core/advanced",
+              id: "guides/contribute/core/advanced",
             },
             {
               type: "category",
@@ -1019,24 +1019,24 @@ const sidebars = {
                 {
                   type: "doc",
                   label: "Add a new localization token",
-                  id: "blockly/guides/contribute/core/add_localization_token",
+                  id: "guides/contribute/core/add_localization_token",
                 },
                 {
                   type: "doc",
                   label: "Translate text",
-                  id: "blockly/guides/contribute/core/translating",
+                  id: "guides/contribute/core/translating",
                 },
                 {
                   type: "doc",
                   label: "Klingon",
-                  id: "blockly/guides/contribute/core/klingon",
+                  id: "guides/contribute/core/klingon",
                 },
               ],
             },
             {
               type: "doc",
               label: "Unit tests",
-              id: "blockly/guides/contribute/core/unit_testing",
+              id: "guides/contribute/core/unit_testing",
             },
           ],
         },
@@ -1047,12 +1047,12 @@ const sidebars = {
             {
               type: "doc",
               label: "Overview",
-              id: "blockly/guides/contribute/samples/index",
+              id: "guides/contribute/samples/index",
             },
             {
               type: "doc",
               label: "Repository structure",
-              id: "blockly/guides/contribute/samples/repository_structure",
+              id: "guides/contribute/samples/repository_structure",
             },
             {
               type: "category",
@@ -1061,34 +1061,34 @@ const sidebars = {
                 {
                   type: "doc",
                   label: "Add a plugin",
-                  id: "blockly/guides/contribute/samples/add_a_plugin",
+                  id: "guides/contribute/samples/add_a_plugin",
                 },
                 {
                   type: "doc",
                   label: "Plugin naming conventions",
-                  id: "blockly/guides/contribute/samples/naming",
+                  id: "guides/contribute/samples/naming",
                 },
                 {
                   type: "doc",
                   label: "Debug plugins",
-                  id: "blockly/guides/contribute/samples/debugging",
+                  id: "guides/contribute/samples/debugging",
                 },
                 {
                   type: "doc",
                   label: "Publish block libraries",
-                  id: "blockly/guides/contribute/samples/block_libraries",
+                  id: "guides/contribute/samples/block_libraries",
                 },
                 {
                   type: "doc",
                   label: "Add a plugin field to Block Factory",
-                  id: "blockly/guides/contribute/samples/block_factory",
+                  id: "guides/contribute/samples/block_factory",
                 },
               ],
             },
             {
               type: "doc",
               label: "Write a codelab",
-              id: "blockly/guides/contribute/samples/write_a_codelab",
+              id: "guides/contribute/samples/write_a_codelab",
             },
           ],
         },
