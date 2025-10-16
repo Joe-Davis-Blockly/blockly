@@ -38,8 +38,8 @@
 /*.pagination-nav {
   display: none;
 }*/
-[class*="docs-doc-id-blockly/guides/"] .pagination-nav,
-[class*="docs-doc-id-blockly/reference/"] .pagination-nav {
+[class*="docs-doc-id-guides/"] .pagination-nav,
+[class*="docs-doc-id-reference/"] .pagination-nav {
   display: none;
 }
 
