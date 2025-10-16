@@ -17,9 +17,9 @@ const createUnderscoreSlug = (str) => {
     .toString()
     .toLowerCase()
     .trim()
-    .replace(/<[^>]*>/g, '')      // Remove HTML tags from heading text
-    .replace(/[\s]+/g, '_')      // Replace spaces and hyphens with underscores
-    .replace(/__+/g, '_')         // Replace multiple underscores with a single one
+    .replace(/[^a-z0-9_- ]/g, '')  // Remove all characters except a-z, 0-9, hyphen, underscore, and space
+    .replace(/[ ][ ]+/g, ' ')         // Replace multiple spaces with a single space
+    .replace(/[ ]/g, '_')      // Replace single spaces with underscores
 };
 
 // =============================================================================
@@ -57,15 +57,15 @@ const config = {
   url: 'https://joe-davis-blockly.github.io',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: '/blockly/',
+  baseUrl: '',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
   organizationName: 'Joe-Davis-Blockly', // Usually your GitHub org/user name.
   projectName: 'blockly', // Usually your repo name.
 
-  onBrokenLinks: 'ignore',
-  onBrokenMarkdownLinks: 'ignore',
+  onBrokenLinks: 'warn',
+  onBrokenMarkdownLinks: 'warn',
 
   markdown: {
     format: 'detect',
@@ -93,21 +93,7 @@ const config = {
           editUrl:
             'https://github.com/Joe-Davis-Blockly/blockly/tree/cybage-blockly/',
         },
-        blog: {
-          showReadingTime: true,
-          feedOptions: {
-            type: ['rss', 'atom'],
-            xslt: true,
-          },
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
-          editUrl:
-            'https://github.com/Joe-Davis-Blockly/blockly/tree/cybage-blockly/',
-          // Useful options to enforce blogging best practices
-          onInlineTags: 'warn',
-          onInlineAuthors: 'warn',
-          onUntruncatedBlogPosts: 'warn',
-        },
+        blog: false,
         theme: {
           customCss: './src/css/custom.css',
         },
@@ -150,61 +136,11 @@ const config = {
             position: 'left',
           },
           {
-            label: 'Blog',
-            to: '/blog',
-            position: 'left'
-          },
-          {
             label: 'GitHub',
             href: 'https://github.com/facebook/docusaurus',
             position: 'right',
           },
         ],
-      },
-      footer: {
-        style: 'dark',
-        links: [
-          {
-            title: 'Docs',
-            items: [
-              {
-                label: 'Tutorial',
-                to: '/docs/intro',
-              },
-            ],
-          },
-          {
-            title: 'Community',
-            items: [
-              {
-                label: 'Stack Overflow',
-                href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-              },
-              {
-                label: 'Discord',
-                href: 'https://discordapp.com/invite/docusaurus',
-              },
-              {
-                label: 'X',
-                href: 'https://x.com/docusaurus',
-              },
-            ],
-          },
-          {
-            title: 'More',
-            items: [
-              {
-                label: 'Blog',
-                to: '/blog',
-              },
-              {
-                label: 'GitHub',
-                href: 'https://github.com/facebook/docusaurus',
-              },
-            ],
-          },
-        ],
-        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
       },
       prism: {
         theme: prismThemes.github,

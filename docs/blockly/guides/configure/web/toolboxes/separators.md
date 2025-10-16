@@ -1,0 +1,92 @@
+Project: /blockly/_project.yaml
+Book: /blockly/_book.yaml
+description: How to add separators to flyout and category toolboxes.
+
+# Separators
+
+Adding a separator between any two categories will create a line and extra space
+between the two categories.
+
+![A category menu with a vertical gap between two
+categories.](/blockly/images/toolbox-separator.png)
+
+You can change the class for the separator in your JSON or XML toolbox definition.
+
+*   {JSON}
+
+    ```js
+    {
+      "kind": "sep",
+      "cssConfig": {
+        "container": "yourClassName"
+      }
+    }
+    ```
+
+*   {XML}
+
+    ```xml
+    <sep css-container="yourClassName"></sep>
+    ```
+
+Adding a separator between any two blocks will create a gap between the blocks.
+By default every block is separated from its lower neighbour by 24 pixels.
+This separation may be changed using the 'gap' attribute, which will replace the
+default gap.
+
+This allows you to create logical groups of blocks in the toolbox.
+
+![A flyout toolbox with a vertical gap between a number block and a group of two
+arithmetic blocks.](/blockly/images/toolbox-gap.png)
+
+*   {JSON}
+
+    ```js
+    {
+      "kind": "flyoutToolbox",
+      "contents": [
+        {
+          "kind": "block",
+          "type":"math_number"
+        },
+        {
+          "kind": "sep",
+          "gap": "32"
+        },
+        {
+          "kind": "block",
+          "type"" "math_arithmetic"
+          "fields": {
+            "OP": "ADD"
+          },
+        },
+        {
+          "kind": "sep",
+          "gap": "8"
+        },
+        {
+          "kind": "block",
+          "type"" "math_arithmetic"
+          "fields": {
+            "OP": "MINUS"
+          },
+        }
+      ]
+    }
+    ```
+
+*   {XML}
+
+    ```xml
+    <xml id="toolbox" style="display: none">
+      <block type="math_number"></block>
+      <sep gap="32"></sep>
+      <block type="math_arithmetic">
+        <field name="OP">ADD</field>
+      </block>
+      <sep gap="8"></sep>
+      <block type="math_arithmetic">
+        <field name="OP">MINUS</field>
+      </block>
+    </xml>
+    ```

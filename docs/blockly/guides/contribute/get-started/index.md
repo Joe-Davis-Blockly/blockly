@@ -1,0 +1,62 @@
+Project: /blockly/_project.yaml
+Book: /blockly/_book.yaml
+description: Learn about contributing to Blockly.
+
+# Get started contributing to Blockly
+
+Blockly is open source and is primarily maintained by a small team. We welcome
+contributions from developers outside the core team; there is no way for us to
+build every requested feature or fix every reported bug without our community.
+This section contains general guides that may be helpful to you especially if
+you are new to open source development.
+
+For information specific to Blockly that you should read before making a
+contribution, see the
+[Contributing to Core](/blockly/guides/contribute/core/) and
+[Contributing to Samples](/blockly/guides/contribute/samples/) sections.
+
+## Which repository?
+
+A **repository** contains all the files for a single project. Blockly has two
+repositories: blockly core and blockly-samples.
+
+**Blockly core** is the repository for the Blockly library. Use this repository
+if you want to make a change to core Blockly behaviour in a way that will apply
+to all users of the library.
+
+**Blockly samples** is the repository for samples, plugins, and codelabs. Use
+this repository if you want to create or modify a plugin; write a codelab; or
+create or modify a sample.
+
+## Step by step
+
+These are the general steps you will follow any time you make a change.
+
+1.  **Install** Git and Node, following the links in the [Tools](/blockly/guides/contribute/get-started/development_tools)
+    section.
+1.  **Fork and clone the repository.** GitHub has a wonderful tutorial about
+    [forking a repo](https://help.github.com/en/github/getting-started-with-github/fork-a-repo#fork-an-example-repository).
+    To apply it to blockly, just replace every instance of
+    **octocat/Spoon-Knife** with **google/blockly** or
+    **google/blockly-samples**, depending on which repository you want to work
+    in.
+1.  **Sync your fork.** GitHub provides a tutorial for
+    [syncing a fork](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/syncing-a-fork)
+    as well.
+1.  **Check out the main branch.** In blockly core, this is the `develop`
+    branch. In blockly-samples this is the `master` branch.
+1.  **Install** dependencies and build tools by running `npm install` in the
+    root directory.
+1.  **Create a new branch** by running `git checkout -b myBranchName` in a
+    terminal. The name should help you remember what you're working on.
+1.  **Make your changes.**
+1.  **Validate your changes,** following the guide for
+    [core](/blockly/guides/contribute/core/) or
+    [samples](/blockly/guides/contribute/samples/).
+1.  **Save your changes** with `git commit -am "fix: My commit message"`.
+    [Read more about commit messages](#).
+1.  **Push your changes** to GitHub with `git push origin myBranchName`.
+1.  **Open a pull request** when your code is ready. A member of the Blockly
+    team will review your changes and merge them into Blockly if they are
+    approved. For more information see
+    [PR Review Process](/blockly/guides/contribute/get-started/pr_review_process).

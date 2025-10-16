@@ -4,7 +4,7 @@
  * work well for content-centric websites.
  */
 
-@import url('https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700|Google+Sans:400,500|Product+Sans:400&amp;lang=en&amp;display=swap');
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700|Google+Sans:400,500|Product+Sans:400&lang=en&display=swap');
 
 /* You can override the default Infima variables here. */
 :root {
@@ -35,13 +35,17 @@
 }
 
 /* Hide the previous/next pagination links */
-.pagination-nav {
+/*.pagination-nav {
+  display: none;
+}*/
+[class*="docs-doc-id-blockly/guides/"] .pagination-nav,
+[class*="docs-doc-id-blockly/reference/"] .pagination-nav {
   display: none;
 }
 
-.theme-doc-sidebar-item-link-level-3 {
+/*.theme-doc-sidebar-item-link-level-3 {
   display: none;
-}
+}*/
 
 .menu__caret {
   display: none;

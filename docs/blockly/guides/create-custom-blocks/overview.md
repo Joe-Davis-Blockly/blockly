@@ -1,0 +1,128 @@
+Project: /blockly/_project.yaml
+Book: /blockly/_book.yaml
+description: Introduction to creating custom blocks.
+
+# Custom blocks overview
+
+Blockly comes with a large number of predefined blocks, from mathematical
+functions to looping structures. However, most applications need to define and
+implement custom blocks for their domain. For example, a drawing application
+might need blocks to draw lines and circles and a robotics application might
+need blocks to move an arm and manipulate a claw.
+
+To define and use a new type of block, you need three things:
+
+*   **Block definition**: Defines the look and feel of a block type as well as
+    certain behaviors.
+*   **Block-code generator**: Generates the code string for blocks of this type.
+    It is always written in JavaScript, even if the target language is not
+    JavaScript.
+*   **Toolbox reference**: A reference to the block type in the toolbox, so
+    users can add it to the workspace.
+
+## Block definition
+
+A **block definition** defines the look and feel of a block, such as its text,
+fields, connections, and colour. It can also define block-specific behavior,
+such as a block-specific event handler. For example, this block:
+
+![A `string_length` block.](/blockly/images/text-length.png)
+
+can be defined in JSON or JavaScript as follows:
+
+*   {JSON}
+
+    ```js
+    Blockly.common.defineBlocksWithJsonArray([{
+      "type": "string_length",
+      "message0": 'length of %1',
+      "args0": [
+        {
+          "type": "input_value",
+          "name": "VALUE",
+          "check": "String"
+        }
+      ],
+      "output": "Number",
+      "colour": 160,
+      "tooltip": "Returns number of letters in the provided text.",
+      "helpUrl": "http://www.w3schools.com/jsref/jsref_length_string.asp"
+    }]);
+    ```
+
+*   {JavaScript}
+
+    ```js
+    Blockly.Blocks['string_length'] = {
+       init: function() {
+         this.appendValueInput('VALUE')
+             .setCheck('String')
+             .appendField('length of');
+         this.setOutput(true, 'Number');
+         this.setColour(160);
+         this.setTooltip('Returns number of letters in the provided text.');
+         this.setHelpUrl('http://www.w3schools.com/jsref/jsref_length_string.asp');
+       }
+    };
+    ```
+
+For more information about block definitions and how they work, see [What's a
+block
+definition?](/blockly/guides/create-custom-blocks/define/block-definitions).
+
+## Block-code generators
+
+To transform a block into code, you need separate generator functions for each
+language you want to generate. For example, here is a generator that generates
+JavaScript:
+
+```js
+javascriptGenerator.forBlock['string_length'] = function(block, generator) {
+   // String or array length.
+   var argument0 = generator.valueToCode(block, 'VALUE', Order.FUNCTION_CALL) || '\'\'';
+   return [argument0 + '.length', Order.MEMBER];
+};
+```
+
+The generator function accepts the block being processed and a language
+generator. It generates code for any blocks attached to inputs (such as the
+`VALUE` input in the example) and any fields, and then concatenates the
+resulting strings into a larger expression.
+
+For more information, see [Block-code
+generators](/blockly/guides/create-custom-blocks/code-generation/block-code).
+
+## Toolbox reference
+
+After you have defined your block type, use the type name to reference it in a
+toolbox:
+
+*   {JSON}
+
+    ```js
+    var toolbox = {
+         "kind": "categoryToolbox",
+         "name": "Text"
+         "contents": [
+           {
+             "kind": "block",
+             "type": "string_length"
+           },
+         ]
+       };
+    ```
+
+*   {XML}
+
+    ```html
+    <xml id="toolbox" style="display: none"> WHY IS THERE DISPLAY: NONE HERE?
+       <category name="Text">
+         <block type="string_length"></block>
+       </category>
+       ...
+    </xml>
+    ```
+
+For more information, see [Define a flyout
+toolbox](/blockly/guides/configure/web/toolboxes/flyout) or [Define a category
+toolbox](/blockly/guides/configure/web/toolboxes/category).

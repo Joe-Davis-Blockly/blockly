@@ -1,0 +1,47 @@
+Project: /blockly/_project.yaml
+Book: /blockly/_book.yaml
+description: What the row measurable is and what it does.
+
+# Rows
+
+Blocks are defined as a collection of inputs, but the [render info][render-info]
+determines how these inputs get broken up into rows and spacer rows.
+
+For example, when a block is set to [inline inputs][external-vs-inline],
+the block is made of fewer rows than when it is set to
+[external inputs][external-vs-inline]. It has the same number of inputs but
+a different number of rows!
+
+![blocks set to inline and external inputs](/blockly/images/set-inputs-inline.png)
+
+## Row
+
+A [`Row`][Row] is a horizontal collection of non-overlapping [elements][element]
+and [element spacers][element-spacer].
+
+![A repeat-for block with the rows outlined.][row-image]{: width="200"}
+
+The bounds of a row are determined by the bounds of the [elements][element] and
+[spacers][element-spacer] that belong to that row, so that all of the elements
+are contained.
+
+## Row spacer
+
+A [`RowSpacer`][RowSpacer] is an empty vertical space that goes between two
+rows.
+
+![A repeat-for block with the row spacers highlighted in blue][row-spacer-image]{: width="200"}
+
+The bounds of the row spacers are determined by the
+[render info][render-info] itself. After measuring all of the rows of the block,
+the [render info][render-info] inserts spaces of its chosen size between rows.
+
+[Row]: /blockly/reference/js/blockly.blockrendering_namespace.row_class
+[RowSpacer]: /blockly/reference/js/blockly.blockrendering_namespace.spacerrow_class
+[render-info]: /blockly/guides/create-custom-blocks/renderers/concepts/info
+[external-vs-inline]: /blockly/guides/create-custom-blocks/define/inline-vs-external
+[element]: /blockly/guides/create-custom-blocks/renderers/concepts/elements
+[element-spacer]: /blockly/guides/create-custom-blocks/renderers/concepts/elements#element_spacer
+
+[row-image]: /blockly/images/rendering/debug-renderer/row.png
+[row-spacer-image]: /blockly/images/rendering/debug-renderer/row-spacer.png

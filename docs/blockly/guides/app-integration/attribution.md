@@ -1,0 +1,227 @@
+Project: /blockly/_project.yaml
+Book: /blockly/_book.yaml
+description: How to properly attribute Blockly.
+
+{# style linter off #}
+
+# Attribute Blockly
+
+Blockly's code is open source and free to use without attribution.
+
+However, we do encourage developers who are using Blockly to reference the
+product in their website, app, or product. This page describes the best
+practices for referring to Blockly and attributing it as well as appropriate
+uses of the logo.
+
+<a class="button button-primary"
+   href="/blockly/images/logos/blockly_logos_all.zip">Download all assets</a>
+
+## How to refer to Blockly
+
+### Describing and attributing Blockly in text
+
+Upon first reference in a paragraph, use the primary one-line description:
+
+> Blockly is an open-source developer library from Google.
+It creates a visual programming interface that uses drag-and-drop blocks.
+
+When referring to Blockly in the context of another app which uses Blockly
+you should use the phrase "Built with Blockly".
+
+When giving Blockly attribution, this phrase should be used for blog posts,
+press interviews, the app, and on your website.
+
+### Reference do's and don'ts
+
+<p><span class="compare-better">Do</span> — Call Blockly "beginner friendly"
+  instead of "kid friendly." Blockly is used for a variety of applications, not
+  all of which are kid focused.</p>
+
+<p><span class="compare-worse">Don't</span> — Refer to Blockly as a language
+  (for example, as a "block-based programming language"). Blockly is not a
+  language, it's a library that developers use to make a block-based visual programming interface.</p>
+
+## How to visually represent Blockly
+
+### Attributing Blockly with a logo
+
+To give Blockly attribution in your app or website, please use one of the
+following logos, depending on background color:
+
+<table>
+  <theader>
+    <tr>
+      <th style="background-color:white">
+        <img src="/blockly/images/logos/built-with-blockly-badge-white.png"
+             alt="Built on Blockly white"
+             width="240">
+      </th>
+      <th style="background-color:white">
+        <img src="/blockly/images/logos/built-with-blockly-badge-black.png"
+             alt="Built on Blockly black" width="250">
+      </th>
+    </tr>
+  </theader>
+  <tbody>
+    <tr>
+      <td>For light backgrounds with overlapping shapes or varied patterns, and for solid dark backgrounds (no shapes or patterns) with high contrast.</td>
+      <td>For dark backgrounds with overlapping shapes or varied patterns.</td>
+    </tr>
+    <tr>
+      <td><a href="/blockly/images/logos/built-with-blockly-badge-white.png">PNG</a>
+        <a href="/blockly/images/logos/built-with-blockly-badge-white.svg">SVG</a></td>
+      <td><a href="/blockly/images/logos/built-with-blockly-badge-black.png">PNG</a>
+        <a href="/blockly/images/logos/built-with-blockly-badge-black.svg">SVG</a></td>
+    </tr>
+  </tbody>
+</table>
+
+Please hyperlink the badge to Blockly's home page: [https://g.co/dev/blockly](/blockly)
+
+### Badge sizing and spacing
+
+<img src="/blockly/images/logos/blockly-badge.png" alt="blockly badge" class="attempt-right">
+To ensure legibility, badges should not be used with a height smaller than 24px.
+
+For lockups, provide at least x-height and width x1 white space around the
+ logo. Never crowd or overlap the logo with other elements.
+
+<h3 style="clear:both">Other uses of the Blockly logo</h3>
+
+Do not use the Blockly mark or any variant of the Blockly mark in conjunction
+with the overall name of your application, product, service, or website without
+permission from the Blockly team (please email blockly-support@google.com to
+request permission). Do not alter or use the Blockly mark in a way that may be
+confusing or misleading, and never use Blockly branding as the most prominent
+element on your page.
+
+<table>
+  <tr>
+    <td style="background-color:white; vertical-align:middle">
+      <img src="/blockly/images/logos/logo_standard.png"
+           alt="Standard Blockly logo">
+    </td>
+    <td>
+      <h2>Standard lockup</h2>
+      <p>The standard lockup can be used in slide decks and blog posts.</p>
+      <p>
+      Whenever possible, the logo should be represented as a horizontal lockup
+      with a full color logomark and neutral 700 (#5F6368) or solid white
+      logotype.
+      </p>
+      <a href="/blockly/images/logos/logo_standard.png">PNG</a>
+      <a href="/blockly/images/logos/logo_standard.svg">SVG</a>
+    </td>
+  </tr>
+</table>
+
+<table style="table-layout:fixed">
+  <tbody>
+    <tr>
+      <th style="background-color:white; text-align:center">
+        <img src="/blockly/images/logos/logo_vertical.png"
+             alt="Blockly vertical logo"
+             height="120" class="logo-version">
+      </th>
+      <th style="background-color:white; text-align:center">
+        <img src="/blockly/images/logos/logo_only.png"
+             alt="Blockly logomark"
+             height="120" class="logo-version">
+      </th>
+      <th style="background-color:white; text-align:center">
+        <img src="/blockly/images/logos/logo_knockout_with_bg.png"
+             alt="Blockly knockout logo"
+             height="120" class="logo-version">
+      </th>
+    </tr>
+    <tr>
+      <td>When there is limited horizontal space, a vertical lockup can be used
+        with the full color logomark and neutral 700 (#5F6368) or solid white
+        logotype.
+      </td>
+      <td>When there is limited vertical and horizontal space, the logomark can
+        be used by itself without the logotype.
+      </td>
+      <td>When the color of the logomark has poor contrast with the background,
+        a solid white knockout version can be used.
+      </td>
+    </tr>
+    <tr>
+      <td><a href="/blockly/images/logos/logo_vertical.png">PNG</a>
+        <a href="/blockly/images/logos/logo_vertical.svg">SVG</a></td>
+      <td><a href="/blockly/images/logos/logo_only.png">PNG</a>
+        <a href="/blockly/images/logos/logo_only.svg">SVG</a></td>
+      <td><a href="/blockly/images/logos/logo_knockout.png">PNG</a>
+        <a href="/blockly/images/logos/logo_knockout.svg">SVG</a></td>
+    </tr>
+  </tbody>
+</table>
+
+<style>
+  @media screen and (max-width: 1440px) {
+    .logo-version {
+      max-width: 100%;
+    }
+  }
+</style>
+
+### Logo colours
+
+<table style="table-layout:fixed">
+  <tbody>
+    <tr>
+      <th style="background-color:#4285f4; text-align:center">
+      </th>
+      <th style="background-color:#c8d1db; text-align:center">
+      </th>
+      <th style="background-color:#5f6368; text-align:center">
+      </th>
+    </tr>
+    <tr>
+      <td>
+        <b>Blockly blue</b>
+        <p>#4285f4 or hsla(217, 89%, 61%, 1)</p>
+      </td>
+      <td>
+        <b>Blockly gray</b>
+        <p>#c8d1db or hsla(212, 21%, 82%, 1)</p>
+      </td>
+      <td>
+        <b>Neutral 700</b>
+        <p>#5f6368 or hsla(213, 5%, 39%, 1)</p>
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+<img src="/blockly/images/logos/logo_x_height.png"
+     alt="Height references for padding the logo" width="380"
+     class="attempt-right">
+
+### Sizing and spacing
+
+To ensure legibility, the logo should not be used with a height
+smaller than 24px.
+
+For lockups, provide at least x-height x2 white space around the
+logo. Never crowd or overlap the logo with other elements.
+
+### Common errors
+
+<span class="compare-worse">Do not...</span>
+
+- Alter or distort the logo in any way
+- Use the white knockout in any color but white
+- Alter color, shape, or angles
+- Rotate or flip in any direction
+- Alter proportions, positioning, or placement
+- Replace the logotype with a different typeface
+- Use the old Blockly logo (existing uses should be updated when convenient)
+- Use the logo on a poorly contrasting background (e.g. the knockout logo on a light gray background)
+- Overlap or crowd the logo with other elements
+- Redraw the logo
+- Use other Google branding in conjunction with your product
+
+For guidelines on how to use other Google brands, see the
+[Brand Permissions site](https://www.google.com/permissions/).
+

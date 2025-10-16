@@ -1,0 +1,50 @@
+Project: /blockly/_project.yaml
+Book: /blockly/_book.yaml
+description: What a block drag strategy is and how to implement one.
+
+# Custom block drag strategies
+
+A block drag strategy is an object that determines how a block should handle
+drags. They implement the logic to make a block a [draggable][draggable].
+Creating new block drag strategies lets you switch out how blocks should handle
+drags without having to deal with creating a custom selectable, or handling
+selection.
+
+For example, you might want your block to duplicate on drag, rather than
+dragging normally. Block drag strategies allow you to do that.
+
+Drag strategies have all the same methods as an [`IDraggable`][IDraggable],
+besides the `getRelativeToSurfaceXY` method.
+
+## Implementation
+
+To create a drag strategy, you need to implement the
+[`IDragStrategy`][IDragStrategy] interface. This requires all the same methods
+as the `IDraggable` interface, except for the `getRelativeToSurfaceXY` method,
+which the block already implements.
+
+You can follow the
+[instructions for implementing a draggable][draggable-implementation] to
+implement your drag strategy, but skip implementing `getRelativeToSurfaceXY()`.
+
+## Usage
+
+To use a custom drag strategy, you need to apply the drag strategy to each
+_instance_ of a block. You can do this in the `init` method of your block, by
+calling [`setDragStrategy`][setDragStrategy].
+
+```js
+Blockly.Blocks['my_block'] = {
+  init: function() {
+    // Other initialization...
+    this.setDragStrategy(new MyDragStrategy());
+    // Other initialization...
+  }
+}
+```
+
+[draggable]: /blockly/guides/configure/web/dragging/draggable
+[draggable-implementation]: /blockly/guides/configure/web/dragging/draggable#implementation
+[setDragStrategy]: /blockly/reference/js/blockly.blocksvg_class.setdragstrategy_1_method
+[IDraggable]: /blockly/reference/js/blockly.idraggable_interface
+[IDragStrategy]: /blockly/reference/js/blockly.idragstrategy_interface

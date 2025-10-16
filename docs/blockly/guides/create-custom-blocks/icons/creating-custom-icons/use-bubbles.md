@@ -1,0 +1,84 @@
+Project: /blockly/_project.yaml
+Book: /blockly/_book.yaml
+description: How to use pop-up bubbles within your custom icon.
+
+# Use pop-up bubbles
+
+The built-in icons use a pop-up-bubble-style UI to display extra information or
+editors. Custom icons can also replicate this behavior, to maintain a
+consistent look-and-feel.
+
+If your icon should show a bubble, you need to implement the
+[`IHasBubble`][IHasBubble] interface.
+
+## Show or hide the bubble
+
+Icons that use bubbles should implement the
+[`setBubbleVisible`][setBubbleVisible] method to show or hide the bubble.
+
+```js
+// Implement the setBubbleVisible method of the IHasBubble interface.
+async setBubbleVisible(visible) {
+  // State is already correct.
+  if (!!this.myBubble === visible) return;
+
+  // Wait for queued renders to finish so that the icon will be correctly
+  // positioned before displaying the bubble.
+  await Blockly.renderManagement.finishQueuedRenders();
+
+  if (visible) {
+    this.myBubble = new MyBubble(this.getAnchorLocation(), this.getOwnerRect());
+  } else {
+    this.myBubble?.dispose();
+  }
+}
+
+// Implement helper methods for getting the anchor location and bounds.
+
+// Returns the location of the middle of this icon in workspace coordinates.
+getAnchorLocation() {
+  const size = this.getSize();
+  const midIcon = new Blockly.utils.Coordinate(size.width / 2, size.height / 2);
+  return Blockly.utils.Coordinate.sum(this.workspaceLocation, midIcon);
+}
+
+// Returns the rect the bubble should avoid overlapping, i.e. the block this
+// icon is appended to.
+getOwnerRect() {
+  const bbox = this.sourceBlock.getSvgRoot().getBBox();
+  return new Blockly.utils.Rect(
+      bbox.y, bbox.y + bbox.height, bbox.x, bbox.x + bbox.width);
+}
+```
+
+## Deal with dragging the block
+
+When the icon changes location, the bubble does not automatically move with it.
+You either need to update the location of the bubble, or hide it. This can be
+done inside the [`onLocationChange`][onLocationChange] method of the
+[`IIcon`][IIcon] interface.
+
+```js
+onLocationChange(blockOrigin) {
+  super.onLocationChange(blockOrigin);
+  this.myBubble?.setAnchorLocation(this.getAnchorLocation());
+}
+```
+
+## Return the visibility of the bubble
+
+The [`IHasBubble`][IHasBubble] interface also requires that you implement an
+[`bubbleIsVisible`][bubbleIsVisible] method that returns whether the bubble is
+visible or not.
+
+```js
+isBubbleVisible() {
+  return !!this.myBubble;
+}
+```
+
+[IIcon]: /blockly/reference/js/blockly.iicon_interface
+[IHasBubble]: /blockly/reference/js/blockly.ihasbubble_interface
+[setBubbleVisible]: /blockly/reference/js/blockly.ihasbubble_interface.setbubblevisible_1_methodsignature
+[bubbleIsVisible]: /blockly/reference/js/blockly.ihasbubble_interface.bubbleisvisible_1_methodsignature
+[onLocationChange]: /blockly/reference/js/blockly.iicon_interface.onlocationchange_1_methodsignature

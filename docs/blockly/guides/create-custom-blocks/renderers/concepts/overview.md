@@ -1,0 +1,100 @@
+Project: /blockly/_project.yaml
+Book: /blockly/_book.yaml
+description: An overview of important renderer concepts.
+
+# Renderer concepts
+
+Before you start building a custom renderer, it is helpful to understand the
+different components that make up a renderer, as well as how a block gets
+broken up into rows and elements.
+
+## Renderer components
+
+A renderer is built up of several different components. Each component has a
+unique job to maximize code reuse and extensibility.
+
+### Renderer
+
+The [renderer][renderer] is a factory class that bundles all of the other
+components together.
+
+### Constant provider
+
+The [constant provider][constants] is a collection of numbers, and shapes used
+by all of the other components, as well as built-in fields.
+
+### Render info
+
+The [render info][render-info] decides how it a block should be laid out based
+on its definition, and then creates a collection of
+[measurables](#block_measurables) and data about the block which the
+[drawer][drawer] uses to create SVG paths.
+
+### Path Object
+
+The [path object][path-object] contains the SVG elements that live in the dom
+and make up the block.
+
+### Drawer
+
+The [drawer][drawer] (as in "one-who-draws") builds SVG [paths][paths] based on
+the [render info][render-info] and applies them to the
+[path object][path-object].
+
+## Block measurables
+
+A measurable is a rectangle representing a region of a block. Measurables are
+what the [render info][render-info] uses to define the layout of the block.
+
+Some measurables also include extra data (such as the visual thing they are
+representing), or helper methods that the render info can use to figure out how
+to lay out the block.
+
+Different renderers may create custom measurables to change these data or
+helper methods.
+
+### Rows
+
+A [row][row] is a horizontal collection of [elements][element] and
+[element spacers][element-spacer].
+
+![A repeat-for block with the rows outlined.][row-image]{: width="200"}
+
+### Row spacers
+
+A [row spacer][row-spacer] is an empty vertical space that goes between two
+rows.
+
+![A repeat-for block with the row spacers highlighted in blue][row-spacer-image]{: width="200"}
+
+### Elements
+
+An [element][element] represents a visual thing on a block. These include
+[fields][field], [icons][icon], connections, etc.
+
+![A repeat-for block with the elements outlined][element-image]{: width="200"}
+
+### Element spacers
+
+An [element spacer][element-spacer] is an empty space that goes between elements
+in a row.
+
+![A repeat-for block with the element spacers highlighted in pink][element-spacer-image]{: width="200"}
+
+[renderer]: /blockly/guides/create-custom-blocks/renderers/concepts/renderer
+[constants]: /blockly/guides/create-custom-blocks/renderers/concepts/constants
+[render-info]: /blockly/guides/create-custom-blocks/renderers/concepts/info
+[path-object]: /blockly/guides/create-custom-blocks/renderers/concepts/path-object
+[drawer]: /blockly/guides/create-custom-blocks/renderers/concepts/drawer
+[paths]: https://developer.mozilla.org/en-US/docs/Web/SVG/Tutorial/Paths
+[row]: /blockly/guides/create-custom-blocks/renderers/concepts/rows
+[element]: /blockly/guides/create-custom-blocks/renderers/concepts/elements
+[row-spacer]: /blockly/guides/create-custom-blocks/renderers/concepts/rows#row_spacer
+[element-spacer]: /blockly/guides/create-custom-blocks/renderers/concepts/elements#element_spacer
+[field]: /blockly/guides/create-custom-blocks/fields/overview
+[icon]: /blockly/guides/create-custom-blocks/icons/overview
+
+[row-image]: /blockly/images/rendering/debug-renderer/row.png
+[row-spacer-image]: /blockly/images/rendering/debug-renderer/row-spacer.png
+[element-image]: /blockly/images/rendering/debug-renderer/element.png
+[element-spacer-image]: /blockly/images/rendering/debug-renderer/element-spacer.png

@@ -1,0 +1,112 @@
+Project: /blockly/_project.yaml
+Book: /blockly/_book.yaml
+description: How to provide help for blocks.
+
+# Block help
+
+You can provide block help in the form of tooltips and a help URL.
+
+## Tooltips
+
+Tooltips offer instant help when the user hovers their mouse over the block.
+If the text is long, it will wrap automatically.
+
+*   {JSON}
+
+    ```js
+    {
+      // ...,
+      "tooltip": "Tooltip text."
+    }
+    ```
+
+*   {JavaScript}
+
+    ```js
+    init: function() {
+      this.setTooltip("Tooltip text.");
+    }
+    ```
+
+In the JavaScript API, tooltips can also be defined as a function instead of a
+static string. This allows for dynamic help. See `math_arithmetic` for an
+example of a tooltip that changes depending on which dropdown option has been
+chosen.
+
+*    {JavaScript}
+
+    ```js
+    Blockly.Blocks['math_arithmetic'] = {
+      init: function() {
+        // ...
+
+        // Assign 'this' to a variable for use in the tooltip closure below.
+        var thisBlock = this;
+        this.setTooltip(function() {
+          var mode = thisBlock.getFieldValue('OP');
+          var TOOLTIPS = {
+            'ADD': Blockly.Msg['MATH_ARITHMETIC_TOOLTIP_ADD'],
+            'MINUS': Blockly.Msg['MATH_ARITHMETIC_TOOLTIP_MINUS'],
+            'MULTIPLY': Blockly.Msg['MATH_ARITHMETIC_TOOLTIP_MULTIPLY'],
+            'DIVIDE': Blockly.Msg['MATH_ARITHMETIC_TOOLTIP_DIVIDE'],
+            'POWER': Blockly.Msg['MATH_ARITHMETIC_TOOLTIP_POWER']
+          };
+          return TOOLTIPS[mode];
+        });
+      }
+    };
+    ```
+
+Using the JavaScript API, blocks can specify a function, instead of a static
+string, which returns the tooltip string. This allows for dynamic tooltips.
+See `math_arithmetic` for an example.
+
+### Customizing
+
+You can also customize the look of your tooltips by providing a custom rendering
+function. Create a function that accepts two parameters:
+
+* first, a `<div>` element where you will render the content
+* second, the actual element that is being moused over and that you will show
+  the tooltip for
+
+In the body of the function, you can render whatever content you like into the
+div. To get the tooltip string defined on the block being moused over, you can
+call `Blockly.Tooltip.getTooltipOfObject(element);` where `element` is the
+second parameter above.
+
+Finally, register this function so Blockly can call it at the appropriate time:
+
+```js
+Blockly.Tooltip.setCustomTooltip(yourFnHere);
+```
+
+For an example, see the
+[Custom Tooltips demo](https://google.github.io/blockly-samples/examples/custom-tooltips-demo/).
+
+## Help URL
+
+Blocks can have a help page associated with them. This is available to users by
+right-clicking the block and selecting "Help" from the context menu. If this
+value is `null` then the "Help" item is not shown.
+
+*   {JSON}
+
+    ```js
+    {
+      // ...,
+      "helpUrl": "https://en.wikipedia.org/wiki/For_loop"
+    }
+    ```
+
+*   {JavaScript}
+
+    ```js
+    init: function() {
+      // ...
+      this.setHelpUrl('https://en.wikipedia.org/wiki/For_loop');
+    }
+    ```
+
+Using the JavaScript API, blocks can specify a function, instead of a static
+string, which returns a URL string, thus allowing for dynamic help.

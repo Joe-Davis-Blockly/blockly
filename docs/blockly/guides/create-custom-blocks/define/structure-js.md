@@ -1,0 +1,155 @@
+Project: /blockly/_project.yaml
+Book: /blockly/_book.yaml
+description: How to define block structure in JavaScript.
+
+# Block structure in JavaScript
+
+In this document, we'll discuss how to use JavaScript to define the inputs and
+fields (including labels) in your block. If you're not familiar with these
+terms, see [Anatomy of a
+block](/blockly/guides/create-custom-blocks/define/block-anatomy) before
+proceeding.
+
+You can also define your inputs, fields, and connections [in
+JSON](/blockly/guides/create-custom-blocks/define/structure-json).
+
+## Append inputs
+
+The JavaScript API includes an `append` method for each [input
+type](/blockly/guides/create-custom-blocks/define/block-anatomy#inputs):
+
+*   {JavaScript}
+
+    ```js
+    init: function() {
+      // ...
+      this.appendEndRowInput()
+          .appendField('for each')
+          .appendField('item')
+          .appendField(new Blockly.FieldVariable(), 'VAR');
+      this.appendValueInput('LIST')
+          .setCheck('Array')
+          .setAlign(Blockly.inputs.Align.RIGHT)
+          .appendField('in list');
+      this.appendStatementInput('DO')
+          .appendField('do');
+      this.appendDummyInput()
+          .appendField('end');
+    }
+    ```
+
+![A block with four rows. The first row has the labels "for each" and "item" and
+a variable dropdown with "x" chosen. The second row has the label "in list" and
+a value input. The third row has the label "do" and a statement input. And the
+last row has the label "end".](/blockly/images/append-input.png){: width='145'}
+
+Each `appendInput` method can take an identifier string, which is used by code
+generators to retrieve code for the block connected to the input. Code
+generators rarely reference dummy and end-of-row inputs, so there is generally
+no reason to assign them an identifier.
+
+The JavaScript API also includes a generic `appendInput` method for appending
+[custom inputs][custom-inputs]. Note that in this case, the identifier should
+be passed directly to your custom input's constructor.
+
+*   {JavaScript}
+
+    ```js
+    init: function() {
+      // ...
+      this.appendInput(new MyCustomInput('INPUT_NAME'))
+          .appendField('an example label')
+    }
+    ```
+
+All of the `appendInput` methods (both generic and non-generic) return the
+input object so that they can be further configured using method chaining. There
+are three built-in methods used for configuring inputs.
+
+## Append fields
+
+Once an input has been created and appended to a block with `appendInput`, one
+may optionally append any number of
+[fields](/blockly/guides/create-custom-blocks/define/block-anatomy#fields) to
+the input. These fields
+are often used as labels to describe what each input is for.
+
+*   {JavaScript}
+
+    ```js
+    init: function() {
+      // ...
+      this.appendDummyInput()
+          .appendField('hello');
+    }
+    ```
+
+![A block with the label "hello".](/blockly/images/append-field.png)
+
+The simplest field is a label. Blockly's convention is to use all
+lowercase text, with the exception of proper names (e.g. Google, SQL).
+
+An input row can contain any number of fields.  Multiple `appendField`
+calls may be chained together to efficiently add several fields to the same
+input row.
+
+*   {JavaScript}
+
+    ```js
+    init: function() {
+      // ...
+      this.appendDummyInput()
+          .appendField('hello')
+          .appendField(new Blockly.FieldLabel('Neil', 'person'));
+    }
+    ```
+
+![A block with the label "hello" in plain text and the label "Neil" in
+italics.](/blockly/images/append-field-label.png)
+
+The `appendField('hello')` call is actually a shortcut for using an explicit
+`FieldLabel` constructor: `appendField(new Blockly.FieldLabel('hello'))`.
+The only time one would wish to use the constructor is when specifying a
+class name so that the label may be styled using a CSS rule.
+
+## Connection checks
+
+*   {JavaScript}
+
+    ```js
+    init: function() {
+      // ...
+      this.appendValueInput('NUM')
+          .setCheck('Number');
+    }
+    ```
+
+The `setCheck` method is used for type-checking connections. If given
+an argument of null, the default, then this input may be connected to any block.
+See [Connection
+checks](/blockly/guides/create-custom-blocks/inputs/connection-checks) for
+details.
+
+## Align fields
+
+*   {JavaScript}
+
+    ```js
+    init: function() {
+      // ...
+      this.appendValueInput('LIST')
+          .appendField('in list')
+          .setAlign(Blockly.inputs.Align.RIGHT);
+    }
+    ```
+
+The `setAlign` method is used to align fields within an input. There are three
+self-descriptive values which may be passed as an argument to this function:
+`Blockly.inputs.Align.LEFT`, `Blockly.inputs.Align.RIGHT`, and
+`Blockly.inputs.Align.CENTER`.
+
+When a block is rendered in right-to-left mode (e.g. Arabic and Hebrew), left
+and right are reversed. Thus `Blockly.inputs.Align.RIGHT` would align fields to
+the left.
+
+[custom-inputs]: /blockly/guides/create-custom-blocks/inputs/creating-custom-inputs

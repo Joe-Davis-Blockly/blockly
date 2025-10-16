@@ -1,0 +1,35 @@
+Project: /blockly/_project.yaml
+Book: /blockly/_book.yaml
+
+# Built-in fields
+
+Blockly provides a number of prebuilt fields that you can use when defining a
+block. There are also a number of fields available as
+[plugins](/blockly/guides/programming/plugin_overview).
+
+Built-in fields:
+
++ [Checkbox](/blockly/guides/create-custom-blocks/fields/built-in-fields/checkbox)
++ [Dropdown](/blockly/guides/create-custom-blocks/fields/built-in-fields/dropdown)
++ [Image](/blockly/guides/create-custom-blocks/fields/built-in-fields/image)
++ [Label](/blockly/guides/create-custom-blocks/fields/built-in-fields/label)
++ [Serializable label](/blockly/guides/create-custom-blocks/fields/built-in-fields/label-serializable)
++ [Number](/blockly/guides/create-custom-blocks/fields/built-in-fields/number)
++ [Text input](/blockly/guides/create-custom-blocks/fields/built-in-fields/text-input)
++ [Variables](/blockly/guides/create-custom-blocks/fields/built-in-fields/variable)
+
+Plugin fields:
+
++ [Angle picker](https://www.npmjs.com/package/@blockly/field-angle)
++ [Bitmap](https://www.npmjs.com/package/@blockly/field-bitmap)
++ [Colour picker](https://www.npmjs.com/package/@blockly/field-colour)
++ [Colour picker with HSV sliders](https://www.npmjs.com/package/@blockly/field-colour-hsv-sliders)
++ [Date](https://www.npmjs.com/package/@blockly/field-date)
++ [Dropdown grid](https://www.npmjs.com/package/@blockly/field-grid-dropdown)
++ [Dependent dropdown](https://www.npmjs.com/package/@blockly/field-dependent-dropdown)
++ [Multiline text input](https://www.npmjs.com/package/@blockly/field-multilineinput)
++ [Number slider](https://www.npmjs.com/package/@blockly/field-slider)
+
+For a full list of plugin fields, see [Blockly Plugins & Demos][blockly-demos].
+
+[blockly-demos]: https://google.github.io/blockly-samples/#fields
