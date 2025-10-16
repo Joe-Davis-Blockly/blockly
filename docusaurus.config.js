@@ -17,7 +17,7 @@ const createUnderscoreSlug = (str) => {
     .toString()
     .toLowerCase()
     .trim()
-    .replace(/[^a-z0-9_- ]/g, '')  // Remove all characters except a-z, 0-9, hyphen, underscore, and space
+    .replace(/[^a-z0-9_\- ]/g, '')  // Remove all characters except a-z, 0-9, hyphen, underscore, and space
     .replace(/[ ][ ]+/g, ' ')         // Replace multiple spaces with a single space
     .replace(/[ ]/g, '_')      // Replace single spaces with underscores
 };
