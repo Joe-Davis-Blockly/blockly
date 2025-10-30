@@ -30,7 +30,7 @@ const sidebars = {
         {
           "type": "doc",
           "label": "1. Codelab-overview",
-          "id": "codelabs/getting-started/getting_started"
+          "id": "codelabs/getting-started/codelab-overview"
         },
         {
           "type": "doc",
@@ -47,6 +47,36 @@ const sidebars = {
           "label": "4. Add Blockly libraries",
           "id": "codelabs/getting-started/add-blockly-libraries"
         },
+        {
+          "type": "doc",
+          "label": "5. Create a Blockly workspace",
+          "id": "codelabs/getting-started/create-a-blockly-workspace"
+        },
+        {
+          "type": "doc",
+          "label": "6. Create a custom block",
+          "id": "codelabs/getting-started/create-a-custom-block"
+        },
+        {
+          "type": "doc",
+          "label": "7. Save/load workspace",
+          "id": "codelabs/getting-started/save-load-workspace"
+        },
+        {
+          "type": "doc",
+          "label": "8. Generate JavaScript code",
+          "id": "codelabs/getting-started/generate-javaScript-code"
+        },
+        {
+          "type": "doc",
+          "label": "9. Run generated code",
+          "id": "codelabs/getting-started/run-generated-code"
+        },
+        {
+          "type": "doc",
+          "label": "10. The End",
+          "id": "codelabs/getting-started/the-end"
+        },
       ]
     },
     {
@@ -56,7 +86,277 @@ const sidebars = {
         {
           "type": "doc",
           "label": "1. Codelab-overview",
-          "id": "codelabs/custom-generator/custom_generator",
+          "id": "codelabs/custom-generator/codelab-overview",
+        },
+        {
+          "type": "doc",
+          "label": "2. Setup",
+          "id": "codelabs/custom-generator/setup",
+        },
+        {
+          "type": "doc",
+          "label": "3. The basics",
+          "id": "codelabs/custom-generator/the-basics",
+        },
+        {
+          "type": "doc",
+          "label": "4. Block generator overview",
+          "id": "codelabs/custom-generator/block-generator-overview",
+        },
+        {
+          "type": "doc",
+          "label": "5. Value block generators",
+          "id": "codelabs/custom-generator/value-block-generators",
+        },
+        {
+          "type": "doc",
+          "label": "6. Member block generator",
+          "id": "codelabs/custom-generator/member-block-generator",
+        },
+        {
+          "type": "doc",
+          "label": "7. Array block generator",
+          "id": "codelabs/custom-generator/array-block-generator",
+        },
+        {
+          "type": "doc",
+          "label": "8. Object block generator",
+          "id": "codelabs/custom-generator/object-block-generator",
+        },
+        {
+          "type": "doc",
+          "label": "9. Generating a stack",
+          "id": "codelabs/custom-generator/generating-a-stack",
+        },
+        {
+          "type": "doc",
+          "label": "10. Summary",
+          "id": "codelabs/custom-generator/summary",
+        },
+      ]
+    },
+    {
+      type: 'category',
+      label: 'Build custom renderers',
+      items: [
+        {
+          "type": "doc",
+          "label": "1. Codelab-overview",
+          "id": "codelabs/custom-renderer/codelab-overview",
+        },
+        {
+          "type": "doc",
+          "label": "2. Setup",
+          "id": "codelabs/custom-renderer/setup",
+        },
+        {
+          "type": "doc",
+          "label": "3. Observe the built-in renderers",
+          "id": "codelabs/custom-renderer/observe-the-built-in-renderers",
+        },
+        {
+          "type": "doc",
+          "label": "4. Define and register a custom renderer",
+          "id": "codelabs/custom-renderer/define-and-register-a-custom-renderer",
+        },
+        {
+          "type": "doc",
+          "label": "5. Override constants",
+          "id": "codelabs/custom-renderer/override-constants",
+        },
+        {
+          "type": "doc",
+          "label": "6. Understand connection shapes",
+          "id": "codelabs/custom-renderer/understand-connection-shapes",
+        },
+        {
+          "type": "doc",
+          "label": "7. Change connection shapes",
+          "id": "codelabs/custom-renderer/change-connection-shapes",
+        },
+        {
+          "type": "doc",
+          "label": "8. Typed connection shapes",
+          "id": "codelabs/custom-renderer/typed-connection-shapes",
+        },
+        {
+          "type": "doc",
+          "label": "9. Summary",
+          "id": "codelabs/custom-renderer/summary",
+        }
+      ]
+    },
+    {
+      type: 'category',
+      label: 'Customizing a Blockly toolbox',
+      items: [
+        {
+          "type": "doc",
+          "label": "1. Codelab-overview",
+          "id": "codelabs/custom-toolbox/codelab-overview",
+        },
+        {
+          "type": "doc",
+          "label": "2. Setup",
+          "id": "codelabs/custom-toolbox/setup",
+        },
+        {
+          "type": "doc",
+          "label": "3. Change the look of a category",
+          "id": "codelabs/custom-toolbox/change-the-look-of-a-category",
+        },   
+        {
+          "type": "doc",
+          "label": "4. Change the look of a selected category",
+          "id": "codelabs/custom-toolbox/change-the-look-of-a-selected-category",
+        },
+        {
+          "type": "doc",
+          "label": "5. Add an icon to your category",
+          "id": "codelabs/custom-toolbox/add-an-icon-to-your-category",
+        },
+        {
+          "type": "doc",
+          "label": "6. Change the category HTML",
+          "id": "codelabs/custom-toolbox/change-the-category-HTML",
+        },
+        {
+          "type": "doc",
+          "label": "7. Adding a custom toolbox item",
+          "id": "codelabs/custom-toolbox/adding-a-custom-toolbox-item",
+        },
+        {
+          "type": "doc",
+          "label": "8. Summary",
+          "id": "codelabs/custom-toolbox/summary",
+        },
+      ]
+    },
+    {
+      type: 'category',
+      label: 'Customizing your context menus',
+      items: [
+        {
+          "type": "doc",
+          "label": "1. Codelab-overview",
+          "id": "codelabs/context-menu-option/codelab-overview",
+        },
+        {
+          "type": "doc",
+          "label": "2. Setup",
+          "id": "codelabs/context-menu-option/setup",
+        },
+        {
+          "type": "doc",
+          "label": "3. Add a context menu option to the workspace",
+          "id": "codelabs/context-menu-option/add-a-context-menu-option-to-the-workspace",
+        },
+        {
+          "type": "doc",
+          "label": "4. Scope type",
+          "id": "codelabs/context-menu-option/scope-type",
+        },   
+        {
+          "type": "doc",
+          "label": "5. Precondition",
+          "id": "codelabs/context-menu-option/precondition",
+        }, 
+        {
+          "type": "doc",
+          "label": "6. Scope",
+          "id": "codelabs/context-menu-option/scope",
+        },   
+        {
+          "type": "doc",
+          "label": "7. Callback",
+          "id": "codelabs/context-menu-option/callback",
+        },   
+        {
+          "type": "doc",
+          "label": "8. Display text",
+          "id": "codelabs/context-menu-option/display-text",
+        },   
+        {
+          "type": "doc",
+          "label": "9. Weight and id",
+          "id": "codelabs/context-menu-option/weight-and-id",
+        },   
+        {
+          "type": "doc",
+          "label": "10. Summary",
+          "id": "codelabs/context-menu-option/summary",
+        },
+      ]
+    },
+    {
+      type: 'category',
+      label: 'Customizing your themes',
+      items: [
+        {
+          "type": "doc",
+          "label": "1. Codelab-overview",
+          "id": "codelabs/theme-extension/codelab-overview",
+        },
+        {
+          "type": "doc",
+          "label": "2. Setup",
+          "id": "codelabs/theme-extension/setup",
+        },  
+        {
+          "type": "doc",
+          "label": "3. Workspace Theme",
+          "id": "codelabs/theme-extension/workspace-theme",
+        }, 
+        {
+          "type": "doc",
+          "label": "4. Customize Components",
+          "id": "codelabs/theme-extension/customize-components",
+        }, 
+        {
+          "type": "doc",
+          "label": "5. Customize Category Styles",
+          "id": "codelabs/theme-extension/customize-category-styles",
+        }, 
+        {
+          "type": "doc",
+          "label": "6. Customize Block Styles",
+          "id": "codelabs/theme-extension/customize-block-styles",
+        },
+        {
+          "type": "doc",
+          "label": "7. Summary",
+          "id": "codelabs/theme-extension/summary",
+        },   
+      ]
+    },
+    {
+      type: 'category',
+      label: 'Validating Blocks and Displaying a Warning Indicator',
+      items: [
+        {
+          "type": "doc",
+          "label": "1. Codelab-overview",
+          "id": "codelabs/validation-and-warnings/codelab-overview",
+        },
+        {
+          "type": "doc",
+          "label": "2. Setup",
+          "id": "codelabs/validation-and-warnings/setup",
+        },
+        {
+          "type": "doc",
+          "label": "3. Validating blocks",
+          "id": "codelabs/validation-and-warnings/validating-blocks",
+        }, 
+        {
+          "type": "doc",
+          "label": "4. Displaying warnings",
+          "id": "codelabs/validation-and-warnings/displaying-warnings",
+        },
+        {
+          "type": "doc",
+          "label": "5. Summary",
+          "id": "codelabs/validation-and-warnings/summary",
         },
       ]
     },

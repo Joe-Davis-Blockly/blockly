@@ -1,10 +1,12 @@
-## 1. Codelab overview
+# Getting started with Blockly
 
-### What you'll learn
+# 1. Codelab overview
 
-This codelab will teach you how to modify a simple web app to include the [Blockly](https://developers.google.com/blockly/) visual programming library.
+## What you'll learn
 
-### What is Blockly?
+This codelab will teach you how to modify a simple web app to include the [Blockly](/blockly/guides/get-started/what-is-blockly) visual programming library.
+
+## What is Blockly?
 
 Blockly is a library for building block programming apps.
 
@@ -12,15 +14,15 @@ Block programming allows users to create scripts and programs by using visual bl
 
 Blockly includes everything you need for defining and rendering blocks in a drag-n-drop editor. Each block represents a chunk of code that can be easily stacked and translated into code.
 
-### What you'll build
+## What you'll build
 
 MusicMaker, a web app where you can program buttons to play different sounds, using Blockly.
 
-![image](play_mode.png)
+![image](../../../static/images/codelabs/getting-started/play_mode.png)
 
-![image](d4_three_times.png)
+![image](../../../static/images/codelabs/getting-started/d4_three_times.png)
 
-### What you'll need
+## What you'll need
 
 -  A browser
 -  A text editor

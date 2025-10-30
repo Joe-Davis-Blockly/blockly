@@ -1,0 +1,84 @@
+# Build a custom generator
+
+# 5. Value block generators
+
+This step will build the generators for the simple value blocks: `logic_null`, `text`, `math_number`, and `logic_boolean`.
+
+It will use `getFieldValue` on several types of fields.
+
+## Null
+
+The simplest block in this example is the `logic_null` block.
+
+![The null block simply returns "null".](../../../static/images/codelabs/custom-generator/null_block.png)
+
+No matter what, it generates the code `'null'`. Notice that this is a string, because all generated code is a string.
+Add the following code to `src/generators/json.js`:
+
+
+```js
+jsonGenerator.forBlock['logic_null'] = function(block) {
+  return ['null', Order.ATOMIC];
+};
+```
+
+## String
+
+Next is the `text` block.
+
+![The text block has an input for the user to type text into.](../../../static/images/codelabs/custom-generator/text_block.png)
+
+Unlike `logic_null`, there is a single text input field on this block. Use `getFieldValue`:
+
+```js
+const textValue = block.getFieldValue('TEXT');
+```
+
+Since this is a string in the generated code, wrap the value in quotation marks and return it:
+
+```js
+jsonGenerator.forBlock['text'] = function(block) {
+  const textValue = block.getFieldValue('TEXT');
+  const code = `"${textValue}"`;
+  return [code, Order.ATOMIC];
+};
+```
+
+## Number
+
+The `math_number` block has a number field.
+
+![The number block has an input for a user to type a number](../../../static/images/codelabs/custom-generator/number_block.png)
+
+Like the `text` block, the `math_number` block can use `getFieldValue`. Unlike the text block, the function doesn't need to wrap it in additional quotation marks, because in the JSON code, it won't be a string.
+
+However, like all generated code and as with `null` above, the function needs to return the code as a string from the generator.
+
+```js
+jsonGenerator.forBlock['math_number'] = function(block) {
+  const code = String(block.getFieldValue('NUM'));
+  return [code, Order.ATOMIC];
+};
+```
+
+## Boolean
+
+The `logic_boolean` block has a dropdown field named `BOOL`.
+
+![The boolean block lets the user select 'true' or 'false' from a dropdown menu.](../../../static/images/codelabs/custom-generator/boolean_block.png)
+
+Calling `getFieldValue` on a dropdown field returns the value of the selected option, which may not be the same as the display text. In this case the dropdown has two possible values: `TRUE` and `FALSE`.
+
+```js
+jsonGenerator.forBlock['logic_boolean'] = function(block) {
+  const code = (block.getFieldValue('BOOL') === 'TRUE') ? 'true' : 'false';
+  return [code, Order.ATOMIC];
+};
+```
+
+## Summary
+
+- Value blocks return an array containing the value as a string and the precedence.
+- `getFieldValue` finds the field with the specified name and returns its value.
+- The type of the return value from `getFieldValue` depends on the type of the field.
+  - Each field type must document what its value represents.
