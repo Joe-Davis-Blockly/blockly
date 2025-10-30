@@ -50,7 +50,7 @@ contains all of the other components. This is where you do the work of
 programming!
 
 ![A workspace with a category toolbox, scroll bars, trashcan, and zoom
-controls.][workspace-img] {/* .blockly-workspace-img */}
+controls.][workspace-img] {/* .blockly-workspace-img .screenshot */}
 
 ### Toolbox
 
@@ -65,7 +65,7 @@ These can both be displayed vertically and horizontally.
 [Flyout toolboxes][flyout-toolbox] (aka simple toolboxes) have one set of blocks
 which is displayed at all times.
 
-![A workspace with a flyout toolbox containing four blocks.][flyout-toolbox-img]
+![A workspace with a flyout toolbox containing four blocks.][flyout-toolbox-img] {/* .blockly-flyout-toolbox-img .screenshot */}
 
 #### Category toolbox
 
@@ -73,7 +73,7 @@ which is displayed at all times.
 
 ![A workspace with a category toolbox with eight categories (Logic, Loops, Math,
 etc.). No blocks are visible because no categories have been
-opened.][category-toolbox-img]
+opened.][category-toolbox-img] {/* .blockly-category-toolbox-img .screenshot */}
 
 If you click a category item it opens a flyout that displays the blocks in the
 category.

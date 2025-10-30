@@ -71,3 +71,7 @@
 .blockly-workspace-img img {
   max-width: 70%;
 }
+
+.screenshot img {
+  border: 1px solid #000;
+}
