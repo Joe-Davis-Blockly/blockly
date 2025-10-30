@@ -383,7 +383,7 @@ const sidebars = {
         },
         {
           type: "doc",
-          label: "Workspace Anatomy",
+          label: "Visual glossary",
           id: "guides/get-started/workspace-anatomy",
         },
         {

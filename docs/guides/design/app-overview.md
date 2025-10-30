@@ -63,7 +63,7 @@ Almost all Blockly applications share a few basic components: a Blockly editor
 the [Maze](https://blockly.games/maze?level=4) in Blockly Games.
 
 ![The UI of a maze application with an editor, an output panel, and a Run
-button.](/blockly/images/application-overview/games-maze.png){: width="75%"}
+button.](/blockly/images/application-overview/games-maze.png) {/* .blockly-maze-img */}
 
 A few Blockly applications omit the "Run" button and instead update the output
 panel every time the user makes a change. For example, the

@@ -5,6 +5,7 @@
 // See: https://docusaurus.io/docs/api/docusaurus-config
 
 import {themes as prismThemes} from 'prism-react-renderer';
+import remarkAttributes from 'remark-attributes';
 
 /**
  * A custom function to generate URL-friendly slugs with underscores.
@@ -92,6 +93,7 @@ const config = {
           // Remove this to remove the "edit this page" links.
           editUrl:
             'https://github.com/Joe-Davis-Blockly/blockly/tree/cybage-blockly/',
+          remarkPlugins: [remarkAttributes],
         },
         blog: false,
         theme: {

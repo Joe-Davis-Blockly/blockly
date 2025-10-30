@@ -1,6 +1,8 @@
+---
 Project: /blockly/_project.yaml
 Book: /blockly/_book.yaml
 description: How to properly attribute Blockly.
+---
 
 {# style linter off #}
 
@@ -86,7 +88,7 @@ To ensure legibility, badges should not be used with a height smaller than 24px.
 For lockups, provide at least x-height and width x1 white space around the
  logo. Never crowd or overlap the logo with other elements.
 
-<h3 style="clear:both">Other uses of the Blockly logo</h3>
+### Other uses of the Blockly logo
 
 Do not use the Blockly mark or any variant of the Blockly mark in conjunction
 with the overall name of your application, product, service, or website without
