@@ -248,23 +248,23 @@ const sidebars = {
         },
         {
           "type": "doc",
-          "label": "3. Add a context menu option to the workspace",
-          "id": "codelabs/context-menu-option/add-a-context-menu-option-to-the-workspace",
+          "label": "3. Add a context menu item",
+          "id": "codelabs/context-menu-option/add-a-context-menu-item",
         },
         {
           "type": "doc",
-          "label": "4. Scope type",
-          "id": "codelabs/context-menu-option/scope-type",
+          "label": "4. Precondition: Node type",
+          "id": "codelabs/context-menu-option/precondition-node-type",
         },   
         {
           "type": "doc",
-          "label": "5. Precondition",
-          "id": "codelabs/context-menu-option/precondition",
+          "label": "5. Precondition: External state",
+          "id": "codelabs/context-menu-option/precondition-external-state",
         }, 
         {
           "type": "doc",
-          "label": "6. Scope",
-          "id": "codelabs/context-menu-option/scope",
+          "label": "6. Precondition: Blockly state",
+          "id": "codelabs/context-menu-option/precondition-blockly-state",
         },   
         {
           "type": "doc",
@@ -283,7 +283,12 @@ const sidebars = {
         },   
         {
           "type": "doc",
-          "label": "10. Summary",
+          "label": "10. Separators",
+          "id": "codelabs/context-menu-option/separators",
+        },
+        {
+          "type": "doc",
+          "label": "11. Summary",
           "id": "codelabs/context-menu-option/summary",
         },
       ]
