@@ -1,6 +1,6 @@
-Project: /blockly/_project.yaml
-Book: /blockly/_book.yaml
+---
 description: What workspace comments are and how to use them.
+---
 
 # Workspace comments
 

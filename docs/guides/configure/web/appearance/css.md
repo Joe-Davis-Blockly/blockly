@@ -1,6 +1,6 @@
-Project: /blockly/_project.yaml
-Book: /blockly/_book.yaml
+---
 description: Customizing the look and feel of your application with CSS.
+---
 
 # Style with CSS
 

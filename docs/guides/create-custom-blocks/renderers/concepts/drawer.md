@@ -1,6 +1,6 @@
-Project: /blockly/_project.yaml
-Book: /blockly/_book.yaml
+---
 description: What the drawer class is and what it does.
+---
 
 # Drawer
 

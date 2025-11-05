@@ -1,6 +1,6 @@
-Project: /blockly/_project.yaml
-Book: /blockly/_book.yaml
+---
 description: What a draggable is, and how to implement one.
+---
 
 # Custom draggables
 

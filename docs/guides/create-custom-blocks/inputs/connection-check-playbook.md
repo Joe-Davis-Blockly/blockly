@@ -1,6 +1,6 @@
-Project: /blockly/_project.yaml
-Book: /blockly/_book.yaml
+---
 description: Examples of using connection checks.
+---
 
 # Connection check playbook
 

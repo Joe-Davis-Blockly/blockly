@@ -1,6 +1,6 @@
-Project: /blockly/_project.yaml
-Book: /blockly/_book.yaml
+---
 description: An editable text field for inputting single-line values.
+---
 
 # Text input fields
 

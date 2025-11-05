@@ -1,6 +1,6 @@
-Project: /blockly/_project.yaml
-Book: /blockly/_book.yaml
+---
 description: How to define a flyout toolbox, which displays a single set of blocks.
+---
 
 # Define a flyout toolbox
 

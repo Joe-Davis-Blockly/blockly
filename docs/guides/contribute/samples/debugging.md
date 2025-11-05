@@ -1,6 +1,6 @@
-Project: /blockly/_project.yaml
-Book: /blockly/_book.yaml
+---
 description: How to test changes in blockly-samples that depend on changes in Blockly core.
+---
 
 # Debug plugins
 

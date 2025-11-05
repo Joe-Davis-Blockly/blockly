@@ -1,6 +1,6 @@
-Project: /blockly/_project.yaml
-Book: /blockly/_book.yaml
+---
 description: Introduction to creating custom blocks.
+---
 
 # Custom blocks overview
 

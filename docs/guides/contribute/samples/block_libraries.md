@@ -1,6 +1,6 @@
-Project: /blockly/_project.yaml
-Book: /blockly/_book.yaml
+---
 description: Guidance for publishing plugins that contain block libraries.
+---
 
 # Publish block libraries
 

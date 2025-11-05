@@ -1,6 +1,6 @@
-Project: /blockly/_project.yaml
-Book: /blockly/_book.yaml
+---
 description: How the copy paste system works, and how to implement custom copy paste handling.
+---
 
 # Copy and paste
 

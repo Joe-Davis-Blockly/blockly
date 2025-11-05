@@ -1,6 +1,6 @@
-Project: /blockly/_project.yaml
-Book: /blockly/_book.yaml
+---
 description: The types of content available in blockly-samples.
+---
 
 # Repository structure
 

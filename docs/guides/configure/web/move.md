@@ -1,6 +1,6 @@
-Project: /blockly/_project.yaml
-Book: /blockly/_book.yaml
+---
 description: Configuration options for how the workspace can be moved.
+---
 
 # Move option
 

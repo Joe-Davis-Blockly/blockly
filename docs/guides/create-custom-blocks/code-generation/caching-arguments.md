@@ -1,6 +1,6 @@
-Project: /blockly/_project.yaml
-Book: /blockly/_book.yaml
+---
 description: How to cache code from inner value blocks referenced multiple times.
+---
 
 # Cache inner value block code
 

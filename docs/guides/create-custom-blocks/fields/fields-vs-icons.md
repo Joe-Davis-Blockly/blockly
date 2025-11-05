@@ -1,6 +1,6 @@
-Project: /blockly/_project.yaml
-Book: /blockly/_book.yaml
+---
 description: The differences and similarities between fields and icons.
+---
 
 # Fields vs icons
 

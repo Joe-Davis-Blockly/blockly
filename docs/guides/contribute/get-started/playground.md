@@ -1,6 +1,6 @@
-Project: /blockly/_project.yaml
-Book: /blockly/_book.yaml
+---
 description: The best way to develop with Blockly.
+---
 
 # Use the playground
 

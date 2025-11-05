@@ -1,6 +1,6 @@
-Project: /blockly/_project.yaml
-Book: /blockly/_book.yaml
+---
 description: Overview of how Blockly conceptualizes procedures.
+---
 
 # Procedures
 

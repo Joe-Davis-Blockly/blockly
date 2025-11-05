@@ -1,6 +1,6 @@
-Project: /blockly/_project.yaml
-Book: /blockly/_book.yaml
+---
 description: Plugins, their types, and how to use them.
+---
 
 # Plugins
 

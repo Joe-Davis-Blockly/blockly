@@ -1,6 +1,6 @@
-Project: /blockly/_project.yaml
-Book: /blockly/_book.yaml
+---
 description: How to safely extend Blockly's APIs.
+---
 
 # Advanced customization
 

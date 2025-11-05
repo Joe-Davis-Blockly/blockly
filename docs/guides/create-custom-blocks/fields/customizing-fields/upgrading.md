@@ -1,7 +1,6 @@
-Project: /blockly/_project.yaml
-Book: /blockly/_book.yaml
+---
 description: Upgrading custom fields that were implemented before version 2.
-
+---
 
 # Upgrade a custom field
 

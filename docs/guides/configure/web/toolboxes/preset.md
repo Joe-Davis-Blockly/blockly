@@ -1,6 +1,6 @@
-Project: /blockly/_project.yaml
-Book: /blockly/_book.yaml
+---
 description: How to preset the configuration of blocks in the toolbox
+---
 
 # Preset blocks
 

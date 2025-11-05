@@ -1,6 +1,6 @@
-Project: /blockly/_project.yaml
-Book: /blockly/_book.yaml
+---
 description: What a dragger is, and how to implement one.
+---
 
 # Custom draggers
 

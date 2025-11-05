@@ -1,6 +1,6 @@
-Project: /blockly/_project.yaml
-Book: /blockly/_book.yaml
+---
 description: Events that Blockly surfaces to allow you to react to user actions.
+---
 
 # Events
 

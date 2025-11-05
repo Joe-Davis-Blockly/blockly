@@ -1,6 +1,6 @@
-Project: /blockly/_project.yaml
-Book: /blockly/_book.yaml
+---
 description: The differences between block- and text-based languages.
+---
 
 # Block- vs. text-based languages
 

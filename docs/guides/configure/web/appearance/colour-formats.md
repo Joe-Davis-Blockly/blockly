@@ -1,6 +1,6 @@
-Project: /blockly/_project.yaml
-Book: /blockly/_book.yaml
+---
 description: Describes Blockly's colour formats and how to reference them.
+---
 
 # Colour formats
 

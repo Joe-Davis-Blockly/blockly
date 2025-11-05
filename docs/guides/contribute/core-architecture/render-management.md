@@ -1,6 +1,6 @@
-Project: /blockly/_project.yaml
-Book: /blockly/_book.yaml
+---
 description: What the render management system is, and how it works.
+---
 
 # Render management
 

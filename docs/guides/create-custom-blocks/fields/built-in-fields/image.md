@@ -1,6 +1,6 @@
-Project: /blockly/_project.yaml
-Book: /blockly/_book.yaml
+---
 description: A field for showing images to the user.
+---
 
 # Image fields
 

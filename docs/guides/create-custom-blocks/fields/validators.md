@@ -1,6 +1,6 @@
-Project: /blockly/_project.yaml
-Book: /blockly/_book.yaml
+---
 description: How to limit the range of valid values that can be held by a field.
+---
 
 # Validators
 

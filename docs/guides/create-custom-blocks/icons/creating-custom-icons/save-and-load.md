@@ -1,6 +1,6 @@
-Project: /blockly/_project.yaml
-Book: /blockly/_book.yaml
+---
 description: How to save and load custom icons.
+---
 
 # Save and load icons
 

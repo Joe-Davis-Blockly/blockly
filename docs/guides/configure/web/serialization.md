@@ -1,6 +1,6 @@
-Project: /blockly/_project.yaml
-Book: /blockly/_book.yaml
+---
 description: Saving and loading the state of Blockly workspaces.
+---
 
 # Save and load
 

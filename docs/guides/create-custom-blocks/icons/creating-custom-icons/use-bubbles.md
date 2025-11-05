@@ -1,6 +1,6 @@
-Project: /blockly/_project.yaml
-Book: /blockly/_book.yaml
+---
 description: How to use pop-up bubbles within your custom icon.
+---
 
 # Use pop-up bubbles
 

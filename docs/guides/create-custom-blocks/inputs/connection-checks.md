@@ -1,6 +1,6 @@
-Project: /blockly/_project.yaml
-Book: /blockly/_book.yaml
+---
 description: How to further restrict which blocks can connect to each other.
+---
 
 # Connection checks
 

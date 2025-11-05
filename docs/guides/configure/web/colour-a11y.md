@@ -1,6 +1,6 @@
-Project: /blockly/_project.yaml
-Book: /blockly/_book.yaml
+---
 description: How colours affect accessibility.
+---
 
 # Colour and accessibility
 

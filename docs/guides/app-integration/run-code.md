@@ -1,6 +1,6 @@
-Project: /blockly/_project.yaml
-Book: /blockly/_book.yaml
+---
 description: How to generate and run code for all blocks.
+---
 
 # Generate and run code
 

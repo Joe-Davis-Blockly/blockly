@@ -1,6 +1,6 @@
-Project: /blockly/_project.yaml
-Book: /blockly/_book.yaml
+---
 description: Understanding the visibility of Blockly's APIs.
+---
 
 # API visibility
 

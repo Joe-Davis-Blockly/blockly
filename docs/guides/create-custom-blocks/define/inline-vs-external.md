@@ -1,6 +1,6 @@
-Project: /blockly/_project.yaml
-Book: /blockly/_book.yaml
+---
 description: The difference between inline and external inputs.
+---
 
 # Inline vs. external inputs
 

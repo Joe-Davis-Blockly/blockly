@@ -1,6 +1,6 @@
-Project: /blockly/_project.yaml
-Book: /blockly/_book.yaml
+---
 description: The process a pull request goes through before being merged.
+---
 
 # Code review process
 

@@ -1,6 +1,6 @@
-Project: /blockly/_project.yaml
-Book: /blockly/_book.yaml
+---
 description: The style guide for code contributions to Blockly.
+---
 
 # Style guide
 

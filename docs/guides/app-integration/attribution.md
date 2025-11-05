@@ -1,9 +1,6 @@
 ---
-Project: /blockly/_project.yaml
-Book: /blockly/_book.yaml
 description: How to properly attribute Blockly.
 ---
-
 {# style linter off #}
 
 # Attribute Blockly

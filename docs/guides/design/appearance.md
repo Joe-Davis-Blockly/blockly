@@ -1,6 +1,6 @@
-Project: /blockly/_project.yaml
-Book: /blockly/_book.yaml
+---
 description: Design considerations for block appearance.
+---
 
 # Block appearance
 

@@ -1,6 +1,6 @@
-Project: /blockly/_project.yaml
-Book: /blockly/_book.yaml
+---
 description: How to add a plugin field to Block Factory.
+---
 
 # Add a plugin field to Block Factory
 

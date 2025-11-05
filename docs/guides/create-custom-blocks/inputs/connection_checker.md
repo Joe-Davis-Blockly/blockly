@@ -1,6 +1,6 @@
-Project: /blockly/_project.yaml
-Book: /blockly/_book.yaml
+---
 description: An interface for controlling how Blockly determines which blocks can connect and how.
+---
 
 # Custom connection checkers
 

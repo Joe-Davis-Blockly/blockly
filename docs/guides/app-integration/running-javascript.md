@@ -1,6 +1,6 @@
-Project: /blockly/_project.yaml
-Book: /blockly/_book.yaml
+---
 description: Advanced methods for evaluating generated JavaScript code.
+---
 
 # Generate and run JavaScript
 
@@ -205,4 +205,3 @@ of interpreting JavaScript step by step. And [this
 demo](https://google.github.io/blockly-samples/examples/interpreter-demo/async-execution.html)
 includes a wait block, a good example to use for other asynchronous behavior
 (e.g., speech or audio, user input).
-

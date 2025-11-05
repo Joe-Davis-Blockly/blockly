@@ -1,6 +1,6 @@
-Project: /blockly/_project.yaml
-Book: /blockly/_book.yaml
+---
 description: Recommendations for writing education applications.
+---
 
 # Educational applications
 

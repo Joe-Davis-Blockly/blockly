@@ -1,6 +1,6 @@
-Project: /blockly/_project.yaml
-Book: /blockly/_book.yaml
+---
 description: What code generation is, and how to implement it.
+---
 
 # Code generation
 

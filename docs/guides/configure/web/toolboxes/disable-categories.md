@@ -1,6 +1,6 @@
-Project: /blockly/_project.yaml
-Book: /blockly/_book.yaml
+---
 description: How to disable, hide, or expand categories in a category toolbox.
+---
 
 # Disable, hide, or expand categories
 

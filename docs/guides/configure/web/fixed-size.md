@@ -1,7 +1,6 @@
-Project: /blockly/_project.yaml
-Book: /blockly/_book.yaml
+---
 description: How to inject a Blockly workspace that is a fixed size.
-
+---
 
 # Fixed-sized workspace
 

@@ -1,6 +1,6 @@
-Project: /blockly/_project.yaml
-Book: /blockly/_book.yaml
+---
 description: A non-editable text field whose value is serialized.
+---
 
 # Serializable label fields
 

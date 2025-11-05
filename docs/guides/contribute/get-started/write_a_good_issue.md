@@ -1,6 +1,6 @@
-Project: /blockly/_project.yaml
-Book: /blockly/_book.yaml
+---
 description: Steps and recommendations for writing a good issue.
+---
 
 # Write a good issue
 

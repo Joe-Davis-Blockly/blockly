@@ -1,5 +1,5 @@
-Project: /blockly/_project.yaml
-Book: /blockly/_book.yaml
+
+
 
 # Built-in fields
 

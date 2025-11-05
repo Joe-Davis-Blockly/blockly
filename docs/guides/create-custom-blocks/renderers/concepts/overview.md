@@ -1,6 +1,6 @@
-Project: /blockly/_project.yaml
-Book: /blockly/_book.yaml
+---
 description: An overview of important renderer concepts.
+---
 
 # Renderer concepts
 

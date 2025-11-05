@@ -1,6 +1,6 @@
-Project: /blockly/_project.yaml
-Book: /blockly/_book.yaml
+---
 description: Issue labels used in blocky and blockly-samples.
+---
 
 # Issue labels
 

@@ -1,6 +1,6 @@
-Project: /blockly/_project.yaml
-Book: /blockly/_book.yaml
+---
 description: How commit messages should be structured.
+---
 
 # Commit message guide
 

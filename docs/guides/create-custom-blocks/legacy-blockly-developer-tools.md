@@ -1,6 +1,6 @@
-Project: /blockly/_project.yaml
-Book: /blockly/_book.yaml
+---
 description: How to use Blockly's tools for defining blocks, toolboxes, and workspaces.
+---
 
 # Legacy Blockly Developer Tools
 

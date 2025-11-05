@@ -1,6 +1,6 @@
-Project: /blockly/_project.yaml
-Book: /blockly/_book.yaml
+---
 description: Adding extra functionality into the behavior of blocks.
+---
 
 # Extensions and mixins
 

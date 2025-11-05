@@ -1,6 +1,6 @@
-Project: /blockly/_project.yaml
-Book: /blockly/_book.yaml
+---
 description: What block comments are and how to use them.
+---
 
 # Block comments
 

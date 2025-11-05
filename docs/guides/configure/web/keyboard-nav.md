@@ -1,6 +1,6 @@
-Project: /blockly/_project.yaml
-Book: /blockly/_book.yaml
+---
 description: Navigating the workspace using a keyboard.
+---
 
 # Keyboard navigation
 

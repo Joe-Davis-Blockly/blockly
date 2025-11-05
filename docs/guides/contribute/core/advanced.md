@@ -1,6 +1,6 @@
-Project: /blockly/_project.yaml
-Book: /blockly/_book.yaml
+---
 description: Reducing the size of Blockly using Closure Compiler.
+---
 
 # Advanced compilation
 

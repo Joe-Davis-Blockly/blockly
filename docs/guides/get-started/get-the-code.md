@@ -1,6 +1,6 @@
-Project: /blockly/_project.yaml
-Book: /blockly/_book.yaml
+---
 description: How to get the code to integrate Blockly into your application.
+---
 
 <!-- Whenever you update this page update the following as well! -->
 <!-- https://github.com/google/blockly/blob/develop/scripts/package/README.md -->

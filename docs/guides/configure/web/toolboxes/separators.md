@@ -1,6 +1,6 @@
-Project: /blockly/_project.yaml
-Book: /blockly/_book.yaml
+---
 description: How to add separators to flyout and category toolboxes.
+---
 
 # Separators
 

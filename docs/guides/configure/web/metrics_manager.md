@@ -1,6 +1,6 @@
-Project: /blockly/_project.yaml
-Book: /blockly/_book.yaml
+---
 description: An interface for controlling how the workspace understands the sizes of its parts.
+---
 
 # Metrics Manager
 

@@ -1,6 +1,6 @@
-Project: /blockly/_project.yaml
-Book: /blockly/_book.yaml
+---
 description: How to contribute (not just code!) to Blockly.
+---
 
 # Contribute to Blockly
 

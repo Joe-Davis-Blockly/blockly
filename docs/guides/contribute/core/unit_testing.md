@@ -1,6 +1,6 @@
-Project: /blockly/_project.yaml
-Book: /blockly/_book.yaml
+---
 description: Blockly's unit testing setup and requirements.
+---
 
 # Unit tests
 

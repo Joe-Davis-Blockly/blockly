@@ -1,6 +1,6 @@
-Project: /blockly/_project.yaml
-Book: /blockly/_book.yaml
+---
 description: How to create custom previews for pending connections.
+---
 
 # Connection previewers
 

@@ -1,6 +1,6 @@
-Project: /blockly/_project.yaml
-Book: /blockly/_book.yaml
+---
 description: The process for building Blockly.
+---
 
 # Build scripts
 

@@ -1,6 +1,6 @@
-Project: /blockly/_project.yaml
-Book: /blockly/_book.yaml
+---
 description: The order in which parts of a field are initialized.
+---
 
 # Lifecycle
 
@@ -29,4 +29,3 @@ Field creation happens in the order below.
 1.  Field XML value is set.
 
 ![Flowchart describing construction and initialization of a field](/blockly/images/fields/field_construction_flowchart.jpg)
-

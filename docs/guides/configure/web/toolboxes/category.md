@@ -1,6 +1,6 @@
-Project: /blockly/_project.yaml
-Book: /blockly/_book.yaml
+---
 description: How to define a category toolbox, which arranges sets of blocks into categories.
+---
 
 # Define a category toolbox
 

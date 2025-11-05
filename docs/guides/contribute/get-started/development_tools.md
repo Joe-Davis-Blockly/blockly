@@ -1,6 +1,6 @@
-Project: /blockly/_project.yaml
-Book: /blockly/_book.yaml
+---
 description: Tools used to contribute code to Blockly.
+---
 
 # Development tools
 
@@ -94,4 +94,3 @@ tests.
 **Read more**: Chai has multiple "flavors" of syntax, to make it easy to
 integrate with existing projects. Blockly uses the
 [assert](https://www.chaijs.com/api/assert/) flavor.
-

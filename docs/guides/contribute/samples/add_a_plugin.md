@@ -1,6 +1,6 @@
-Project: /blockly/_project.yaml
-Book: /blockly/_book.yaml
+---
 description: The process for creating a plugin.
+---
 
 # Add a plugin
 

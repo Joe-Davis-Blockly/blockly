@@ -1,6 +1,6 @@
-Project: /blockly/_project.yaml
-Book: /blockly/_book.yaml
+---
 description: How to name your plugins consistently.
+---
 
 # Plugin naming conventions
 

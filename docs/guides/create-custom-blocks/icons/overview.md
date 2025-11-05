@@ -1,6 +1,6 @@
-Project: /blockly/_project.yaml
-Book: /blockly/_book.yaml
+---
 description: What icons are, and how to customize them.
+---
 
 # Icons
 

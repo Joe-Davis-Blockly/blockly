@@ -1,6 +1,6 @@
-Project: /blockly/_project.yaml
-Book: /blockly/_book.yaml
+---
 description: How to create custom procedure blocks.
+---
 
 # Create custom procedure blocks
 

@@ -1,6 +1,6 @@
-Project: /blockly/_project.yaml
-Book: /blockly/_book.yaml
+---
 description: Configuration options for Blockly's workspace grid.
+---
 
 # Grid option
 

@@ -1,6 +1,6 @@
-Project: /blockly/_project.yaml
-Book: /blockly/_book.yaml
+---
 description: Basic information about creating a toolbox, which allows users to access your blocks.
+---
 
 # Add a toolbox
 

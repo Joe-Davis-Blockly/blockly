@@ -1,6 +1,6 @@
-Project: /blockly/_project.yaml
-Book: /blockly/_book.yaml
+---
 description: How to transform field values for use in generated code strings.
+---
 
 # Transform field values
 

@@ -1,6 +1,6 @@
-Project: /blockly/_project.yaml
-Book: /blockly/_book.yaml
+---
 description: Why to use Blockly, and alternative solutions.
+---
 
 # Why Blockly?
 

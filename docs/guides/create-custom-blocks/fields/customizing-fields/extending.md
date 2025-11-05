@@ -1,6 +1,6 @@
-Project: /blockly/_project.yaml
-Book: /blockly/_book.yaml
+---
 description: How to add functionality to an existing field.
+---
 
 # Extend an existing field
 

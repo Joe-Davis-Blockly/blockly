@@ -1,6 +1,6 @@
-Project: /blockly/_project.yaml
-Book: /blockly/_book.yaml
+---
 description: How to add a new localization token to Blockly core.
+---
 
 # Add a new localization token to Blockly core
 
