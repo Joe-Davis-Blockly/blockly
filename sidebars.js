@@ -642,7 +642,7 @@ const sidebars = {
             },
             {
               type: "doc",
-              label: "Programmatic access",
+              label: "Modify toolboxes",
               id: "guides/configure/web/toolboxes/modify",
             },
           ],
@@ -903,7 +903,7 @@ const sidebars = {
           items: [
             {
               type: "doc",
-              label: "CConnection checks",
+              label: "Connection checks",
               id: "guides/create-custom-blocks/inputs/connection-checks",
             },
             {
