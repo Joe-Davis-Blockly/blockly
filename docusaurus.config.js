@@ -4,7 +4,7 @@
 // There are various equivalent ways to declare your Docusaurus config.
 // See: https://docusaurus.io/docs/api/docusaurus-config
 
-import {themes as prismThemes} from 'prism-react-renderer';
+import { themes as prismThemes } from 'prism-react-renderer';
 import remarkAttributes from 'remark-attributes';
 
 /**
@@ -27,7 +27,7 @@ const createUnderscoreSlug = (str) => {
 // PART 2: THE PREPROCESSOR BOILERPLATE (You can safely ignore this part)
 // =============================================================================
 
-const headingIdPreprocessor = ({fileContent}) => {
+const headingIdPreprocessor = ({ fileContent }) => {
   const lines = fileContent.split('\n');
   const processedLines = lines.map((line) => {
     const headingRegex = /^(#{1,6}\s+.*)/;
@@ -161,6 +161,54 @@ const config = {
           hideable: true,
           autoCollapseCategories: true,
         },
+      },
+      footer: {
+        copyright: 'Raspberry Pi Foundation UK registered charity 1129409',
+        links: [
+          {
+            title: 'Docs',
+            items: [
+              {
+                label: 'Guides',
+                to: '/blockly/guides/get-started/what-is-blockly',
+              },
+              {
+                label: 'Reference',
+                to: '/blockly/reference/js/blockly',
+              },
+              {
+                label: 'Codelabs',
+                to: '/blockly/codelabs/',
+              },
+            ],
+          },
+          {
+            title: 'Community',
+            items: [
+              {
+                label: 'Community Forum',
+                to: 'https://groups.google.com/g/blockly',
+              },
+              {
+                label: 'Blockly Summit',
+                to: 'http://www.blocklysummit.com',
+              },
+              {
+                label: 'Blockly Youtube',
+                to: 'https://www.youtube.com/@blocklydev',
+              },
+            ],
+          },
+          {
+            title: 'Contact',
+            items: [
+              {
+                label: 'Contact Us',
+                to: 'mailto:support@blockly.com',
+              },
+            ],
+          },
+        ]
       },
     }),
 };
