@@ -38,4 +38,4 @@ the details of how blocks work. For more information see
 [Why Blockly?][why-blockly]
 
 [blockly-apps]: https://developers.google.com/blockly#learn-with-blockly
-[why-blockly]: /blockly/guides/get-started/why-blockly.md
+[why-blockly]: /blockly/guides/get-started/why-blockly
