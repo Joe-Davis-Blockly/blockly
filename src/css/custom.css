@@ -96,7 +96,7 @@
 }
 
 .expandButton_TmdG{
-  align-items: end;
+  align-items: end !important;
 }
 
 .expandButtonIcon_i1dp{
