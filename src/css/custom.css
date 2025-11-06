@@ -100,7 +100,7 @@
 
 /* --- Added to make 'note' admonitions blue 50 #E8F0FE' --- */
 
-.alert--secondary {
+[data-theme]:not([data-theme='dark']) .alert--secondary {
   --ifm-alert-background-color: #E8F0FE;
   --ifm-alert-background-color-highlight: #54c7ec26;
   --ifm-alert-foreground-color: var(--ifm-color-info-contrast-foreground);
