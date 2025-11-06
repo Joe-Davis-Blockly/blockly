@@ -45,9 +45,8 @@ const headingIdPreprocessor = ({ fileContent }) => {
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'My Site',
-  tagline: 'Dinosaurs are cool',
-  favicon: 'img/favicon.ico',
+  title: 'Blockly Docs',
+  favicon: 'img/logo.svg',
 
   // Future flags, see https://docusaurus.io/docs/api/docusaurus-config#future
   future: {
@@ -114,9 +113,9 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       // Replace with your project's social card
-      image: 'img/docusaurus-social-card.jpg',
+      image: 'img/logo.svg',
       navbar: {
-        title: 'My Site',
+        title: 'Blockly',
         logo: {
           alt: 'My Site Logo',
           src: 'img/logo.svg',
@@ -142,7 +141,7 @@ const config = {
           },
           {
             label: 'GitHub',
-            href: 'https://github.com/facebook/docusaurus',
+            href: 'https://github.com/raspberrypifoundation/blockly',
             position: 'right',
           },
         ],

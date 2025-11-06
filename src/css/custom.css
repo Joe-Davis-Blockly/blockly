@@ -4,7 +4,7 @@
  * work well for content-centric websites.
  */
 
-@import url('https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700|Google+Sans:400,500|Product+Sans:400&lang=en&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700|Google+Sans:400,500|Google+Sans+Text:400,500,700,400i,500i,700i|Product+Sans:400&lang=en&display=swap');
 
 /* You can override the default Infima variables here. */
 :root {
@@ -19,13 +19,10 @@
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
 
   /* --docusaurus-font-family-base is the variable for the main font */
-  --ifm-font-family-base: 'Google Sans', sans-serif;
+  --ifm-font-family-base: 'Google Sans Text', sans-serif;
 
-  --background-color-footer: #fff;
-  --border-footer: #dadce0;
-  --font-color-footer: #202124;
-  --font-color-hover-footer: #1a73e8;
-  --border-divider-footer: #dadce0;
+  /*--ifm-font-family-heading: 'Google Sans', sans-serif;*/
+  --ifm-heading-font-family: 'Google Sans', sans-serif;
 }
 
 /* For readability concerns, you should choose a lighter palette in dark mode. */
@@ -38,12 +35,6 @@
   --ifm-color-primary-lighter: #32d8b4;
   --ifm-color-primary-lightest: #4fddbf;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
-
-  --background-color-footer: #1c1e21;
-  --border-footer: #dadce042;
-  --font-color-footer: #dadde1;
-  --font-color-hover-footer: #25c2a0;
-  --border-divider-footer: #dadce042;
 }
 
 /* Hide the previous/next pagination links */
@@ -64,15 +55,8 @@
 }
 
 /* Hides the main h1 title on doc pages */
-/* .theme-doc-markdown h1:first-child {
-  display: none;
-} */
-
-/* Override Infima's default H1 font size for first-child H1 in markdown */
-/* The default 3rem comes from Infima theme's .markdown h1:first-child rule */
-.markdown h1:first-child,
 .theme-doc-markdown h1:first-child {
-  --ifm-h1-font-size: 2rem;
+  display: none;
 }
 
 .blockly-maze-img {
@@ -95,41 +79,11 @@
   border: 1px solid #000;
 }
 
-.expandButton_TmdG{
-  align-items: end !important;
-}
+/* --- Added to make 'note' admonitions blue 50 #E8F0FE' --- */
 
-.expandButtonIcon_i1dp{
-  margin-bottom: 10px;
+.alert--secondary {
+  --ifm-alert-background-color: #E8F0FE;
+  --ifm-alert-background-color-highlight: #54c7ec26;
+  --ifm-alert-foreground-color: var(--ifm-color-info-contrast-foreground);
+  --ifm-alert-border-color: #4285F4;
 }
-
-.DocSearch-Button-Keys{
-  min-width: 0px !important;
-}
-
-/* footer CSS */
-.footer{
-  background-color: var(--background-color-footer);
-  border-top: 1px solid var(--border-footer);
-}
-
-.footer__links{
-  border-block-end: 1px solid var(--border-divider-footer);
-  padding-bottom: 1rem;
-}
-
-.footer__title{
-  font-weight: 400;
-  font-size: 16px;
-}
-
-.footer__link-item{
-  font-size: 14px;
-  color: var(--font-color-footer);
-}
-
-.footer__link-item:hover{
-  text-decoration: none;
-  color: var(--font-color-hover-footer);
-}
-
