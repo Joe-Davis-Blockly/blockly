@@ -1,8 +1,8 @@
 # Customizing your themes
 
-# 1. Codelab overview
+## 1. Codelab overview
 
-## What you'll learn
+### What you'll learn
 
 In this codelab you will learn how to:
 - Add component styles.
@@ -10,10 +10,10 @@ In this codelab you will learn how to:
 - Add a block style.
 
 
-## What you'll build
+### What you'll build
 A very simple Blockly workspace with customized themes.
 
-## What you'll need
+### What you'll need
 - A browser
 - Basic knowledge of HTML, CSS, and JavaScript.
 

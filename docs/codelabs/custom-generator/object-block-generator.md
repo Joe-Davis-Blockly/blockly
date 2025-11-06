@@ -1,6 +1,6 @@
 # Build a custom generator
 
-# 8. Object block generator
+## 8. Object block generator
 
 This section will write the generator for the `object` block and will demonstrate how to use `statementToCode`.
 
@@ -18,7 +18,7 @@ The generated code looks like this:
 }
 ```
 
-## Get the contents
+### Get the contents
 
 We'll use `statementToCode` to get the code for the blocks attached to the statement input of the `object` block.
 
@@ -34,7 +34,7 @@ const statement_members =
     generator.statementToCode(block, 'MEMBERS');
 ```
 
-## Format and return
+### Format and return
 
 Wrap the statements in curly brackets and return the code, using the default precedence:
 
@@ -44,7 +44,7 @@ return [code, Order.ATOMIC];
 ```
 Note that `statementToCode` handles the indentation automatically.
 
-## Test it
+### Test it
 
 Here is the full block generator:
 

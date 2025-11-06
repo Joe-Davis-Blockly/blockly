@@ -1,13 +1,13 @@
 # Build custom renderers
 
-# 7. Change connection shapes
+## 7. Change connection shapes
 
 This step will define and use new shapes for previous/next connections and input/output connections. This takes three steps:
 1. Define new shape objects.
 1. Override `init()` to store the new shape objects.
 1. Override `shapeFor(connection)` to return the new objects.
 
-## Define a previous/next connection shape
+### Define a previous/next connection shape
 
 An outline path is drawn clockwise around the block, starting at the top left. As a result the previous connection is drawn from left-to-right, while the next connection is drawn from right-to-left.
 
@@ -54,7 +54,7 @@ Define a new function called `makeRectangularPreviousConn()` and put it inside t
   }
 ```
 
-## Define an input/output connection shape
+### Define an input/output connection shape
 
 Just as previous/next connection shapes are drawn from left-to-right and right-to-left, input/output connection shapes are drawn from top-to-bottom and bottom-to-top.
 
@@ -101,7 +101,7 @@ Define a new function called `makeRectangularInputConn()` and put it inside the 
   }
 ```
 
-## Override init()
+### Override init()
 
 Override the `init()` function in the `CustomConstantProvider` class definition and store the new shape objects as `RECT_PREV_NEXT` and `RECT_INPUT_OUTPUT`. Make sure to call the superclass `init()` function to store other objects that have not been overridden.
 
@@ -119,7 +119,7 @@ Override the `init()` function in the `CustomConstantProvider` class definition 
   }
 ```
 
-## Override shapeFor(connection)
+### Override shapeFor(connection)
 
 Next, override the `shapeFor(connection)` function in the `CustomConstantProvider` class definition and return the new custom objects:
 
@@ -141,7 +141,7 @@ Next, override the `shapeFor(connection)` function in the `CustomConstantProvide
   }
 ```
 
-## The result
+### The result
 
 Return to the browser, click on the `Loops` entry, and drag out a repeat block.  The resulting block should have rectangular connections for all four connection types.
 

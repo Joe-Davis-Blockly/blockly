@@ -1,10 +1,10 @@
 # Customizing your context menus
 
-# 9. Weight and id
+## 9. Weight and id
 
 The last two properties of a registry item are `weight` and `id`.
 
-## Weight
+### Weight
 
 The `weight` property is a number that determines the order of the options in the context menu. A higher number means your option will be lower in the list.
 
@@ -12,7 +12,7 @@ Test this by updating the `weight` property on one of your new registry items an
 
 Note that weight does not have to be positive or integer-valued.
 
-## Id
+### Id
 
 Every registry item has an `id` that can be used to unregister it. You can use this to get rid of registry items that you don't want.
 
@@ -22,6 +22,6 @@ For instance, you can remove the item that deletes all blocks on the workspace:
   Blockly.ContextMenuRegistry.registry.unregister('workspaceDelete');
 ```
 
-## Default items
+### Default items
 
 For a list of the default registry items that Blockly provides, look at [contextmenu_items.ts](https://github.com/google/blockly/blob/master/core/contextmenu_items.ts). Each entry contains both the `id` and the `weight`.

@@ -1,6 +1,6 @@
 # Build custom renderers
 
-# 9. Summary
+## 9. Summary
 
 Custom renderers are a powerful way to change the look and feel of Blockly.  In this codelab you learned:
 - How to declare and register a custom renderer by extending `Blockly.blockRendering.Renderer`.

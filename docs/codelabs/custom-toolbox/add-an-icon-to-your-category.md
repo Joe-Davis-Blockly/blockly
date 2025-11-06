@@ -1,6 +1,6 @@
 # Customizing a Blockly toolbox
 
-# 5. Add an icon to your category
+## 5. Add an icon to your category
 
 We are going to add an icon to our "Logic" category by adding an icon library to
 our `index.html` file, and  setting the appropriate CSS class on our category definition.
@@ -23,7 +23,7 @@ to be:
 All the classes used to create a category can be set similar to how we set the
 icon class above. See the [Blockly toolbox documentation](https://developers.google.com/blockly/guides/configure/web/toolboxes/appearance#category_css) for more information.
 
-## Add some CSS
+### Add some CSS
 If you open `index.html` you will notice that the gear icon is positioned
 incorrectly and is a bit difficult to see. We will use the `customIcon` class to
 change the color of the icon and use the `blocklyTreeRowContentContainer` class
@@ -46,7 +46,7 @@ In your `toolbox_style.css` file add:
 }
 ```
 
-## Update setSelected
+### Update setSelected
 If you open `index.html` and click on the "Logic" category you will notice
 that the white icon now blends into the white background.
 
@@ -89,7 +89,7 @@ Your `setSelected` method should look similar to below:
          Blockly.utils.aria.State.SELECTED, isSelected);
   }
 ```
-## The result
+### The result
 If you open your `index.html` file, you should see a white gear above your "Logic"
 label, and it should change to blue when the category has been selected.
 

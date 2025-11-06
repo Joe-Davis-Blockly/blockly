@@ -1,8 +1,8 @@
 # Customizing a Blockly toolbox
 
-# 2. Setup
+## 2. Setup
 
-## Download the sample code
+### Download the sample code
 You can get the sample code for this codelab by either downloading the zip here:
 
 [Download zip](https://github.com/google/blockly-samples/archive/master.zip)
@@ -27,7 +27,7 @@ To run the code, simply open `starter-code/index.html` in a browser. You should 
 
 ![A web page with the text "Toolbox Customization Codelab" and a Blockly workspace.](../../../static/images/codelabs/custom-toolbox/starter_workspace.png)
 
-## Define and register a custom category
+### Define and register a custom category
 To start, create a file named `custom_category.js` in the `starter-code`
 directory. Include your new file by adding a script tag to `index.html`.
 
@@ -64,7 +64,7 @@ toolbox item instead of adding a new one, we must pass in `true` as the last
 argument. If this flag is `false`, `Blockly.registry.register` will throw
 an error because we are overriding an existing class.
 
-## The result
+### The result
 
 To test, open `index.html` in a browser. Your toolbox should look the same as it
 did before.

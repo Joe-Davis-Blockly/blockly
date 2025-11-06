@@ -1,8 +1,8 @@
 # Customizing a Blockly toolbox
 
-# 3. Change the look of a category
+## 3. Change the look of a category
 
-## Change the background of the category
+### Change the background of the category
 
 In the default `ToolboxCategory` class, the `addColourBorder_` method adds a strip of color next
 to the category name. We can override this method in order to add colour to the entire category div.
@@ -33,7 +33,7 @@ The logic_category style looks like:
 ```
 For more information on Blockly styles please visit the [themes documentation](/blockly/guides/configure/web/appearance/themes#category_style).
 
-## Add some CSS
+### Add some CSS
 
 Open `index.html` to see your updated toolbox. Your toolbox should look
 similar to the below toolbox.
@@ -67,7 +67,7 @@ Copy and paste the following CSS into your `toolbox_style.css` file.
 }
 ```
 
-## The result
+### The result
 
 Open `index.html` to see your toolbox.
 

@@ -1,6 +1,7 @@
 # Customizing your themes
 
-# 6. Customize Block Styles
+## 6. Customize Block Styles
+
 A block style currently only holds three different colour properties. They are 'colourPrimary',
 'colourSecondary' and 'colourTertiary'. This value can either be defined as a hex value or as a hue.
 For more information on block styles visit our themes [documentation](/blockly/guides/configure/web/appearance/themes#block_style)
@@ -64,7 +65,7 @@ Blockly.Themes.Halloween = Blockly.Theme.defineTheme('halloween', {
 });
 ```
 
-## Test it
+### Test it
 
 Click on different blocks in the component and you should see the colours that you applied show up.
 

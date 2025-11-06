@@ -1,8 +1,8 @@
 # Customizing a Blockly toolbox
 
-# 1. Codelab overview
+## 1. Codelab overview
 
-## What you'll learn
+### What you'll learn
 This codelab will focus on customizing the Blockly toolbox.
 
 In this codelab you will learn:
@@ -12,7 +12,7 @@ In this codelab you will learn:
 1. How to change the structure of your category HTML.
 1. How to add a custom toolbox item.
 
-## What you'll build
+### What you'll build
 
 Over the course of this codelab you will customize your toolbox categories as well
 as create a custom toolbox item.
@@ -22,7 +22,7 @@ The resulting toolbox is shown below.
 
 The code samples are written in ES6 syntax. You can find the code for the [completed custom toolbox](https://github.com/google/blockly-samples/tree/master/examples/custom-toolbox-codelab/complete-code/index.html) on GitHub.
 
-## What you'll need
+### What you'll need
 - A browser.
 - A text editor.
 - Basic knowledge of HTML, CSS, and JavaScript.

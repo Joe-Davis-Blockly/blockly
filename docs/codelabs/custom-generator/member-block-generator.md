@@ -1,6 +1,6 @@
 # Build a custom generator
 
-# 6. Member block generator
+## 6. Member block generator
 
 This step will build the generator for the `member` block. It will use the function `getFieldValue`, and introduce the function `valueToCode`.
 
@@ -10,7 +10,7 @@ The member block has a text input field and a value input.
 
 The generated code looks like `"property name": "property value"`.
 
-## Field value
+### Field value
 
 The **property name** is the value of the text input, which is fetched via `getFieldValue`:
 
@@ -20,7 +20,7 @@ const name = block.getFieldValue('MEMBER_NAME');
 
 Recall: the name of the value being fetched is `MEMBER_NAME` because that is how it was defined in `src/blocks/json.js`.
 
-## Input value
+### Input value
 
 The **property value** is whatever is attached to the value input. A variety of blocks could be attached there:  `logic_null`, `text`, `math_number`, `logic_boolean`, or even an array (`lists_create_with`). Use `valueToCode` to get the correct value:
 
@@ -38,7 +38,7 @@ If no block is attached, `valueToCode` returns `null`. In another generator, `va
 
 The third argument is related to operator precedence. It is used to determine if parentheses need to be added around the value. In JSON, parentheses will never be added, as discussed in an earlier section.
 
-## Build the code string
+### Build the code string
 
 Next, assemble the arguments `name` and `value` into the correct code, of the form `"name": value`.
 
@@ -46,7 +46,7 @@ Next, assemble the arguments `name` and `value` into the correct code, of the fo
 const code = `"${name}": ${value}`;
 ```
 
-## Put it all together
+### Put it all together
 
 All together, here is block generator for the member block:
 

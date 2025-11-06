@@ -1,6 +1,6 @@
 # Customizing your themes
 
-# 5. Customize Category Styles
+## 5. Customize Category Styles
 
 A category style currently only holds a colour property. It is the colour of the category on the toolbox.
 This value can either be defined as a hex value or as a hue. Usually these colours should be the same as
@@ -44,7 +44,7 @@ Blockly.Themes.Halloween = Blockly.Theme.defineTheme('halloween', {
 
 ```
 
-## Test it
+### Test it
 
 The colour displayed next to the toolbox category should display your new colours.
 Clicking on a category will highlight the row with your new colour.

@@ -1,6 +1,6 @@
 # Customizing your themes
 
-# 4. Customize Components
+## 4. Customize Components
 
 Within the Halloween theme definition, you can customize the colours of multiple components:
 
@@ -24,7 +24,7 @@ Blockly.Themes.Halloween = Blockly.Theme.defineTheme('halloween', {
 });
 ```
 
-## Test it
+### Test it
 
 Reload your web page. You should see a themed workspace!
 

@@ -1,10 +1,10 @@
 # Build custom renderers
 
-# 6. Understand connection shapes
+## 6. Understand connection shapes
 
 A common use case of a custom renderer is changing the shape of connections. This requires a more detailed understanding of how a block is drawn and how SVG paths are defined.
 
-## The block outline
+### The block outline
 
 The outline of the block is a single [SVG path](https://developer.mozilla.org/en-US/docs/Web/SVG/Element/path). The outline is built out of many sub-paths (e.g. the path for a previous connection; the path for the top of the block; and the path for an input connection).
 
@@ -12,7 +12,7 @@ Each sub-path is a string of [path commands](https://developer.mozilla.org/en-US
 
 SVG path commands can be written as strings, but Blockly provides a set of [utility functions](/blockly/reference/js/blockly.utils_namespace.svgpaths_namespace) to make writing and reading paths easier.
 
-## `init()`
+### `init()`
 
 A connection's shape is stored as an object with information about its width, height, and sub-path. These objects are created in the `ConstantProvider`s `init()` function. Here is the start of the default implementation. The complete definition can be found inside [`constants.ts`](https://github.com/google/blockly/blob/develop/core/renderers/common/constants.ts).
 
@@ -36,7 +36,7 @@ init() {
 
 **Properties that are primitives should be set in the `constructor()`, while objects should be set in `init()`**. This separation allows a subclass to override a constant such as `NOTCH_WIDTH` and see the change reflected in objects that depend on the constant.
 
-## `shapeFor(connection)`
+### `shapeFor(connection)`
 
 The `shapeFor(connection)` function maps from connection to connection shape. Here is the default implementation, which can be found inside [`constants.ts`](https://github.com/google/blockly/blob/develop/core/renderers/common/constants.ts). It returns a puzzle tab for input/output connections and a notch for previous/next connections:
 

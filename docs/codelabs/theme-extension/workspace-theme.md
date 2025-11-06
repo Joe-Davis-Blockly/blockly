@@ -1,10 +1,10 @@
 # Customizing your themes
 
-# 3. Workspace Theme
+## 3. Workspace Theme
 
 In this section you will create a very basic halloween theme, then inject it to display in the workspace.
 
-## Themes
+### Themes
 
 Themes are a way to customize the look and feel of Blockly. Currently, we support customizing block colours, category colours and certain components through the Themes class.
 

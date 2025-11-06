@@ -1,6 +1,6 @@
 # Validating Blocks and Displaying a Warning Indicator
 
-# 4. Displaying warnings
+## 4. Displaying warnings
 
 Both Blockly's built-in validators and custom validators are nice because they immediately correct any errors so that there should never be any interruption in the validity of the blocks in the workspace or in the validity of the code that it generates. This results in a smooth, pleasant experience for the user, and you should take advantage of these validators whenever possible.
 

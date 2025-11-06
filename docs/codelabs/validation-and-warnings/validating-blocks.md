@@ -1,9 +1,9 @@
 # Validating Blocks and Displaying a Warning Indicator
 
-# 3. Validating blocks
+## 3. Validating blocks
 When you're designing custom blocks, you may find that it doesn't make sense to use the block in certain ways. Depending on the intended purpose of your block, you may want to add constraints on the possible values that can be assigned to its fields, or on where it is used.
 
-## Basic field constraints
+### Basic field constraints
 Blockly generally allows users to enter negative values and decimal values for number fields, but for this custom block, let's make sure that only positive whole numbers are allowed. Add `'min': 0` and `'precision': 1` to the fields in the custom block definition so that they look like this:
 
 ```js
@@ -29,7 +29,7 @@ Then reload `index.html`, drag the custom block to your workspace, and try enter
 
 If you want, you can also add a `'max'` constraint to a number field.
 
-## Adding custom validation to a field
+### Adding custom validation to a field
 The built-in constraints are very convenient, but sometimes you might need to add custom constraints. For example, let's say that our custom block needs the first number of the range to be even, and the last number to be odd. We can easily implement the even constraint by setting the `'precision'` constraint of the `FIRST` field to `2`, but the odd constraint requires a custom validator.
 
 So far, we've been using Blockly's JSON API for defining custom blocks, but Blockly also has a JavaScript API with more advanced features, and one of those features is defining custom validators. Fortunately, we don't have to convert our entire custom block definition to the JavaScript API in order to take advantage of these advanced features, because Blockly has a system for adding JavaScript extensions to blocks that were defined with the JSON API.

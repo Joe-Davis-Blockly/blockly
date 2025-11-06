@@ -1,7 +1,6 @@
 # Customizing your context menus
 
-# 8. Display text
-
+## 8. Display text
 
 So far the `displayText` has always been a simple string, but it can also be HTML, or a function that returns either of the former. Using a function can be useful when you want a context-dependent message.
 
@@ -37,7 +36,7 @@ function registerDisplayItem() {
 
 As usual, remember to call `registerDisplayItem()` from your `start` function.
 
-## Test it
+### Test it
 
 - Reload the workspace and open context menus on various blocks.
 - The last context menu option's text should vary based on the block type.

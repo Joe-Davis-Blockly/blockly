@@ -1,10 +1,10 @@
 # Build custom renderers
 
-# 2. Setup
+## 2. Setup
 
 This codelab will add code to the Blockly sample app to create and use a new custom renderer.
 
-## The application
+### The application
 
 Use the Use the [`npx @blockly/create-package`](https://www.npmjs.com/package/@blockly/create-package) command to create a standalone application that contains a sample setup of Blockly, including custom blocks and a display of the generated code and output.
   1. Run `npx @blockly/create-package app custom-renderer-codelab`.  This will create a blockly application in the folder `custom-renderer-codelab`.

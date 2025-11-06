@@ -1,6 +1,6 @@
 # Customizing your context menus
 
-# 10. Separators
+## 10. Separators
 
 You can use separators to break your context menu into different sections.
 
@@ -32,6 +32,6 @@ function registerSeparators() {
 
 As usual, remember to call `registerSeparators()` from your `start` function.
 
-## Test it
+### Test it
 
 Open a context menu on the workspace and a block and check that the separator line is there.

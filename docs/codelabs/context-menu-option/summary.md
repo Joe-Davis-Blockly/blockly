@@ -1,10 +1,10 @@
 # Customizing your context menus
 
-# 11. Summary
+## 11. Summary
 
 In this codelab you have learned how to create and modify context menu options. You have learned about scope, preconditions, callbacks, and display text.
 
-## Additional information
+### Additional information
 
 - [Context menu documentation](/blockly/guides/configure/web/context-menus)
 

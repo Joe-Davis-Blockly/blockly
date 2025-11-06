@@ -1,6 +1,6 @@
 # Getting started with Blockly
 
-# 9. Run generated code
+## 9. Run generated code
 
 Most of your work so far has been in the **Edit** mode. Now you will update the **Play** mode to actually execute the custom code associated with each block.
 
@@ -29,7 +29,7 @@ try {
 }
 ```
 
-## The full code
+### The full code
 
 The end result should look like this:
 
@@ -46,10 +46,10 @@ function handlePlay(event) {
 }
 ```
 
-## A note on eval
+### A note on eval
 Executing scripts with eval is not always the safest option - we use it here for simplicity. If you intend to run the user's blocks in production, check out the <a href="https://github.com/NeilFraser/JS-Interpreter">JS Interpreter project</a>. This project is separate from Blockly, but was specifically written for Blockly.
 
-## Test it
+### Test it
 
 Run the app and try it out! Edit one of the buttons to play a D4 sound 3 times:
 

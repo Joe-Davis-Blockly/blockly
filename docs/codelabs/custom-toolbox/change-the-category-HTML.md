@@ -1,12 +1,12 @@
 # Customizing a Blockly toolbox
 
-# 6. Change the category HTML
+## 6. Change the category HTML
 If you only need to change the CSS, like we did in the previous section, then using the cssConfig is a great choice.
 However, if you need to change the html, maybe to add text, an image, or anything else, you can override
 the corresponding method that creates the dom. In this example, we'll add an `<img>`
 to our category by overriding the `createIconDom_` method.
 
-## Change the element for our icon
+### Change the element for our icon
 By default, the `createIconDom_` method adds a `<span>` element for the category
 icon. We can override this to return an `<img>` element.
 
@@ -23,7 +23,7 @@ createIconDom_() {
 }
 ```
 
-## The result
+### The result
 If you open `index.html` you should now see the blockly logo on top of all your
 categories
 

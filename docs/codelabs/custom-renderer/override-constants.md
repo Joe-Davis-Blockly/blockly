@@ -1,6 +1,6 @@
 # Build custom renderers
 
-# 5. Override constants
+## 5. Override constants
 
 A **ConstantsProvider** holds all rendering-related constants.  This includes sizing information and colours. Blockly provides a base **ConstantsProvider** with all required fields set to default values.
 
@@ -62,7 +62,7 @@ To use the new **CustomConstantProvider**, override `makeConstants_()` inside th
   }
 ```
 
-## The result
+### The result
 
 Return to the browser, click on the `Loops` entry, and drag out a repeat block.  The resulting block should have triangular previous and next connections, and skinny input and output connections. Note that the general shapes of the connections have not changed--only parameters such as width and height.
 

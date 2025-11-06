@@ -1,6 +1,6 @@
 # Build a custom generator
 
-# 4. Block generator overview
+## 4. Block generator overview
 
 At its core, a block generator is a function that takes in a block (and optionally the language generator instance), translates the block into code, and returns that code as a string.
 
@@ -12,7 +12,7 @@ sampleGenerator.forBlock['sample_block'] = function(block, generator) {
 };
 ```
 
-## Statement blocks
+### Statement blocks
 
 Statement blocks represent code that does not return a value.
 
@@ -26,7 +26,7 @@ sampleGenerator.forBlock['left_turn_block'] = function(block, generator) {
 };
 ```
 
-## Value blocks
+### Value blocks
 
 Value blocks represent code that returns a value.
 
@@ -40,7 +40,7 @@ sampleGenerator.forBlock['two_block'] = function(block, generator) {
 };
 ```
 
-## Operator precedence
+### Operator precedence
 
 Operator precedence rules determine how the correct order of operations is maintained during parsing. In Blockly's generators, operator precedence determines when to add parentheses.
 

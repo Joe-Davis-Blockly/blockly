@@ -1,8 +1,8 @@
 # Getting started with Blockly
 
-# 2. Setup
+## 2. Setup
 
-## Download the sample code
+### Download the sample code
 
 You can get the sample code for this code by either downloading the zip here:
 

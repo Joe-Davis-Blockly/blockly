@@ -1,6 +1,6 @@
 # Build a custom generator
 
-# 7. Array block generator
+## 7. Array block generator
 
 This step will build the generator for the array block. You will learn how to indent code and handle a variable number of inputs.
 
@@ -21,7 +21,7 @@ The generated code looks like:
 
 As with member blocks, there are no restrictions on the types of blocks connected to inputs.
 
-## Gather values
+### Gather values
 
 Each value input on the block has a name: `ADD0`, `ADD1`, etc. Use `valueToCode` in a loop to build an array of values:
 
@@ -49,7 +49,7 @@ for (let i = 0; i < block.itemCount_; i++) {
 }
 ```
 
-## Format
+### Format
 
 At this point `values` is an array of `string`s. The strings contain the generated code for each input.
 
@@ -75,7 +75,7 @@ const codeString = '[\n' + indentedValueString + '\n]';
 return [codeString, Order.ATOMIC];
 ```
 
-## Putting it all together
+### Putting it all together
 
 Here is the final array block generator:
 
@@ -97,7 +97,7 @@ jsonGenerator.forBlock['lists_create_with'] = function(block, generator) {
 };
 ```
 
-## Test it
+### Test it
 
 Test the block generator by adding an array to the onscreen blocks and populating it.
 

@@ -1,6 +1,6 @@
 # Build a custom generator
 
-# 3. The basics
+## 3. The basics
 
 A *language generator* defines the basic properties of a language, such as how indentation works. *Block generators* define how individual blocks are turned into code, and must be defined for every block used.
 
@@ -10,7 +10,7 @@ A language generator has a single entry point: `workspaceToCode`. This function 
 - Cleans up any leftover state by calling `finish`.
 - Returns the generated code.
 
-## Create the language generator
+### Create the language generator
 
 The first step is to define and call the custom language generator.
 
@@ -22,7 +22,7 @@ import * as Blockly from 'blockly';
 export const jsonGenerator = new Blockly.CodeGenerator('JSON');
 ```
 
-## Generate code
+### Generate code
 
 Next, hook up the new generator with the sample app. First, remove the old code that imports the new block generator properties and assigns them to the `javascriptGenerator`. Remove these lines from `src/index.js`:
 
@@ -61,7 +61,7 @@ const outputDiv = document.getElementById('output');
 
 The generated code will now be shown automatically in the top left panel. Refresh the sample app page to see the changes so far.
 
-## Test it
+### Test it
 
 Put a number block on the workspace and check the generator output area. It's empty, so check the console. You should see an error:
 

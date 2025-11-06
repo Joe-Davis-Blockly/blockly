@@ -1,6 +1,6 @@
 # Customizing a Blockly toolbox
 
-# 4. Change the look of a selected category
+## 4. Change the look of a selected category
 
 Open your `index.html` and click on a category. You will see that it
 doesn't give any indication that it has been clicked. Worse than that, if you
@@ -36,7 +36,7 @@ setSelected(isSelected){
 }
 ```
 
-## The result
+### The result
 Open `index.html` and click on the "Logic" category. You should now see a white
 category with a colored label.
 

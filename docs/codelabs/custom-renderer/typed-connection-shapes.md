@@ -1,10 +1,10 @@
 # Build custom renderers
 
-# 8. Typed connection shapes
+## 8. Typed connection shapes
 
 This step will create a renderer that sets connection shapes at runtime based on a connection's type checks. It will use the default connection shapes and the shapes defined in the previous steps.
 
-## Override `shapeFor(connection)`
+### Override `shapeFor(connection)`
 
 Override the `shapeFor(connection)` function in the `CustomConstantProvider` class definition to return a different connection shape based on the `checks` returned from `connection.getCheck()`. Note the previous definition of `shapeFor(connection)` created in previous steps will need to be deleted.
 
@@ -37,7 +37,7 @@ shapeFor(connection) {
   }
 ```
 
-## The result
+### The result
 
 Take these steps to fully test this change in the browser:
 1. Click on the `Loops` entry and drag out a repeat block.

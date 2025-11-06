@@ -1,15 +1,15 @@
 # Build custom renderers
 
-# 1. Codelab overview
+## 1. Codelab overview
 
-## What you'll learn
+### What you'll learn
 
 - How to define and register a custom renderer.
 - How to override renderer constants.
 - How to change the shape of connection notches.
 - How to set a connection's shape based on its type checks.
 
-## What you'll build
+### What you'll build
 
 This codelab builds and uses four renderers:
 
@@ -22,7 +22,7 @@ This codelab builds and uses four renderers:
 1. A custom renderer which overrides the function `Blockly.blockRendering.ConstantProvider.shapeFor(connection)` to return different shapes for the input/output connections depending on whether the their type is a `Number`, `String`, or `Boolean`.
 ![Screenshot of a custom renderer with rectangles for the Number input/outputs and a puzzle tab for the Boolean input/output attached to an "if" block](../../../static/images/codelabs/custom-renderer/typed_connection_shapes.png)
 
-## What you'll need
+### What you'll need
 
 - Basic understanding of renderers and toolboxes in Blockly.
 - NPM installed ([instructions](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm)).

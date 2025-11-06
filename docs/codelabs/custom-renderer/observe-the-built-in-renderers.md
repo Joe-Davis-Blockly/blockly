@@ -1,6 +1,6 @@
 # Build custom renderers
 
-# 3. Observe the built-in renderers
+## 3. Observe the built-in renderers
 
 First, visit [the advanced playground](https://blockly-demo.appspot.com/static/tests/playgrounds/advanced_playground.html) to observe what the built-in renderers look like.
 

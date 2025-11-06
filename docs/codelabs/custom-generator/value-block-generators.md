@@ -1,12 +1,12 @@
 # Build a custom generator
 
-# 5. Value block generators
+## 5. Value block generators
 
 This step will build the generators for the simple value blocks: `logic_null`, `text`, `math_number`, and `logic_boolean`.
 
 It will use `getFieldValue` on several types of fields.
 
-## Null
+### Null
 
 The simplest block in this example is the `logic_null` block.
 
@@ -22,7 +22,7 @@ jsonGenerator.forBlock['logic_null'] = function(block) {
 };
 ```
 
-## String
+### String
 
 Next is the `text` block.
 
@@ -44,7 +44,7 @@ jsonGenerator.forBlock['text'] = function(block) {
 };
 ```
 
-## Number
+### Number
 
 The `math_number` block has a number field.
 
@@ -61,7 +61,7 @@ jsonGenerator.forBlock['math_number'] = function(block) {
 };
 ```
 
-## Boolean
+### Boolean
 
 The `logic_boolean` block has a dropdown field named `BOOL`.
 
@@ -76,9 +76,9 @@ jsonGenerator.forBlock['logic_boolean'] = function(block) {
 };
 ```
 
-## Summary
+### Summary
 
 - Value blocks return an array containing the value as a string and the precedence.
 - `getFieldValue` finds the field with the specified name and returns its value.
 - The type of the return value from `getFieldValue` depends on the type of the field.
-  - Each field type must document what its value represents.
+- Each field type must document what its value represents.

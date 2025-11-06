@@ -1,10 +1,10 @@
 # Getting started with Blockly
 
-# 5. Create a Blockly workspace
+## 5. Create a Blockly workspace
 
 In this section you will learn how to add a workspace to your app, including how to define a toolbox.
 
-## Parts of Blockly
+### Parts of Blockly
 
 A Blockly workspace has two main components:
 - The area where the user assembles their blocks (the white area).
@@ -18,7 +18,7 @@ A toolbox is defined as a JavaScript object and passed into the workspace constr
 
 For more information on this JSON format and toolbox configuration, including category creation, please see our <a href="/blockly/guides/configure/web/toolboxes/toolbox">toolbox documentation</a>.
 
-## Define the toolbox
+### Define the toolbox
 
 Open up `scripts/main.js` and scroll down to the end of the file. Then add the code for your `toolbox` definition just after the call to `enableMakerMode()`:
 
@@ -46,7 +46,7 @@ const toolbox = {
 
 This JavaScript object defines a toolbox with a single "repeat loop" block.
 
-## Injection
+### Injection
 
 Adding a Blockly workspace to a page is called *injection*, because the workspace is injected into a `div` that already exists on the page.
 
@@ -60,7 +60,7 @@ For this codelab we will inject into a div with the id `"blocklyDiv"`, which you
 <div id="blocklyDiv" style="height: 480px; width: 400px;"></div>
 ```
 
-## Create the workspace
+### Create the workspace
 
 Now add code to inject the Blockly editor just after the code you used to define your toolbox:
 
@@ -82,7 +82,7 @@ Let's look at the options we used to initialize your blockly editor:
 
 The `options` struct gives you significant control over your Blockly instance. You can pass options to set Blockly's theme, modify scrolling behaviour, set the renderer, and more. For more information, head over to Blockly's developer site and check out the [configuration](/blockly/guides/configure/web/configuration_struct#the_options_dictionary) section.
 
-## Check your work
+### Check your work
 
 Now refresh the page. Select the EDIT mode, then tap on one of the buttons. You should see a Blockly editor:
 

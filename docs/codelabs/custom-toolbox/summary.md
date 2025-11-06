@@ -1,6 +1,6 @@
 # Customizing a Blockly toolbox
 
-# 8. Summary
+## 8. Summary
 
 The toolbox can be customized in a variety of ways to make it work for your application. In this codelab you learned:
 * How to create a custom category.

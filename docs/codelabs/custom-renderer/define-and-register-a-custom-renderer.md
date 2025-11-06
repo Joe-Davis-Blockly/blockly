@@ -1,6 +1,6 @@
 # Build custom renderers
 
-# 4. Define and register a custom renderer
+## 4. Define and register a custom renderer
 
 A **Renderer** is the interface between custom rendering code and the rest of Blockly. Blockly provides a base renderer with all required fields already set to usable values.
 
@@ -43,7 +43,7 @@ const ws = Blockly.inject(blocklyDiv, {
 });
 ```
 
-## The result
+### The result
 
 If the server is already running, refresh the page to see the new changes. Otherwise, run `npm start` to start the server. Once the server is running, click on the `Loops` entry in the browser and drag out a repeat block. The resulting block will use the same values already defined in the base `Blockly.blockRendering.Renderer`.
 

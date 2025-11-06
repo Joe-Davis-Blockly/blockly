@@ -1,10 +1,10 @@
 # Customizing your themes
 
-# 7. Summary
+## 7. Summary
 
 In this codelab you have learned how to extend and customize themes for the blocks component.
 
-## Additional information
+### Additional information
 
 - [Themes documentation](/blockly/guides/configure/web/appearance/themes)
 

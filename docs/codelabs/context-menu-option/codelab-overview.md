@@ -1,8 +1,8 @@
 # Customizing your context menus
 
-# 1. Codelab overview
+## 1. Codelab overview
 
-## What you'll learn
+### What you'll learn
 
 In this codelab you will learn how to:
 - Add a context menu option to the workspace.
@@ -11,10 +11,10 @@ In this codelab you will learn how to:
 - Take an action when a menu option is selected.
 - Customize ordering and display text for context menu options.
 
-## What you'll build
+### What you'll build
 A very simple Blockly workspace with a few new context menu options.
 
-## What you'll need
+### What you'll need
 - A browser.
 - A text editor.
 - Basic knowledge of HTML, CSS, and JavaScript.

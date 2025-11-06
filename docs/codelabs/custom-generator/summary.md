@@ -1,6 +1,6 @@
 # Build a custom generator
 
-# 10. Summary
+## 10. Summary
 
 In this codelab you learned:
 - How to build a custom language generator to generate JSON.

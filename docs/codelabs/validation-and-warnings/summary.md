@@ -1,6 +1,7 @@
 # Validating Blocks and Displaying a Warning Indicator
 
-# 5. Summary
+## 5. Summary
+
 In this codelab, you learned:
 * How to use the field validators in Blockly's JSON API.
 * How to create an extension that adds functionality to a block.
@@ -11,7 +12,7 @@ In this codelab, you learned:
 
 You can find the code for the [completed custom block](https://github.com/google/blockly-samples/tree/master/examples/validation-and-warnings-codelab/complete-code/index.js) on GitHub.
 
-## Resources
+### Resources
 For more information related topics, check out the documentation:
 * [Defining the toolbox](/blockly/guides/configure/web/toolboxes/toolbox)
 * [Defining custom blocks](/blockly/guides/create-custom-blocks/overview)

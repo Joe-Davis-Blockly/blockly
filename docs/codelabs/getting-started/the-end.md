@@ -1,6 +1,6 @@
 # Getting started with Blockly
 
-# 10. The End
+## 10. The End
 
 And with that, you're done with the Blockly codelab! If you'd like to continue playing with the app, we suggest adding or changing the available blocks. There are sample sound files in the `sounds` folder - try hooking them up to a new block!
 

@@ -1,10 +1,10 @@
 # Customizing your context menus
 
-# 3. Add a context menu item
+## 3. Add a context menu item
 
 In this section you will create a very basic `Blockly.ContextMenuRegistry.RegistryItem`, then register it to display when you open a context menu on the workspace, a block, or a comment.
 
-## The RegistryItem
+### The RegistryItem
 
 A context menu consists of one or more menu options that a user can select. Blockly stores information about menu option as items in a registry. You can think of the _registry items_ as templates for constructing _menu options_. When the user opens a context menu, Blockly retrieves all of the registry items that apply to the current context and uses them to construct a list of menu options.
 
@@ -18,7 +18,7 @@ Each item in the registry has several properties:
 
 We will discuss these in detail in later sections of the codelab.
 
-## Make a RegistryItem
+### Make a RegistryItem
 
 Add a function to `index.js` named `registerHelloWorldItem`. Create a new registry item in your function:
 
@@ -52,7 +52,7 @@ function start() {
 }
 ```
 
-## Register it
+### Register it
 
 Next, register your item with Blockly:
 
@@ -67,7 +67,7 @@ function registerHelloWorldItem() {
 
 Note: you will never need to make a new `ContextMenuRegistry`. Always use the singleton `Blockly.ContextMenuRegistry.registry`.
 
-## Test it
+### Test it
 
 Reload your web page and open a context menu on the workspace (right-click with a mouse, or press `Ctrl+Enter` (Windows) or `Command+Enter` (Mac) if you are navigating Blockly with the keyboard). You should see a new option labeled "Hello World" at the bottom of the context menu.
 

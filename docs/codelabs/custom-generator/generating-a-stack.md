@@ -1,8 +1,8 @@
 # Build a custom generator
 
-# 9. Generating a stack
+## 9. Generating a stack
 
-## The scrub_ function
+### The scrub_ function
 
 The `scrub_` function is called on every block from `blockToCode`. It takes in three arguments:
 - `block` is the current block.
@@ -22,7 +22,7 @@ jsonGenerator.scrub_ = function(block, code, thisOnly) {
 };
 ```
 
-## Testing scrub_
+### Testing scrub_
 
 Create a stack of `member` blocks on the workspace. There should be generated code for all of the blocks, not just the first one.
 

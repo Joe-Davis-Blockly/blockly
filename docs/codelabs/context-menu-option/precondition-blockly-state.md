@@ -1,6 +1,6 @@
 # Customizing your context menus
 
-# 6. Precondition: Blockly state
+## 6. Precondition: Blockly state
 
 Disabling your context menu options half of the time is not useful, but you may want to show or hide an option based on what the user is doing. For example, let's show a **Help** option in the context menu if the user doesn't have any blocks on the workspace. Add this code in `index.js`:
 
@@ -26,7 +26,7 @@ function registerHelpItem() {
 
 Don't forget to call `registerHelpItem` from your `start` function.
 
-## Test it
+### Test it
 
 - Reload your page and open a context menu on the workspace. You should see an option labeled "Help! There are no blocks".
 - Add a block to the workspace and open a context menu on the workspace again. The **Help** option should be gone.

@@ -25,62 +25,6 @@ const sidebars = {
     },
     {
       type: 'category',
-      label: 'Getting started with Blockly',
-      items: [
-        {
-          "type": "doc",
-          "label": "1. Codelab-overview",
-          "id": "codelabs/getting-started/codelab-overview"
-        },
-        {
-          "type": "doc",
-          "label": "2. Setup",
-          "id": "codelabs/getting-started/setup"
-        },
-        {
-          "type": "doc",
-          "label": "3. Explore the app",
-          "id": "codelabs/getting-started/explore-the-app"
-        },
-        {
-          "type": "doc",
-          "label": "4. Add Blockly libraries",
-          "id": "codelabs/getting-started/add-blockly-libraries"
-        },
-        {
-          "type": "doc",
-          "label": "5. Create a Blockly workspace",
-          "id": "codelabs/getting-started/create-a-blockly-workspace"
-        },
-        {
-          "type": "doc",
-          "label": "6. Create a custom block",
-          "id": "codelabs/getting-started/create-a-custom-block"
-        },
-        {
-          "type": "doc",
-          "label": "7. Save/load workspace",
-          "id": "codelabs/getting-started/save-load-workspace"
-        },
-        {
-          "type": "doc",
-          "label": "8. Generate JavaScript code",
-          "id": "codelabs/getting-started/generate-javaScript-code"
-        },
-        {
-          "type": "doc",
-          "label": "9. Run generated code",
-          "id": "codelabs/getting-started/run-generated-code"
-        },
-        {
-          "type": "doc",
-          "label": "10. The End",
-          "id": "codelabs/getting-started/the-end"
-        },
-      ]
-    },
-    {
-      type: 'category',
       label: 'Build a custom generator',
       items: [
         {
@@ -332,6 +276,62 @@ const sidebars = {
           "label": "7. Summary",
           "id": "codelabs/theme-extension/summary",
         },   
+      ]
+    },
+    {
+      type: 'category',
+      label: 'Getting started with Blockly',
+      items: [
+        {
+          "type": "doc",
+          "label": "1. Codelab-overview",
+          "id": "codelabs/getting-started/codelab-overview"
+        },
+        {
+          "type": "doc",
+          "label": "2. Setup",
+          "id": "codelabs/getting-started/setup"
+        },
+        {
+          "type": "doc",
+          "label": "3. Explore the app",
+          "id": "codelabs/getting-started/explore-the-app"
+        },
+        {
+          "type": "doc",
+          "label": "4. Add Blockly libraries",
+          "id": "codelabs/getting-started/add-blockly-libraries"
+        },
+        {
+          "type": "doc",
+          "label": "5. Create a Blockly workspace",
+          "id": "codelabs/getting-started/create-a-blockly-workspace"
+        },
+        {
+          "type": "doc",
+          "label": "6. Create a custom block",
+          "id": "codelabs/getting-started/create-a-custom-block"
+        },
+        {
+          "type": "doc",
+          "label": "7. Save/load workspace",
+          "id": "codelabs/getting-started/save-load-workspace"
+        },
+        {
+          "type": "doc",
+          "label": "8. Generate JavaScript code",
+          "id": "codelabs/getting-started/generate-javaScript-code"
+        },
+        {
+          "type": "doc",
+          "label": "9. Run generated code",
+          "id": "codelabs/getting-started/run-generated-code"
+        },
+        {
+          "type": "doc",
+          "label": "10. The End",
+          "id": "codelabs/getting-started/the-end"
+        },
       ]
     },
     {

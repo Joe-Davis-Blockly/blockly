@@ -1,10 +1,10 @@
 # Build a custom generator
 
-# 2. Setup
+## 2. Setup
 
 This codelab will demonstrate how to add code to the Blockly sample app to create and use a new generator.
 
-## The application
+### The application
 
 Use the [`npx @blockly/create-package app`](https://www.npmjs.com/package/@blockly/create-package) command to create a standalone application that contains a sample setup of Blockly, including custom blocks and a display of the generated code and output.
   1. Run `npx @blockly/create-package app custom-generator-codelab`.  This will create a blockly application in the folder `custom-generator-codelab`.
@@ -23,7 +23,7 @@ Before setting up the rest of the application, change the storage key used for t
 const storageKey = 'jsonGeneratorWorkspace';
 ```
 
-## Blocks
+### Blocks
 
 This codelab will use two custom blocks, as well as five blocks from Blockly's standard set.
 
@@ -38,7 +38,7 @@ The blocks are:
 - `logic_null`
 - `lists_create_with`
 
-## Custom block definitions
+### Custom block definitions
 
 Create a new file in the `src/blocks/` directory called `json.js`. This will hold the custom JSON-related blocks. Add the following code:
 
@@ -105,7 +105,7 @@ Later in the file the block definitions are registered with Blockly (this code i
 Blockly.common.defineBlocks(blocks);
 ```
 
-## Toolbox definition
+### Toolbox definition
 
 Next, define a toolbox that includes these custom blocks. For this example, there's a flyout-only toolbox with seven blocks in it.
 

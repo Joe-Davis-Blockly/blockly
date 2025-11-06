@@ -1,6 +1,6 @@
 # Customizing your context menus
 
-# 7. Callback
+## 7. Callback
 
 The callback function determines what happens when you select the context menu option. Like the precondition, it can use the `scope` argument to access the Blockly component on which the context menu was invoked.
 
@@ -19,7 +19,7 @@ As an example, update the help item's `callback` to add a block to the workspace
     },
 ```
 
-## Test it
+### Test it
 
 - Reload the page and open a context menu on the workspace.
 - Select the **Help** option.

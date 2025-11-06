@@ -1,12 +1,12 @@
 # Customizing a Blockly toolbox
 
-# 7. Adding a custom toolbox item
+## 7. Adding a custom toolbox item
 In the previous sections we modified the toolbox by extending the base category class.
 In this section we will make a completely new toolbox item and add it to our toolbox.
 
 For this example, we are going to create a toolbox label.
 
-## Setup
+### Setup
 In the same directory as `index.html` create a new file named `toolbox_label.js`.
 
 Include this file in `index.html`:
@@ -47,7 +47,7 @@ Your toolbox definition should now look something like:
 </xml>
 ```
 
-## Initialize the toolbox item
+### Initialize the toolbox item
 In order to create a toolbox item we must implement one of the toolbox item interfaces.
 
 For this example, we will be implementing the basic `IToolboxItem` interface.
@@ -80,7 +80,7 @@ If you open the `index.html` file you should see a label above your first catego
 
 ![The toolbox with a label at the top.](../../../static/images/codelabs/custom-toolbox/toolbox_label.png)
 
-## Add attributes to the toolbox definition
+### Add attributes to the toolbox definition
 The above code is rather limiting since it only allows us to create a toolbox
 label with the text "Label".
 To make it possible to create different labels with different text and colour we
@@ -114,7 +114,7 @@ Open your `index.html` in a browser to see the updated label.
 
 ![The toolbox with a label that now says "Custom Toolbox".](../../../static/images/codelabs/custom-toolbox/custom_label.png)
 
-## Add some CSS
+### Add some CSS
 Similar to how we added `colour` and `name` above, we are going to add a custom
 class to our label.
 
@@ -148,7 +148,7 @@ the below CSS to make the label bold.
 }
 ```
 
-## The result
+### The result
 If you open `index.html` you should now see a bold dark gray label at the
 top of your toolbox.
 

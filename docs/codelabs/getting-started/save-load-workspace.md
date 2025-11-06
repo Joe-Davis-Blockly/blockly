@@ -1,12 +1,12 @@
 # Getting started with Blockly
 
-# 7. Save/load workspace
+## 7. Save/load workspace
 
 You now have a Blockly workspace that appears when editing a button. The user can use this to write code, but there's no link between the code the user has written and an individual button on the page.
 
 Once the button behavior is defined by the user, it needs to be saved for later use. The saved code must be per button, since buttons can be programmed to play different sounds.
 
-## Add the save method
+### Add the save method
 
 Open `scripts/main.js`. Add the following code to the `save()` method:
 
@@ -17,7 +17,7 @@ button.blocklySave = Blockly.serialization.workspaces.save(
 
 `workspaces.save` takes the Blockly workspace, exports its state to a JavaScript object and stores it in a `blocklySave` property on the button. This way the exported state for the block sequence gets associated with a particular button.
 
-## Add the load method
+### Add the load method
 
 Similarly, when a user opens the editor, the blocks previously associated with this button should get loaded into the workspace.
 

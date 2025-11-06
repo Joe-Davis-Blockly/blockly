@@ -1,6 +1,6 @@
 # Customizing your context menus
 
-# 5. Precondition: External state
+## 5. Precondition: External state
 
 Use of the `preconditionFn` is not limited to checking the type of the Blockly component that the context menu was invoked on. You can use it to check for conditions entirely outside of Blockly. For instance, let's disable `helloWorldItem` for the second half of every minute:
 
@@ -20,7 +20,7 @@ Use of the `preconditionFn` is not limited to checking the type of the Blockly c
     },
 ```
 
-## Test it
+### Test it
 
 Reload your workspace, check your watch, and open a context menu on the workspace to confirm the timing. The option will always be in the menu, but will sometimes be greyed out.
 

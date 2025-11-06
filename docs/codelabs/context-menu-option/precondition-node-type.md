@@ -1,18 +1,18 @@
 # Customizing your context menus
 
-# 4 . Precondition: Node type
+## 4 . Precondition: Node type
 
 Each registry item has a `preconditionFn`. It is called by Blockly to decide whether and how to display an option on a context menu. You'll use it to display the "Hello, World" option on workspace and block context menus, but not on comment context menus.
 
-## The scope argument
+### The scope argument
 
 The `scope` argument is an object that is passed to `preconditionFn`. You'll use the `scope.focusedNode` property to determine which object the context menu was invoked on. Why a focused node? Because Blockly keeps track of where the user is -- that is, what node (component) the user is focused on -- and opens the context menu on that node.
 
-## Return value
+### Return value
 
 The return value of `preconditionFn` is `'enabled'`, `'disabled'`, or `'hidden'`. An **enabled** option is shown with black text and is selectable. A **disabled** option is shown with grey text and is not selectable. A **hidden** option is not included in the context menu at all.
 
-## Write the function 
+### Write the function 
 
 You can now test `scope.focusedNode` to display the "Hello World" option in workspace and block context menus, but not on any others. Change `preconditionFn` to:
 
@@ -34,7 +34,7 @@ You can now test `scope.focusedNode` to display the "Hello World" option in work
 
 Notice that the code tests for where context menus are allowed, rather than where they are not allowed. This is because custom code (such as a plugin) can add context menus to any Blockly component that can be focused. Thus, testing for specific types rather than allowing all (or all but certain types) ensures that context menus are not shown on more components than you anticipated.
 
-## Test it
+### Test it
 
 Open a context menu on the workspace, a block, and a comment. You should see a "Hello World" option on the workspace and block context menus, but not on the comment context menu.
 

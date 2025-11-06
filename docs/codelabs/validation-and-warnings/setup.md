@@ -1,8 +1,8 @@
 # Validating Blocks and Displaying a Warning Indicator
 
-# 2. Setup
+## 2. Setup
 
-## Download the sample code
+### Download the sample code
 You can get the sample code for this codelab by either downloading the zip here:
 
 [Download zip](https://github.com/google/blockly-samples/archive/master.zip)
@@ -32,7 +32,7 @@ Next, open the file `starter-code/index.js` in a text editor. You will be making
 1. In a function called `start()`, it initializes a Blockly workspace with the above toolbox, and adds a change event listener that displays the generated JavaScript code whenever a block is moved or updated in the workspace.
 1. In a function called `executeCode()`, it executes the generated JavaScript code.
 
-## Define a custom block type
+### Define a custom block type
 To prepare for adding validation, let's define a new custom block type named `list_range` with two number fields called `FIRST` and `LAST`. Copy the following code to the beginning of `index.js`:
 
 ```js
@@ -72,7 +72,7 @@ Now, if you reload `index.html` and open the toolbox, you should see the new blo
 
 ![A Blockly toolbox containing range, for-each, sum, print, and break blocks.](../../../static/images/codelabs/validation-and-warnings/completed_toolbox.png)
 
-## Generating JavaScript code for the custom block
+### Generating JavaScript code for the custom block
 You can drag this block out from the toolbox into the workspace, but if you try to use it, you'll find that Blockly doesn't know how to generate JavaScript code from this block yet and error messages will appear in the browser console when it tries to update the display of the generated code. To fix this, add the following code below the custom block definition:
 
 ```js

@@ -1,6 +1,6 @@
 # Getting started with Blockly
 
-# 6. Create a custom block
+## 6. Create a custom block
 
 Since this is a music maker app, we want a block that plays sounds. We could create one block per sound, but instead we will create a single block with a dropdown to select which note to play:
 
@@ -12,7 +12,7 @@ Blocks can be defined in either JavaScript or JSON. The developer site has a ful
 
 In this codelab we will simply provide the block definition for you to copy and use.
 
-## Define the sound block
+### Define the sound block
 
 Create a JS file to define a new "play sound" block:
 
@@ -59,7 +59,7 @@ Your sound block definitions must come after importing Blockly and before the ot
 <script src="scripts/main.js"></script>
 ```
 
-## Add the sound block to the toolbox
+### Add the sound block to the toolbox
 
 Now we can update the toolbox to include the new sound block, by adding `{'kind': 'block', 'type': 'play_sound'}` to our `toolbox` definition:
 
@@ -93,6 +93,6 @@ Run the app one more time, and play around with the new `Play (sound)` block. It
 
 ![image](../../../static/images/codelabs/getting-started/workspace_with_toolbox.png)
 
-## The block factory
+### The block factory
 
 This step discussed how to manually define custom blocks in Blockly. Once you've completed the entire codelab, we recommend that you check out our [block factory tool](/blockly/guides/create-custom-blocks/blockly-developer-tools), which helps automate part of this process.
