@@ -9,6 +9,7 @@ export const referenceSidebar = [
     "label": "Classes",
     "collapsible": true,
     // "collapsed": false,
+    "className": 'hide-level-3',
     "items": [
       {
         "type": "category",
@@ -618,7 +619,8 @@ export const referenceSidebar = [
             "label": "blockly.block_class.workspace_property",
             "id": "reference/js/blockly.block_class.workspace_property"
           }
-        ]
+        ],
+        "className": 'hide-from-sidebar',
       },
       {
         "type": "category",
@@ -6657,6 +6659,7 @@ export const referenceSidebar = [
     "label": "Abstract Classes",
     "collapsible": true,
     // "collapsed": false,
+    "className": 'hide-level-3',
     "items": [
       {
         "type": "category",
@@ -7410,6 +7413,7 @@ export const referenceSidebar = [
     "label": "Enumerations",
     "collapsible": true,
     // "collapsed": false,
+    "className": 'hide-level-3',
     "items": [
       {
         "type": "category",
@@ -7433,6 +7437,7 @@ export const referenceSidebar = [
     "label": "Functions",
     "collapsible": true,
     // "collapsed": false,
+    "className": 'hide-level-3',
     "items": [
       {
         "type": "category",
@@ -7681,6 +7686,7 @@ export const referenceSidebar = [
     "label": "Interfaces",
     "collapsible": true,
     // "collapsed": false,
+    "className": 'hide-level-3',
     "items": [
       {
         "type": "category",
@@ -9449,6 +9455,7 @@ export const referenceSidebar = [
     "label": "Namespaces",
     "collapsible": true,
     // "collapsed": false,
+    "className": 'hide-level-3',
     "items": [
       {
         "type": "category",
@@ -20922,6 +20929,7 @@ export const referenceSidebar = [
     "label": "Variables",
     "collapsible": true,
     // "collapsed": false,
+    "className": 'hide-level-3',
     "items": [
       {
         "type": "category",
@@ -21365,6 +21373,7 @@ export const referenceSidebar = [
     "label": "Type Aliases",
     "collapsible": true,
     // "collapsed": false,
+    "className": 'hide-level-3',
     "items": [
       {
         "type": "category",

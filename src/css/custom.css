@@ -144,3 +144,8 @@
   text-decoration: none;
   color: var(--font-color-hover-footer);
 }
+
+/** Added changes for hide level 3 menus **/
+.theme-doc-sidebar-menu .hide-level-3 .theme-doc-sidebar-item-link-level-3 {
+  display: none !important;
+}
