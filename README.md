@@ -12,7 +12,7 @@ git clone --single-branch --branch cybage-blockly https://github.com/Joe-Davis-B
 
 # What you'll need
 
-Node.js version 18.0 or above
+Node.js version 20.0 or above
 
 ## Installation
 
