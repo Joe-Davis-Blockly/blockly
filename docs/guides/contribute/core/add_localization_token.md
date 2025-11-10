@@ -107,30 +107,25 @@ optional will help those languages meet the threshold without needing to
 complete the optional translations.
 
 ```js
-{% verbatim %}
 /** @type {string} */
 /// {{Optional}} math - The symbol for the binary operation addition.
 Blockly.Msg.MATH_ADDITION_SYMBOL = '+';
-{% endverbatim %}
 ```
 
 ## Notranslate items
 
-The colours used for default block categories are marked {% verbatim
-%}`{{notranslate}}`{% endverbatim %}. These colours are not intended to be
+The colours used for default block categories are marked `{{notranslate}}`. These colours are not intended to be
 localized, but are in the localization system so that developers can easily
 [change the colours][block-colour] of blocks in the default categories. If you
-add new block categories, use the {% verbatim %}`{{notranslate}}`{% endverbatim %}
+add new block categories, use the `{{notranslate}}`
 directive. If you add a different type of message that you think should never be
 translated, consider whether the localization system is the right place for the
 string.
 
 ```js
-{% verbatim %}
 /** @type {string} */
 /// {{Notranslate}} Hue value for all logic blocks.
 Blockly.Msg.LOGIC_HUE = '210';
-{% endverbatim %}
 ```
 
 [translatewiki]: /blockly/guides/contribute/core/translating

@@ -1,7 +1,6 @@
 ---
 description: How to properly attribute Blockly.
 ---
-{# style linter off #}
 
 # Attribute Blockly
 
