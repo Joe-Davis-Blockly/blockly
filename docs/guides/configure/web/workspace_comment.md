@@ -10,7 +10,9 @@ programming language.
 
 ![Workspace comment][workspace-comment-image]{: width="150"}
 
-Note: workspace comments cannot be added to the [flyout][flyout].
+:::note
+workspace comments cannot be added to the [flyout][flyout].
+:::
 
 ## Enable workspace comments
 

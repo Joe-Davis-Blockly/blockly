@@ -9,7 +9,9 @@ hide_title: true
 
 ## FieldCheckbox.value\_ property
 
-NOTE: The default value is set in `Field`<!-- -->, so maintain that value instead of overwriting it here or in the constructor.
+:::note
+The default value is set in `Field`<!-- -->, so maintain that value instead of overwriting it here or in the constructor.
+:::
 
 **Signature:**
 

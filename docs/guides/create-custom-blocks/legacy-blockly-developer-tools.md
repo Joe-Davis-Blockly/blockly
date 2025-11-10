@@ -4,11 +4,13 @@ description: How to use Blockly's tools for defining blocks, toolboxes, and work
 
 # Legacy Blockly Developer Tools
 
-Deprecated: The tools in this document have been deprecated, but this
+:::warning
+The tools in this document have been deprecated, but this
 documentation is preserved for your reference. The legacy tools are only
 compatible with Blockly v10 and earlier. If you want to migrate your block
 definitions to Blockly v11+, follow [these instructions][block-factory-import]
 to load your block definitions into the new tool.
+:::
 
 [Legacy Blockly Developer Tools][legacy-tool] is a web-based developer tool that
 automates parts of the Blockly configuration process, including creating custom
@@ -98,8 +100,10 @@ files.
 Settings area, and an Export Preview
 area.](/blockly/images/block_exporter_tab.png)
 
-Note: If using a save dialog on Mac you can only download
+:::note
+If using a save dialog on Mac you can only download
 [one file at a time](https://github.com/google/blockly/issues/647)
+:::
 
 ## Workspace Factory tab
 
@@ -142,10 +146,12 @@ of categories and buttons to add and delete categories and move them up and down
 in the list. The + button has been selected to add a
 category.](/blockly/images/category_menu.png)
 
-Note: The standard categories and toolbox include all the blocks in the
+:::note
+The standard categories and toolbox include all the blocks in the
 [Playground](https://blockly-demo.appspot.com/static/tests/playground.html).
 This set of blocks is not appropriate for most apps and should be pruned as
 needed. Also, some blocks are not supported on mobile yet.
+:::
 
 To change the selected category’s name or color use the "Edit Category"
 dropdown. Dragging a block into the workspace will add it to the selected
@@ -165,8 +171,10 @@ Some blocks should be used together or include defaults. This is done with
 blocks that are connected in the editor will be added to the toolbox as a group.
 Blocks that are attached to another block can also be changed to shadow blocks
 by selecting the child block and clicking the "Make Shadow" button.
-Note: Only child blocks that don't contain a variable may be changed to shadow
+:::note
+Only child blocks that don't contain a variable may be changed to shadow
 blocks.
+:::
 
 If you include a variable or function block in their toolbox, include a
 "Variables" or "Functions" category in your toolbox to allow users to fully

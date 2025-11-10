@@ -18,8 +18,10 @@ not receive new features.
 
 ## JSON system
 
-Note: For information on how to migrate to JSON from XML, see the [migration
+:::note
+For information on how to migrate to JSON from XML, see the [migration
 guide].
+:::
 
 The JSON serialization system is made up of multiple serializers. There are
 built-in serializers for blocks and variables, and you can also register
@@ -204,7 +206,9 @@ the original serialization system of Blockly. It has now been iceboxed, which
 means it will not receive new features. As such, we recommend using the JSON
 system if possible.
 
-Note: For information on how to migrate to JSON, see the [migration guide].
+:::note
+For information on how to migrate to JSON, see the [migration guide].
+:::
 
 ### APIs
 

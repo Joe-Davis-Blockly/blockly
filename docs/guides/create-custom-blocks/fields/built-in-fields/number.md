@@ -131,7 +131,9 @@ To force your field to only accept integers, set the `precision` to 1.
 
 ## Creating a number validator
 
-Note: For information on validators in general see [Validators](../validators).
+:::note
+For information on validators in general see [Validators](../validators).
+:::
 
 A number field's value is a number, so any validators must accept a `number` and
 return a `number`, `null`, or `undefined`.

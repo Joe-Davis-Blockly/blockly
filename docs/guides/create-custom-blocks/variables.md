@@ -203,9 +203,11 @@ By default there is no visual indicator to tell the user which type is being
 used. One easy way to differentiate variable types is by
 [colour](/blockly/guides/configure/web/appearance/block-colour).
 
-Note: The `variableTypes` key is optional on a field_variable. If it is
+:::note
+The `variableTypes` key is optional on a field_variable. If it is
 undefined only variables of the empty string type `""` will be shown. To show
 all variables of any type use `"variableTypes": null`.
+:::
 
 ## Add Variables to Toolbox
 

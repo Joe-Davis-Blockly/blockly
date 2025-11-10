@@ -53,13 +53,17 @@ null
 ['ape', 'bear', 'caterpillar]
 ```
 
-Important: The strings used in connection checks have no inherent meaning. For
+:::info
+The strings used in connection checks have no inherent meaning. For
 example, using the string `'Number'` does not guarantee that a connection
 represents a number. Instead, they are only used to match other strings.
+:::
 
-Important: Block types, such as `'math_number'`, and connection checks are
+:::info
+Block types, such as `'math_number'`, and connection checks are
 entirely separate sets of strings. Including a block type in a connection check
 does *not* make it so blocks of that type can connect.
+:::
 
 ## Examples
 

@@ -9,9 +9,11 @@ Tools](https://google.github.io/blockly-samples/examples/developer-tools/index.h
 is a web-based developer tool that can help you build
 [custom blocks][add-custom-blocks] and include them in your application.
 
-Note: This document is about the newer version of Blockly Developer Tools that
+:::note
+This document is about the newer version of Blockly Developer Tools that
 is compatible with Blockly v10+. If you are looking for the legacy tool, see the
 [legacy documentation][legacy-block-factory].
+:::
 
 ![Screenshot of the Block Factory showing the toolbox and various output
 areas](/blockly/images/block-factory/block_factory_overview.png){: .screenshot}

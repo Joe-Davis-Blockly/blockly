@@ -17,9 +17,11 @@ This document tries to cover all likely changes, but if this document does not
 cover something you are interested in, please read the section on
 [getting upgrade assistance](#getting_upgrade_assistance).
 
-Note: If you have a small number of custom fields it may be easier to simply
+:::note
+If you have a small number of custom fields it may be easier to simply
 rewrite them using the [custom field creation instructions](/blockly/guides/create-custom-blocks/fields/customizing-fields/creating),
 rather than trying to upgrade them piecemeal.
+:::
 
 ## Danger areas
 
@@ -101,8 +103,10 @@ You will need to handle:
 +   [Field text](/blockly/guides/create-custom-blocks/fields/customizing-fields/creating#text) (`getText`).
 +   [Field UI](/blockly/guides/create-custom-blocks/fields/customizing-fields/creating#updating_the_on-block_display)
 
-Note: We recommend that you change any `setText` calls to
+:::note
+We recommend that you change any `setText` calls to
 `setValue` calls, as `setValue` supports validation and `setText` does not.
+:::
 
 ## Recommended upgrades
 
@@ -243,9 +247,11 @@ You will need to handle:
     [event bindings](/blockly/guides/create-custom-blocks/fields/customizing-fields/creating#input_events) (`bindEvents_`).
 +   [Disposing](/blockly/guides/create-custom-blocks/fields/customizing-fields/creating#disposing) of event bindings (`dispose`).
 
-Important: All DOM creation should be done inside `initView` as that is most
+:::info
+All DOM creation should be done inside `initView` as that is most
 efficient. Consider refactoring if you have DOM creation happening inside the
 constructor, `setText`, `setValue`, or `render_`.
+:::
 
 ### onMouseDown_
 
@@ -291,8 +297,10 @@ For more information about a field's value vs its text see
 
 ## Getting upgrade assistance
 
-Note: Before asking for upgrade assistance please do your best to upgrade your
+:::note
+Before asking for upgrade assistance please do your best to upgrade your
 field independently using the information provided.
+:::
 
 ### What to provide
 

@@ -63,9 +63,11 @@ of the review comments wasn't clear: now is your chance to ask for
 clarification. Or maybe your reviewer requested a change, but you think it will
 have repercussions: now is your chance to find a compromise.
 
-Note: For this to work, both parties need to go into the discussion with a
+:::note
+For this to work, both parties need to go into the discussion with a
 spirit of **collaboration**. The goal is not to "win" but to make something
 you're both proud of.
+:::
 
 ## Revision {:#revision}
 
@@ -75,7 +77,9 @@ changes are a result of something your reviewer has said in the feedback phase.
 Once you have completed your revisions it can be helpful to [tag](https://help.github.com/en/github/writing-on-github/basic-writing-and-formatting-syntax#mentioning-people-and-teams)
 your reviewer asking them to take another look.
 
-Note: discussion and revision may happen at the same time.
+:::note
+discussion and revision may happen at the same time.
+:::
 
 ## Repetition {:#repeat}
 

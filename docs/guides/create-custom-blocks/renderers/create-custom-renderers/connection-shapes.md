@@ -23,8 +23,10 @@ reference documentation for your super class:
   * [Geras constants][GerasConstants]
   * [Zelos constants][ZelosConstants]
 
-Note: Thrasos does not define its own constants. If you are using Thrasos,
+:::note
+Thrasos does not define its own constants. If you are using Thrasos,
 check out the base constants.
+:::
 
 For the base renderer, you can override [`NOTCH_WIDTH`][NOTCH_WIDTH] and
 [`NOTCH_HEIGHT`][NOTCH_HEIGHT] for next and previous connections, and
@@ -61,8 +63,10 @@ those cases.
 
 ![the direction a block gets drawn in][drawing-direction-image]{: width="200" }
 
-Note: the [path object][path-object] handles flipping paths in RTL mode, so
+:::note
+the [path object][path-object] handles flipping paths in RTL mode, so
 you just need to think about things in LTR!
+:::
 
 You can override the [`makeNotch`][makeNotch] method for next and previous
 connections, and the [`makePuzzleTab`][makePuzzleTab] method for input and

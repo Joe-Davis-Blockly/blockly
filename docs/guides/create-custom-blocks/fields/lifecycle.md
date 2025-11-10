@@ -4,11 +4,15 @@ description: The order in which parts of a field are initialized.
 
 # Lifecycle
 
-Note: When loading from XML the value of a field is set later than you might expect
+:::note
+When loading from XML the value of a field is set later than you might expect
 which can cause problems if your field constructor needs information from the workspace.
+:::
 
-Note: A field object is created before being attached to a block. This can cause
+:::note
+A field object is created before being attached to a block. This can cause
 problems if your field constructor needs information from the workspace.
+:::
 
 Field creation happens in the order below.
 

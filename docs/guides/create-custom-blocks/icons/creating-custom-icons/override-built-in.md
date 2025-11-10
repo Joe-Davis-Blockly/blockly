@@ -12,8 +12,10 @@ comment's [pop-up bubble][use-bubbles] to look different.
 To override the comment icon, extend `CommentIcon`, override selected methods in
 `ICommentIcon`, and register your new icon.
 
-Note: Blockly has three kinds of built-in icons: comments, warnings, and
+:::note
+Blockly has three kinds of built-in icons: comments, warnings, and
 mutators. Only the comment icon is overridable.
+:::
 
 ## Extend CommentIcon
 

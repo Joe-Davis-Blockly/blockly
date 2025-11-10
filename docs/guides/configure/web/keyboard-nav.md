@@ -27,5 +27,7 @@ playground](https://google.github.io/blockly-keyboard-experimentation/).
 For more information about our accessibility projects, visit [our accessibility
 page](https://developers.google.com/blockly/accessibility#projects).
 
-Note: The 0.6 version of the keyboard navigation plugin that existed prior to
+:::note
+The 0.6 version of the keyboard navigation plugin that existed prior to
 Blockly v12 has been removed.
+:::

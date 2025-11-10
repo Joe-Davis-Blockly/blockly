@@ -105,8 +105,10 @@ class to assign the label color:
 
 ## Themes
 
-Note: While themes are supported, we recommend you use CSS instead of themes to
+:::note
+While themes are supported, we recommend you use CSS instead of themes to
 style your categories.
+:::
 
 [Themes](/blockly/guides/configure/web/themes) allow you to specify all of the
 colours of your workspace at once, including the colours of your categories.

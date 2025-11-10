@@ -65,7 +65,9 @@ function registerHelloWorldItem() {
 }
 ```
 
-Note: you will never need to make a new `ContextMenuRegistry`. Always use the singleton `Blockly.ContextMenuRegistry.registry`.
+:::note
+you will never need to make a new `ContextMenuRegistry`. Always use the singleton `Blockly.ContextMenuRegistry.registry`.
+:::
 
 ### Test it
 

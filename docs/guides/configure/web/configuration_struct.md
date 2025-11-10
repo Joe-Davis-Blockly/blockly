@@ -14,9 +14,11 @@ You can create a Blockly workspace and inject it into the DOM with a call to
 inject the workspace in the DOM. The second argument is an object containing
 configuration options.
 
-Note: The configuration options object has a type of `Blockly.BlocklyOptions`.
+:::note
+The configuration options object has a type of `Blockly.BlocklyOptions`.
 The injection code uses it to create an instance of `Blockly.Options`. These
 two are different and should not be confused.
+:::
 
 For more information, see [Create a
 workspace](/blockly/guides/get-started/workspace-creation).

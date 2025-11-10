@@ -21,10 +21,12 @@ var code = javascriptGenerator.workspaceToCode(workspace);
 
 The resulting code can be executed right in the destination web page:
 
-Warning: Executing JavaScript with `eval` is a [serious security
+:::warning
+Executing JavaScript with `eval` is a [serious security
 risk](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/eval)
 and should be done only during prototyping. In a production application, use a
 sandboxed JavaScript interpreter such as [JS-interpreter](#js-interpreter).
+:::
 
 ```js
 try {

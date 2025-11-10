@@ -47,7 +47,9 @@ To implement your own safety checks: override
 [`doSafetyChecks`](https://github.com/google/blockly/blob/master/core/interfaces/i_connection_checker.ts#L75)
 on your connection checker.
 
-Warning: In general, developers should not override Blockly's safety checks.
+:::warning
+In general, developers should not override Blockly's safety checks.
+:::
 
 To implement your own type checks: override
 [`doTypeChecks`](https://github.com/google/blockly/blob/master/core/interfaces/i_connection_checker.ts#L86)

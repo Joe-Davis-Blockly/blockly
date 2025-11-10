@@ -33,8 +33,10 @@ block's state:
 }
 ```
 
-Important: saving and loading custom icons does not work with the old XML
+:::info
+saving and loading custom icons does not work with the old XML
 serialization system, only the new JSON system.
+:::
 
 ## Save state
 

@@ -109,8 +109,10 @@ getWeight() {
 }
 ```
 
-Note: the weight is only checked when the icon is appended to the block, so
+:::note
+the weight is only checked when the icon is appended to the block, so
 dynamic weights are not supported.
+:::
 
 ## Implement onclick behavior
 

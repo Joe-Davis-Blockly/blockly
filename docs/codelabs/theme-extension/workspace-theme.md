@@ -29,4 +29,6 @@ function start() {
  }
 ```
 
-Note: At this point, we have just created a new theme. But it does not have any customizations. We will do that next.
+:::note
+At this point, we have just created a new theme. But it does not have any customizations. We will do that next.
+:::

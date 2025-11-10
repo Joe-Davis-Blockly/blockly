@@ -55,9 +55,11 @@ yourself](/blockly/guides/configure/web/workspace_comment#enable_workspace_comme
 For information on how to add, delete, and modify templates in the registry, see
 [Customize the registry](#customize_the_registry).
 
-Key Term: Blockly's API and documentation use the terms _item_ and _option_ to
+:::info
+Blockly's API and documentation use the terms _item_ and _option_ to
 mean both a template in the registry and an item in a context menu. Which
 meaning is intended is generally clear from context.
+:::
 
 ## Scope
 
@@ -320,9 +322,11 @@ const collapseTemplate = { /* properties from above */ };
 Blockly.ContextMenuRegistry.registry.register(collapseTemplate);
 ```
 
-Note: Check out the [context menu
+:::note
+Check out the [context menu
 codelab](https://blocklycodelabs.dev/codelabs/context-menu-option/index.html)
 for worked examples of adding context menu items.
+:::
 
 ### Delete a template
 

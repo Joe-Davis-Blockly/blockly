@@ -11,7 +11,9 @@ hide_title: true
 
 Ephemerally captures focus for a specific element until the returned lambda is called. This is expected to be especially useful for ephemeral UI flows like dialogs.
 
-IMPORTANT: the returned lambda \*must\* be called, otherwise automatic focus will no longer work anywhere on the page. It is highly recommended to tie the lambda call to the closure of the corresponding UI so that if input is manually changed to an element outside of the ephemeral UI, the UI should close and automatic input restored. Note that this lambda must be called exactly once and that subsequent calls will throw an error.
+:::info
+the returned lambda \*must\* be called, otherwise automatic focus will no longer work anywhere on the page. It is highly recommended to tie the lambda call to the closure of the corresponding UI so that if input is manually changed to an element outside of the ephemeral UI, the UI should close and automatic input restored. Note that this lambda must be called exactly once and that subsequent calls will throw an error.
+:::
 
 Note that the manager will continue to track DOM input signals even when ephemeral focus is active, but it won't actually change node state until the returned lambda is called. Additionally, only 1 ephemeral focus context can be active at any given time (attempting to activate more than one simultaneously will result in an error being thrown).
 
@@ -32,4 +34,3 @@ takeEphemeralFocus(focusableElement: HTMLElement | SVGElement): ReturnEphemeralF
 **Returns:**
 
 [ReturnEphemeralFocus](./blockly.returnephemeralfocus_typealias.md)
-

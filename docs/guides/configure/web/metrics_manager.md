@@ -90,8 +90,10 @@ toolbox.](/blockly/images/metrics_manager/absolute_metrics_2.png){: width="300"}
 The content metrics are composed of the `height`, `width`, `top` and `left` of
 the bounding box around any blocks or workspace comments.
 
-Note: Content metrics do not take into account block comments, only [workspace
+:::note
+Content metrics do not take into account block comments, only [workspace
 comments](https://developers.google.com/blockly/reference/js/Blockly.WorkspaceComment).
+:::
 
 ![The Blockly workspace with a blue box around the contents of the
 workspace.](/blockly/images/metrics_manager/content_metrics.png){: width="300"}

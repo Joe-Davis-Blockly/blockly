@@ -4,9 +4,11 @@ description: How to create your own custom renderer.
 
 # Create custom renderers
 
-Note: If you haven't read through the [renderer concept docs][renderer-concept]
+:::note
+If you haven't read through the [renderer concept docs][renderer-concept]
 or completed the [custom renderers codelab][custom-renderer-codelab] we
 recommend doing those first!
+:::
 
 To create a custom renderer, you need to subclass the [`Renderer`][Renderer]
 class. Refer to the [renderer concept docs][renderer-concept] for more

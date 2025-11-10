@@ -4,8 +4,10 @@ description: Customizing the look and feel of Blockly with themes.
 
 # Themes
 
-Note: While themes are still supported, the preferred way to style Blockly
+:::note
+While themes are still supported, the preferred way to style Blockly
 applications is with [CSS](/blockly/guides/configure/web/appearance/css).
+:::
 
 Themes are a way to customize the look and feel of Blockly. You can customize
 block colours, category colours and certain components through the `Themes`
@@ -14,12 +16,14 @@ as a class on the injection `div`. This allows users to change the look of any
 unsupported components through CSS. Our main goal in creating themes is to
 empower developers to create Blockly experiences that are more accessible.
 
-Note: If you only want to control the main colour of a block, rather than have
+:::note
+If you only want to control the main colour of a block, rather than have
 more fine-grained control over the appearance, you can set the colour in the
 [block definition](/blockly/guides/configure/web/appearance/block-colour#set_block_colour)
 instead of creating a theme. If you want to change the shape of a block instead
 of its colour, learn more about
 [renderers](/blockly/guides/create-custom-blocks/renderers/overview).
+:::
 
 ## Theme Properties
 
@@ -27,8 +31,10 @@ A theme is an object with several properties: the base theme to extend from, a
 style object for blocks, categories, components, and fonts, and a whether or not
 to use hats for start blocks.
 
-Important: Code in Blockly uses the non-US spelling of `colour`. All colour
+:::info
+Code in Blockly uses the non-US spelling of `colour`. All colour
 properties can be defined in either hue or hex values.
+:::
 
 ### Block Style
 
@@ -148,8 +154,10 @@ const fontStyle = {
 
 ### Start Hats
 
-Tip: Learn more about the use cases of start hats on our
+:::tip
+Learn more about the use cases of start hats on our
 [application design page](/blockly/guides/design/applications#event_driven_program).
+:::
 
 If you set `startHats: true` directly in a theme object, a hat will be added to
 all blocks with no previous or output connections. If you want more control over

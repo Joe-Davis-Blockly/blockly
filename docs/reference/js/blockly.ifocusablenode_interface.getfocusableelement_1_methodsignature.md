@@ -11,7 +11,9 @@ hide_title: true
 
 Returns the DOM element that can be explicitly requested to receive focus.
 
-IMPORTANT: Please note that this element is expected to have a visual presence on the page as it will both be explicitly focused and have its style changed depending on its current focus state (i.e. blurred, actively focused, and passively focused). The element will have one of two styles attached (where no style indicates blurred/not focused): - blocklyActiveFocus - blocklyPassiveFocus
+:::info
+Please note that this element is expected to have a visual presence on the page as it will both be explicitly focused and have its style changed depending on its current focus state (i.e. blurred, actively focused, and passively focused). The element will have one of two styles attached (where no style indicates blurred/not focused): - blocklyActiveFocus - blocklyPassiveFocus
+:::
 
 The returned element must also have a valid ID specified, and this ID should be unique across the entire page. Failing to have a properly unique ID could result in trying to focus one node (such as via a mouse click) leading to another node with the same ID actually becoming focused by FocusManager.
 
@@ -31,4 +33,3 @@ getFocusableElement(): HTMLElement | SVGElement;
 HTMLElement \| SVGElement
 
 The HTMLElement or SVGElement which can both receive focus and be visually represented as actively or passively focused for this node.
-

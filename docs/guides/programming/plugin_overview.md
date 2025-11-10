@@ -8,12 +8,14 @@ A plugin is a self-contained piece of code that adds functionality to Blockly.
 For example, it might add a custom field, define a new theme, or provide a
 custom renderer. Plugins are generally packaged and distributed through npm.
 
-Note: The [`BlocklyOptions`
+:::note
+The [`BlocklyOptions`
 object](/blockly/guides/configure/web/configuration_struct#the_options_dictionary)
 has a `plugins` property for injecting classes that [customize Blockly
 behavior](/blockly/guides/configure/web/customization). While these classes may
 be implemented as plugins, this is not required and they are otherwise
 unrelated.
+:::
 
 For a quick introduction to plugins, see our [Plugins Overview talk
 (2021)](https://www.youtube.com/watch?v=rg-V0w7UZFc&list=PLSIUOFhnxEiCjoIwJ0jAdwpTZET73CK7d&index=3).

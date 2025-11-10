@@ -166,7 +166,9 @@ types, and an optional default type.
 
 ## Creating a variable validator
 
-Note: For information on validators in general see [Validators](/blockly/guides/create-custom-blocks/fields/validators).
+:::note
+For information on validators in general see [Validators](/blockly/guides/create-custom-blocks/fields/validators).
+:::
 
 A variable field's value is a string, so any validators must accept a string and
 return a string, `null`, or `undefined`.

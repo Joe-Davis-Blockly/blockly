@@ -12,11 +12,13 @@ Creating custom procedure blocks requires that you:
 2.  Use the JSON serialization system, as explained on the [overview
     page](/blockly/guides/create-custom-blocks/procedures/overview).
 
-Note: If you defined custom procedure blocks to work with the legacy procedure
+:::note
+If you defined custom procedure blocks to work with the legacy procedure
 system (before [@blockly/block-shareable-procedures][shareable-procedures] was
 available) you can upgrade them to work with the new
 [@blockly/block-shareable-procedures][shareable-procedures] blocks by following
 the steps that follow.
+:::
 
 ## Add data models to the workspace
 

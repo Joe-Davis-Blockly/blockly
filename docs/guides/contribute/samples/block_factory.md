@@ -102,9 +102,11 @@ In this block-code generator, we get the default angle value and pass it as the
 only argument to the `FieldAngle` constructor. The field name is always passed
 as the second argument to `appendField`.
 
-Note: For any place you would need quotation marks around a field value, such as
+:::note
+For any place you would need quotation marks around a field value, such as
 when passing the name of the field to `appendField`, you should use
 `generator.quote_` rather than manually wrapping in quotation marks.
+:::
 
 ### JSON definition
 
@@ -133,8 +135,10 @@ jsonDefinitionGenerator.forBlock['field_angle'] = function (
 };
 ```
 
-Note: Block-code generators always return strings, so stringify the object
+:::note
+Block-code generators always return strings, so stringify the object
 before returning it.
+:::
 
 ### Code headers
 
@@ -174,8 +178,10 @@ this includes work such as importing the field or loading it through a script
 tag, and perhaps calling a function that will register the field with Blockly's
 field registry.
 
-Tip: If your package is published on npm, it should automatically be available
+:::tip
+If your package is published on npm, it should automatically be available
 on unpkg, which is a convenient place that script tags can load from.
+:::
 
 For these two block-code generators, all the code should be added through calls
 to `addHeaderLine`. This function will ensure each header line is only shown

@@ -4,7 +4,8 @@ description: The process for building Blockly.
 
 # Build scripts
 
-Caution: Unless you are modifying the Blockly source code directly, you probably
+:::warning
+Unless you are modifying the Blockly source code directly, you probably
 don't need to build Blockly run any of the scripts documented below yourself.
 Instead, follow the instructions in [the "Get the Code"
 section](../../get-started/web#get_the_code) of the [Get Started](
@@ -12,6 +13,7 @@ section](../../get-started/web#get_the_code) of the [Get Started](
 https://www.npmjs.com/package/blockly) or download the `.tgz` file attached to
 [the latest release on GitHub](
 https://github.com/google/blockly/releases/latest).
+:::
 
 Blockly is made up of over a hundred TypeScript files. These must be compiled
 by the TypeScript compiler, `tsc`, into JavaScript before they can be
@@ -64,7 +66,8 @@ this alternative terminology is potentially confusing and discouraged.
 
 ## Quick Start {:#quick-start}
 
-Caution: Unless you are modifying the Blockly source code directly, you probably
+:::warning
+Unless you are modifying the Blockly source code directly, you probably
 don't need to build Blockly run any of the scripts documented below yourself.
 Instead, follow the instructions in [the "Get the Code"
 section](../../get-started/web#get_the_code) of the [Get Started](
@@ -72,6 +75,7 @@ section](../../get-started/web#get_the_code) of the [Get Started](
 https://www.npmjs.com/package/blockly) or download the `.tgz` file attached to
 [the latest release on GitHub](
 https://github.com/google/blockly/releases/latest).
+:::
 
 * If you've made local changes and want to make sure they've not broken the
   build or any tests, run

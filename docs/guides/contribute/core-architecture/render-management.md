@@ -40,9 +40,11 @@ You need to interact with this system if you are:
     accurate size information before their parent blocks are rendered so the
     parent blocks can stretch around their children.
 
-Note: modifications that only affect the color of the block and not its shape
+:::note
+modifications that only affect the color of the block and not its shape
 (e.g. disabling the block) *don't* queue a render. The colors are updated
 independently using `BlockSvg.prototype.applyColour`.
+:::
 
 ## Why it works how it does
 

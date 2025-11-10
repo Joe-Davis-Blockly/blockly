@@ -72,7 +72,9 @@ Image fields are not serializable.
 
 ## Click handler
 
-Note: For information on validators in general see [Validators](/blockly/guides/create-custom-blocks/fields/validators).
+:::note
+For information on validators in general see [Validators](/blockly/guides/create-custom-blocks/fields/validators).
+:::
 
 The image field does not accept a validator; instead it explicitly accepts a
 function that is called whenever the field is clicked. This means that images

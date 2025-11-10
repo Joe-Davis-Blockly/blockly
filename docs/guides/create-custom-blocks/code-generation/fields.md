@@ -21,8 +21,10 @@ const str = generator.quote_(block.getFieldValue('STR'));
 const str = generator.multiline_quote_(block.getFieldValue('STR'));
 ```
 
-Note: the `quote_` and `multiline_quote_` methods follow an earlier naming
+:::note
+the `quote_` and `multiline_quote_` methods follow an earlier naming
 convention with underscores, but they are public.
+:::
 
 ## Variables
 

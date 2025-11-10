@@ -110,14 +110,18 @@ This is a global property, so it will modify all checkbox fields when set.
 
 ## Creating a checkbox validator
 
-Note: For information on validators in general see [Validators](/blockly/guides/create-custom-blocks/fields/validators).
+:::note
+For information on validators in general see [Validators](/blockly/guides/create-custom-blocks/fields/validators).
+:::
 
 A checkbox field's value is either `'TRUE'` or `'FALSE'` so a validator should
 accept those values (i.e. a string) and return `'TRUE'`, `'FALSE'`, `null`, or
 `undefined`.
 
-Caution: the `getValueBoolean` method should not be used inside of validators,
+:::warning
+the `getValueBoolean` method should not be used inside of validators,
 because it returns based on the current value, not the new value.
+:::
 
 Here's an example of a validator that hides or shows a text input field based on
 whether the checkbox is checked:

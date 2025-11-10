@@ -45,9 +45,11 @@ The `onDragStart` method initializes a drag. It should store any data needed to
 execute the drag. It should also call `startDrag` on the draggable being
 dragged.
 
-Note: a new dragger is created for each drag action, so some initialization
+:::note
+a new dragger is created for each drag action, so some initialization
 (like saving the starting location) can alternatively be done in the
 constructor.
+:::
 
 ```js
 onDragStart(e) {

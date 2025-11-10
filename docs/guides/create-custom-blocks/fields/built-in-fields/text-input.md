@@ -114,7 +114,9 @@ This applies to individual fields. If you want to modify all fields change the
 
 ## Creating a text input validator
 
-Note: For information on validators in general see [Validators](/blockly/guides/create-custom-blocks/fields/validators).
+:::note
+For information on validators in general see [Validators](/blockly/guides/create-custom-blocks/fields/validators).
+:::
 
 A text input field's value is a string, so any validators must accept a string
 and return a string, `null`, or `undefined`.

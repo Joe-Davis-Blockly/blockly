@@ -16,8 +16,10 @@ Some common examples:
 +   Requiring that a date be in the future.
 +   Modifying a block's shape based on a dropdown.
 
-Note: Validators modify a field's
+:::note
+Validators modify a field's
 [_value_ not its _text_](/blockly/guides/create-custom-blocks/fields/anatomy-of-a-field#value).
+:::
 
 ## Types of validators
 
@@ -55,8 +57,10 @@ Local validators can be registered in two ways:
 
 + Directly added in a field's constructor.
 
-Note: The signature of the field
+:::note
+The signature of the field
 constructor may be different depending on the field type.
+:::
 
 ```js
 Blockly.Blocks['validator_example'] = {
@@ -100,8 +104,10 @@ validated (e.g. a number field will store a number, while a text input field
 will store a string) so it is best to read the documentation for your specific
 field before creating a validator.
 
-Note: Only editable fields accept validators, so be sure to check the specific
+:::note
+Only editable fields accept validators, so be sure to check the specific
 field's documentation.
+:::
 
 ## Return values
 

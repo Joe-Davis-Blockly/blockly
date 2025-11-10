@@ -33,9 +33,11 @@ Parentheses only need to be inserted if the generated code is incorrect without
 them. This happens when the precedence of an operator in the outer block is
 stronger than the precedence of an operator in the inner block.
 
-Note: Precedence is the order operators get evaluated in. For example, in basic
+:::note
+Precedence is the order operators get evaluated in. For example, in basic
 arithmetic precedence is specified by
 [`PEMDAS`](https://en.wikipedia.org/wiki/Order_of_operations#Mnemonics).
+:::
 
 For example, in the following blocks there is a unary negation operator and an
 addition operator. The unary negation has a stronger precedence than the

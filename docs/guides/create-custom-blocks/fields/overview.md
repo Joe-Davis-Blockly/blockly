@@ -13,8 +13,10 @@ let the user type a number.
 ![A block with a number field.](/blockly/images/math-number.png)
 
 
-Note: If you need to show meta-information about a block, you probably want an
+:::note
+If you need to show meta-information about a block, you probably want an
 icon instead. Read more about [Fields vs Icons][fields-vs-icons].
+:::
 
 Blockly provides several fields by default to handle a variety of user input.
 These can be customized through field-specific configuration or with validators,

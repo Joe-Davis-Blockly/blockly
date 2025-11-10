@@ -16,8 +16,10 @@ Additional colours on the block are derived from the main colour. For example,
 are a desaturated version of the main colour, and border colours are a darker
 version.
 
-Tip: If you want more control over shadow block or border colours, learn about
+:::tip
+If you want more control over shadow block or border colours, learn about
 [defining a theme](/blockly/guides/configure/web/appearance/themes).
+:::
 
 ## Set block colour
 

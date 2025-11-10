@@ -21,9 +21,11 @@ All `public` and `protected` properties are documented in the
 [References](/blockly/reference/js/blockly) section of the Blockly website. You
 can also check visibility by reading the code.
 
-Caution: While JavaScript does not enforce these visibility annotations, you
+:::warning
+While JavaScript does not enforce these visibility annotations, you
 should avoid accessing anything that is not `public`. The Blockly team does not
 guarantee stability of non-public properties and functions between releases.
+:::
 
 ### public {:#annotations-public}
 
@@ -67,12 +69,14 @@ not exported from their module. These functions are essentially local variables
 and cannot be used outside of their defining module. They should be considered
 equivalent to private properties.
 
-Note: Previously, Blockly used an underscore to denote private properties:
+:::note
+Previously, Blockly used an underscore to denote private properties:
 `example_`. In keeping with the current Google style guide, we no longer do this
 in new code, and may change old code. Before calling a method in Blockly, ensure
 that it appears in the reference documentation or is not marked private in the
 code. In rare cases private functions were used so widely that they became
 public, so you may see public functions that end in an underscore.
+:::
 
 ### internal {:#annotations-internal}
 
@@ -145,8 +149,10 @@ If we publish a getter or a setter, please use that instead of directly
 accessing the property. If the property is not public, definitely use getters
 and setters.
 
-Note: Consistent usage of getters and setters in plugins gives us flexibility to
+:::note
+Consistent usage of getters and setters in plugins gives us flexibility to
 make changes in core Blockly without breaking published code.
+:::
 
 ### What if a property doesn't have an annotation?
 

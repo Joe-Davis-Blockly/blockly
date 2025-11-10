@@ -11,8 +11,10 @@ of experience.
 For our repositories, adding new labels to issues is handled exclusively by the
 core Blockly team, to make sure that things don't end up in the wrong spot.
 
-Note: For more information about using labels, see
+:::note
+For more information about using labels, see
 [Filtering issues and pull requests](https://help.github.com/en/github/managing-your-work-on-github/filtering-issues-and-pull-requests-by-labels).
+:::
 
 ### Size
 

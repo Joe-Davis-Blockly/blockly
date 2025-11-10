@@ -15,9 +15,11 @@ You can use CSS to style your application:
 *   Add your own CSS classes to Blockly components for additional specificity.
 *   Use CSS classes and rules to style custom components.
 
-Note: While Blockly still supports
+:::note
+While Blockly still supports
 [themes](/blockly/guides/configure/web/appearance/themes), the preferred way to
 style Blockly applications is with CSS.
+:::
 
 ## CSS classes
 
@@ -156,9 +158,11 @@ setMyHighlight(highlight) {
 }
 ```
 
-Warning: Do not use `dom.addClass` or `dom.removeClass` to add classes to or
+:::warning
+Do not use `dom.addClass` or `dom.removeClass` to add classes to or
 remove classes from components written by others, including Blockly. This might
 lead to unpredictable results.
+:::
 
 ## CSS rules background
 

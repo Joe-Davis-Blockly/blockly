@@ -232,8 +232,10 @@ Shadow blocks are placeholder blocks that perform several functions:
   * Unlike a regular block, they get replaced if the user drops a block on top of them.
   * They inform the user of the type of value expected.
 
-Note: Shadow blocks may not include a variable field or have children that are
+:::note
+Shadow blocks may not include a variable field or have children that are
 not also shadows.
+:::
 
 To create a shadow block, use `shadow` property (JSON) or the `<shadow>` tag
 (XML) instead of the `block` property or the `<block>` tag. For example, here is

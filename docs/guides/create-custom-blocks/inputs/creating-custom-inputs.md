@@ -43,8 +43,10 @@ class MyInput extends Blockly.inputs.Input {}
 Blockly.registry.register(Blockly.registry.Type.INPUT, 'my_input', MyInput);
 ```
 
-Note: unlike [custom fields][custom-fields], you can't override
+:::note
+unlike [custom fields][custom-fields], you can't override
 built-in inputs, and you can't add custom JSON configuration to them.
+:::
 
 [Input]: /blockly/reference/js/blockly.inputs_namespace.input_class
 [makeConnection]: /blockly/reference/js/blockly.inputs_namespace.input_class.makeconnection_1_method.md

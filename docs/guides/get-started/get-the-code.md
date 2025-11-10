@@ -97,9 +97,11 @@ You can also download the compressed code from our
 download the code at regular intervals in order to receive the latest updates
 and fixes to Blockly.
 
-Warning: Github downloads are only provided for convenience for developers who
+:::warning
+Github downloads are only provided for convenience for developers who
 were previously forking Blockly. If you are a new developer, you should use a
 package manager.
+:::
 
 ## Load the code
 
@@ -133,13 +135,17 @@ Blockly.libraryBlocks['block_type'];
 javascript.javascriptGenerator;
 ```
 
-Note: When using script tags you cannot have multiple message files because the
+:::note
+When using script tags you cannot have multiple message files because the
 messages get applied directly to the `Blockly.Msg` array.
+:::
 
 #### Imports
 
-Note: Using imports of our package targets requires you to be using a bundler
+:::note
+Using imports of our package targets requires you to be using a bundler
 (like webpack), since Blockly is packaged as a UMD, rather than an ESM.
+:::
 
 ```js
 // Import Blockly core.

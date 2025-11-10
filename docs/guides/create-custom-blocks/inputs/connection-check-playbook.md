@@ -74,9 +74,11 @@ connections. Usually you think of these as restricting the ordering of blocks.
 Next connections should include which blocks should follow the current one, and
 previous connections include what the current block "is".
 
-Important: Block types, such as `'controls_if'`, and connection checks are
+:::info
+Block types, such as `'controls_if'`, and connection checks are
 different. When this says "which blocks should follow the current one", it means
 the connection check should include relevant check strings, not block types.
+:::
 
 ### Keep blocks in order
 
