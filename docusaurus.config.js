@@ -151,8 +151,8 @@ const config = {
         darkTheme: prismThemes.dracula,
       },
       algolia: {
-        appId: "3L7M0G58CU",
-        apiKey: "829449d897d77038c5d39153d1313ec1", // safe to expose
+        appId: "JOPASJ603L",
+        apiKey: "9a6e9f24a807a1571990048ef66c9438", // safe to expose
         indexName: "Docs websites",
         contextualSearch: true,
         searchParameters: {},
