@@ -122,10 +122,40 @@ const config = {
         },
         items: [
           {
-            type: 'docSidebar',
+            type: 'dropdown',
             label: 'Guides',
-            sidebarId: 'guidesSidebar',
+            // sidebarId: 'guidesSidebar',
             position: 'left',
+            items: [
+              {
+                label: 'Get started',
+                to: 'guides/get-started/what-is-blockly',
+              },
+              {
+                label: 'Design considerations',
+                to: 'guides/design/app-overview',
+              },
+              {
+                label: 'Programming considerations',
+                to: 'guides/programming/using_blockly_apis',
+              },
+              {
+                label: 'Build your editor',
+                to: 'guides/configure/web/configuration_struct',
+              },
+              {
+                label: 'Build your blocks',
+                to: 'guides/create-custom-blocks/overview',
+              },
+              {
+                label: 'Build your application',
+                to: 'guides/app-integration/run-code',
+              },
+              {
+                label: 'Contribute to Blockly',
+                to: 'guides/contribute',
+              },
+            ],
           },
           {
             type: 'docSidebar',
