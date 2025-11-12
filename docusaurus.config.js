@@ -119,6 +119,7 @@ const config = {
         logo: {
           alt: 'My Site Logo',
           src: 'img/logo.svg',
+          srcDark: 'img/blockly-dark-theme-logo.png',
         },
         items: [
           {
@@ -184,6 +185,7 @@ const config = {
         appId: "JOPASJ603L",
         apiKey: "9a6e9f24a807a1571990048ef66c9438", // safe to expose
         indexName: "Docs websites",
+        askAi: "0JvuvoDNFavC",
         contextualSearch: true,
         searchParameters: {},
         searchPagePath: "search", // creates a dedicated search page
@@ -195,7 +197,7 @@ const config = {
         },
       },
       footer: {
-        copyright: 'Raspberry Pi Foundation UK registered charity 1129409',
+        copyright: 'Blockly is an open source project of Raspberry Pi Foundation, UK registered charity 1129409. ',
         links: [
           {
             title: 'Docs',
@@ -208,9 +210,18 @@ const config = {
                 label: 'Reference',
                 to: '/blockly/reference/js/blockly',
               },
+            ],
+          },
+          {
+            title: 'Learn',
+            items: [
               {
                 label: 'Codelabs',
                 to: '/blockly/codelabs/',
+              },
+              {
+                label: 'Samples and Demos',
+                to: 'https://raspberrypifoundation.github.io/blockly-samples/',
               },
             ],
           },
@@ -226,17 +237,33 @@ const config = {
                 to: 'http://www.blocklysummit.com',
               },
               {
-                label: 'Blockly Youtube',
+                label: 'Youtube',
                 to: 'https://www.youtube.com/@blocklydev',
+              },
+              {
+                label: 'Report Isuue',
+                to: 'https://github.com/RaspberryPiFoundation/blockly/issues/new/choose',
               },
             ],
           },
           {
-            title: 'Contact',
+            title: 'About',
             items: [
               {
-                label: 'Contact Us',
+                label: 'Team',
+                to: 'http://blockly.com/team',
+              },
+              {
+                label: 'Contact',
                 to: 'mailto:support@blockly.com',
+              },
+              {
+                label: 'Privacy',
+                to: 'https://www.raspberrypi.org/privacy/',
+              },
+              {
+                label: 'Cookies',
+                to: 'https://www.raspberrypi.org/cookies/',
               },
             ],
           },

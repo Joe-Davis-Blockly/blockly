@@ -115,6 +115,10 @@
   margin-bottom: 10px;
 }
 
+.collapseSidebarButton_PEFL{
+      text-align: right !important
+}
+
 .DocSearch-Button-Keys{
   min-width: 0px !important;
 }
