@@ -82,8 +82,9 @@ The checkbox constructor takes in an optional value and an optional
     ```xml
     <field name="FIELDNAME">true</field>
     ```
-
-    Note: Quotes do not need to be applied to the inner text.
+    :::note
+    Quotes do not need to be applied to the inner text.
+    :::
 
     Where the `name` attribute contains a string referencing an checkbox field,
     and the inner text is the value to apply to the field. The inner text value

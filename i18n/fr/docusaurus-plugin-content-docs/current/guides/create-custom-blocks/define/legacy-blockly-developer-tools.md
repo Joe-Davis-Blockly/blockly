@@ -5,7 +5,7 @@ sidebar: guidesSidebar
 # Legacy Blockly Developer Tools
 
 :::warning
-Deprecated: The tools in this document have been deprecated, but this
+The tools in this document have been deprecated, but this
 documentation is preserved for your reference. The legacy tools are only
 compatible with Blockly v10 and earlier. If you want to migrate your block
 definitions to Blockly v11+, follow [these instructions][block-factory-import]
@@ -95,7 +95,7 @@ files.
 ![](/blockly/images/block_exporter_tab.png)
 
 :::note
-Note: If using a save dialog on Mac you can only download
+If using a save dialog on Mac you can only download
 [one file at a time](https://github.com/google/blockly/issues/647)
 :::
 
@@ -129,7 +129,7 @@ standard Blockly categories. Use the arrow buttons to reorder categories.
 ![](/blockly/images/category_menu.png)
 
 :::note
-Note: The standard categories and toolbox include all the blocks in the
+The standard categories and toolbox include all the blocks in the
 [Playground](https://blockly-demo.appspot.com/static/tests/playground.html).
 This set of blocks is not appropriate for most apps and should be pruned as
 needed.  Also, some blocks are not supported on mobile yet.

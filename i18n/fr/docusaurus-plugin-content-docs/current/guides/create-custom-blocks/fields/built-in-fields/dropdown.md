@@ -312,7 +312,7 @@ format as static options. Every time the dropdown is clicked the function is
 run and the options are recalculated.
 
 :::note
-Note: [Prefix/suffix matching](#prefixsuffix_matching) does not occur for
+[Prefix/suffix matching](#prefixsuffix_matching) does not occur for
 dynamic dropdowns.
 :::
 
@@ -541,7 +541,7 @@ just insert a space where the break should be. For example `'訪問 中國'` and
 ## Creating a dropdown validator
 
 :::note
-Note: For information on validators in general see [Validators](/blockly/guides/create-custom-blocks/fields/validators).
+For information on validators in general see [Validators](/blockly/guides/create-custom-blocks/fields/validators).
 :::
 
 A dropdown field's value is a language-neutral string, so any validators must

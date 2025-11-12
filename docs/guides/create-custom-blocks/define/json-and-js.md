@@ -18,7 +18,7 @@ JavaScript, usually as
 [extensions](/blockly/guides/create-custom-blocks/define/extensions).
 
 :::info
-Key Term: The "JSON" objects are, in fact, plain JavaScript objects. They are
+The "JSON" objects are, in fact, plain JavaScript objects. They are
 called JSON objects because their values must be serializable as JSON. The term
 is used because (a) it appears in the Blockly API and (b) it is a convenient way
 to distinguish between the two different methods of defining blocks.

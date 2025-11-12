@@ -11,9 +11,11 @@ This document explores the different parts of a block.
 **Connections** define where blocks can connect and what kind of blocks they can
 connect to.
 
-Key Term: The term **connection** normally refers to a relationship between two
+:::info
+The term **connection** normally refers to a relationship between two
 things. In Blockly, it usually means _connector_, like a plug or socket. Thus,
 when you connect two blocks, you fit their connections together.
+:::
 
 There are four types of connections:
 
@@ -84,10 +86,12 @@ For more information, see
 **Inputs** are containers for fields and connections. A block is built by
 rendering its inputs in one or more rows like bricks.
 
-Key Term: The term **input** has a number of meanings in Blockly. Its most
+:::info
+The term **input** has a number of meanings in Blockly. Its most
 common meaning is the one described here: a container for fields and
 connections. Less commonly, it means to enter a value or refers to a value that
 has been entered.
+:::
 
 There are four different types of inputs, all of which can contain fields
 (including labels) and two of which contain a single connection. You can also

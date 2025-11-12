@@ -114,7 +114,7 @@ GenericField.fromJson = function(options) {
 };
 ```
 :::note
-Note: Local validators are not currently supported when using a JSON definition.
+Local validators are not currently supported when using a JSON definition.
 But they can be applied via an
 [extension](/blockly/guides/create-custom-blocks/define/extensions).
 :::
@@ -214,7 +214,7 @@ bindEvents_() {
 }
 ```
 :::note
-Note: When overriding `bindEvents_` you should always call the base function.
+When overriding `bindEvents_` you should always call the base function.
 :::
 
 To bind to an event you should generally use the
@@ -231,7 +231,7 @@ If you registered any custom event listeners inside the field's `bindEvents_`
 function they will need to be unregistered inside the `dispose` function.
 
 :::note
-Note: When overriding dispose you should always call the base function.
+When overriding dispose you should always call the base function.
 :::
 
 If you correctly [initialized the
@@ -271,7 +271,7 @@ doClassValidation_(newValue) {
 };
 ```
 :::note
-Note: The `newValue` passed to `doClassValidation_` could be of any type
+The `newValue` passed to `doClassValidation_` could be of any type
 (depending on how responsible your fellow developers are), so be prepared to
 handle edge cases.
 :::
@@ -303,10 +303,11 @@ doValueUpdate_(newValue) {
   this.isValueValid_ = true;
 }
 ```
-
-Caution: If your field needs to access properties of the block or workspace when
+:::warning
+If your field needs to access properties of the block or workspace when
 setting the value, you should make `doValueUpdate_` fail cleanly if those are
 not available.
+:::
 
 ### Handling invalid values
 
@@ -334,7 +335,7 @@ doValueInvalid_(newValue) {
 }
 ```
 :::warning
-Warning: Never set the `value_` property to an invalid value. Field values
+Never set the `value_` property to an invalid value. Field values
 should always be valid for use in
 [code generation][field-generator].
 :::
@@ -417,7 +418,7 @@ in your editor by wrapping it one of two special `div`s, called the
 `DropDownDiv` and `WidgetDiv`, which float above the rest of Blockly's UI.
 
 :::info
-Important: Updates to an editor's display should be handled during
+Updates to an editor's display should be handled during
 [rendering](/blockly/guides/create-custom-blocks/fields/customizing-fields/creating#updating_the_on-block_display),
 instead of being handled immediately. This allows validators to intercept the
 value before it is applied.
@@ -461,7 +462,7 @@ showEditor_() {
 ```
 
 :::note
-Note: Creating HTML programmatically can be quite long-winded so it is not
+Creating HTML programmatically can be quite long-winded so it is not
 provided here. For an example of this see the [Custom Fields
 Demo](https://google.github.io/blockly-samples/examples/pitch-field-demo/)
 .
@@ -482,14 +483,14 @@ showEditor_() {
 }
 ```
 :::note
-Note: Creating widget HTML programmatically can be quite long-winded so it is
+Creating widget HTML programmatically can be quite long-winded so it is
 not provided here. For an example of this see the implementation of [Text Input
 Field](https://github.com/google/blockly/blob/master/core/field_textinput.ts)
 .
 :::
 
 :::note
-Note: If you are creating a widget that is meant to act like an input but uses a
+If you are creating a widget that is meant to act like an input but uses a
 custom element you can add `data-is-text-input='true'` to your element to notify
 Blockly to treat the element as an input.
 :::
@@ -531,7 +532,7 @@ Common examples include:
 +   Change the color (color)
 
 :::info
-Important: The field should never call `render_` directly. Instead rerenders
+The field should never call `render_` directly. Instead rerenders
 should be triggered by setting the
 [`isDirty_`](/blockly/guides/create-custom-blocks/fields/customizing-fields/creating#isdirty_)
 property to `true`.
@@ -613,7 +614,7 @@ render_() {
 ```
 
 :::info
-Important: Always use `this.textContent_.nodeValue` to update the display text
+Always use `this.textContent_.nodeValue` to update the display text
 of your field. This helps support [text
 symbols](/blockly/guides/create-custom-blocks/fields/customizing-fields/creating#adding_text_symbols).
 :::
@@ -642,12 +643,12 @@ updateSize_() {
 ```
 
 :::warning
-Caution: Calling `getBBox` during rendering can cause layout thrashing, so you
+Calling `getBBox` during rendering can cause layout thrashing, so you
 may want to investigate other ways of getting the size.
 :::
 
 :::note
-Note: The width and height of a field can be dynamic and updating the size does
+The width and height of a field can be dynamic and updating the size does
 not have to be contained in its own function; it can be handled inside
 `render_`. However, it is usually separated to keep code more organized.
 :::
@@ -670,7 +671,7 @@ applyColour() {
 ```
 
 :::note
-Note: You may want to cache the colours in the `applyColour` method, so you can
+You may want to cache the colours in the `applyColour` method, so you can
 apply them to your
 [editor](/blockly/guides/create-custom-blocks/fields/customizing-fields/creating#creating_an_editor)
 when it is activated.
@@ -700,8 +701,9 @@ updateEditable() {
   }
 }
 ```
-
-Caution: Messing with a field's cursor is fragile.
+:::warning
+Messing with a field's cursor is fragile.
+:::
 
 ## Serialization
 
@@ -829,7 +831,7 @@ serialization and deserialization functions (see
 [Serialization](/blockly/guides/create-custom-blocks/fields/customizing-fields/creating#serialization)).
 
 :::info
-Important: If `EDITABLE` is `true` for your field `SERIALIZABLE` should also be
+If `EDITABLE` is `true` for your field `SERIALIZABLE` should also be
 set to `true`. This is not the case by default for backwards compatibility
 reasons.
 :::
@@ -867,7 +869,7 @@ other fields use a `default` cursor. If you want to use a different cursor, set
 it [using CSS](#css).
 
 :::note
-Note: Before version 12.0.0, the `CURSOR` property determined the cursor. Its
+Before version 12.0.0, the `CURSOR` property determined the cursor. Its
 value was a valid CSS cursor string.
 :::
 

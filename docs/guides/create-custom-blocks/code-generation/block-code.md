@@ -178,7 +178,7 @@ Unlike field values, the code you get from inner blocks is ready to go and does
 not need to be transformed.
 
 :::note
-Note: A block attached to a next connection is not an inner block and your
+A block attached to a next connection is not an inner block and your
 block-code generator should ignore it. The language code generator gets the code
 for next blocks.
 :::
