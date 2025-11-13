@@ -50,7 +50,7 @@ contains all of the other components. This is where you do the work of
 programming!
 
 ![A workspace with a category toolbox, scroll bars, trashcan, and zoom
-controls.][workspace-img] {/* .blockly-workspace-img .screenshot */}
+controls.][workspace-img]{/* .blockly-workspace-img style="border: 1px solid #000; max-width: 70%;" */}
 
 ### Toolbox
 
