@@ -14,7 +14,7 @@ SVG path commands can be written as strings, but Blockly provides a set of [util
 
 ### `init()`
 
-A connection's shape is stored as an object with information about its width, height, and sub-path. These objects are created in the `ConstantProvider`s `init()` function. Here is the start of the default implementation. The complete definition can be found inside [`constants.ts`](https://github.com/google/blockly/blob/develop/core/renderers/common/constants.ts).
+A connection's shape is stored as an object with information about its width, height, and sub-path. These objects are created in the `ConstantProvider`s `init()` function. Here is the start of the default implementation. The complete definition can be found inside [`constants.ts`](https://github.com/RaspberryPiFoundation/blockly/blob/develop/core/renderers/common/constants.ts).
 
 ```js
 /**
@@ -38,7 +38,7 @@ init() {
 
 ### `shapeFor(connection)`
 
-The `shapeFor(connection)` function maps from connection to connection shape. Here is the default implementation, which can be found inside [`constants.ts`](https://github.com/google/blockly/blob/develop/core/renderers/common/constants.ts). It returns a puzzle tab for input/output connections and a notch for previous/next connections:
+The `shapeFor(connection)` function maps from connection to connection shape. Here is the default implementation, which can be found inside [`constants.ts`](https://github.com/RaspberryPiFoundation/blockly/blob/develop/core/renderers/common/constants.ts). It returns a puzzle tab for input/output connections and a notch for previous/next connections:
 
 ```js
 /**

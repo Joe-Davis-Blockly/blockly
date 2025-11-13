@@ -17,4 +17,4 @@ JSON is a simple language, and there are many additional features that could be 
 - Handling comments.
 - Handling parentheses with operator precedence.
 
-Blockly ships with five language generators: Python, Dart, JavaScript, PHP, and Lua. The language generators and block generators can be found in the [generators directory](https://github.com/google/blockly/tree/master/generators).
+Blockly ships with five language generators: Python, Dart, JavaScript, PHP, and Lua. The language generators and block generators can be found in the [generators directory](https://github.com/RaspberryPiFoundation/blockly/tree/master/generators).

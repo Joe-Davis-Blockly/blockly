@@ -10,7 +10,7 @@ In this codelab, you learned:
 * How to display a warning message on the block.
 * How to disable a block (without adding an event to the undo history).
 
-You can find the code for the [completed custom block](https://github.com/google/blockly-samples/tree/master/examples/validation-and-warnings-codelab/complete-code/index.js) on GitHub.
+You can find the code for the [completed custom block](https://github.com/RaspberryPiFoundation/blockly-samples/tree/master/examples/validation-and-warnings-codelab/complete-code/index.js) on GitHub.
 
 ### Resources
 For more information related topics, check out the documentation:

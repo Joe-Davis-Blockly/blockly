@@ -5,12 +5,12 @@
 ### Download the sample code
 You can get the sample code for this codelab by either downloading the zip here:
 
-[Download zip](https://github.com/google/blockly-samples/archive/master.zip)
+[Download zip](https://github.com/RaspberryPiFoundation/blockly-samples/archive/master.zip)
 
 or by cloning this git repo:
 
 ```bash
-git clone https://github.com/google/blockly-samples.git
+git clone https://github.com/RaspberryPiFoundation/blockly-samples.git
 ```
 
 If you downloaded the source as a zip, unpacking it should give you a root folder named `blockly-samples-master`.

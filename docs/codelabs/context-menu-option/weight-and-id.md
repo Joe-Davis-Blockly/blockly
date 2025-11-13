@@ -24,4 +24,4 @@ For instance, you can remove the item that deletes all blocks on the workspace:
 
 ### Default items
 
-For a list of the default registry items that Blockly provides, look at [contextmenu_items.ts](https://github.com/google/blockly/blob/master/core/contextmenu_items.ts). Each entry contains both the `id` and the `weight`.
+For a list of the default registry items that Blockly provides, look at [contextmenu_items.ts](https://github.com/RaspberryPiFoundation/blockly/blob/master/core/contextmenu_items.ts). Each entry contains both the `id` and the `weight`.
