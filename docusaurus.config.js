@@ -184,7 +184,7 @@ const config = {
       algolia: {
         appId: "JOPASJ603L",
         apiKey: "9a6e9f24a807a1571990048ef66c9438", // safe to expose
-        indexName: "Docs websites",
+        indexName: "Docs_Websites",
         askAi: "0JvuvoDNFavC",
         contextualSearch: true,
         searchParameters: {},
