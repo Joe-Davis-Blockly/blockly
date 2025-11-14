@@ -5,32 +5,29 @@ import styles from './styles.module.css';
 
 const FeatureList = [
   {
-    title: 'Easy to Use',
-    Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
+    title: 'Accessible by design',
+    Svg: require('@site/static/images/HomePage/Accessibility-tier-4.svg').default,
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+        Built so everyone can engage with visual code — helping developers create experiences that are inclusive by default.
       </>
     ),
   },
   {
-    title: 'Focus on What Matters',
-    Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
+    title: 'Built for flexibility',
+    Svg: require('@site/static/images/HomePage/Explore-tier-4.svg').default,
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
+       An open-source library that adapts to your needs. With APIs, generators, and integrations, Blockly fits into most platforms, and environments.
       </>
     ),
   },
   {
-    title: 'Powered by React',
-    Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
+    title: 'Driven by community',
+    Svg: require('@site/static/images/HomePage/Connect-tier-4.svg').default,
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+        A global community of passion developers and educators helps Blockly stay open, innovative, and ready for what’s next.
       </>
     ),
   },

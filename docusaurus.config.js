@@ -237,11 +237,11 @@ const config = {
                 to: 'http://www.blocklysummit.com',
               },
               {
-                label: 'Youtube',
+                label: 'YouTube',
                 to: 'https://www.youtube.com/@blocklydev',
               },
               {
-                label: 'Report Isuue',
+                label: 'Report Issue',
                 to: 'https://github.com/RaspberryPiFoundation/blockly/issues/new/choose',
               },
             ],
