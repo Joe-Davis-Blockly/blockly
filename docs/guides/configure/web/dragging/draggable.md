@@ -227,7 +227,7 @@ For more information about copying pasting see [Copy paste][copy-paste].
 
 [workspace-visual-glossary]: /blockly/guides/get-started/workspace-anatomy#workspace
 [multiselect-plugin]: https://www.npmjs.com/package/@mit-app-inventor/blockly-plugin-workspace-multiselect
-<!-- This doesn't exist yet -->
+{/* This doesn't exist yet */}
 [layer-manager]: /blockly/reference/js/blockly.layermanager_class
 [events]: /blockly/guides/configure/web/events
 [IRenderedElement]: /blockly/reference/js/blockly.irenderedelement_interface
