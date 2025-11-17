@@ -44,7 +44,7 @@ can register a substitute connection checker object that implements the
 `IConnectionChecker` interface.
 
 To implement your own safety checks: override
-[`doSafetyChecks`](https://github.com/google/blockly/blob/master/core/interfaces/i_connection_checker.ts#L75)
+[`doSafetyChecks`](https://github.com/RaspberryPiFoundation/blockly/blob/master/core/interfaces/i_connection_checker.ts#L75)
 on your connection checker.
 
 :::warning
@@ -52,15 +52,15 @@ In general, developers should not override Blockly's safety checks.
 :::
 
 To implement your own type checks: override
-[`doTypeChecks`](https://github.com/google/blockly/blob/master/core/interfaces/i_connection_checker.ts#L86)
+[`doTypeChecks`](https://github.com/RaspberryPiFoundation/blockly/blob/master/core/interfaces/i_connection_checker.ts#L86)
 on your connection checker.
 
 To implement your own drag checks: override
-[`doDragChecks`](https://github.com/google/blockly/blob/master/core/interfaces/i_connection_checker.ts#L96)
+[`doDragChecks`](https://github.com/RaspberryPiFoundation/blockly/blob/master/core/interfaces/i_connection_checker.ts#L96)
 on your connection checker.
 
 ## Example code
 
 The [strict connection checker
-plugin](https://github.com/google/blockly-samples/tree/master/plugins/strict-connection-checker)
+plugin](https://github.com/RaspberryPiFoundation/blockly-samples/tree/master/plugins/strict-connection-checker)
 is a simple example of a custom checker.

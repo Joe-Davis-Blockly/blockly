@@ -15,7 +15,7 @@ report/feature request will be addressed!
 
 We love hearing your questions! But GitHub issues aren't a very good medium for
 them. If you have a question, head over to our [developer
-forum](https://groups.google.com/forum/#!forum/blockly) instead. If you ask your
+forum](https://groups.google.com/g/blockly) instead. If you ask your
 question there you're more likely to get a timely and thorough response because
 it is filled with developers that have been using Blockly for years!
 
@@ -26,8 +26,8 @@ matching one already exists. If one does, this saves you the effort of having to
 write it up yourself! So before you get started writing, do some searches for
 duplicates or related issues.
 
-- Search in [blockly-samples](https://github.com/google/blockly-samples/issues?q=is%3Aissue+mySearchHere)
-- Search in [Blockly core](https://github.com/google/blockly/issues?q=is%3Aissue+mySearchHere)
+- Search in [blockly-samples](https://github.com/RaspberryPiFoundation/blockly-samples/issues?q=is%3Aissue+mySearchHere)
+- Search in [Blockly core](https://github.com/RaspberryPiFoundation/blockly/issues?q=is%3Aissue+mySearchHere)
 - Search the [forum](https://groups.google.com/g/blockly/search?q=mySearchHere)
 
 If you find a matching issue, give it a thumbs up or add a comment
@@ -97,8 +97,8 @@ well. Again, be as specific as possible.
 
 The time has come to write your bug report. Select your repository:
 
-- [Blockly core](https://github.com/google/blockly/issues/new?assignees=&labels=type%3A+bug%2C+triage&template=bug_report.md)
-- [Blockly-samples](https://github.com/google/blockly-samples/issues/new?assignees=&labels=type%3A+bug%2C+triage&template=bug_report.md)
+- [Blockly core](https://github.com/RaspberryPiFoundation/blockly/issues/new?assignees=&labels=type%3A+bug%2C+triage&template=bug_report.md)
+- [Blockly-samples](https://github.com/RaspberryPiFoundation/blockly-samples/issues/new?assignees=&labels=type%3A+bug%2C+triage&template=bug_report.md)
 
 Be sure to fill out all of the sections of the issue template, even the ones
 not detailed here.
@@ -158,7 +158,7 @@ But these aren't hard and fast rules. They're just meant to give you an idea of
 what we're looking for before you put time into building your feature request.
 
 If you're unsure whether something fits, try posting it on our [developer
-forums](https://groups.google.com/forum/#!forum/blockly). And remember, even if
+forums](https://groups.google.com/g/blockly). And remember, even if
 your idea doesn't get accepted, we would still love for you to build it as a
 third party plugin or tutorial!
 
@@ -181,8 +181,8 @@ feature request!
 
 Now you're ready to write your feature request. Select your repository:
 
-- [Blockly core](https://github.com/google/blockly/issues/new?assignees=&labels=type%3A+feature+request%2C+triage&template=feature_request.md)
-- [Blockly-samples](https://github.com/google/blockly-samples/issues/new?assignees=&labels=type%3A+feature+request%2C+triage&template=feature_request.md)
+- [Blockly core](https://github.com/RaspberryPiFoundation/blockly/issues/new?assignees=&labels=type%3A+feature+request%2C+triage&template=feature_request.md)
+- [Blockly-samples](https://github.com/RaspberryPiFoundation/blockly-samples/issues/new?assignees=&labels=type%3A+feature+request%2C+triage&template=feature_request.md)
 
 Be sure to fill out all of the sections of the issue template, even the ones
 not detailed here.

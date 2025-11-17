@@ -20,7 +20,7 @@ reflows as the page is resized.
 Ensure that the area has an ID (on this page we will call it `blocklyArea`).
 
 Here is
-[a live demo](https://google.github.io/blockly-samples/examples/resizable-demo/index.html)
+[a live demo](https://raspberrypifoundation.github.io/blockly-samples/examples/resizable-demo/index.html)
 of a table cell that fills the bottom of the screen.
 
 ## 2. Inject the workspace
@@ -72,5 +72,5 @@ onresize();
 ```
 
 Here is
-[a live demo](https://google.github.io/blockly-samples/examples/resizable-demo/overlay.html)
+[a live demo](https://raspberrypifoundation.github.io/blockly-samples/examples/resizable-demo/overlay.html)
 of Blockly that fills the bottom of the screen.

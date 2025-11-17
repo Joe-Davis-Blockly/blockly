@@ -24,7 +24,7 @@ components](#show_a_context_menu_on_a_custom_object). Blockly provides standard
 context menus that you can customize. You can also customize context menus on
 workspaces and blocks on a per-workspace or per-block basis.
 
-{/* TODO(https://github.com/google/blockly/issues/8019): Add a ref to */}
+{/* TODO(https://github.com/RaspberryPiFoundation/blockly/issues/8019): Add a ref to */}
 {/* positionables here, as a more discoverable solution. */}
 
 ## How context menus work
@@ -449,7 +449,7 @@ steps:
     items.
 
 [block-default-menu-image]: /blockly/images/context-menus/block-default-menu.png
-[context-menu-items-source]: https://github.com/google/blockly/blob/master/core/contextmenu_items.ts
+[context-menu-items-source]: https://github.com/RaspberryPiFoundation/blockly/blob/master/core/contextmenu_items.ts
 [i-context-menu]: /blockly/reference/js/blockly.icontextmenu_interface
 [i-focusable-node]: /blockly/reference/js/blockly.ifocusablenode_interface
 [RegistryItem]: /blockly/reference/js/blockly.contextmenuregistry_namespace.registryitem_typealias

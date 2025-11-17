@@ -23,7 +23,7 @@ through npm.
 First-party plugins are supported by the Blockly team and published under the
 `@blockly` scope on npm. They are designed to be usable in a wide range of
 Blockly applications and are stable and easy to use. They are stored in the
-[blockly-samples](https://github.com/google/blockly-samples). A field for
+[blockly-samples](https://github.com/RaspberryPiFoundation/blockly-samples). A field for
 setting motor speed could be used in many robotics projects and is a good
 candidate for a first-party plugin.
 
@@ -58,7 +58,7 @@ Plugins go through four stages: [suggestion](#suggestion),
 
 A plugin starts as a **suggestion**. You can suggest a plugin by creating a new
 issue with the [Feature
-Request](https://github.com/google/blockly-samples/issues/new?assignees=&labels=type%3A+feature+request%2C+triage&template=feature_request.md)
+Request](https://github.com/RaspberryPiFoundation/blockly-samples/issues/new?assignees=&labels=type%3A+feature+request%2C+triage&template=feature_request.md)
 template. For more information, read about [how to write a feature
 request](/blockly/guides/modify/contribute/write_a_good_issue#feature-request).
 
@@ -111,7 +111,7 @@ implemented.
 
 -   Running `npx @blockly/create-package` to set up the plugin and its directory
     from a template. [Learn
-    more...](https://github.com/google/blockly-samples/tree/master/plugins/dev-create)
+    more...](https://github.com/RaspberryPiFoundation/blockly-samples/tree/master/plugins/dev-create)
 -   Implementing core logic for the plugin.
 -   Implementing a UI, if needed.
 -   Testing the plugin, using Mocha.
@@ -126,9 +126,9 @@ against this repository. If you want to collaborate on a plugin in this
 repository, ask the Blockly team to create a feature branch for you.
 
 Plugins should be added to the
-[`gh-pages/index.md`](https://github.com/google/blockly-samples/blob/master/gh-pages/index.md)
+[`gh-pages/index.md`](https://github.com/RaspberryPiFoundation/blockly-samples/blob/master/gh-pages/index.md)
 file in the `master` branch of blockly-samples. This will cause them to appear
-on our [Plugins site](https://google.github.io/blockly-samples/). First-party
+on our [Plugins site](https://raspberrypifoundation.github.io/blockly-samples/). First-party
 plugins should point to their test page. Third-party plugins can also be added
 to this page, and can point to a link of their owner's choosing, such as a
 hosted demo or the npm page.
@@ -146,5 +146,5 @@ The Plugins site is also updated whenever plugins are published.
 
 Plugins that are not ready for publishing should be marked `private` in their
 `package.json`. This may happen if a plugin relies on a not-yet-published change
-in [core Blockly](https://github.com/google/blockly). Core Blockly is published
+in [core Blockly](https://github.com/RaspberryPiFoundation/blockly). Core Blockly is published
 in the last week of each quarter (once every three months).

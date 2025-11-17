@@ -100,7 +100,7 @@ area.](/blockly/images/block_exporter_tab.png)
 
 :::note
 If using a save dialog on Mac you can only download
-[one file at a time](https://github.com/google/blockly/issues/647)
+[one file at a time](https://github.com/RaspberryPiFoundation/blockly/issues/647)
 :::
 
 ## Workspace Factory tab

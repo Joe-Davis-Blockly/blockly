@@ -88,7 +88,7 @@ var code = javascriptGenerator.workspaceToCode(workspace);
 ## Example
 
 Here is [a live
-demo](https://google.github.io/blockly-samples/examples/generator-demo/) of
+demo](https://raspberrypifoundation.github.io/blockly-samples/examples/generator-demo/) of
 generating and executing JavaScript.
 
 ## JS-Interpreter
@@ -202,8 +202,8 @@ line-by-line execution. The example below uses this approach.
 ### JS-Interpreter Example
 
 Here is [a live
-demo](https://google.github.io/blockly-samples/examples/interpreter-demo/step-execution.html)
+demo](https://raspberrypifoundation.github.io/blockly-samples/examples/interpreter-demo/step-execution.html)
 of interpreting JavaScript step by step. And [this
-demo](https://google.github.io/blockly-samples/examples/interpreter-demo/async-execution.html)
+demo](https://raspberrypifoundation.github.io/blockly-samples/examples/interpreter-demo/async-execution.html)
 includes a wait block, a good example to use for other asynchronous behavior
 (e.g., speech or audio, user input).

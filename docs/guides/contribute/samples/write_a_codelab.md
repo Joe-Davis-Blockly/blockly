@@ -53,8 +53,8 @@ technical writing.
 
 - What is the minimum setup required for the user to run your code?
 
-If helpful, you can publish [starter code](https://github.com/google/blockly-samples/tree/master/examples/context-menu-codelab/starter-code)
-and [completed code](https://github.com/google/blockly-samples/tree/master/examples/context-menu-codelab/complete-code)
+If helpful, you can publish [starter code](https://github.com/RaspberryPiFoundation/blockly-samples/tree/master/examples/context-menu-codelab/starter-code)
+and [completed code](https://github.com/RaspberryPiFoundation/blockly-samples/tree/master/examples/context-menu-codelab/complete-code)
 in the `examples` directory.
 
 ### Structure

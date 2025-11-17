@@ -204,7 +204,7 @@ inputs](/blockly/guides/create-custom-blocks/define/inline-vs-external).
 ### Go play!
 
 The best way to learn about inputs, fields, and connections is to construct
-blocks in the [Blockly Developer Tools](https://google.github.io/blockly-samples/examples/developer-tools/index.html}) and choose different
+blocks in the [Blockly Developer Tools](https://raspberrypifoundation.github.io/blockly-samples/examples/developer-tools/index.html}) and choose different
 settings for the `inputs` dropdown (`automatic`, `external`, `inline`).
 
 ## Icons

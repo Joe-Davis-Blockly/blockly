@@ -36,7 +36,7 @@ applications.
 ## Find a plugin
 
 *   Visit [Blockly Plugins &
-    Demos](https://google.github.io/blockly-samples/#plugins), which has live
+    Demos](https://raspberrypifoundation.github.io/blockly-samples/#plugins), which has live
     demos of first-party plugins.
 
 *   Search npm for
@@ -47,7 +47,7 @@ applications.
     [`blockly`](https://www.npmjs.com/search?q=blockly).
 
 *   See the [`blockly-samples/plugins`
-    directory](https://github.com/google/blockly-samples/tree/master/plugins) on
+    directory](https://github.com/RaspberryPiFoundation/blockly-samples/tree/master/plugins) on
     GitHub, which is the repository for first-party plugins. Each plugin has a
     README that describes its behaviour and intended use.
 
@@ -80,7 +80,7 @@ makes it easy to receive updates.
 
     You can also clone the GitHub repository that contains the plugin. For
     first-party plugins, this is
-    [`blockly-samples`](https://github.com/google/blockly-samples/tree/master).
+    [`blockly-samples`](https://github.com/RaspberryPiFoundation/blockly-samples/tree/master).
 
 Check the plugin's README to see if there are any additional installation
 instructions.

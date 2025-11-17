@@ -12,7 +12,7 @@ If you want to customize any of these assets, such as using a different sound,
 or if you want your application to only make HTTP requests to your domain:
 
 1.  Download all of [Blockly's
-    assets](https://github.com/google/blockly/tree/master/media) from GitHub and
+    assets](https://github.com/RaspberryPiFoundation/blockly/tree/master/media) from GitHub and
     place them in your own media folder.
 1.  Replace any assets you want to customize.
 1.  Set the `media` property in the [configuration

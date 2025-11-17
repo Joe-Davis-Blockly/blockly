@@ -54,5 +54,5 @@ For more information about configuration options, see
 
 [visual-glossary]: /blockly/guides/get-started/workspace-anatomy
 [config-options]: /blockly/guides/configure/web/configuration_struct#the_options_dictionary
-[fixed-demo]: https://google.github.io/blockly-samples/examples/fixed-demo/index.html
-[resizable-demo]: https://google.github.io/blockly-samples/examples/resizable-demo/index.html
+[fixed-demo]: https://raspberrypifoundation.github.io/blockly-samples/examples/fixed-demo/index.html
+[resizable-demo]: https://raspberrypifoundation.github.io/blockly-samples/examples/resizable-demo/index.html

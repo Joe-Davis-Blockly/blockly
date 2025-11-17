@@ -124,7 +124,7 @@ In its place, open `core/requires.js` and copy all the require statements into
 your code.  You can then comment out the ones you don't need.
 
 Note that the Closure Compiler preserves licences in the compiled output.
-Feel free to strip Google's Apache licences from this output file to reduce the
+Feel free to strip the Apache licenses from this output file to reduce the
 size further.
 
 The Closure Compiler has a lot of features and options, do check out their

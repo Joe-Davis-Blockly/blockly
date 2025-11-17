@@ -82,7 +82,7 @@ Blockly.Tooltip.setCustomTooltip(yourFnHere);
 ```
 
 For an example, see the
-[Custom Tooltips demo](https://google.github.io/blockly-samples/examples/custom-tooltips-demo/).
+[Custom Tooltips demo](https://raspberrypifoundation.github.io/blockly-samples/examples/custom-tooltips-demo/).
 
 ## Help URL
 

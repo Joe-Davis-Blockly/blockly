@@ -13,7 +13,7 @@ toolbox](/blockly/guides/configure/web/toolboxes/category) has multiple sets of
 blocks that are arranged into different categories.
 
 Toolboxes can be defined using JSON (as of the [September 2020
-release](https://github.com/google/blockly/releases/tag/3.20200924.0)) or XML.
+release](https://github.com/RaspberryPiFoundation/blockly/releases/tag/3.20200924.0)) or XML.
 The JSON format is preferred.
 
 This section mainly focuses on how to specify the *structure* of your toolbox

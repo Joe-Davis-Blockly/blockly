@@ -6,7 +6,7 @@ description: The best way to develop with Blockly.
 
 When hacking in Blockly's core or developing a plugin, the playground is a
 tremendously useful tool. It has a preconfigured instance of Blockly that you
-can use for testing, debugging, or prototyping. At Google, virtually all of
+can use for testing, debugging, or prototyping. At the Raspberry Pi Foundation, virtually all of
 Blockly's development occurs using the playground. As a preview, here is the
 [simple playground on the demo server](https://blockly-demo.appspot.com/static/tests/playground.html).
 

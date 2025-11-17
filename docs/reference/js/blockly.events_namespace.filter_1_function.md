@@ -17,7 +17,7 @@ This function was originally added in commit cf257ea5 with the intention of dram
 
 Code was added to reorder BlockChange events added in commit 5578458, for uncertain reasons but most probably as part of an only-partially-successful attemp to fix problems with event ordering during block mutations. This code should probably have been added to the top of the function, before merging and null-removal, but was added at the bottom for now-forgotten reasons. See these bug investigations for a fuller discussion of the underlying issue and some of the failures that arose because of this incomplete/incorrect fix:
 
-https://github.com/google/blockly/issues/8225\#issuecomment-2195751783 https://github.com/google/blockly/issues/2037\#issuecomment-2209696351
+https://github.com/RaspberryPiFoundation/blockly/issues/8225\#issuecomment-2195751783 https://github.com/RaspberryPiFoundation/blockly/issues/2037\#issuecomment-2209696351
 
 Later, in PR \#1205 the original O(n^2) implementation was replaced by a linear-time implementation, though additonal fixes were made subsequently.
 

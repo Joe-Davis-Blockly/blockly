@@ -3,7 +3,7 @@ description: How to get the code to integrate Blockly into your application.
 ---
 
 {/* Whenever you update this page update the following as well! */}
-{/* https://github.com/google/blockly/blob/develop/scripts/package/README.md */}
+{/* https://github.com/RaspberryPiFoundation/blockly/blob/develop/scripts/package/README.md */}
 
 # Get the code
 
@@ -186,7 +186,7 @@ Blockly.setLocale(En);
 [npm-registry]: https://www.npmjs.com/package/blockly
 [yarn-registry]: https://yarnpkg.com/package/blockly
 [plugins]: /blockly/guides/programming/plugin_overview
-[github-releases]: https://github.com/google/blockly/releases
+[github-releases]: https://github.com/RaspberryPiFoundation/blockly/releases
 [install-node-npm]: https://docs.npmjs.com/downloading-and-installing-node-js-and-npm
 [webpack]: https://webpack.js.org/guides/
 [eslint]: https://eslint.org/

@@ -32,4 +32,4 @@ Plugin fields:
 
 For a full list of plugin fields, see [Blockly Plugins & Demos][blockly-demos].
 
-[blockly-demos]: https://google.github.io/blockly-samples/#fields
+[blockly-demos]: https://raspberrypifoundation.github.io/blockly-samples/#fields

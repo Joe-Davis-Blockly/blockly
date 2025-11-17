@@ -37,8 +37,8 @@ These are the general steps you will follow any time you make a change.
 1.  **Fork and clone the repository.** GitHub has a wonderful tutorial about
     [forking a repo](https://help.github.com/en/github/getting-started-with-github/fork-a-repo#fork-an-example-repository).
     To apply it to blockly, just replace every instance of
-    **octocat/Spoon-Knife** with **google/blockly** or
-    **google/blockly-samples**, depending on which repository you want to work
+    **octocat/Spoon-Knife** with **RaspberryPiFoundation/blockly** or
+    **RaspberryPiFoundation/blockly-samples**, depending on which repository you want to work
     in.
 1.  **Sync your fork.** GitHub provides a tutorial for
     [syncing a fork](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/syncing-a-fork)

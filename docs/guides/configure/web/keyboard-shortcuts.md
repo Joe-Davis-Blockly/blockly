@@ -265,7 +265,7 @@ Blockly.ShortcutRegistry.registry.register(modLogFieldsShortcut);
 
 The shortcut registry is prepopulated with a number of shortcuts. You can find
 these in
-[https://github.com/google/blockly/blob/master/core/shortcut_items.ts](https://github.com/google/blockly/blob/master/core/shortcut_items.ts).
+[https://github.com/RaspberryPiFoundation/blockly/blob/master/core/shortcut_items.ts](https://github.com/RaspberryPiFoundation/blockly/blob/master/core/shortcut_items.ts).
 The shortcuts are defined in the `registerXxxx` functions.
 
 ## Keyboard navigation shortcuts

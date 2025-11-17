@@ -35,7 +35,7 @@ This section assumes that you have read and are familiar with the contents in
 Field](/blockly/guides/create-custom-blocks/fields/anatomy-of-a-field).
 
 For an example of a custom field see the [Custom Fields
-demo](https://google.github.io/blockly-samples/examples/pitch-field-demo/)
+demo](https://raspberrypifoundation.github.io/blockly-samples/examples/pitch-field-demo/)
 .
 
 ## Implementing a constructor
@@ -464,7 +464,7 @@ showEditor_() {
 :::note
 Creating HTML programmatically can be quite long-winded so it is not
 provided here. For an example of this see the [Custom Fields
-Demo](https://google.github.io/blockly-samples/examples/pitch-field-demo/)
+Demo](https://raspberrypifoundation.github.io/blockly-samples/examples/pitch-field-demo/)
 .
 :::
 
@@ -485,7 +485,7 @@ showEditor_() {
 :::note
 Creating widget HTML programmatically can be quite long-winded so it is
 not provided here. For an example of this see the implementation of [Text Input
-Field](https://github.com/google/blockly/blob/master/core/field_textinput.ts)
+Field](https://github.com/RaspberryPiFoundation/blockly/blob/master/core/field_textinput.ts)
 .
 :::
 

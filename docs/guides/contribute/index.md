@@ -15,7 +15,7 @@ contributions.
 -   [Add tests](/blockly/guides/modify/web/unit-testing)
 -   [Write codelabs](/blockly/guides/modify/contribute/write_a_codelab)
 -   [Write plugins](/blockly/guides/modify/contribute/add_a_plugin)
--   [Answer questions](https://groups.google.com/forum/#!forum/blockly)
+-   [Answer questions](https://groups.google.com/g/blockly)
 
 ## Where to start
 
@@ -35,7 +35,7 @@ questionnaire only takes a few minutes and will help us better support the
 Blockly community.
 
 Or join our
-[newsgroup for developers](https://groups.google.com/forum/#!forum/blockly) and
+[newsgroup for developers](https://groups.google.com/g/blockly) and
 say hello. Show us your prototypes early; collectively we have a lot of
 experience and can offer hints which will save you time. Plus, we always love to
 hear about new projects and use cases for Blockly!

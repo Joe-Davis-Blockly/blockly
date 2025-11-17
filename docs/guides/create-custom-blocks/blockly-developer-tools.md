@@ -5,7 +5,7 @@ description: How to use Blockly's tools for defining blocks.
 # Blockly Developer Tools
 
 [Blockly Developer
-Tools](https://google.github.io/blockly-samples/examples/developer-tools/index.html)
+Tools](https://raspberrypifoundation.github.io/blockly-samples/examples/developer-tools/index.html)
 is a web-based developer tool that can help you build
 [custom blocks][add-custom-blocks] and include them in your application.
 
@@ -165,7 +165,7 @@ following these steps:
     renamed if there were conflicts with existing blocks.
 1.  If there were errors parsing any of your blocks, we won't be able to load
     them. You can help us by [filing a
-    bug](https://github.com/google/blockly-samples/issues/new/choose) against
+    bug](https://github.com/RaspberryPiFoundation/blockly-samples/issues/new/choose) against
     blockly-samples and including the file that wouldn't parse.
 
 [legacy-block-factory]: /blockly/guides/create-custom-blocks/legacy-blockly-developer-tools

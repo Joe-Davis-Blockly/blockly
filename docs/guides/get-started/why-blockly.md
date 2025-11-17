@@ -36,7 +36,7 @@ building a block-based programming environment.
 *   **Internationalization.** Blockly's core library of blocks comes with
     translations in 90+ languages, including right-to-left versions for Arabic
     and Hebrew.
-*   **Open Source.** Google shares Blockly's technology with everyone so, together, we can educate the next generation of developers.
+*   **Open Source.** Raspberry Pi Foundation shares Blockly's technology with everyone so, together, we can educate the next generation of developers.
 
 ## Alternatives
 
@@ -54,7 +54,7 @@ Blockly. Here are some other options:
     programming editor, but it fulfills a similar function. It is popular for
     wiring together hardware devices, often in industry contexts.
 
-[plugins]: https://google.github.io/blockly-samples/#plugins
+[plugins]: https://raspberrypifoundation.github.io/blockly-samples/#plugins
 [pxt]: https://github.com/Microsoft/pxt
 [make-code]: https://makecode.com
 [droplet]: https://github.com/PencilCode/droplet

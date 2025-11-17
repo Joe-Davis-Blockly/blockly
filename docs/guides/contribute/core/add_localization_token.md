@@ -65,8 +65,8 @@ provides a link to more information.
 /// starting with a (usually lower) number in a range (%2),
 /// ending with a (usually higher) number in a range (%3), and counting the
 /// iterations by a number of steps (%4).  As in
-/// [https://github.com/google/blockly/wiki/Loops#count-with
-/// https://github.com/google/blockly/wiki/Loops#count-with].
+/// [https://github.com/RaspberryPiFoundation/blockly/wiki/Loops#count-with
+/// https://github.com/RaspberryPiFoundation/blockly/wiki/Loops#count-with].
 Blockly.Msg.CONTROLS_FOR_TITLE = 'count with %1 from %2 to %3 by %4';
 ```
 

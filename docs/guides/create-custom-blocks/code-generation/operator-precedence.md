@@ -151,8 +151,8 @@ precedences, `Order.ATOMIC` and `Order.NONE`.
 [negate-and-addition]: /blockly/images/code-generation/parentheses/negation-and-addition.png
 [negate-plus-two-with-child]: /blockly/images/code-generation/parentheses/negate-plus-two-with-child.png
 [negate-plus-two]: /blockly/images/code-generation/parentheses/negate-plus-two.png
-[dart-order]: https://github.com/google/blockly/blob/dcd2d0e539f2b7aa34b58969d5dc812e7848800c/generators/dart/dart_generator.ts#L27
-[javascript-order]: https://github.com/google/blockly/blob/dcd2d0e539f2b7aa34b58969d5dc812e7848800c/generators/javascript/javascript_generator.ts#L27
-[lua-order]: https://github.com/google/blockly/blob/dcd2d0e539f2b7aa34b58969d5dc812e7848800c/generators/lua/lua_generator.ts#L28
-[php-order]: https://github.com/google/blockly/blob/dcd2d0e539f2b7aa34b58969d5dc812e7848800c/generators/php/php_generator.ts#L26
-[python-order]: https://github.com/google/blockly/blob/dcd2d0e539f2b7aa34b58969d5dc812e7848800c/generators/python/python_generator.ts#L27
+[dart-order]: https://github.com/RaspberryPiFoundation/blockly/blob/dcd2d0e539f2b7aa34b58969d5dc812e7848800c/generators/dart/dart_generator.ts#L27
+[javascript-order]: https://github.com/RaspberryPiFoundation/blockly/blob/dcd2d0e539f2b7aa34b58969d5dc812e7848800c/generators/javascript/javascript_generator.ts#L27
+[lua-order]: https://github.com/RaspberryPiFoundation/blockly/blob/dcd2d0e539f2b7aa34b58969d5dc812e7848800c/generators/lua/lua_generator.ts#L28
+[php-order]: https://github.com/RaspberryPiFoundation/blockly/blob/dcd2d0e539f2b7aa34b58969d5dc812e7848800c/generators/php/php_generator.ts#L26
+[python-order]: https://github.com/RaspberryPiFoundation/blockly/blob/dcd2d0e539f2b7aa34b58969d5dc812e7848800c/generators/python/python_generator.ts#L27

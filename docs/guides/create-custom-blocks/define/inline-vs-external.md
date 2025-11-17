@@ -56,7 +56,7 @@ When it is set to `false` (external inputs):
 
 If you're having trouble visualizing this, construct blocks in the [Blockly
 Developer
-Tools](https://google.github.io/blockly-samples/examples/developer-tools/index.html)
+Tools](https://raspberrypifoundation.github.io/blockly-samples/examples/developer-tools/index.html)
 and choose different settings for the `inputs` dropdown (`automatic`,
 `external`, `inline`).
 

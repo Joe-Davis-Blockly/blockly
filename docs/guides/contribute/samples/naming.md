@@ -30,7 +30,7 @@ Blockly workspaces on the page.
 | ------------------ | ----------------- | ------------------------- | ------------------------- |
 | `@blockly/field-*` | `blockly-field-*` | [`@blockly/field-slider`] | `blockly-plugin`, `field` |
 
-[`@blockly/field-slider`]: https://google.github.io/blockly-samples/plugins/field-slider/test/
+[`@blockly/field-slider`]: https://raspberrypifoundation.github.io/blockly-samples/plugins/field-slider/test/
 
 ### Theme
 
@@ -58,7 +58,7 @@ page.
 | --------------------- | -------------------- | ------------------------------ | ----------------------------------- |
 | `@blockly/block(s)-*` | `blockly-block(s)-*` | [`@blockly/blocks-plus-minus`] | `blockly-plugin`, `block`, `blocks` |
 
-[`@blockly/blocks-plus-minus`]: https://google.github.io/blockly-samples/plugins/block-plus-minus/test/
+[`@blockly/blocks-plus-minus`]: https://raspberrypifoundation.github.io/blockly-samples/plugins/block-plus-minus/test/
 
 ### Block Extension
 
@@ -93,4 +93,4 @@ doesn't meet the requirements of any other plugin type.
 | ------------------- | ------------------ | ------------------------- | ---------------- |
 | `@blockly/plugin-*` | `blockly-plugin-*` | [`@blockly/plugin-modal`] | `blockly-plugin` |
 
-[`@blockly/plugin-modal`]: https://google.github.io/blockly-samples/plugins/modal/test/
+[`@blockly/plugin-modal`]: https://raspberrypifoundation.github.io/blockly-samples/plugins/modal/test/

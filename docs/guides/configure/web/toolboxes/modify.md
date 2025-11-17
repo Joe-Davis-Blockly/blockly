@@ -28,4 +28,4 @@ Be aware that at this time updating the toolbox causes some minor UI resets:
 
   * In a toolbox without categories, any fields changed by the user (such as a dropdown) will revert to the default.
 
-Here is [a live demo](https://google.github.io/blockly-samples/examples/toolbox-demo/) of a tree with categories and block groups.
+Here is [a live demo](https://raspberrypifoundation.github.io/blockly-samples/examples/toolbox-demo/) of a tree with categories and block groups.

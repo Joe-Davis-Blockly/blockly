@@ -77,4 +77,4 @@ For more information, see [Generate and run
 code](/blockly/guides/app-integration/run-code).
 
 [custom-code-generator]: https://blocklycodelabs.dev/codelabs/custom-generator/index.html?index=..%2F..index#0
-[js-code-generator]: https://github.com/google/blockly/blob/master/generators/javascript/javascript_generator.ts
+[js-code-generator]: https://github.com/RaspberryPiFoundation/blockly/blob/master/generators/javascript/javascript_generator.ts

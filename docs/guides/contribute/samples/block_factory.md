@@ -5,7 +5,7 @@ description: How to add a plugin field to Block Factory.
 # Add a plugin field to Block Factory
 
 [Blockly Developer
-Tools](https://google.github.io/blockly-samples/examples/developer-tools/index.html)
+Tools](https://raspberrypifoundation.github.io/blockly-samples/examples/developer-tools/index.html)
 lets you create custom blocks using blocks! It has support for fields that are
 published as plugins in addition to the fields that come with core Blockly. If
 you've created a custom field, you can add support for it to the Block Factory
@@ -233,8 +233,8 @@ the block looks right, and that the code for each of the output sections is
 correct.
 
 [blockly-samples-development]: /blockly/guides/contribute/samples
-[source-developer-tools]: https://github.com/google/blockly-samples/blob/master/examples/developer-tools
-[source-blocks-index]: https://github.com/google/blockly-samples/blob/master/examples/developer-tools/src/blocks/index.ts
-[source-blocks-fields]: https://github.com/google/blockly-samples/blob/master/examples/developer-tools/src/blocks/fields.ts
-[source-toolbox]: https://github.com/google/blockly-samples/blob/master/examples/developer-tools/src/toolbox.ts
-[source-output-generators]: https://github.com/google/blockly-samples/tree/master/examples/developer-tools/src/output-generators/fields
+[source-developer-tools]: https://github.com/RaspberryPiFoundation/blockly-samples/blob/master/examples/developer-tools
+[source-blocks-index]: https://github.com/RaspberryPiFoundation/blockly-samples/blob/master/examples/developer-tools/src/blocks/index.ts
+[source-blocks-fields]: https://github.com/RaspberryPiFoundation/blockly-samples/blob/master/examples/developer-tools/src/blocks/fields.ts
+[source-toolbox]: https://github.com/RaspberryPiFoundation/blockly-samples/blob/master/examples/developer-tools/src/toolbox.ts
+[source-output-generators]: https://github.com/RaspberryPiFoundation/blockly-samples/tree/master/examples/developer-tools/src/output-generators/fields

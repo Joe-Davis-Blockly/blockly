@@ -12,7 +12,7 @@ section](../../get-started/web#get_the_code) of the [Get Started](
 ../../get-started/web) page to install [the `blockly` NPM package](
 https://www.npmjs.com/package/blockly) or download the `.tgz` file attached to
 [the latest release on GitHub](
-https://github.com/google/blockly/releases/latest).
+https://github.com/RaspberryPiFoundation/blockly/releases/latest).
 :::
 
 Blockly is made up of over a hundred TypeScript files. These must be compiled
@@ -29,12 +29,12 @@ be compatible with all browsers—are transpiled down to ES6,
 which is generally compatible with most widely-used browsers. Thus, it's
 important that you serve only the minified code to your end users.
 
-The [google/blockly repository](https://github.com/google/blockly) contains
+The [RaspberryPiFoundation/blockly repository](https://github.com/RaspberryPiFoundation/blockly) contains
 only the source code. It previously also contained the build products,
 but since 2019 the minified bundles have been published as [the
 `blockly` NPM package](https://www.npmjs.com/package/blockly) and since
 2022 also attached as a `.tgz` file to [each GitHub release](
-https://github.com/google/blockly/releases), so there is no need
+https://github.com/RaspberryPiFoundation/blockly/releases), so there is no need
 to build Blockly unless you are hacking on Blockly itself—in particular on
 files in the `core`, `blocks`, `generators`, or `msg` directories.
 
@@ -74,7 +74,7 @@ section](../../get-started/web#get_the_code) of the [Get Started](
 ../../get-started/web) page to install [the `blockly` NPM package](
 https://www.npmjs.com/package/blockly) or download the `.tgz` file attached to
 [the latest release on GitHub](
-https://github.com/google/blockly/releases/latest).
+https://github.com/RaspberryPiFoundation/blockly/releases/latest).
 :::
 
 * If you've made local changes and want to make sure they've not broken the
@@ -188,7 +188,7 @@ or uncompressed mode.
 ### `publish` {:#publish}
 
 `npm run publish` is used by the Blockly team to publish the `blockly` npm
-package. It depends on Google-internal infrastructure so is not useful
+package. It depends on check with Maribeth so is not useful
 to external developers.
 
 ### `lint` {:#lint}

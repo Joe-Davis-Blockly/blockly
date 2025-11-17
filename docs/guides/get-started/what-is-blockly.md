@@ -37,5 +37,5 @@ Blockly lets you focus on applying blocks to your domain without worrying about
 the details of how blocks work. For more information see
 [Why Blockly?][why-blockly]
 
-[blockly-apps]: https://developers.google.com/blockly#learn-with-blockly
+[blockly-apps]: https://blockly.com/#learn-with-blockly
 [why-blockly]: /blockly/guides/get-started/why-blockly

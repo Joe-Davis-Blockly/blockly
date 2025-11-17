@@ -11,11 +11,11 @@ and will eventually be integrated into Blockly core.
 You can [download the plugin from
 npm](https://www.npmjs.com/package/@blockly/keyboard-navigation) or get the code
 from the [`blockly-keyboard-experimentation`
-repository](https://github.com/google/blockly-keyboard-experimentation/) on
+repository](https://github.com/RaspberryPiFoundation/blockly-keyboard-experimentation/) on
 GitHub.
 
 If you want to play with the plugin, visit the [accessibility plugin
-playground](https://google.github.io/blockly-keyboard-experimentation/).
+playground](https://raspberrypifoundation.github.io/blockly-keyboard-experimentation/).
 
 *   To get started, click the workspace or press `tab` until you reach the
     workspace.
@@ -25,7 +25,7 @@ playground](https://google.github.io/blockly-keyboard-experimentation/).
 *   Press `/` for a complete list of keyboard commands.
 
 For more information about our accessibility projects, visit [our accessibility
-page](https://developers.google.com/blockly/accessibility#projects).
+page](https://blockly.com/accessibility#projects).
 
 :::note
 The 0.6 version of the keyboard navigation plugin that existed prior to

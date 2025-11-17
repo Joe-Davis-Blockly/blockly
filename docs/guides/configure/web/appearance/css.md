@@ -277,14 +277,14 @@ When Blockly is injected, it adds a `<style>` tag as a child of the `<head>`
 tag. The rules in this tag come from:
 
 *   The `Blockly.css` namespace. To see these rules, open
-    [core/css.ts](https://github.com/google/blockly/blob/master/core/css.ts) and
+    [core/css.ts](https://github.com/RaspberryPiFoundation/blockly/blob/master/core/css.ts) and
     search for `let content`.
 *   Individual components, which call `Blockly.css.register` to add
     component-specific CSS rules. Because `css.register` adds these rules to the
     end of the `content` string, they have higher priority than rules with the
     same specificity that were added earlier. To see these rules, see the [calls
     to
-    `Blockly.css.register`](https://github.com/search?q=repo%3Agoogle%2Fblockly+css.register+path%3Acore&type=code).
+    `Blockly.css.register`](https://github.com/search?q=repo%3ARaspberryPiFoundation%2Fblockly+css.register+path%3Acore&type=code).
 
 If you do not want to use these rules, set the [`css` configuration
 option](/blockly/guides/configure/web/configuration_struct#the_options_dictionary)
@@ -302,7 +302,7 @@ option. To see these rules, search for the `getCss_` method in your renderer.
 
 Inline styles are specified with the `style` attribute and are generally created
 when the DOM for a component is created. For a partial list, see [this GitHub
-query](https://github.com/search?q=repo%3Agoogle%2Fblockly+.style+path%3Acore&type=code).
+query](https://github.com/search?q=repo%3ARaspberryPiFoundation%2Fblockly+.style+path%3Acore&type=code).
 
 Inline styles apply directly to the element on which they occur and have a
 specificity higher than any selector. For this reason, overriding them generally
@@ -315,7 +315,7 @@ annotation](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_cascade/Specifi
 attributes of SVG elements. They have a specificity of zero and cannot contain
 an `!important` annotation, so they have the lowest priority of all of Blockly's
 rules. Blockly generally creates them in [calls to
-`createSvgElement`](https://github.com/search?q=repo%3Agoogle%2Fblockly%20createsvgelement%20path%3Acore&type=code).
+`createSvgElement`](https://github.com/search?q=repo%3ARaspberryPiFoundation%2Fblockly%20createsvgelement%20path%3Acore&type=code).
 
 ### Add your own CSS rules
 

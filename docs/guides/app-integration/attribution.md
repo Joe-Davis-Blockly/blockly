@@ -20,7 +20,7 @@ uses of the logo.
 
 Upon first reference in a paragraph, use the primary one-line description:
 
-> Blockly is an open-source developer library from Google.
+> Blockly is an open-source developer library from the Raspberry Pi Foundation, originally developed at Google.
 It creates a visual programming interface that uses drag-and-drop blocks.
 
 When referring to Blockly in the context of another app which uses Blockly
@@ -74,7 +74,7 @@ following logos, depending on background color:
   </tbody>
 </table>
 
-Please hyperlink the badge to Blockly's home page: [https://g.co/dev/blockly](/blockly)
+Please hyperlink the badge to Blockly's home page: [https://www.blockly.com](https://www.blockly.com)
 
 ### Badge sizing and spacing
 
@@ -88,7 +88,7 @@ For lockups, provide at least x-height and width x1 white space around the
 
 Do not use the Blockly mark or any variant of the Blockly mark in conjunction
 with the overall name of your application, product, service, or website without
-permission from the Blockly team (please email blockly-support@google.com to
+permission from the Blockly team (please email support@blockly.com to
 request permission). Do not alter or use the Blockly mark in a way that may be
 confusing or misleading, and never use Blockly branding as the most prominent
 element on your page.
@@ -218,8 +218,4 @@ logo. Never crowd or overlap the logo with other elements.
 - Use the logo on a poorly contrasting background (e.g. the knockout logo on a light gray background)
 - Overlap or crowd the logo with other elements
 - Redraw the logo
-- Use other Google branding in conjunction with your product
-
-For guidelines on how to use other Google brands, see the
-[Brand Permissions site](https://www.google.com/permissions/).
 

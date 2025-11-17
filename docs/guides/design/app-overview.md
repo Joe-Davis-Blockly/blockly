@@ -47,7 +47,7 @@ applications:
 
 *   **Application-specific code:** The generated code performs a task specific
     to a particular application. For example, [Blockly Developer Tools](
-    https://google.github.io/blockly-samples/examples/developer-tools/index.html)
+    https://raspberrypifoundation.github.io/blockly-samples/examples/developer-tools/index.html)
     is a tool for designing new Blockly blocks. It generates block definition
     code, which users copy and paste into their own Blockly application.
 
@@ -67,7 +67,7 @@ button.](/blockly/images/application-overview/games-maze.png) {/* .blockly-maze-
 
 A few Blockly applications omit the "Run" button and instead update the output
 panel every time the user makes a change. For example, the
-[Graph](https://google.github.io/blockly-samples/examples/graph-demo/index.html)
+[Graph](https://raspberrypifoundation.github.io/blockly-samples/examples/graph-demo/index.html)
 application in Blockly's samples has two output panels (one for the graph and
 one for the equation) that it updates on every change.
 

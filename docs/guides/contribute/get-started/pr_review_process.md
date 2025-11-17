@@ -14,8 +14,8 @@ Our review process has several goals:
   of the codebase.
 
 All of the code that goes into
-[blockly-samples](https://www.github.com/google/blockly-samples) and
-[core Blockly](https://www.github.com/google/blockly) goes through review,
+[blockly-samples](https://www.github.com/RaspberryPiFoundation/blockly-samples) and
+[core Blockly](https://www.github.com/RaspberryPiFoundation/blockly) goes through review,
 whether it's written by community contributors or Blockly team members.
 
 As reviewers, we aim to work with you to make your change as good as possible.

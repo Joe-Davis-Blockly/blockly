@@ -71,7 +71,7 @@ default value based on whether the provided toolbox has categories or not.
 [setIsReadOnly]: /blockly/reference/js/blockly.workspace_class.setisreadonly_1_method
 [isReadOnly]: /blockly/reference/js/blockly.workspace_class.isreadonly_1_method
 [renderer]: /blockly/guides/create-custom-blocks/renderers/create-custom-renderers/basic-implementation
-[RTL demo]: https://google.github.io/blockly-samples/examples/rtl-demo/
+[RTL demo]: https://raspberrypifoundation.github.io/blockly-samples/examples/rtl-demo/
 [Themes]: /blockly/guides/configure/web/themes
 [defining the toolbox]: /blockly/guides/configure/web/toolbox
 [Zoom]: /blockly/guides/configure/web/zoom

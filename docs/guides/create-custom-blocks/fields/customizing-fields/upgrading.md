@@ -4,7 +4,7 @@ description: Upgrading custom fields that were implemented before version 2.
 
 # Upgrade a custom field
 
-In July 2019 ([release 2.20190722](https://github.com/google/blockly/releases/tag/2.20190722.0))
+In July 2019 ([release 2.20190722](https://github.com/RaspberryPiFoundation/blockly/releases/tag/2.20190722.0))
 a more codified fields API was added. It is intended to
 be as backwards compatible as possible. This means that if you had created a
 custom field before July 2019 it will most likely continue to work.
@@ -330,8 +330,8 @@ Recommended:
 ### Where to post
 
 Post upgrade questions on the [blockly developer
-forum](https://groups.google.com/forum/#!forum/blockly).
+forum](https://groups.google.com/g/blockly).
 
 If you are sure that the issue is a problem with the blockly core you can also
-[post an issue](https://github.com/google/blockly/issues) on the blockly GitHub.
+[post an issue](https://github.com/RaspberryPiFoundation/blockly/issues) on the blockly GitHub.
 If you decide to post an issue, please fill out all requested information.

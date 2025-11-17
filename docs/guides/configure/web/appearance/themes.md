@@ -130,7 +130,7 @@ A theme can set the colour or value of the below components:
 Most other components can be changed by using the theme name in your CSS.
 However, if there is a component you would like to change that is not already a
 part of this list and cannot be changed using CSS, please file an
-[issue](https://github.com/google/blockly/issues/new/choose) with more
+[issue](https://github.com/RaspberryPiFoundation/blockly/issues/new/choose) with more
 information.
 
 ```js
@@ -200,7 +200,7 @@ const theme = Blockly.Theme.defineTheme('themeName', {
 ```
 
 Here is an
-[example](https://github.com/google/blockly-samples/blob/aba88bea60bddf3d31ce630b836e2933836ed287/plugins/theme-dark/src/index.js#L21)
+[example](https://github.com/RaspberryPiFoundation/blockly-samples/blob/aba88bea60bddf3d31ce630b836e2933836ed287/plugins/theme-dark/src/index.js#L21)
 of using `defineTheme`.
 
 ### Add Style Names
@@ -299,7 +299,7 @@ JavaScript.
 
 If no theme
 is provided then it will default to the
-[Classic Theme](https://github.com/google/blockly/blob/master/core/theme/classic.ts).
+[Classic Theme](https://github.com/RaspberryPiFoundation/blockly/blob/master/core/theme/classic.ts).
 
 #### Dynamic themes
 
@@ -312,7 +312,7 @@ allowing users to choose a theme from a dropdown menu) then you can call
 Blockly provides a script that will take in a map of hues or hex values and will
 calculate the secondary and tertiary colours for them. The script can be found
 in the
-[scripts/themes](https://github.com/google/blockly/tree/master/scripts/themes)
+[scripts/themes](https://github.com/RaspberryPiFoundation/blockly/tree/master/scripts/themes)
 folder.
 
 ## Built-in themes {:#built-in}
@@ -320,12 +320,12 @@ folder.
 Blockly provides a number of themes for accessibility, specifically certain
 types of colour vision deficiency:
 
--   [High contrast](https://google.github.io/blockly-samples/plugins/theme-highcontrast/test/)
--   [Deuteranopia/Protanopia](https://google.github.io/blockly-samples/plugins/theme-deuteranopia/test/)
--   [Tritanopia](https://google.github.io/blockly-samples/plugins/theme-tritanopia/test/)
+-   [High contrast](https://raspberrypifoundation.github.io/blockly-samples/plugins/theme-highcontrast/test/)
+-   [Deuteranopia/Protanopia](https://raspberrypifoundation.github.io/blockly-samples/plugins/theme-deuteranopia/test/)
+-   [Tritanopia](https://raspberrypifoundation.github.io/blockly-samples/plugins/theme-tritanopia/test/)
 
 We also have:
 
 -   Classic theme
--   [Modern](https://google.github.io/blockly-samples/plugins/theme-modern/test/)
--   [Dark mode](https://google.github.io/blockly-samples/plugins/theme-dark/test/)
+-   [Modern](https://raspberrypifoundation.github.io/blockly-samples/plugins/theme-modern/test/)
+-   [Dark mode](https://raspberrypifoundation.github.io/blockly-samples/plugins/theme-dark/test/)

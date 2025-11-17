@@ -14,7 +14,7 @@ Many Blockly applications are used to describe configurations, rather than
 executable programs. Configuration applications typically start by initializing
 one root level block on the workspace. A good example is the Block Factory tab
 of the [Blockly Developer
-Tools](https://google.github.io/blockly-samples/examples/developer-tools/index.html):
+Tools](https://raspberrypifoundation.github.io/blockly-samples/examples/developer-tools/index.html):
 
 ![A block used to design other blocks. Users can specify the block name, block
 inputs, whether inputs are internal or external, and so

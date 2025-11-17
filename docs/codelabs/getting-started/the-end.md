@@ -6,4 +6,4 @@ And with that, you're done with the Blockly codelab! If you'd like to continue p
 
 For more documentation, visit the [Blockly developer site](/blockly/guides/get-started/what-is-blockly).
 
-Additionally, Blockly has an active [developer forum](https://groups.google.com/forum/#!forum/blockly). Please drop by and say hello. We're happy to answer any questions or give advice on best practices for building an app with Blockly. Feel free to show us your prototypes early; collectively we have a lot of experience and can offer hints which will save you time.
+Additionally, Blockly has an active [developer forum](https://groups.google.com/g/blockly). Please drop by and say hello. We're happy to answer any questions or give advice on best practices for building an app with Blockly. Feel free to show us your prototypes early; collectively we have a lot of experience and can offer hints which will save you time.

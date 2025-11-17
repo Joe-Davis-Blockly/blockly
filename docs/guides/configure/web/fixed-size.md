@@ -73,4 +73,4 @@ that each returned workspace is stored in a different variable.
 
 Now you can test the page in a browser. You should see Blockly's editor filling
 the `div`, with seven blocks in the toolbox. Here is [a live
-demo](https://google.github.io/blockly-samples/examples/fixed-demo/).
+demo](https://raspberrypifoundation.github.io/blockly-samples/examples/fixed-demo/).

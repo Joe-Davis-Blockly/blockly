@@ -13,7 +13,7 @@ Workspaces have `addChangeListener` and `removeChangeListener` methods that can
 be used to listen to the event stream.  One example is the
 [real-time generation of code](code-generators#realtime_generation).
 Another example is the
-[maximum block limit demo](https://google.github.io/blockly-samples/examples/max-blocks-demo/).
+[maximum block limit demo](https://raspberrypifoundation.github.io/blockly-samples/examples/max-blocks-demo/).
 As is often the case, neither of these two examples care what the triggering
 event was.  They simply look at the current state of the workspace.
 
@@ -130,5 +130,5 @@ for information about individual events.
 ## Demo
 
 For an example of the cool things you can do with events, you can check out
-the [mirror demo](https://google.github.io/blockly-samples/examples/mirror-demo/).
+the [mirror demo](https://raspberrypifoundation.github.io/blockly-samples/examples/mirror-demo/).
 This demo has two Blockly workspaces that are kept in sync using events.

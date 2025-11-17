@@ -4,7 +4,7 @@ description: Learn how to contribute changes to Blockly Samples.
 
 # Contribute to samples
 
-[Blockly samples](https://github.com/google/blockly-samples) contains extra
+[Blockly samples](https://github.com/RaspberryPiFoundation/blockly-samples) contains extra
 content related to Blockly that isn't part of the core repository, including
 plugins, codelabs, and example code. For more details about each of these, see
 the [Repository

@@ -236,7 +236,7 @@ default, you need to load the Blockly localization table for your locale.
 
 Blockly's localization tables are stored in files named `blockly/msg/xx.js`,
 where `xx` is the locale code. For a list of supported locales, see the files in
-[`blockly/msg/json`](https://github.com/google/blockly/tree/master/msg/json).
+[`blockly/msg/json`](https://github.com/RaspberryPiFoundation/blockly/tree/master/msg/json).
 
 ### Load a Blockly localization table with npm
 
@@ -333,7 +333,7 @@ registration](/blockly/guides/create-custom-blocks/fields/customizing-fields/cre
 ## Related topics
 
 *   Right-to-left languages: See the [RTL
-    demo](https://google.github.io/blockly-samples/examples/rtl-demo/).
+    demo](https://raspberrypifoundation.github.io/blockly-samples/examples/rtl-demo/).
 *   Help localize Blockly's text: See
     [Translating](/blockly/guides/contribute/core/translating) in the section on
     contributing to Blockly.

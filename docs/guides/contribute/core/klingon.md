@@ -34,7 +34,7 @@ the course of translating to Klingon help us support all languages.
 ## Who?
 
 The number of Google employees who are fluent in Klingon is larger than one
-might expect (and we are hiring).  Google's Klingon language group maintains
+might expect.  Google's Klingon language group maintains
 a style guide for terminology so that different applications use a consistent
 vocabulary.
 
@@ -47,9 +47,9 @@ Most of [Blockly's translations](/blockly/guides/modify/web/translating) are don
 using Translatewiki.  Unfortunately, Klingon is not in their language matrix.
 As a result, Klingon contributors need to edit two files manually:
 
-[msg/json/tlh.json](https://github.com/google/blockly/blob/master/msg/json/tlh.json)
+[msg/json/tlh.json](https://github.com/RaspberryPiFoundation/blockly/blob/master/msg/json/tlh.json)
 and
-[demos/code/msg/tlh.js](https://github.com/google/blockly/blob/master/demos/code/msg/tlh.js)
+[demos/code/msg/tlh.js](https://github.com/RaspberryPiFoundation/blockly/blob/master/demos/code/msg/tlh.js)
 
 See the `en` files in each directory for the English phrases (including
 those not yet translated to Klingon).

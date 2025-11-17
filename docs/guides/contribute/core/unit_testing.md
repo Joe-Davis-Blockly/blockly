@@ -36,9 +36,9 @@ suite.
 
 We have a number of helper functions specific to Blockly that may be useful when
 writing tests. These can be found in
-[core](https://github.com/google/blockly/blob/master/tests/mocha/test_helpers/)
+[core](https://github.com/RaspberryPiFoundation/blockly/blob/master/tests/mocha/test_helpers/)
 and in
-[blockly-samples](https://github.com/google/blockly-samples/blob/master/plugins/dev-tools/src/test_helpers.mocha.js).
+[blockly-samples](https://github.com/RaspberryPiFoundation/blockly-samples/blob/master/plugins/dev-tools/src/test_helpers.mocha.js).
 
 The helper functions include `sharedTestSetup` and `sharedTestTeardown` which
 are **required** to be called before and after your tests (see Requirements
@@ -80,7 +80,7 @@ immediately (will stub by default).
     setup of the outermost suite and `sharedTestTeardown.call(this);` as the
     last line in the teardown of the outermost suite for a file.
 *   If you need a workspace with a generic toolbox, you can use one of the
-    [preset toolboxes](https://github.com/google/blockly/blob/c12be77701cf34434274351f40356f5ad8e7b469/tests/mocha/index.html#L117)
+    [preset toolboxes](https://github.com/RaspberryPiFoundation/blockly/blob/c12be77701cf34434274351f40356f5ad8e7b469/tests/mocha/index.html#L117)
     on the test `index.html`. See below for an example.
 *   You must properly dispose of `this.workspace`. In most tests, you will
     define `this.workspace` in the outermost suite and use it for all subsequent

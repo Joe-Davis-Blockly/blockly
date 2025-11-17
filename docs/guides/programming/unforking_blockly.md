@@ -50,7 +50,7 @@ Once you understand the features that use fork-specific APIs, consider:
     Blockly APIs?
 *   If it seems as though you can't replicate the feature using Blockly APIs,
     please reach out to us through the forum or file an issue on
-    [GitHub](https://github.com/google/blockly/issues/new/choose). Our team will
+    [GitHub](https://github.com/RaspberryPiFoundation/blockly/issues/new/choose). Our team will
     then investigate adding APIs to enable your customization.
 
 ### Determine your unforking path
@@ -75,7 +75,7 @@ future:
 
 *   In general, you shouldn't add new classes to the Blockly namespace. You can
     register [custom
-    fields](https://developers.google.com/blockly/guides/create-custom-blocks/fields/customizing-fields/creating)
+    fields](/guides/create-custom-blocks/fields/customizing-fields/creating)
     or other registrable classes without declaring them inside of the Blockly
     repository or on the Blockly namespace.
 *   You shouldn't rely on Blockly's build tools in order to compile your own

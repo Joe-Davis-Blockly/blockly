@@ -106,7 +106,7 @@ The following are some common questions the Blockly team has encountered.
 ### What if the function I want to use isn't public?
 
 File a [feature
-request](https://github.com/google/blockly/issues/new?assignees=&labels=issue%3A+feature+request%2C+issue%3A+triage&template=feature_request.yaml)
+request](https://github.com/RaspberryPiFoundation/blockly/issues/new?assignees=&labels=issue%3A+feature+request%2C+issue%3A+triage&template=feature_request.yaml)
 on core Blockly. Include a description of your use case and a statement of what
 you would like us to make public.
 

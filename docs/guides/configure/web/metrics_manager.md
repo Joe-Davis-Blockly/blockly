@@ -92,7 +92,7 @@ the bounding box around any blocks or workspace comments.
 
 :::note
 Content metrics do not take into account block comments, only [workspace
-comments](https://developers.google.com/blockly/reference/js/Blockly.WorkspaceComment).
+comments](/reference/js/Blockly.WorkspaceComment).
 :::
 
 ![The Blockly workspace with a blue box around the contents of the
@@ -131,6 +131,6 @@ a substitute metrics manager object that implements the `IMetricsManager`
 interface or extends `Blockly.MetricsManager`.
 
 An example of this can be found in the [Continuous Toolbox
-plugin](https://github.com/google/blockly-samples/blob/master/plugins/continuous-toolbox/src/ContinuousMetrics.js)
+plugin](https://github.com/RaspberryPiFoundation/blockly-samples/blob/master/plugins/continuous-toolbox/src/ContinuousMetrics.js)
 or in the [Fixed Edges
-plugin](https://github.com/google/blockly-samples/blob/master/plugins/fixed-edges/src/index.js).
+plugin](https://github.com/RaspberryPiFoundation/blockly-samples/blob/master/plugins/fixed-edges/src/index.js).

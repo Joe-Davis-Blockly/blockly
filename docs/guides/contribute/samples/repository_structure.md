@@ -19,9 +19,9 @@ running the code as they read.
 ![Screenshot of the custom renderers codelab](/blockly/images/StructureCodelab.png)
 
 The
-[codelabs directory](https://github.com/google/blockly-samples/blob/master/codelabs)
+[codelabs directory](https://github.com/RaspberryPiFoundation/blockly-samples/blob/master/codelabs)
 has a
-[template](https://github.com/google/blockly-samples/blob/master/codelabs/template.md)
+[template](https://github.com/RaspberryPiFoundation/blockly-samples/blob/master/codelabs/template.md)
 and one folder per codelab. Each codelab folder contains a markdown file and all
 of the assets (pngs, gifs, etc) for the codelab.
 
@@ -40,7 +40,7 @@ The target user may be reading the code, running it locally, or copying code
 snippets.
 
 The
-[examples directory](https://github.com/google/blockly-samples/tree/master/examples)
+[examples directory](https://github.com/RaspberryPiFoundation/blockly-samples/tree/master/examples)
 has one folder per example. Each example can be run with `npm install && npm run
 start`, and has a `README.md` file with additional context or instructions.
 
@@ -55,7 +55,7 @@ supported by the Blockly team.
 ![Screenshot of the "typed variable modal" plugin](/blockly/images/StructurePlugin.png)
 
 The
-[plugins directory](https://github.com/google/blockly-samples/tree/master/plugins)
+[plugins directory](https://github.com/RaspberryPiFoundation/blockly-samples/tree/master/plugins)
 has one folder per plugin. Each plugin has a `src` directory, where the code is
 contained, and a `test` directory, where a demo page lives. They also contain a
 `README.md` file, which gives developers information about what the plugin does,
@@ -63,10 +63,10 @@ and how to use it.
 
 ### Github Pages
 
-Blockly-samples has a [webpage](https://google.github.io/blockly-samples/) where
+Blockly-samples has a [webpage](https://raspberrypifoundation.github.io/blockly-samples/) where
 many of the plugins and demos are available in a playground environment. This
 page is hosted on GitHub pages, and the code for this site is in the
-[gh-pages](https://github.com/google/blockly-samples/tree/master/gh-pages)
+[gh-pages](https://github.com/RaspberryPiFoundation/blockly-samples/tree/master/gh-pages)
 directory of blockly-samples. This directory contains templates for the pages on
 the site. The actual site content is generated based on these templates and
 metadata from each plugin or example hosted.

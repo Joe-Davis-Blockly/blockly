@@ -4,7 +4,7 @@ description: Learn how to contribute changes to Blockly Core.
 
 # Contribute to core
 
-The [Blockly](https://github.com/google/blockly) core repository contains the
+The [Blockly](https://github.com/RaspberryPiFoundation/blockly) core repository contains the
 code that is needed to run any Blockly-based application.
 
 ## Need to Know
