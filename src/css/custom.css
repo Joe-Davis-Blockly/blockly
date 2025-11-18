@@ -151,7 +151,7 @@
 }
 
 .footer__copyright{
-  font-size: 14px;
+  font-size: 16px;
 }
 
 /** Added changes for hide level 3 menus **/
@@ -166,4 +166,35 @@
  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
  margin: 0;
  text-align: right;
+}
+
+.DocSearch-Button-Keys .DocSearch-Button-Key {
+  display: none !important;
+}
+
+.DocSearch-Button-Keys::before {
+  content: '/';
+  align-items: center;
+  justify-content: center;
+  font-size: 0.75rem !important;
+  background-color: var(--ifm-color-emphasis-100);
+  line-height: 1.5rem !important;
+  border: 0;
+  border-radius: 3px;
+  box-shadow: var(--docsearch-key-shadow);
+  color: var(--docsearch-muted-color);
+  display: flex;
+  height: 18px;
+  margin-right: .4em;
+  padding: 0 0 2px;
+  position: relative;
+  top: -1px;
+  transition-duration: .1s;
+  transition-property: all;
+  transition-timing-function: cubic-bezier(.4, 0, .2, 1);
+  width: 20px;
+}
+
+.DocSearch-Container {
+  z-index: calc(var(--ifm-z-index-fixed) + 1);
 }

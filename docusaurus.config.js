@@ -197,7 +197,7 @@ const config = {
         },
       },
       footer: {
-        copyright: 'Blockly is an open source project of Raspberry Pi Foundation, UK registered charity 1129409. ',
+        copyright: 'Blockly is an open source project of the Raspberry Pi Foundation, a UK registered charity (1129409), supported by Google.',
         links: [
           {
             title: 'Docs',
