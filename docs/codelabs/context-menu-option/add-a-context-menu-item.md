@@ -1,4 +1,4 @@
-# Customizing your context menus
+# Customizing context menus
 
 ## 3. Add a context menu item
 

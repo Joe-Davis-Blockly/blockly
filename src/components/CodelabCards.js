@@ -9,11 +9,14 @@ export function CodelabGrid({ children }) {
 }
 
 // This component renders a single card
-export function CodelabCard({ href, title, description, children }) {
+export function CodelabCard({ href, title, description, children, level }) {
   return (
     <div className={styles.codelabCard}>
       <div className={styles.cardHeader}>
         <span className={styles.cardIcon}>{children}</span>
+      </div>
+      <div>
+        <span className={styles.eyebrow}>{level}</span>
       </div>
       <div className={styles.cardFooter}>
         <h3 className={styles.cardTitle}>{title}</h3>

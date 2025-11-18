@@ -1,4 +1,4 @@
-# Customizing your context menus
+# Customizing context menus
 
 ## 10. Separators
 

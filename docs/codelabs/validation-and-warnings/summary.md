@@ -1,4 +1,4 @@
-# Validating Blocks and Displaying a Warning Indicator
+# Block validation and warnings
 
 ## 5. Summary
 

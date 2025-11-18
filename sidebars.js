@@ -168,7 +168,7 @@ const sidebars = {
     },
     {
       type: 'category',
-      label: 'Customizing your context menus',
+      label: 'Customizing context menus',
       items: [
         {
           "type": "doc",
@@ -229,7 +229,7 @@ const sidebars = {
     },
     {
       type: 'category',
-      label: 'Validating Blocks and Displaying a Warning Indicator',
+      label: 'Block validation and warnings',
       items: [
         {
           "type": "doc",

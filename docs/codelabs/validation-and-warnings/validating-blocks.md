@@ -1,4 +1,4 @@
-# Validating Blocks and Displaying a Warning Indicator
+# Block validation and warnings
 
 ## 3. Validating blocks
 When you're designing custom blocks, you may find that it doesn't make sense to use the block in certain ways. Depending on the intended purpose of your block, you may want to add constraints on the possible values that can be assigned to its fields, or on where it is used.
