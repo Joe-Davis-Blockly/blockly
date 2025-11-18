@@ -12,89 +12,97 @@
   --codelab-card-title : #FFFFFF;
 }
 
-/* src/components/styles.module.css */
-
 .codelabGrid {
   display: grid;
-  /* Strictly 3 columns */
-  grid-template-columns: repeat(3, 1fr);
-  /* Re-introducing the gap between grid items as seen in the original image */
-  grid-row-gap: 30px; /* Adjust this value to control the spacing between cards */
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 1.5rem;
   margin-top: 2rem;
-}
-
-/* Optional: Stack cards on mobile screens for readability */
-@media (max-width: 768px) {
-  .codelabGrid {
-    grid-template-columns: 1fr;
-    grid-row-gap: 20px; /* Keep gap on mobile as well */
-  }
 }
 
 .codelabCard {
   display: flex;
   flex-direction: column;
-  /* Sharp black border */
-  outline: 1px solid #000;
-  background-color: #fff;
+  background-color: var(--codelab-card-background-color);
+  border: 1px solid var(--ifm-color-emphasis-300);
+  border-radius: 3px;
+  border-bottom: 2px solid #9AA0A6;
   text-decoration: none;
-  color: inherit; /* Inherit text color */
-  transition: transform 0.2s ease;
-  height: 100%; /* Ensure all cards in a row are same height */
-  margin: 0; /* Ensure no external margins interfere with grid gap */
+  color: #3C4043;
+  /* transition: all 0.2s ease-in-out; */
+  overflow: hidden;
+  padding: 1.5rem;
+  min-height: 180px;
 }
 
-/*.codelabCard:hover {
-  transform: translateY(-4px);
-  box-shadow: 4px 4px 0px #000;
-  text-decoration: none;
-  color: inherit;
-  z-index: 10;
-  position: relative;
-}*/
-
-/* The top section for the image */
-.cardImageContainer {
-  height: 200px; /* Fixed height for consistency */
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  /* padding: 20px; */
-  background-color: #fff;
-  /* Border bottom to separate image from text */
-  border-bottom: 1px solid #000;
-}
-
-/* Ensure images inside scale nicely */
-.cardImageContainer img, 
-.cardImageContainer svg {
-  max-width: 100%;
-  max-height: 100%;
-  object-fit: contain;
-}
-
-/* The bottom section for text */
-.cardContent {
-  padding: 16px;
+.cardHeader {
   display: flex;
   flex-direction: column;
-  /*gap: 8px;*/
-  text-align: left;
-}
-
-.cardLevel {
-  font-size: 0.75rem; /* Small font */
-  font-weight: 500;   /* Bold */
-  text-transform: uppercase;
-  /*color: #000;*/
-  letter-spacing: 0.5px;
-  margin-bottom: 8px;
+  gap: 0.5rem;
 }
 
 .cardTitle {
-  font-size: 1.1rem;
+  font-size: 1.25rem;
   font-weight: 500;
   margin: 0;
+  color: var(--codelab-card-title);
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
   line-height: 1.4;
-  /*color: #000;*/
+}
+
+.cardIcon {
+  display: flex;
+  align-items: center;
+  color: #4285F4;
+  font-size: 1.5rem;
+}
+
+.cardContent {
+  padding: 1.5rem;
+  flex-grow: 1; /* Ensures content area fills available space */
+}
+
+.cardDescription {
+  margin: 0;
+  font-size: 1rem;
+  color: var(--ifm-color-emphasis-600);
+}
+
+.cardFooter {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: auto;
+  padding-top: 1rem;
+  gap: 20px;
+}
+
+/*.cardButton {
+  background-color: #4285F4;
+  color: #FFFFFF;
+  font-weight: 500;
+  padding: 0.5rem 1.25rem;
+  border-radius: 4px;
+  font-size: 0.9375rem;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out;
+}*/
+
+.cardButton {
+  border: 1px solid #4285f4;
+  background-color: #4285f4;
+  color: #fff;
+  text-align: center;
+  border-radius: 4px;
+  padding: .5rem 1.25rem;
+  font-weight: 500;
+  text-decoration: none;
+  transition: background-color .2s cubic-bezier(.55, .085, .68, .53), border-color .2s cubic-bezier(.55, .055, .675, .19), color .2s cubic-bezier(.55, .085, .68, .53), transform .3s;
+}
+
+.cardButton:hover {
+  border-color: #1a73e8;
+  background-color: #1a73e8;
+  transform: scale(1.05);
 }

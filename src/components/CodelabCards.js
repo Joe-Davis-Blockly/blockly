@@ -1,26 +1,24 @@
-// src/components/CodelabCards.js
 import React from 'react';
 import Link from '@docusaurus/Link';
 import styles from './styles.module.css';
+import LastUpdatedInfo from '@site/src/components/LastUpdatedInfo';
 
+// This component renders the grid layout
 export function CodelabGrid({ children }) {
   return <div className={styles.codelabGrid}>{children}</div>;
 }
 
-// this components renders a single card
-export function CodelabCard({ href, title, level, children }) {
+// This component renders a single card
+export function CodelabCard({ href, title, description, children }) {
   return (
-    <Link href={href} className={styles.codelabCard}>
-      {/* Top Section: Image */}
-      <div className={styles.cardImageContainer}>
-        {children}
+    <div className={styles.codelabCard}>
+      <div className={styles.cardHeader}>
+        <span className={styles.cardIcon}>{children}</span>
       </div>
-      
-      {/* Bottom Section: Content */}
-      <div className={styles.cardContent}>
-        <span className={styles.cardLevel}>{level}</span>
+      <div className={styles.cardFooter}>
         <h3 className={styles.cardTitle}>{title}</h3>
+        <Link href={href}><span className={styles.cardButton}>Start</span></Link>
       </div>
-    </Link>
+    </div>
   );
 }
