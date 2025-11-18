@@ -19,7 +19,7 @@
   /* Strictly 3 columns */
   grid-template-columns: repeat(3, 1fr);
   /* Re-introducing the gap between grid items as seen in the original image */
-  grid-row-gap: 20px; /* Adjust this value to control the spacing between cards */
+  grid-row-gap: 30px; /* Adjust this value to control the spacing between cards */
   margin-top: 2rem;
 }
 
@@ -35,7 +35,7 @@
   display: flex;
   flex-direction: column;
   /* Sharp black border */
-  outline: 2px solid #000;
+  outline: 1px solid #000;
   background-color: #fff;
   text-decoration: none;
   color: inherit; /* Inherit text color */
@@ -62,7 +62,7 @@
   /* padding: 20px; */
   background-color: #fff;
   /* Border bottom to separate image from text */
-  border-bottom: 2px solid #000;
+  border-bottom: 1px solid #000;
 }
 
 /* Ensure images inside scale nicely */
@@ -84,17 +84,17 @@
 
 .cardLevel {
   font-size: 0.75rem; /* Small font */
-  font-weight: 700;   /* Bold */
+  font-weight: 500;   /* Bold */
   text-transform: uppercase;
-  color: #000;
+  /*color: #000;*/
   letter-spacing: 0.5px;
   margin-bottom: 8px;
 }
 
 .cardTitle {
   font-size: 1.1rem;
-  font-weight: 600;
+  font-weight: 500;
   margin: 0;
   line-height: 1.4;
-  color: #000;
+  /*color: #000;*/
 }
