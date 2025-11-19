@@ -85,7 +85,7 @@ complex, depending on its needs.
 These are some examples of different on-block displays, in order of increasing
 complexity.
 
-| Field type      | Description                                                                                           |
+| Field type {/* .displayTableHeader */}     | Description {/* .displayTableHeader */}                                                                                          |
 | --------------- | ----------------------------------------------------------------------------------------------------- |
 | Label           | Contains only a text element.                                                                         |
 | Angle           | Contains a background rect, text element, and a degree symbol.                                        |
@@ -99,7 +99,7 @@ arbitrarily complex editor.
 These are some examples of different editors, in order of increasing
 complexity.
 
-| Field type      | Description                                                                                                          |
+| Field type {/* .displayTableHeader */}     | Description {/* .displayTableHeader */}                                                                                                        |
 | --------------- | -------------------------------------------------------------------------------------------------------------------- |
 | Checkbox        | No editor when clicked. The on-block display updates.                                                                |
 | Number input    | Text editor overlaid above the on-block display. Users can type; the editor may change color to indicate bad values. |

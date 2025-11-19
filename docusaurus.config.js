@@ -69,11 +69,18 @@ const config = {
 
   markdown: {
     format: 'detect',
-    preprocessor: headingIdPreprocessor,
+    preprocessor: (ctx) => {
+      // Only process .md files, never MDX
+      if (ctx.filePath && ctx.filePath.endsWith('.md')) {
+        return headingIdPreprocessor({ fileContent: ctx.fileContent });
+      }
+      return ctx.fileContent;
+    },
     hooks: {
       onBrokenMarkdownLinks: 'warn',
     },
   },
+
   // Even if you don't use internationalization, you can use this field to set
   // useful metadata like html lang. For example, if your site is Chinese, you
   // may want to replace "en" with "zh-Hans".
@@ -185,10 +192,15 @@ const config = {
         appId: "JOPASJ603L",
         apiKey: "9a6e9f24a807a1571990048ef66c9438", // safe to expose
         indexName: "Docusaurus_Website",
-        askAi: "0JvuvoDNFavC",
         contextualSearch: true,
         searchParameters: {},
-        searchPagePath: "search", // creates a dedicated search page
+        searchPagePath: "search",
+        askAi: {
+          indexName: 'markdown-index',
+          apiKey: '9a6e9f24a807a1571990048ef66c9438',
+          appId: 'JOPASJ603L',
+          assistantId: '0JvuvoDNFavC',
+        },
       },
       docs: {
         sidebar: {

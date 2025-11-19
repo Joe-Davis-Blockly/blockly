@@ -133,7 +133,7 @@ overwrite them.
 ![A block for rounding numbers connected to a shadow number block, and a print
 block connected to a shadow text block. The shadow blocks are greyed out to show
 that they are default blocks and that you can drag other blocks on top of
-them.][shadow-blocks-img]
+them.][shadow-blocks-img] {/* .screenshotImg */}
 
 ### Insertion marker
 
@@ -163,10 +163,10 @@ A [connection][connection] is a place on a block other blocks can connect to.
 
 | Connection       | Image                                                |
 |------------------|------------------------------------------------------|
-| Output           | ![an output connection][output-img]    |
-| Input            | ![an input connection][input-img]     |
-| Previous         | ![a previous connection][previous-img] |
-| Next             | ![a next connection][next-img]        |
+| Output           | ![an output connection][output-img] {/* .connectionImg */}   |
+| Input            | ![an input connection][input-img] {/* .connectionImg */}    |
+| Previous         | ![a previous connection][previous-img] {/* .connectionImg */} |
+| Next             | ![a next connection][next-img] {/* .connectionImg */}      |
 
 ### Inputs
 

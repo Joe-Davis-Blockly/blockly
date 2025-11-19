@@ -18,7 +18,7 @@ to read.
 Blockly's operator precedence rules help you generate code with the minimum
 number of parentheses, for maximum readability.
 
-## Generate "correct" output {:#generate_correct_output}
+## Generate "correct" output
 
 If you don't need your generated code to be human-readable, then there's no need
 to worry about minimizing parentheses. Wrapping every block is a fine approach,

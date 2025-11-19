@@ -1,10 +1,9 @@
 ---
-sidebar: guidesSidebar
+sidebar: "guidesSidebar"
 ---
 
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
-
 
 # JSON and JavaScript
 
@@ -33,46 +32,62 @@ This block:
 can be defined in JSON or JavaScript as follows.
 
 <Tabs groupId="tab">
-  <TabItem value="json" label="JSON" default>
-    ```json
-      Blockly.common.defineBlocksWithJsonArray([{
-        "type": "string_length",
-        "message0": 'length of %1',
-        "args0": [
-          {
-            "type": "input_value",
-            "name": "VALUE",
-            "check": "String"
-          }
-        ],
-        "output": "Number",
-        "colour": 160,
-        "tooltip": "Returns number of letters in the provided text.",
-        "helpUrl": "http://www.w3schools.com/jsref/jsref_length_string.asp"
-      }]);
-    ```
-    `defineBlocksWithJsonArray` converts each JSON object into a [block definition object](/blockly/guides/create-custom-blocks/define/block-definitions)
-    with an `init` function. It stores these objects in `Blockly.Blocks`.
-  </TabItem>
-  <TabItem value="javascript" label="JavaScript">
-    ```js
-      Blockly.Blocks['string_length'] = {
-        init: function() {
-          this.appendValueInput('VALUE')
-              .setCheck('String')
-              .appendField('length of');
-          this.setOutput(true, 'Number');
-          this.setColour(160);
-          this.setTooltip('Returns number of letters in the provided text.');
-          this.setHelpUrl('http://www.w3schools.com/jsref/jsref_length_string.asp');
+
+<TabItem value="json" label="JSON" default>
+
+```json
+{
+  "blocks": [
+    {
+      "type": "string_length",
+      "message0": "length of %1",
+      "args0": [
+        {
+          "type": "input_value",
+          "name": "VALUE",
+          "check": "String"
         }
-      };
-    ```
-    Because [block definition
-    objects](/blockly/guides/create-custom-blocks/define/block-definitions) are
-    mixed in to block objects, the keyword `this` refers to the actual block
-    being created.
-  </TabItem>
+      ],
+      "output": "Number",
+      "colour": 160,
+      "tooltip": "Returns number of letters in the provided text.",
+      "helpUrl": "http://www.w3schools.com/jsref/jsref_length_string.asp"
+    }
+  ]
+}
+```
+
+`defineBlocksWithJsonArray` converts each JSON object into a
+[block definition object](/blockly/guides/create-custom-blocks/define/block-definitions)
+with an `init` function. It stores these objects in `Blockly.Blocks`.
+
+</TabItem>
+
+<TabItem value="javascript" label="JavaScript">
+
+```js
+Blockly.Blocks['string_length'] = {
+  init: function () {
+    this.appendValueInput('VALUE')
+      .setCheck('String')
+      .appendField('length of');
+    this.setOutput(true, 'Number');
+    this.setColour(160);
+    this.setTooltip('Returns number of letters in the provided text.');
+    this.setHelpUrl(
+      'http://www.w3schools.com/jsref/jsref_length_string.asp'
+    );
+  }
+};
+```
+
+Because
+[block definition objects](/blockly/guides/create-custom-blocks/define/block-definitions)
+are mixed in to block objects, the keyword `this` refers to the actual block
+being created.
+
+</TabItem>
+
 </Tabs>
 
 Both methods result in a block definition object being stored in
@@ -91,39 +106,51 @@ uses `jsonInit` to load a JSON object and the JavaScript API to define a dynamic
 tooltip.
 
 <Tabs groupId="tab">
-  <TabItem value="javascript" label="JavaScript" default>
-    ```js
-      // Define the block structure in JSON.
-      var mathChangeJson = {
-        "message0": "change %1 by %2",
-        "args0": [
-          {"type": "field_variable", "name": "VAR", "variable": "item", "variableTypes": [""]},
-          {"type": "input_value", "name": "DELTA", "check": "Number"}
-        ],
-        "previousStatement": null,
-        "nextStatement": null,
-        "colour": 230
-      };
 
-      Blockly.Blocks['math_change'] = {
-        init: function() {
-          // Use jsonInit to load the JSON block structure.
-          this.jsonInit(mathChangeJson);
+<TabItem value="javascript" label="JavaScript" default>
 
-          // Use JavaScript to define a tooltip function.
-          // Assign 'this' to a variable for use in the tooltip closure below.
-          var thisBlock = this;
-          this.setTooltip(function() {
-            return 'Add a number to variable "%1".'.replace('%1',
-                thisBlock.getFieldValue('VAR'));
-          });
-        }
-      };
-    ```
-  </TabItem>
+```js
+// Define the block structure in JSON.
+var mathChangeJson = {
+  "message0": "change %1 by %2",
+  "args0": [
+    {
+      "type": "field_variable",
+      "name": "VAR",
+      "variable": "item",
+      "variableTypes": [""]
+    },
+    {
+      "type": "input_value",
+      "name": "DELTA",
+      "check": "Number"
+    }
+  ],
+  "previousStatement": null,
+  "nextStatement": null,
+  "colour": 230
+};
+
+Blockly.Blocks['math_change'] = {
+  init: function () {
+    // Use jsonInit to load the JSON block structure.
+    this.jsonInit(mathChangeJson);
+
+    // Use JavaScript to define a tooltip function.
+    var thisBlock = this;
+    this.setTooltip(function () {
+      return 'Add a number to variable "%1".'.replace(
+        '%1',
+        thisBlock.getFieldValue('VAR')
+      );
+    });
+  }
+};
+```
+
+</TabItem>
+
 </Tabs>
-
-
 
 ## Block definition API
 
@@ -138,10 +165,14 @@ JavaScript:
 
 ```js
 Blockly.Blocks['my_block'] = {
-  init: function() {/* ... */},
-  onchange: function() {/* ... */},
+  init: function () {
+    /* ... */
+  },
+  onchange: function () {
+    /* ... */
+  }
   // ...
-}
+};
 ```
 
 A common error is to assume `Blockly.Blocks` stores blocks and try something
@@ -162,15 +193,15 @@ them to `Blockly.Blocks`.
 ```js
 Blockly.common.defineBlocksWithJsonArray([
   {
-    type: 'my_block1',
+    type: 'my_block1'
     // ...
-  }
+  },
   {
-    type: 'my_block3',
+    type: 'my_block3'
     // ...
-  }
+  },
   {
-    type: 'my_block2',
+    type: 'my_block2'
     // ...
   }
 ]);
@@ -184,20 +215,22 @@ names to block definitions. This is generally used with `defineBlocks`, which
 adds the block definitions to `Blockly.Blocks`.
 
 ```js
-const myBlockDefinitions = Blockly.common.createBlockDefinitionsFromJsonArray([
-  {
-    type: 'my_block1',
-    // ...
-  }
-  {
-    type: 'my_block3',
-    // ...
-  }
-  {
-    type: 'my_block2',
-    // ...
-  }
-]);
+const myBlockDefinitions =
+  Blockly.common.createBlockDefinitionsFromJsonArray([
+    {
+      type: 'my_block1'
+      // ...
+    },
+    {
+      type: 'my_block3'
+      // ...
+    },
+    {
+      type: 'my_block2'
+      // ...
+    }
+  ]);
+
 Blockly.common.defineBlocks(myBlockDefinitions);
 ```
 
@@ -215,9 +248,10 @@ var myJson = {
 };
 
 Blockly.Blocks['my_block'] = {
-  init: function() {
+  init: function () {
     this.jsonInit(myJson);
     // The rest of the init function.
   }
 };
 ```
+

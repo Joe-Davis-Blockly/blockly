@@ -41,38 +41,38 @@ and the array can contain a mixture of options of different types.
 ![Open dropdown with two text options](/blockly/images/fields/dropdown/with_editor.png)
 
 <Tabs groupId='tab'>
-  <TabItem value="json" label="JSON" default>
-    ```js
+<TabItem value="json" label="JSON" default>
+```js
+{
+  "type": "example_dropdown",
+  "message0": "drop down: %1",
+  "args0": [
     {
-      "type": "example_dropdown",
-      "message0": "drop down: %1",
-      "args0": [
-        {
-          "type": "field_dropdown",
-          "name": "FIELDNAME",
-          "options": [
-            [ "first item", "ITEM1" ],
-            [ "second item", "ITEM2" ]
-          ]
-        }
+      "type": "field_dropdown",
+      "name": "FIELDNAME",
+      "options": [
+        [ "first item", "ITEM1" ],
+        [ "second item", "ITEM2" ]
       ]
     }
-    ```
-  </TabItem>
-  <TabItem value="javascript" label="JavaScript">
-    ```js
-    Blockly.Blocks['example_dropdown'] = {
-      init: function() {
-        this.appendDummyInput()
-            .appendField('drop down:')
-            .appendField(new Blockly.FieldDropdown([
-                ['first item', 'ITEM1'],
-                ['second item', 'ITEM2']
-            ]), 'FIELDNAME');
-      }
-    };
-    ```
-  </TabItem>
+  ]
+}
+```
+</TabItem>
+<TabItem value="javascript" label="JavaScript">
+```js
+Blockly.Blocks['example_dropdown'] = {
+  init: function() {
+    this.appendDummyInput()
+        .appendField('drop down:')
+        .appendField(new Blockly.FieldDropdown([
+            ['first item', 'ITEM1'],
+            ['second item', 'ITEM2']
+        ]), 'FIELDNAME');
+  }
+};
+```
+</TabItem>
 </Tabs>
 
 Keeping the human-readable information separate from the language-neutral key
@@ -89,43 +89,43 @@ Options in a dropdown menu may be images, which are represented as objects with
 ![Dropdown field containing images and text](/blockly/images/fields/dropdown/with_images.png)
 
 <Tabs groupId='tab'>
-  <TabItem value="json" label="JSON" default>
-    ```js
+<TabItem value="json" label="JSON" default>
+```js
+{
+  "type": "image_dropdown",
+  "message0": "flag %1",
+  "args0": [
     {
-      "type": "image_dropdown",
-      "message0": "flag %1",
-      "args0": [
-        {
-          "type": "field_dropdown",
-          "name": "FLAG",
-          "options": [
-            ["none", "NONE"],
-            [{"src": "canada.png", "width": 50, "height": 25, "alt": "Canada"}, "CANADA"],
-            [{"src": "usa.png", "width": 50, "height": 25, "alt": "USA"}, "USA"],
-            [{"src": "mexico.png", "width": 50, "height": 25, "alt": "Mexico"}, "MEXICO"]
-          ]
-        }
+      "type": "field_dropdown",
+      "name": "FLAG",
+      "options": [
+        ["none", "NONE"],
+        [{"src": "canada.png", "width": 50, "height": 25, "alt": "Canada"}, "CANADA"],
+        [{"src": "usa.png", "width": 50, "height": 25, "alt": "USA"}, "USA"],
+        [{"src": "mexico.png", "width": 50, "height": 25, "alt": "Mexico"}, "MEXICO"]
       ]
     }
-    ```
-  </TabItem>
-  <TabItem value="javascript" label="JavaScript">
-    ```js
-    Blockly.Blocks['image_dropdown'] = {
-      init: function() {
-        var input = this.appendDummyInput()
-            .appendField('flag');
-        var options = [
-            ['none', 'NONE'],
-            [{'src': 'canada.png', 'width': 50, 'height': 25, 'alt': 'Canada'}, 'CANADA'],
-            [{'src': 'usa.png', 'width': 50, 'height': 25, 'alt': 'USA'}, 'USA'],
-            [{'src': 'mexico.png', 'width': 50, 'height': 25, 'alt': 'Mexico'}, 'MEXICO']
-        ];
-        input.appendField(new Blockly.FieldDropdown(options), 'FLAG');
-      }
-    };
-    ```
-  </TabItem>
+  ]
+}
+```
+</TabItem>
+<TabItem value="javascript" label="JavaScript">
+```js
+Blockly.Blocks['image_dropdown'] = {
+  init: function() {
+    var input = this.appendDummyInput()
+        .appendField('flag');
+    var options = [
+        ['none', 'NONE'],
+        [{'src': 'canada.png', 'width': 50, 'height': 25, 'alt': 'Canada'}, 'CANADA'],
+        [{'src': 'usa.png', 'width': 50, 'height': 25, 'alt': 'USA'}, 'USA'],
+        [{'src': 'mexico.png', 'width': 50, 'height': 25, 'alt': 'Mexico'}, 'MEXICO']
+    ];
+    input.appendField(new Blockly.FieldDropdown(options), 'FLAG');
+  }
+};
+```
+</TabItem>
 </Tabs>
 
 
@@ -144,61 +144,28 @@ its `innerText` property.
 elements](/blockly/images/fields/dropdown/with_html.png)
 
 <Tabs groupId='tab'>
-  <TabItem value="json" label="JSON" default>
-    ```js
+<TabItem value="json" label="JSON" default>
+```js
+{
+  "type": "flags_with_text_dropdown",
+  "message0": "flag with text %1",
+  "args0": [
     {
-      "type": "flags_with_text_dropdown",
-      "message0": "flag with text %1",
-      "args0": [
-        {
-          "type": "field_dropdown",
-          "name": "FLAG_WITH_TEXT",
-          "options": [
-            ["x", "X"], // Placeholder. An empty array throws an exception.
-          ]
-        }
-      ],
-      // Use an extension to add the HTML element options.
-      "extensions": ["flag_with_text_extension"]
+      "type": "field_dropdown",
+      "name": "FLAG_WITH_TEXT",
+      "options": [
+        ["x", "X"], // Placeholder. An empty array throws an exception.
+      ]
     }
-    ```
+  ],
+  // Use an extension to add the HTML element options.
+  "extensions": ["flag_with_text_extension"]
+}
+```
 
-    ```js
-    Blockly.Extensions.register('flag_with_text_extension',
-      function() {
-        function createFlagWithTextDiv(text, src) {
-          const div = document.createElement('div');
-          div.setAttribute('style', 'width: 75px;');
-          div.setAttribute('title', text);
-          const img = document.createElement('img');
-          img.setAttribute('src', src);
-          img.setAttribute('style', 'height: 25px; display: block; margin: auto;');
-          div.appendChild(img);
-          const para = document.createElement('p');
-          para.innerText = text;
-          para.setAttribute('style', 'text-align: center; margin: 5px;');
-          div.appendChild(para);
-          return div;
-        }
-
-        const canadaDiv = createFlagWithTextDiv('Canada', 'canada.png');
-        const usaDiv = createFlagWithTextDiv('USA', 'usa.png');
-        const mexicoDiv = createFlagWithTextDiv('Mexico', 'mexico.png');
-        const options = [
-          ['none', 'NONE'],
-          [canadaDiv, 'CANADA'],
-          [usaDiv, 'USA'],
-          [mexicoDiv, 'MEXICO']
-        ];
-        this.getField('FLAG_WITH_TEXT').setOptions(options);
-      });
-    ```
-
-    This is done using a JSON
-    [extension](/blockly/guides/create-custom-blocks/define/extensions).
-  </TabItem>
-  <TabItem value="javascript" label="JavaScript">
-    ```js
+```js
+Blockly.Extensions.register('flag_with_text_extension',
+  function() {
     function createFlagWithTextDiv(text, src) {
       const div = document.createElement('div');
       div.setAttribute('style', 'width: 75px;');
@@ -217,22 +184,55 @@ elements](/blockly/images/fields/dropdown/with_html.png)
     const canadaDiv = createFlagWithTextDiv('Canada', 'canada.png');
     const usaDiv = createFlagWithTextDiv('USA', 'usa.png');
     const mexicoDiv = createFlagWithTextDiv('Mexico', 'mexico.png');
+    const options = [
+      ['none', 'NONE'],
+      [canadaDiv, 'CANADA'],
+      [usaDiv, 'USA'],
+      [mexicoDiv, 'MEXICO']
+    ];
+    this.getField('FLAG_WITH_TEXT').setOptions(options);
+  });
+```
 
-    Blockly.Blocks['flags_with_text_dropdown'] = {
-      init: function() {
-        const input = this.appendDummyInput()
-            .appendField('flag with text');
-        const options = [
-            ['none', 'NONE'],
-            [canadaDiv, 'CANADA'],
-            [usaDiv, 'USA'],
-            [mexicoDiv, 'MEXICO']
-        ];
-        input.appendField(new Blockly.FieldDropdown(options), 'FLAG_WITH_TEXT');
-      }
-    };
-    ```
-  </TabItem>
+This is done using a JSON
+[extension](/blockly/guides/create-custom-blocks/define/extensions).
+</TabItem>
+<TabItem value="javascript" label="JavaScript">
+```js
+function createFlagWithTextDiv(text, src) {
+  const div = document.createElement('div');
+  div.setAttribute('style', 'width: 75px;');
+  div.setAttribute('title', text);
+  const img = document.createElement('img');
+  img.setAttribute('src', src);
+  img.setAttribute('style', 'height: 25px; display: block; margin: auto;');
+  div.appendChild(img);
+  const para = document.createElement('p');
+  para.innerText = text;
+  para.setAttribute('style', 'text-align: center; margin: 5px;');
+  div.appendChild(para);
+  return div;
+}
+
+const canadaDiv = createFlagWithTextDiv('Canada', 'canada.png');
+const usaDiv = createFlagWithTextDiv('USA', 'usa.png');
+const mexicoDiv = createFlagWithTextDiv('Mexico', 'mexico.png');
+
+Blockly.Blocks['flags_with_text_dropdown'] = {
+  init: function() {
+    const input = this.appendDummyInput()
+        .appendField('flag with text');
+    const options = [
+        ['none', 'NONE'],
+        [canadaDiv, 'CANADA'],
+        [usaDiv, 'USA'],
+        [mexicoDiv, 'MEXICO']
+    ];
+    input.appendField(new Blockly.FieldDropdown(options), 'FLAG_WITH_TEXT');
+  }
+};
+```
+</TabItem>
 </Tabs>
 
 
@@ -241,56 +241,30 @@ elements](/blockly/images/fields/dropdown/with_html.png)
 ![Dropdown field with days of the week](/blockly/images/fields/dropdown/dynamic.png)
 
 <Tabs groupId='tab'>
-  <TabItem value="json" label="JSON" default>
-    ```js
+<TabItem value="json" label="JSON" default>
+```js
+{
+  "type": "dynamic_dropdown",
+  "message0": "day %1",
+  "args0": [
     {
-      "type": "dynamic_dropdown",
-      "message0": "day %1",
-      "args0": [
-        {
-          "type": "field_dropdown",
-          "name": "DAY",
-          "options": [
-            ["x", "X"], // Placeholder. An empty array throws an exception.
-          ]
-         }
-      ],
-      // Use an extension to set the menu function.
-      "extensions": ["dynamic_menu_extension"]
-    }
-    ```
+      "type": "field_dropdown",
+      "name": "DAY",
+      "options": [
+        ["x", "X"], // Placeholder. An empty array throws an exception.
+      ]
+     }
+  ],
+  // Use an extension to set the menu function.
+  "extensions": ["dynamic_menu_extension"]
+}
+```
 
-    ```js
-    Blockly.Extensions.register('dynamic_menu_extension',
+```js
+Blockly.Extensions.register('dynamic_menu_extension',
+  function() {
+    this.getField('DAY').setOptions(
       function() {
-        this.getField('DAY').setOptions(
-          function() {
-            var options = [];
-            var now = Date.now();
-            for(var i = 0; i < 7; i++) {
-              var dateString = String(new Date(now)).substring(0, 3);
-              options.push([dateString, dateString.toUpperCase()]);
-              now += 24 * 60 * 60 * 1000;
-            }
-            return options;
-          });
-      });
-    ```
-
-    This is done using a JSON
-    [extension](/blockly/guides/create-custom-blocks/define/extensions).
-  </TabItem>
-  <TabItem value="javascript" label="JavaScript">
-    ```js
-    Blockly.Blocks['dynamic_dropdown'] = {
-      init: function() {
-        var input = this.appendDummyInput()
-          .appendField('day')
-          .appendField(new Blockly.FieldDropdown(
-            this.generateOptions), 'DAY');
-      },
-
-      generateOptions: function() {
         var options = [];
         var now = Date.now();
         for(var i = 0; i < 7; i++) {
@@ -299,10 +273,36 @@ elements](/blockly/images/fields/dropdown/with_html.png)
           now += 24 * 60 * 60 * 1000;
         }
         return options;
-      }
-    };
-    ```
-  </TabItem>
+      });
+  });
+```
+
+This is done using a JSON
+[extension](/blockly/guides/create-custom-blocks/define/extensions).
+</TabItem>
+<TabItem value="javascript" label="JavaScript">
+```js
+Blockly.Blocks['dynamic_dropdown'] = {
+  init: function() {
+    var input = this.appendDummyInput()
+      .appendField('day')
+      .appendField(new Blockly.FieldDropdown(
+        this.generateOptions), 'DAY');
+  },
+
+  generateOptions: function() {
+    var options = [];
+    var now = Date.now();
+    for(var i = 0; i < 7; i++) {
+      var dateString = String(new Date(now)).substring(0, 3);
+      options.push([dateString, dateString.toUpperCase()]);
+      now += 24 * 60 * 60 * 1000;
+    }
+    return options;
+  }
+};
+```
+</TabItem>
 </Tabs>
 
 A dropdown can also be provided with a function instead of a list of static
@@ -324,77 +324,77 @@ Use the string `'separator'` to add a line between options in a dropdown menu.
 options](/blockly/images/fields/dropdown/with_separator.png)
 
 <Tabs groupId='tab'>
-  <TabItem value="json" label="JSON">
-    ```js
+<TabItem value="json" label="JSON">
+```js
+{
+  "type": "separator_dropdown",
+  "message0": "food %1",
+  "args0": [
     {
-      "type": "separator_dropdown",
-      "message0": "food %1",
-      "args0": [
-        {
-          "type": "field_dropdown",
-          "name": "FOOD",
-          "options": [
-            ["water", "WATER"],
-            ["juice", "JUICE"],
-            "separator",
-            ["salad", "SALAD"],
-            ["soup", "SOUP"],
-          ]
-        }
+      "type": "field_dropdown",
+      "name": "FOOD",
+      "options": [
+        ["water", "WATER"],
+        ["juice", "JUICE"],
+        "separator",
+        ["salad", "SALAD"],
+        ["soup", "SOUP"],
       ]
     }
-    ```
-  </TabItem>
-  <TabItem value="javascript" label="JavaScript" default>
-    ```js
-    Blockly.Blocks["separator_dropdown"] = {
-      init: function() {
-        var input = this.appendDummyInput()
-            .appendField("food1");
-        var options = [
-            ["water", "WATER"],
-            ["juice", "JUICE"],
-            "separator",
-            ["salad", "SALAD"],
-            ["soup", "SOUP"],
-        ];
-        input.appendField(new Blockly.FieldDropdown(options), "FOOD");
-      }
-    };
-    ```
-  </TabItem>
+  ]
+}
+```
+</TabItem>
+<TabItem value="javascript" label="JavaScript" default>
+```js
+Blockly.Blocks["separator_dropdown"] = {
+  init: function() {
+    var input = this.appendDummyInput()
+        .appendField("food1");
+    var options = [
+        ["water", "WATER"],
+        ["juice", "JUICE"],
+        "separator",
+        ["salad", "SALAD"],
+        ["soup", "SOUP"],
+    ];
+    input.appendField(new Blockly.FieldDropdown(options), "FOOD");
+  }
+};
+```
+</TabItem>
 </Tabs>
 
 
 ## Serialization
 
 <Tabs groupId='tab'>
-  <TabItem value="json" label="JSON" default>
-    The JSON for a dropdown field looks like so:
+<TabItem value="json" label="JSON" default>
+The JSON for a dropdown field looks like so:
 
-    ```json
-    {
-      "fields": {
-        "FIELDNAME": "LANGUAGE-NEUTRAL-KEY"
-      }
-    }
-    ```
+```json
+{
+  "fields": {
+    "FIELDNAME": "LANGUAGE-NEUTRAL-KEY"
+  }
+}
+```
 
-    Where `FIELDNAME` is a string referencing a dropdown field, and
-    the value is the value to apply to the field. The value should be a
-    language-neutral option key.
-  </TabItem>
-  <TabItem value="xml" label="XML">
-    The XML for a dropdown field looks like so:
+Where `FIELDNAME` is a string referencing a dropdown field, and
+the value is the value to apply to the field. The value should be a
+language-neutral option key.
+</TabItem>
+<TabItem value="xml" label="XML">
+The XML for a dropdown field looks like so:
 
-    ```xml
-    <field name="FIELDNAME">LANGUAGE-NEUTRAL-KEY</field>
-    ```
+```xml
+<field name="FIELDNAME">LANGUAGE-NEUTRAL-KEY</field>
+```
 
-    Where the field's `name` attribute contains a string referencing a dropdown
-    field, and the inner text is the value to apply to the field. The inner
-    text should be a valid language-neutral option key.
-  </TabItem>
+Where the field's `name` attribute contains a string referencing a dropdown
+field, and the inner text is the value to apply to the field. The inner
+text should be a valid language-neutral option key.
+</TabItem>
 </Tabs>
 
 ## Customization
@@ -431,79 +431,79 @@ suffix matching, and the second with):
 Without suffix matching:
 
 <Tabs groupId='tab'>
-  <TabItem value="json" label="JSON">
-    ```json
+<TabItem value="json" label="JSON">
+```json
+{
+  "type": "dropdown_no_matching",
+  "message0": "hello %1",
+  "args0": [
     {
-      "type": "dropdown_no_matching",
-      "message0": "hello %1",
-      "args0": [
-        {
-          "type": "field_dropdown",
-          "name": "MODE",
-          "options": [
-            ["world", "WORLD"],
-            ["computer", "CPU"]
-          ]
-        }
+      "type": "field_dropdown",
+      "name": "MODE",
+      "options": [
+        ["world", "WORLD"],
+        ["computer", "CPU"]
       ]
     }
-    ```
-  </TabItem>
-  <TabItem value="javascript" label="JavaScript" default>
-    ```js
-    Blockly.Blocks['dropdown_no_matching'] = {
-      init: function() {
-        var options = [
-          ['world', 'WORLD'],
-          ['computer', 'CPU']
-        ];
+  ]
+}
+```
+</TabItem>
+<TabItem value="javascript" label="JavaScript" default>
+```js
+Blockly.Blocks['dropdown_no_matching'] = {
+  init: function() {
+    var options = [
+      ['world', 'WORLD'],
+      ['computer', 'CPU']
+    ];
 
-        this.appendDummyInput()
-            .appendField('hello')
-            .appendField(new Blockly.FieldDropdown(options), 'MODE');
-      }
-    };
-    ```
-  </TabItem>
+    this.appendDummyInput()
+        .appendField('hello')
+        .appendField(new Blockly.FieldDropdown(options), 'MODE');
+  }
+};
+```
+</TabItem>
 </Tabs>
 
 
 With suffix matching:
 
 <Tabs groupId='tab'>
-  <TabItem value="json" label="JSON">
-    ```json
+<TabItem value="json" label="JSON">
+```json
+{
+  "type": "dropdown_with_matching",
+  "message0": "%1",
+  "args0": [
     {
-      "type": "dropdown_with_matching",
-      "message0": "%1",
-      "args0": [
-        {
-          "type": "field_dropdown",
-          "name": "MODE",
-          "options": [
-            ["hello world", "WORLD"],
-            ["hello computer", "CPU"]
-          ]
-        }
+      "type": "field_dropdown",
+      "name": "MODE",
+      "options": [
+        ["hello world", "WORLD"],
+        ["hello computer", "CPU"]
       ]
     }
-    ```
-  </TabItem>
-  <TabItem value="javascript" label="JavaScript" default>
-    ```js
-    Blockly.Blocks['dropdown_with_matching'] = {
-      init: function() {
-        var options = [
-          ['hello world', 'WORLD'],
-          ['hello computer', 'CPU']
-        ];
+  ]
+}
+```
+</TabItem>
+<TabItem value="javascript" label="JavaScript" default>
+```js
+Blockly.Blocks['dropdown_with_matching'] = {
+  init: function() {
+    var options = [
+      ['hello world', 'WORLD'],
+      ['hello computer', 'CPU']
+    ];
 
-        this.appendDummyInput()
-            .appendField(new Blockly.FieldDropdown(options), 'MODE');
-      }
-    };
-    ```
-  </TabItem>
+    this.appendDummyInput()
+        .appendField(new Blockly.FieldDropdown(options), 'MODE');
+  }
+};
+```
+</TabItem>
 </Tabs>
 
 

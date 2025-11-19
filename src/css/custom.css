@@ -98,6 +98,18 @@
   border: 1px solid #000;
 }
 
+.screenshotImg{
+  width: 200px;
+}
+
+.connectionImg{
+  width: 40px;
+}
+
+.displayTableHeader{
+  text-align: left;
+}
+
 /* --- Added to make 'note' admonitions blue 50 #E8F0FE' --- */
 
 [data-theme]:not([data-theme='dark']) .alert--secondary {

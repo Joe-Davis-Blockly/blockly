@@ -21,10 +21,10 @@ There are four types of connections:
 
 | Connection type     | Image                                            |
 |---------------------|--------------------------------------------------|
-| Output connection   | ![an output connection][output]    |
-| Input connection    | ![an input connection][input]      |
-| Previous connection | ![a previous connection][previous] |
-| Next connection     | ![a next connection][next]         |
+| Output connection   | ![an output connection][output] {/* .connectionImg */}   |
+| Input connection    | ![an input connection][input] {/* .connectionImg */}     |
+| Previous connection | ![a previous connection][previous] {/* .connectionImg */} |
+| Next connection     | ![a next connection][next]  {/* .connectionImg */}       |
 
 [output]: /blockly/images/connections/output-connection.png
 [input]: /blockly/images/connections/input-connection.png
