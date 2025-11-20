@@ -18,17 +18,26 @@ name.](/blockly/images/toolbox-colours.png)
 
 ## Category CSS
 
-You can use CSS to style category toolboxes. The entry for each category is
-broken into multiple parts, such as its icon, its label, and the row containing
-the icon and the label. You can style each part individually.
+You can use CSS to style category toolboxes.
 
-By default, all parts of the same type (e.g. all labels) are assigned the same
-CSS class. Use this class if you want to style all parts of the same type in the
-same way. For example, you want all labels to have the same color.
+A category toolbox is composed of multiple HTML elements, each of which models a
+different part of the toolbox. For example, each category has its own `div` and
+separate `span`s for its icon and label. (For a complete list, see the table
+below.)
 
-You can also assign each individual part its own CSS class. Use this method if
-you want to style individual parts differently. For example, you want each label
-to have its own color.
+Blockly assigns a default CSS class to all parts of the same type. For example,
+it assigns `blocklyToolboxCategoryLabel` to all label `span`s. Use these classes
+to style all parts of the same type in the same way, such as to to assign the
+same color to all labels. Blockly uses these classes in its [default CSS for
+category
+toolboxes](https://github.com/RaspberryPiFoundation/blockly/blob/22905ad5958c1190b5cc7c508ecc5c44e44a7d30/core/toolbox/category.ts#L668).
+
+You can optionally assign custom CSS classes to individual parts. For example,
+you can assign different CSS classes to each label `span`. Use these classes to
+style different parts of the same type in different ways, such as to assign a
+different color to each label.
+
+### Default CSS classes
 
 The following table lists the types, descriptions, and default CSS classes of
 each part of a category toolbox. If you're having trouble visualizing this, open
@@ -42,20 +51,33 @@ the developer tools in your browser and inspect the toolbox.
 | rowcontentcontainer | The `div` that contains the label and the icon.                          | `blocklyTreeRowContentContainer`   |
 | icon                | The `span` that contains the icon.                                       | `blocklyToolboxCategoryIcon`       |                                   |
 | label               | The `span` that contains the label.                                      | `blocklyToolboxCategoryLabel`      |
-|                     |                                                                          |                                    |
+
+CSS is also used to label the state of some parts of the toolbox.
+
+| State               | Description                                                              | Default CSS class                  |
+| ------------------- | ------------------------------------------------------------------------ | ---------------------------------- |
 | selected            | Added to the "row" `div` when the category is selected.                  | `blocklyToolboxSelected`           |
 | openicon            | Added to the "icon" `span` when a category with subcategories is open.   | `blocklyToolboxCategoryIconOpen`   |
 | closedicon          | Added to the "icon" `span` when a category with subcategories is closed. | `blocklyToolboxCategoryIconClosed` |
 
-As an example, suppose you want all of your labels to be white but each
-category's row to have its own background color. To do this, you need custom CSS
-classes for each row. You can use the default class for the labels.
+### Custom CSS classes
+
+To assign custom CSS classes, use the `cssConfig` property in JSON toolbox
+definitions or `css-` attributes in XML toolbox definitions and use the part
+type to identify the part you want to assign classes to.
+
+For example, suppose you want all labels to be white but each category to have
+its own background color. You can use the default class for the labels, but need
+to add custom classes for each category's row.
 
 ![A toolbox with two categories. The category labels are both white, but their
 background colors are different.](/blockly/images/toolbox-css.png)
 
-First, assign custom CSS classes in the JSON or XML that defines your
-categories:
+The following category definitions assign custom CSS classes to each category's
+row. Notice that the default class for rows (`blocklyToolboxCategory`) is
+included in each definition. This is because Blockly overwrites the row's
+`class` attribute when assigning classes. If you don't include the default
+class, you won't get the default CSS for that class.
 
 *   {JSON}
 
@@ -66,7 +88,7 @@ categories:
       "kind": "category",
       "name": "My category",
       "cssConfig": {
-        "row": "myRow"  // Use the part type ("row") as a key.
+        "row": "blocklyToolboxCategory myRow"  // Use the part type ("row") as a key.
       },
       "contents": [...],
     },
@@ -74,7 +96,7 @@ categories:
       "kind": "category",
       "name": "Your category",
       "cssConfig": {
-        "row": "yourRow"
+        "row": "blocklyToolboxCategory yourRow"
       },
       "contents": [...],
     },
@@ -86,10 +108,10 @@ categories:
     `css-` prepended to it.
 
     ```xml
-    <category name="My category" css-row="myRow">
+    <category name="My category" css-row="blocklyToolboxCategory myRow">
       ...
     </category>
-    <category name="Your category" css-row="yourRow">
+    <category name="Your category" css-row="blocklyToolboxCategory yourRow">
       ...
     </category>
     ```
@@ -105,10 +127,8 @@ class to assign the label color:
 
 ## Themes
 
-:::note
-While themes are supported, we recommend you use CSS instead of themes to
+Note: While themes are supported, we recommend you use CSS instead of themes to
 style your categories.
-:::
 
 [Themes](/blockly/guides/configure/web/themes) allow you to specify all of the
 colours of your workspace at once, including the colours of your categories.
