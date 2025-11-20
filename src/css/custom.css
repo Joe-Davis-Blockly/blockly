@@ -210,3 +210,8 @@
 .DocSearch-Container {
   z-index: calc(var(--ifm-z-index-fixed) + 1);
 }
+
+/* --- Hide Duplicate Breadcrumb on Reference Pages --- */
+[class*="docs-doc-id-reference/"] .theme-doc-markdown > p:first-child {
+  display: none;
+}

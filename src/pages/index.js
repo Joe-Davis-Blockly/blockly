@@ -18,7 +18,7 @@ function HomepageHeader() {
       <div className={clsx('container', styles.heroContainer)}>
         <div className={styles.heroContent}>
           <div className={styles.heroText}>
-            <div className={styles.developerDocsLabel}>DEVELOPER DOCS</div>
+            <div className={styles.developerDocsLabel}>Developer docs</div>
             <Heading as="h1" className={styles.heroTitle}>
               Build with Blockly
             </Heading>

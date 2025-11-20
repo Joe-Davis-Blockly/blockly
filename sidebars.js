@@ -439,7 +439,7 @@ const sidebars = {
             {
               type: "link",
               label: "Block Factory",
-              href: "https://google.github.io/blockly-samples/examples/developer-tools/index.html",
+              href: "https://raspberrypifoundation.github.io/blockly-samples/examples/developer-tools/index.html",
             },
           ],
         },
