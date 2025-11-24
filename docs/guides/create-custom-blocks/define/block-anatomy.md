@@ -102,10 +102,10 @@ rendering](/blockly/guides/create-custom-blocks/renderers/overview).
 
 | Input type       | Connection type  | Image                                           |
 |------------------|------------------|-------------------------------------------------|
-| Dummy input      | None             | ![dummy input][dummy-img]        |
-| End-of-row input | None             | ![end-of-row input][dummy-img]  |
-| Value input      | Input connection | ![value input][value-img]         |
-| Statement input  | Next connection  | ![statement input][statement-img] |
+| Dummy input      | None             | ![dummy input][dummy-img] {/* .connectionImg */}       |
+| End-of-row input | None             | ![end-of-row input][dummy-img] {/* .connectionImg */} |
+| Value input      | Input connection | ![value input][value-img] {/* .connectionImg */}        |
+| Statement input  | Next connection  | ![statement input][statement-img] {/* .connectionImg */} |
 
 [dummy-img]: /blockly/images/connections/dummy-input.png
 [value-img]: /blockly/images/connections/input-connection.png
@@ -224,7 +224,7 @@ For more information, see
 
 Blocks, inputs, connections, fields, and icons are all JavaScript objects.
 
-| Blockly component | Base class   | Subclasses           |
+| Blockly component {/* .displayTableHeader */} | Base class {/* .displayTableHeader */}  | Subclasses  {/* .displayTableHeader */} |
 | ------------------|--------------|----------------------|
 | Block             | `Block`      | `BlockSvg`           |
 | Input             | `Input`      | `DummyInput`         |

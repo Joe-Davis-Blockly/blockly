@@ -2,6 +2,10 @@
 description: How to properly attribute Blockly.
 ---
 
+<head>
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+
 # Attribute Blockly
 
 Blockly's code is open source and free to use without attribution.
@@ -11,8 +15,8 @@ product in their website, app, or product. This page describes the best
 practices for referring to Blockly and attributing it as well as appropriate
 uses of the logo.
 
-<a class="button button-primary"
-   href="/blockly/images/logos/blockly_logos_all.zip">Download all assets</a>
+<a class="button button-primary downloadAsset"
+   href="/blockly/images/logos/blockly_logos_all.zip" target="_blank">Download all assets</a>
 
 ## How to refer to Blockly
 
@@ -66,10 +70,10 @@ following logos, depending on background color:
       <td>For dark backgrounds with overlapping shapes or varied patterns.</td>
     </tr>
     <tr>
-      <td><a href="/blockly/images/logos/built-with-blockly-badge-white.png">PNG</a>
-        <a href="/blockly/images/logos/built-with-blockly-badge-white.svg">SVG</a></td>
-      <td><a href="/blockly/images/logos/built-with-blockly-badge-black.png">PNG</a>
-        <a href="/blockly/images/logos/built-with-blockly-badge-black.svg">SVG</a></td>
+      <td><a href="/blockly/images/logos/built-with-blockly-badge-white.png" target="_blank">PNG</a>
+        <a href="/blockly/images/logos/built-with-blockly-badge-white.svg" target="_blank">SVG</a></td>
+      <td><a href="/blockly/images/logos/built-with-blockly-badge-black.png" target="_blank">PNG</a>
+        <a href="/blockly/images/logos/built-with-blockly-badge-black.svg" target="_blank">SVG</a></td>
     </tr>
   </tbody>
 </table>
@@ -107,8 +111,8 @@ element on your page.
       with a full color logomark and neutral 700 (#5F6368) or solid white
       logotype.
       </p>
-      <a href="/blockly/images/logos/logo_standard.png">PNG</a>
-      <a href="/blockly/images/logos/logo_standard.svg">SVG</a>
+      <a href="/blockly/images/logos/logo_standard.png" target="_blank">PNG</a>
+      <a href="/blockly/images/logos/logo_standard.svg" target="_blank">SVG</a>
     </td>
   </tr>
 </table>
@@ -145,12 +149,12 @@ element on your page.
       </td>
     </tr>
     <tr>
-      <td><a href="/blockly/images/logos/logo_vertical.png">PNG</a>
-        <a href="/blockly/images/logos/logo_vertical.svg">SVG</a></td>
-      <td><a href="/blockly/images/logos/logo_only.png">PNG</a>
-        <a href="/blockly/images/logos/logo_only.svg">SVG</a></td>
-      <td><a href="/blockly/images/logos/logo_knockout.png">PNG</a>
-        <a href="/blockly/images/logos/logo_knockout.svg">SVG</a></td>
+      <td><a href="/blockly/images/logos/logo_vertical.png" target="_blank">PNG</a>
+        <a href="/blockly/images/logos/logo_vertical.svg" target="_blank">SVG</a></td>
+      <td><a href="/blockly/images/logos/logo_only.png" target="_blank">PNG</a>
+        <a href="/blockly/images/logos/logo_only.svg" target="_blank">SVG</a></td>
+      <td><a href="/blockly/images/logos/logo_knockout.png" target="_blank">PNG</a>
+        <a href="/blockly/images/logos/logo_knockout.svg" target="_blank">SVG</a></td>
     </tr>
   </tbody>
 </table>

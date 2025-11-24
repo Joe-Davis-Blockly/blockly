@@ -11,7 +11,7 @@ report/feature request will be addressed!
 
 ## Pre-work
 
-### Got Questions? {:#ask-a-question}
+### Got Questions?
 
 We love hearing your questions! But GitHub issues aren't a very good medium for
 them. If you have a question, head over to our [developer
@@ -19,7 +19,7 @@ forum](https://groups.google.com/g/blockly) instead. If you ask your
 question there you're more likely to get a timely and thorough response because
 it is filled with developers that have been using Blockly for years!
 
-### Check for Duplicates {:#check-for-duplicates}
+### Check for Duplicates
 
 Before you go about writing *any* type of issue, it is always good to see if a
 matching one already exists. If one does, this saves you the effort of having to
@@ -35,7 +35,7 @@ detailing your thoughts. This is especially important for bug reports and
 feature requests. If developers see that an issue is getting a lot of attention,
 it is more likely to get worked on!
 
-## Report a Bug {:#report-a-bug}
+## Report a Bug
 
 So you think you've discovered a bug? Great! We love hearing bug reports because
 we want this project to be as stable as possible. Here are some steps you can
@@ -48,7 +48,7 @@ follow to help your bug get fixed.
 1. [Suggest a Cause](#suggest-a-cause)
 1. [Write your Issue!](#write-the-issue)
 
-### Gather Evidence {:#gather-evidence}
+### Gather Evidence
 
 Generally, the more information your bug has, the better. Here are a few things
 you might want to provide:
@@ -60,7 +60,7 @@ you might want to provide:
 * **A Hosted Site** is great if you're having trouble reproducing your bug
   outside your specific environment.
 
-### Locate the Issue {:#locate-the-issue}
+### Locate the Issue
 
 Between the core library, the plugins, the examples, and the codelabs, we've got
 a lot of Blockly code. Help us out by telling us exactly where the issue is.
@@ -72,7 +72,7 @@ specific as possible.
 If the problem is in blockly-samples, figure out which plugin, codelab, or
 example it's in. If you find the same bug in multiple places, tell us that too.
 
-### Solidify your Reproduction {:#reproduce-it}
+### Solidify your Reproduction
 
 A bug is only fixable if it is reproducible, so before you submit an issue, make
 sure you have a solid way of getting your bug to occur.
@@ -88,12 +88,12 @@ reproduce the bug. For example:
 If your issue is in Blockly core, try to reproduce it in the
 [playground](https://blockly-demo.appspot.com/static/tests/playground.html).
 
-### Suggest a Cause {:#suggest-a-cause}
+### Suggest a Cause
 
 If you think you know why the bug is happening, include that information as
 well. Again, be as specific as possible.
 
-### Write your Issue! {:#write-the-issue}
+### Write your Issue!
 
 The time has come to write your bug report. Select your repository:
 
@@ -105,7 +105,7 @@ not detailed here.
 
 Thank you for your interest in reporting a bug, and happy issue writing!
 
-### What's Next? {:#whats-next-issue}
+### What's Next?
 
 - Your bug report is automatically tagged for triage.
 - The on-call member of the Blockly team will take a look and possibly ask
@@ -128,7 +128,7 @@ Thank you for your interest in reporting a bug, and happy issue writing!
   opposite direction) if needed.
 - The issue may be closed.
   
-## Feature Request {:#feature-request}
+## Feature Request
 
 Is there something you want to change to make Blockly better? Do you have an
 idea for a plugin, example, or codelab? Maybe there's already one you like, and
@@ -141,7 +141,7 @@ response.
 1. [Gather your Thoughts](#gather-thoughts)
 1. [Write your Feature Request!](#write-the-request)
 
-### Check the Requirements {:#check-the-requirements}
+### Check the Requirements
 
 We would love to allow every single idea to enter this repository! But sadly
 we're only human, so we have some guidelines in place about what kinds of
@@ -162,7 +162,7 @@ forums](https://groups.google.com/g/blockly). And remember, even if
 your idea doesn't get accepted, we would still love for you to build it as a
 third party plugin or tutorial!
 
-### Gather your Thoughts {:#gather-thoughts}
+### Gather your Thoughts
 
 Your idea doesn't need to be 100% fleshed out with tinsel and diagrams before
 you go ahead and submit, but you should have a solid idea of what you're looking
@@ -177,7 +177,7 @@ for. These are some good questions to ponder before you start to write:
 Once you have those things figured out, you'll be most of the way to a good
 feature request!
 
-### Write your Feature Request! {:#write-the-request}
+### Write your Feature Request!
 
 Now you're ready to write your feature request. Select your repository:
 
@@ -190,7 +190,7 @@ not detailed here.
 Thank you for your interest in submitting a feature request, and happy issue
 writing!
 
-### What's Next? {:#whats-next-feature-request}
+### What's Next?
 
 - Your feature request is automatically tagged for triage.
 - The on-call member of the Blockly team will take a look and possibly ask

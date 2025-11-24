@@ -215,3 +215,47 @@
 [class*="docs-doc-id-reference/"] .theme-doc-markdown > p:first-child {
   display: none;
 }
+
+.downloadAsset{
+  border: 1px solid #4285f4;
+  background-color: #4285f4;
+  color: #fff;
+  text-align: center;
+  border-radius: 4px;
+  padding: .5rem 1.25rem;
+  font-weight: 500;
+  text-decoration: none;
+  transition: background-color .2s cubic-bezier(.55, .085, .68, .53), border-color .2s cubic-bezier(.55, .055, .675, .19), color .2s cubic-bezier(.55, .085, .68, .53), transform .3s;
+}
+
+.downloadAsset:hover{
+  border-color: #1a73e8;
+  background-color: #1a73e8;
+  transform: scale(1.05);
+}
+
+.compare-better:before {
+  content: "thumb_up";
+  color: #1e8e3e;
+  font: normal normal normal 24px/24px 'Material Icons';
+  margin-inline: 0 4px;
+  vertical-align: middle;
+  width: 24px;
+}
+
+.compare-worse:before {
+  content: "thumb_down";
+  color: #d50000;
+  font: normal normal normal 24px/24px 'Material Icons';
+  margin-inline: 0 4px;
+  vertical-align: middle;
+  width: 24px;
+}
+
+.compare-better p, .compare-worse p{
+  margin-top:0px;
+}
+
+.appendInputImg{
+  width: 145px !important;
+}

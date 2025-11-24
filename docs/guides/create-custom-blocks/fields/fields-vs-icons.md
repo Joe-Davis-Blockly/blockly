@@ -19,10 +19,39 @@ yourself, but does not affect how the block functions within the program.
 
 ## Comparison of functionality
 
-| Attribute     | Fields                                                                       | Icons                                                                            |
-| ------------- | ---------------------------------------------------------------------------- | -------------------------------------------------------------------------------- |
-| Rendering     | Fields can be made of whatever elements they want.                           | Icons can be made of whatever elements they want.                                |
-| Number        | Fields can each appear any number of times in a block.                       | Icons can each appear once in a block.                                           |
-| Placement     | Fields can be positioned in any location on any input of a block.            | Icons are always positioned at the top-start of a block.                         |
-| Serialization | Fields can be serialized, and often are.                                     | Icons can be serialized, but are often not, because they often don't have state. |
-| Collapsing    | Fields are hidden when a block is collapsed and their text is shown instead. | Icons can control whether they are shown or hidden when the block is collapsed.  |
+<table>
+<thead>
+<tr>
+<th className="displayTableHeader">Attribute</th>
+<th className="displayTableHeader">Fields</th>
+<th className="displayTableHeader">Icons</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Rendering</td>
+<td>Fields can be made of whatever elements they want.</td>
+<td>Icons can be made of whatever elements they want.</td>
+</tr>
+<tr>
+<td>Number</td>
+<td>Fields can each appear any number of times in a block.</td>
+<td>Icons can each appear once in a block.</td>
+</tr>
+<tr>
+<td>Placement</td>
+<td>Fields can be positioned in any location on any input of a block.</td>
+<td>Icons are always positioned at the top-start of a block.</td>
+</tr>
+<tr>
+<td>Serialization</td>
+<td>Fields can be serialized, and often are.</td>
+<td>Icons can be serialized, but are often not, because they often don't have state.</td>
+</tr>
+<tr>
+<td>Collapsing</td>
+<td>Fields are hidden when a block is collapsed and their text is shown instead.</td>
+<td>Icons can control whether they are shown or hidden when the block is collapsed.</td>
+</tr>
+</tbody>
+</table>

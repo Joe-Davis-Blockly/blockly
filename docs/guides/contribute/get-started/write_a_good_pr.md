@@ -17,7 +17,7 @@ Here are steps you can take to make sure you create the best PR possible.
 1.  [Test your Change](#test-your-change)
 1.  [Communicate (pt2)](#communicate-2)
 
-### Communicate {:#communicate-1}
+### Communicate
 
 Before you jump in and start writing code, it's helpful to communicate with the
 core team so they know what you're interested in.
@@ -32,12 +32,12 @@ up](/blockly/guides/modify/contribute/write_a_good_issue) before you begin work.
 This gives the team a chance to discuss how best to build out the change
 *before* you start building, which saves you work in the long run.
 
-### Get Set Up {:#get-set-up}
+### Get Set Up
 
 If this is your first time contributing to Blockly or blockly-samples, start at
 the [development setup](/blockly/guides/modify/development_setup) page.
 
-### Keep it Small {:#keep-it-small}
+### Keep it Small
 
 Always try to keep your changes small and focused. We would much rather review
 multiple smaller PRs than review one giant PR. Some good rules of thumb are:
@@ -48,8 +48,7 @@ multiple smaller PRs than review one giant PR. Some good rules of thumb are:
 -   **Use commits.** If your PR feels a little big, split the changes into
     logical groups using git commits.
 
-### Keep it Clean {:#keep-it-clean}
-
+### Keep it Clean
 Why care about code style? We're in it for the long term, and consistent style
 makes maintenance easier. Style refers to how you name your variables, but also
 covers how you structure your code, write comments, and more. Where possible we
@@ -63,7 +62,7 @@ In addition to eslint, please follow these guides:
 -   [API visibility](/blockly/guides/programming/using_blockly_apis)
 -   [Codelab style guide](/blockly/guides/contribute/samples/write_a_codelab#writing_tips)
 
-### Test your Change {:#test-your-change}
+### Test your Change
 
 Before you put up a PR you should always test that your changes are working, so
 that you don't have to go back and fix things later. Here are some ideas for
@@ -74,7 +73,7 @@ testing the different categories of projects:
 -   For **codelabs**: run through the entire tutorial in a clean environment and
     test any example code you provide.
 
-### Communicate {:#communicate-2}
+### Communicate
 
 This is the last and arguably the most important part of creating a PR: writing
 the summary.

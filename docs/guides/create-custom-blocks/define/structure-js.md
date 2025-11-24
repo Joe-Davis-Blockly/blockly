@@ -41,7 +41,7 @@ type](/blockly/guides/create-custom-blocks/define/block-anatomy#inputs):
 ![A block with four rows. The first row has the labels "for each" and "item" and
 a variable dropdown with "x" chosen. The second row has the label "in list" and
 a value input. The third row has the label "do" and a statement input. And the
-last row has the label "end".](/blockly/images/append-input.png){: width='145'}
+last row has the label "end".](/blockly/images/append-input.png) {/* .appendInputImg */}
 
 Each `appendInput` method can take an identifier string, which is used by code
 generators to retrieve code for the block connected to the input. Code

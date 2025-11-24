@@ -12,7 +12,7 @@ The shape of a block is determined by a renderer, based on the
 Blockly provides three built-in renderers, each of which give a slightly
 different feel to the program.
 
-| Renderer | Description                                                                                                         | Image               |
+| Renderer {/* .displayTableHeader */} | Description {/* .displayTableHeader */}                                                                                               | Image {/* .displayTableHeader */}              |
 | -------- | ------------------------------------------------------------------------------------------------------------------- | ------------------- |
 | Thrasos  | The recommended renderer. It is a more modern take on the geras renderer, with more even spacing and solid borders. | ![thrasos][thrasos] |
 | Geras    | The default renderer. It is the original renderer that Blockly was built with.                                      | ![geras][geras]     |

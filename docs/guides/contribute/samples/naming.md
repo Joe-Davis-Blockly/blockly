@@ -26,7 +26,7 @@ field](/blockly/guides/create-custom-blocks/fields/customizing-fields/overview).
 Loading a field plugin registers a new field type that can be used in all
 Blockly workspaces on the page.
 
-| First Party        | Third Party       | Example                   | Suggested tags            |
+| First Party {/* .displayTableHeader */} | Third Party {/* .displayTableHeader */} | Example {/* .displayTableHeader */} | Suggested tags {/* .displayTableHeader */} |
 | ------------------ | ----------------- | ------------------------- | ------------------------- |
 | `@blockly/field-*` | `blockly-field-*` | [`@blockly/field-slider`] | `blockly-plugin`, `field` |
 
@@ -40,7 +40,7 @@ A theme plugin publishes a single Blockly
 Loading a theme plugin defines a new theme that can then be used in all Blockly
 workspaces on the page.
 
-| First Party        | Third Party       | Example                   | Suggested tags            |
+| First Party {/* .displayTableHeader */} | Third Party {/* .displayTableHeader */} | Example {/* .displayTableHeader */} | Suggested tags {/* .displayTableHeader */} |
 | ------------------ | ----------------- | ------------------------- | ------------------------- |
 | `@blockly/theme-*` | `blockly-theme-*` | [`@blockly/theme-modern`] | `blockly-plugin`, `theme` |
 
@@ -54,7 +54,7 @@ definitions](/blockly/guides/create-custom-blocks/overview).
 Loading a block plugin defines those blocks for all Blockly workspaces on the
 page.
 
-| First Party           | Third Party          | Example                        | Suggested tags                      |
+| First Party {/* .displayTableHeader */} | Third Party {/* .displayTableHeader */} | Example {/* .displayTableHeader */} | Suggested tags {/* .displayTableHeader */} |
 | --------------------- | -------------------- | ------------------------------ | ----------------------------------- |
 | `@blockly/block(s)-*` | `blockly-block(s)-*` | [`@blockly/blocks-plus-minus`] | `blockly-plugin`, `block`, `blocks` |
 
@@ -69,7 +69,7 @@ be used to programmatically share behaviour between blocks.
 Loading a block extension plugin registers the extensions for use on all Blockly
 workspaces on the page. 
 
-| First Party            | Third Party           | Example  | Suggested tags                     |
+| First Party {/* .displayTableHeader */} | Third Party {/* .displayTableHeader */} | Example {/* .displayTableHeader */} | Suggested tags {/* .displayTableHeader */} |
 | ---------------------- | --------------------- | -------- | ---------------------------------- |
 | `@blockly/extension-*` | `blockly-extension-*` | None yet | `blockly-plugin`,`block-extension` |
 
@@ -80,7 +80,7 @@ A workspace plugin adds behaviour to a single workspace.
 Loading a workspace plugin does nothing until it is initialized on a Blockly
 workspace.
 
-| First Party            | Third Party           | Example  | Suggested tags               |
+| First Party {/* .displayTableHeader */} | Third Party {/* .displayTableHeader */} | Example {/* .displayTableHeader */} | Suggested tags {/* .displayTableHeader */} |
 | ---------------------- | --------------------- | -------- | ---------------------------- |
 | `@blockly/workspace-*` | `blockly-workspace-*` | None yet | `blockly-plugin`,`workspace` |
 
@@ -89,7 +89,7 @@ workspace.
 This is the most general plugin type. Use this naming convention if your plugin
 doesn't meet the requirements of any other plugin type.
 
-| First Party         | Third Party        | Example                   | Suggested tags   |
+| First Party {/* .displayTableHeader */} | Third Party {/* .displayTableHeader */} | Example {/* .displayTableHeader */} | Suggested tags {/* .displayTableHeader */} |
 | ------------------- | ------------------ | ------------------------- | ---------------- |
 | `@blockly/plugin-*` | `blockly-plugin-*` | [`@blockly/plugin-modal`] | `blockly-plugin` |
 

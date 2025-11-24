@@ -2,6 +2,10 @@
 description: Guidance for publishing plugins that contain block libraries.
 ---
 
+<head>
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+
 # Publish block libraries
 
 Plugins that provide libraries of block definitions are a great way to share
@@ -29,7 +33,7 @@ versatile and useful as possible, we've developed these guidelines.
         pieces they need without worrying that pieces they don't will be
         installed.
 -   Use the JSON field registry instead of instantiating new fields directly.
-    -   Not Recommended - Instantiating a new field directly: {:.compare-worse}
+    -   Not Recommended - Instantiating a new field directly: {/* .compare-worse */} 
 
           ```js
           const myCustomBlock = {
@@ -40,7 +44,7 @@ versatile and useful as possible, we've developed these guidelines.
           }
           ```
 
-    -   Recommended - JSON field registry: {:.compare-better}
+    -   Recommended - JSON field registry: {/* .compare-better */}
 
           ```js
           export const myCustomBlock = {

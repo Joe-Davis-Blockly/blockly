@@ -32,7 +32,7 @@ complex, more experimental, or targeted to a narrower range of Blockly
 applications. A field for editing a specific object defined by your database
 schema is better as a third-party plugin.
 
-### First party criteria {:#first-party-criteria}
+### First party criteria
 
 First party plugins **must** meet these requirements:
 
@@ -54,7 +54,7 @@ Plugins go through four stages: [suggestion](#suggestion),
 [discussion](#discussion), [implementation](#implementation), and
 [publishing](#publishing).
 
-## Suggestion {:#suggestion}
+## Suggestion
 
 A plugin starts as a **suggestion**. You can suggest a plugin by creating a new
 issue with the [Feature
@@ -74,7 +74,7 @@ include:
 The Blockly team reviews suggestions as they come in and either closes the issue
 or agrees that it would be a good first-party plugin.
 
-## Discussion {:#discussion}
+## Discussion
 
 Next, a plugin goes into the **discussion** phase. This phase includes:
 
@@ -105,7 +105,7 @@ why and close the issue.
 When discussion is complete a Blockly team member notes that it is ready to be
 implemented.
 
-## Implementation {:#implementation}
+## Implementation
 
 **Implementation** steps include:
 
@@ -133,7 +133,7 @@ plugins should point to their test page. Third-party plugins can also be added
 to this page, and can point to a link of their owner's choosing, such as a
 hosted demo or the npm page.
 
-## Publishing {:#publishing}
+## Publishing
 
 Finally, **publishing**. The Blockly team uses [Lerna](https://lerna.js.org/) to
 manage versioning and publishing for all plugins.

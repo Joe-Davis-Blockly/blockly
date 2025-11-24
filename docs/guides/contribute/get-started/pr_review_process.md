@@ -33,7 +33,7 @@ The PR review process goes through a few stages:
 5. [Repetition](#repeat)
 6. [Merge!](#merge)
 
-## Assignment {:#assignment}
+## Assignment
 
 When your pull request comes in, the on-call member of the Blockly team assigns
 a reviewer.
@@ -43,7 +43,7 @@ Reviewers are chosen based on expertise and to evenly distribute workload.
 It may take a few days to get a reviewer assigned, and a few more days to get a
 review. Don't worry, this is normal.
 
-## Feedback {:#feedback}
+## Feedback
 
 During the feedback stage a reviewer leaves suggestions for changes on your PR.
 These could be simple things to make your code conform to the
@@ -56,7 +56,7 @@ reviews](https://help.github.com/en/github/collaborating-with-issues-and-pull-re
 than making individual comments) so that you receive a single notification
 instead of several.
 
-## Discussion {:#discussion}
+## Discussion
 
 The discussion phase is your chance to respond to the feedback. Maybe one
 of the review comments wasn't clear: now is your chance to ask for
@@ -69,7 +69,7 @@ spirit of **collaboration**. The goal is not to "win" but to make something
 you're both proud of.
 :::
 
-## Revision {:#revision}
+## Revision
 
 The revision phase is where you get to make changes to your PR. Usually these
 changes are a result of something your reviewer has said in the feedback phase.
@@ -81,7 +81,7 @@ your reviewer asking them to take another look.
 discussion and revision may happen at the same time.
 :::
 
-## Repetition {:#repeat}
+## Repetition
 
 After the revision phase your reviewer has another chance to give
 [feedback](#feedback), and the process starts from the beginning.
@@ -90,7 +90,7 @@ Often a second review is simple and focuses on nits such as punctuation and code
 style. But sometimes a second review can be quite big. Your first reviewer may
 even ask someone else to take a look, to get a fresh perspective.
 
-## Merge! {:#merge}
+## Merge!
 
 The merge phase is your chance to **celebrate**. You've created a change,
 discussed and revised it, and finally gotten it merged! This is a grand

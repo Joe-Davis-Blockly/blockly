@@ -57,7 +57,7 @@ collapsed.](/blockly/images/fields/image/collapsed.png)
 
 The image constructor takes in:
 
-| Parameter     | Description                                                  |
+| Parameter {/* .displayTableHeader */}    | Description  {/* .displayTableHeader */}                                            |
 | ------------- | ------------------------------------------------------------ |
 | `src`         | A string that points to a [raster image](https://developer.mozilla.org/en-US/docs/Glossary/raster_image) file. |
 | `width`       | Must cast to a non-zero number. |
