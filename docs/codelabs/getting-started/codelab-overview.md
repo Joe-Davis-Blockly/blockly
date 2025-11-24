@@ -1,3 +1,7 @@
+---
+pagination_prev: null
+---
+
 # Getting started with Blockly
 
 ## 1. Codelab overview

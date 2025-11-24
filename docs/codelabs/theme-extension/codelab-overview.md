@@ -1,3 +1,7 @@
+---
+pagination_prev: null
+---
+
 # Customizing your themes
 
 ## 1. Codelab overview

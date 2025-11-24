@@ -1,3 +1,7 @@
+---
+pagination_prev: null
+---
+
 # Customizing a Blockly toolbox
 
 ## 1. Codelab overview

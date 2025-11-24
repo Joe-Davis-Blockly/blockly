@@ -1,3 +1,7 @@
+---
+pagination_prev: null
+---
+
 # Block validation and warnings
 
 ## 1. Codelab overview
