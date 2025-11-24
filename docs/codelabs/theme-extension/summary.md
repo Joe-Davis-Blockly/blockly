@@ -1,3 +1,7 @@
+---
+pagination_next: null
+---
+
 # Customizing your themes
 
 ## 7. Summary

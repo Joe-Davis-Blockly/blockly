@@ -1,3 +1,7 @@
+---
+pagination_next: null
+---
+
 # Block validation and warnings
 
 ## 5. Summary

@@ -1,3 +1,7 @@
+---
+pagination_next: null
+---
+
 # Getting started with Blockly
 
 ## 10. The End

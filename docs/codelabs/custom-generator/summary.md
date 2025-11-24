@@ -1,3 +1,7 @@
+---
+pagination_next: null
+---
+
 # Build a custom generator
 
 ## 10. Summary
