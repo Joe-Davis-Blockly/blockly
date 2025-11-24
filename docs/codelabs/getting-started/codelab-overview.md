@@ -4,7 +4,7 @@
 
 ### What you'll learn
 
-This codelab will teach you how to modify a simple web app to include the [Blockly](/blockly/guides/get-started/what-is-blockly) visual programming library.
+This codelab will teach you how to modify a simple web app to include the [Blockly](/blockly) visual programming library.
 
 ### What is Blockly?
 
