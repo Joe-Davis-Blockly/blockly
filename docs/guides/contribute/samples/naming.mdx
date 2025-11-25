@@ -2,6 +2,7 @@
 description: How to name your plugins consistently.
 ---
 
+import ClassBlock from '@site/src/components/ClassBlock';
 
 # Plugin naming conventions
 
@@ -27,7 +28,7 @@ field](/blockly/guides/create-custom-blocks/fields/customizing-fields/overview).
 Loading a field plugin registers a new field type that can be used in all
 Blockly workspaces on the page.
 
-| First Party {/* .displayTableHeader */} | Third Party {/* .displayTableHeader */} | Example {/* .displayTableHeader */} | Suggested tags {/* .displayTableHeader */} |
+| <ClassBlock className="displayTableHeader"> First Party </ClassBlock> | <ClassBlock className="displayTableHeader"> Third Party </ClassBlock> | <ClassBlock className="displayTableHeader"> Example </ClassBlock> | <ClassBlock className="displayTableHeader"> Suggested tags </ClassBlock> |
 | ------------------ | ----------------- | ------------------------- | ------------------------- |
 | `@blockly/field-*` | `blockly-field-*` | [`@blockly/field-slider`] | `blockly-plugin`, `field` |
 
@@ -41,7 +42,7 @@ A theme plugin publishes a single Blockly
 Loading a theme plugin defines a new theme that can then be used in all Blockly
 workspaces on the page.
 
-| First Party {/* .displayTableHeader */} | Third Party {/* .displayTableHeader */} | Example {/* .displayTableHeader */} | Suggested tags {/* .displayTableHeader */} |
+| <ClassBlock className="displayTableHeader"> First Party </ClassBlock> | <ClassBlock className="displayTableHeader"> Third Party </ClassBlock> | <ClassBlock className="displayTableHeader"> Example </ClassBlock> | <ClassBlock className="displayTableHeader"> Suggested tags </ClassBlock> |
 | ------------------ | ----------------- | ------------------------- | ------------------------- |
 | `@blockly/theme-*` | `blockly-theme-*` | [`@blockly/theme-modern`] | `blockly-plugin`, `theme` |
 
@@ -55,7 +56,7 @@ definitions](/blockly/guides/create-custom-blocks/overview).
 Loading a block plugin defines those blocks for all Blockly workspaces on the
 page.
 
-| First Party {/* .displayTableHeader */} | Third Party {/* .displayTableHeader */} | Example {/* .displayTableHeader */} | Suggested tags {/* .displayTableHeader */} |
+| <ClassBlock className="displayTableHeader"> First Party </ClassBlock> | <ClassBlock className="displayTableHeader"> Third Party </ClassBlock> | <ClassBlock className="displayTableHeader"> Example </ClassBlock> | <ClassBlock className="displayTableHeader"> Suggested tags </ClassBlock> |
 | --------------------- | -------------------- | ------------------------------ | ----------------------------------- |
 | `@blockly/block(s)-*` | `blockly-block(s)-*` | [`@blockly/blocks-plus-minus`] | `blockly-plugin`, `block`, `blocks` |
 
@@ -70,7 +71,7 @@ be used to programmatically share behaviour between blocks.
 Loading a block extension plugin registers the extensions for use on all Blockly
 workspaces on the page. 
 
-| First Party {/* .displayTableHeader */} | Third Party {/* .displayTableHeader */} | Example {/* .displayTableHeader */} | Suggested tags {/* .displayTableHeader */} |
+| <ClassBlock className="displayTableHeader"> First Party </ClassBlock> | <ClassBlock className="displayTableHeader"> Third Party </ClassBlock> | <ClassBlock className="displayTableHeader"> Example </ClassBlock> | <ClassBlock className="displayTableHeader"> Suggested tags </ClassBlock> |
 | ---------------------- | --------------------- | -------- | ---------------------------------- |
 | `@blockly/extension-*` | `blockly-extension-*` | None yet | `blockly-plugin`,`block-extension` |
 
@@ -81,7 +82,7 @@ A workspace plugin adds behaviour to a single workspace.
 Loading a workspace plugin does nothing until it is initialized on a Blockly
 workspace.
 
-| First Party {/* .displayTableHeader */} | Third Party {/* .displayTableHeader */} | Example {/* .displayTableHeader */} | Suggested tags {/* .displayTableHeader */} |
+| <ClassBlock className="displayTableHeader"> First Party </ClassBlock> | <ClassBlock className="displayTableHeader"> Third Party </ClassBlock> | <ClassBlock className="displayTableHeader"> Example </ClassBlock> | <ClassBlock className="displayTableHeader"> Suggested tags </ClassBlock> |
 | ---------------------- | --------------------- | -------- | ---------------------------- |
 | `@blockly/workspace-*` | `blockly-workspace-*` | None yet | `blockly-plugin`,`workspace` |
 
@@ -90,7 +91,7 @@ workspace.
 This is the most general plugin type. Use this naming convention if your plugin
 doesn't meet the requirements of any other plugin type.
 
-| First Party {/* .displayTableHeader */} | Third Party {/* .displayTableHeader */} | Example {/* .displayTableHeader */} | Suggested tags {/* .displayTableHeader */} |
+| <ClassBlock className="displayTableHeader"> First Party </ClassBlock> | <ClassBlock className="displayTableHeader"> Third Party </ClassBlock> | <ClassBlock className="displayTableHeader"> Example </ClassBlock> | <ClassBlock className="displayTableHeader"> Suggested tags </ClassBlock> |
 | ------------------- | ------------------ | ------------------------- | ---------------- |
 | `@blockly/plugin-*` | `blockly-plugin-*` | [`@blockly/plugin-modal`] | `blockly-plugin` |
 

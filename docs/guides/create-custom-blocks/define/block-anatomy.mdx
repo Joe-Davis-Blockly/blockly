@@ -3,6 +3,7 @@ sidebar: guidesSidebar
 ---
 
 import Image from '@site/src/components/Image';
+import ClassBlock from '@site/src/components/ClassBlock';
 
 # Anatomy of a block
 
@@ -21,7 +22,7 @@ when you connect two blocks, you fit their connections together.
 
 There are four types of connections:
 
-| Connection type     | Image                                            |
+| <ClassBlock className="displayTableHeader"> Connection type </ClassBlock> | <ClassBlock className="displayTableHeader"> Image </ClassBlock> |
 |---------------------|--------------------------------------------------|
 | Output connection   | <Image alt="an output connection" src="/blockly/images/connections/output-connection.png" className="connectionImg" />   |
 | Input connection    | <Image alt="an input connection" src="/blockly/images/connections/input-connection.png" className="connectionImg" />     |
@@ -102,7 +103,7 @@ inputs](/blockly/guides/create-custom-blocks/inputs/creating-custom-inputs),
 which support [custom
 rendering](/blockly/guides/create-custom-blocks/renderers/overview).
 
-| Input type       | Connection type  | Image                                           |
+| <ClassBlock className="displayTableHeader"> Input type </ClassBlock> | <ClassBlock className="displayTableHeader"> Connection type </ClassBlock> | <ClassBlock className="displayTableHeader"> Image </ClassBlock> |
 |------------------|------------------|-------------------------------------------------|
 | Dummy input      | None             | <Image alt="dummy input" src="/blockly/images/connections/dummy-input.png" className="connectionImg" />       |
 | End-of-row input | None             | <Image alt="end-of-row input" src="/blockly/images/connections/dummy-input.png" className="connectionImg" /> |
@@ -226,7 +227,7 @@ For more information, see
 
 Blocks, inputs, connections, fields, and icons are all JavaScript objects.
 
-| Blockly component {/* .displayTableHeader */} | Base class {/* .displayTableHeader */}  | Subclasses  {/* .displayTableHeader */} |
+| <ClassBlock className="displayTableHeader"> Blockly component </ClassBlock> | <ClassBlock className="displayTableHeader"> Base class </ClassBlock>  | <ClassBlock className="displayTableHeader"> Subclasses </ClassBlock> |
 | ------------------|--------------|----------------------|
 | Block             | `Block`      | `BlockSvg`           |
 | Input             | `Input`      | `DummyInput`         |

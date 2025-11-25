@@ -108,6 +108,7 @@
 
 .displayTableHeader{
   text-align: left;
+  margin-bottom: 0px;
 }
 
 /* --- Added to make 'note' admonitions blue 50 #E8F0FE' --- */
@@ -237,7 +238,10 @@
 .compare-better:before {
   content: "thumb_up";
   color: #1e8e3e;
-  font: normal normal normal 24px/24px 'Material Icons';
+  font-family: 'Material Icons' !important;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 24px;
   margin-inline: 0 4px;
   vertical-align: middle;
   width: 24px;
@@ -246,7 +250,10 @@
 .compare-worse:before {
   content: "thumb_down";
   color: #d50000;
-  font: normal normal normal 24px/24px 'Material Icons';
+  font-family: 'Material Icons' !important;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 24px;
   margin-inline: 0 4px;
   vertical-align: middle;
   width: 24px;

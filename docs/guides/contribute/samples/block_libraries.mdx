@@ -4,6 +4,7 @@ description: Guidance for publishing plugins that contain block libraries.
 
 
 import Head from '@docusaurus/Head';
+import ClassBlock from '@site/src/components/ClassBlock';
 
 <Head>
   <link
@@ -40,7 +41,9 @@ versatile and useful as possible, we've developed these guidelines.
         pieces they need without worrying that pieces they don't will be
         installed.
 -   Use the JSON field registry instead of instantiating new fields directly.
-    -   Not Recommended - Instantiating a new field directly: {/* .compare-worse */} 
+ 
+    - <ClassBlock className="compare-worse">
+        Not Recommended - Instantiating a new field directly:
 
           ```js
           const myCustomBlock = {
@@ -50,8 +53,10 @@ versatile and useful as possible, we've developed these guidelines.
             }
           }
           ```
+      </ClassBlock>  
 
-    -   Recommended - JSON field registry: {/* .compare-better */}
+    - <ClassBlock className="compare-better">   
+        Recommended - JSON field registry:
 
           ```js
           export const myCustomBlock = {
@@ -64,6 +69,7 @@ versatile and useful as possible, we've developed these guidelines.
             }
           }
           ```
+      </ClassBlock> 
 
     -   Using the field registry makes it easier for a user to replace the
         implementation of the field used in your block without having to change
