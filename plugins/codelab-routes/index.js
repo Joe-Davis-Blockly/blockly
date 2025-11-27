@@ -1,0 +1,330 @@
+/**
+ * Custom Docusaurus plugin to handle codelab route rewriting
+ * This plugin injects a synchronous script that runs immediately on page load
+ * to transform URLs before React even initializes
+ */
+
+// Inline mapping data to avoid async loading
+const codelabMappingData = {
+  'getting-started': {
+    basePath: 'blockly/codelabs/getting-started',
+    steps: {
+      'codelab-overview': 0,
+      'setup': 1,
+      'explore-the-app': 2,
+      'add-blockly-libraries': 3,
+      'create-a-blockly-workspace': 4,
+      'create-a-custom-block': 5,
+      'save-load-workspace': 6,
+      'generate-javaScript-code': 7,
+      'run-generated-code': 8,
+      'the-end': 9,
+    },
+  },
+  'custom-toolbox': {
+    basePath: 'blockly/codelabs/custom-toolbox',
+    steps: {
+      'codelab-overview': 0,
+      'setup': 1,
+      'change-the-look-of-a-category': 2,
+      'change-the-look-of-a-selected-category': 3,
+      'add-an-icon-to-your-category': 4,
+      'change-the-category-HTML': 5,
+      'adding-a-custom-toolbox-item': 6,
+      'summary': 7,
+    },
+  },
+  'theme-extension': {
+    basePath: 'blockly/codelabs/theme-extension',
+    steps: {
+      'codelab-overview': 0,
+      'setup': 1,
+      'workspace-theme': 2,
+      'customize-components': 3,
+      'customize-category-styles': 4,
+      'customize-block-styles': 5,
+      'summary': 6,
+    },
+  },
+  'context-menu-option': {
+    basePath: 'blockly/codelabs/context-menu-option',
+    steps: {
+      'codelab-overview': 0,
+      'setup': 1,
+      'add-a-context-menu-item': 2,
+      'precondition-node-type': 3,
+      'precondition-external-state': 4,
+      'precondition-blockly-state': 5,
+      'callback': 6,
+      'display-text': 7,
+      'weight-and-id': 8,
+      'separators': 9,
+      'summary': 10,
+    },
+  },
+  'validation-and-warnings': {
+    basePath: 'blockly/codelabs/validation-and-warnings',
+    steps: {
+      'codelab-overview': 0,
+      'setup': 1,
+      'validating-blocks': 2,
+      'displaying-warnings': 3,
+      'summary': 4,
+    },
+  },
+  'custom-generator': {
+    basePath: 'blockly/codelabs/custom-generator',
+    steps: {
+      'codelab-overview': 0,
+      'setup': 1,
+      'the-basics': 2,
+      'block-generator-overview': 3,
+      'value-block-generators': 4,
+      'member-block-generator': 5,
+      'array-block-generator': 6,
+      'object-block-generator': 7,
+      'generating-a-stack': 8,
+      'summary': 9,
+    },
+  },
+  'custom-renderer': {
+    basePath: 'blockly/codelabs/custom-renderer',
+    steps: {
+      'codelab-overview': 0,
+      'setup': 1,
+      'observe-the-built-in-renderers': 2,
+      'define-and-register-a-custom-renderer': 3,
+      'override-constants': 4,
+      'understand-connection-shapes': 5,
+      'change-connection-shapes': 6,
+      'typed-connection-shapes': 7,
+      'summary': 8,
+    },
+  },
+};
+
+function codelabRoutesPlugin(context, options) {
+  return {
+    name: 'codelab-routes-plugin',
+    injectHtmlTags() {
+      // Create inline script that runs immediately, before React loads
+      const scriptContent = `
+(function() {
+  // CRITICAL: Run immediately, before ANY other scripts or page processing
+  // This must be the first thing that runs to prevent 404 flashes
+  
+  // Mapping data (inline for instant access)
+  var mapping = ${JSON.stringify(codelabMappingData)};
+  
+  // Get current URL components immediately
+  var currentPath = window.location.pathname;
+  var currentSearch = window.location.search;
+  var currentHash = window.location.hash;
+  
+  // Check if we're in a redirect cycle (prevent infinite loop)
+  var redirectFlag = sessionStorage.getItem('codelab_redirect');
+  sessionStorage.removeItem('codelab_redirect');
+  
+  // Case 1: Handle transformed URL on page load/refresh (e.g., /blockly/codelabs/getting-started/index.html?index=..%2F..index#1)
+  // This MUST run first to redirect before Docusaurus tries to process the route
+  var transformedMatch = currentPath.match(/^\\/blockly\\/codelabs\\/([^/]+)\\/index\\.html$/);
+  if (transformedMatch && currentSearch.includes('index=') && !redirectFlag) {
+    var category = transformedMatch[1];
+    var categoryData = mapping[category];
+    
+    if (categoryData) {
+      // Extract hash value (e.g., 1 from #1)
+      var hashValue = parseInt(currentHash.replace('#', '') || '0', 10);
+      
+      // Find step by hash value - optimized for speed
+      var stepId = null;
+      var steps = categoryData.steps;
+      for (var step in steps) {
+        if (steps[step] === hashValue) {
+          stepId = step;
+          break;
+        }
+      }
+      
+      if (stepId) {
+        // Set flag IMMEDIATELY to prevent any other processing
+        sessionStorage.setItem('codelab_redirect', 'true');
+        
+        // Redirect IMMEDIATELY - no delays, no async operations
+        // Using replace instead of href for faster navigation
+        var actualPath = '/blockly/codelabs/' + category + '/' + stepId;
+        window.location.replace(actualPath);
+        
+        // Stop execution - nothing else should run
+        return;
+      }
+    }
+  }
+  
+  // Case 2: Transform actual route to display URL (only if not already transformed and not in redirect)
+  var codelabMatch = currentPath.match(/^\\/blockly\\/codelabs\\/([^/]+)\\/([^/]+)\\/?$/);
+  
+  if (codelabMatch && !redirectFlag) {
+    var category = codelabMatch[1];
+    var stepId = codelabMatch[2];
+    
+    // Skip if already transformed
+    if (currentPath.includes('/index.html') && currentSearch.includes('index=')) {
+      return;
+    }
+    
+    var categoryData = mapping[category];
+    
+    if (categoryData && categoryData.steps[stepId] !== undefined) {
+      var hash = categoryData.steps[stepId];
+      var newPath = '/' + categoryData.basePath + '/index.html';
+      var queryParam = 'index=..%2F..index';
+      var newUrl = newPath + '?' + queryParam + '#' + hash;
+      
+      // Transform URL immediately, before React loads
+      if (currentPath + currentSearch + currentHash !== newUrl) {
+        window.history.replaceState(null, '', newUrl);
+      }
+    }
+  }
+  
+  // Also handle client-side navigation for smooth URL transformation
+  // Intercept pushState to transform URLs immediately when navigation happens
+  var originalPushState = history.pushState;
+  var originalReplaceState = history.replaceState;
+  
+  function transformIfNeeded() {
+    // Check redirect flag to prevent loops
+    if (sessionStorage.getItem('codelab_redirect')) {
+      return;
+    }
+    
+    var path = window.location.pathname;
+    var search = window.location.search;
+    var hash = window.location.hash;
+    
+    // First, check if we're on a transformed URL that needs redirecting
+    // This handles hash changes and other navigation events
+    var transformedMatch = path.match(/^\\/blockly\\/codelabs\\/([^/]+)\\/index\\.html$/);
+    if (transformedMatch && search.includes('index=')) {
+      var category = transformedMatch[1];
+      var categoryData = mapping[category];
+      
+      if (categoryData) {
+        var hashValue = parseInt(hash.replace('#', '') || '0', 10);
+        var stepId = null;
+        for (var step in categoryData.steps) {
+          if (categoryData.steps[step] === hashValue) {
+            stepId = step;
+            break;
+          }
+        }
+        
+        if (stepId) {
+          var actualPath = '/blockly/codelabs/' + category + '/' + stepId;
+          // Only redirect if we're not already on the correct path
+          if (path !== actualPath) {
+            sessionStorage.setItem('codelab_redirect', 'true');
+            window.location.replace(actualPath);
+            return;
+          }
+        }
+      }
+    }
+    
+    // Then handle normal route transformation
+    var match = path.match(/^\\/blockly\\/codelabs\\/([^/]+)\\/([^/]+)\\/?$/);
+    if (match && !path.includes('/index.html') && !search.includes('index=')) {
+      var cat = match[1];
+      var step = match[2];
+      var catData = mapping[cat];
+      if (catData && catData.steps[step] !== undefined) {
+        var h = catData.steps[step];
+        var np = '/' + catData.basePath + '/index.html';
+        var qp = 'index=..%2F..index';
+        var nu = np + '?' + qp + '#' + h;
+        if (path + search + hash !== nu) {
+          originalReplaceState.call(history, null, '', nu);
+        }
+      }
+    }
+  }
+  
+  history.pushState = function() {
+    originalPushState.apply(history, arguments);
+    transformIfNeeded();
+  };
+  
+  window.addEventListener('popstate', transformIfNeeded);
+  
+  // Case 3: Handle hash changes on transformed URLs (e.g., user manually changes #3 to #5)
+  // This makes the URLs reverse compatible - any hash change should redirect to the correct route
+  // CRITICAL: This must be fast - user is waiting, 404 is showing
+  function handleHashChangeOnTransformedUrl() {
+    // Fast exit if redirect flag is set
+    if (sessionStorage.getItem('codelab_redirect')) {
+      return;
+    }
+    
+    var path = window.location.pathname;
+    var search = window.location.search;
+    
+    // Fast pattern check - exit early if not matching
+    if (!path.includes('/index.html') || !search.includes('index=')) {
+      return;
+    }
+    
+    var transformedMatch = path.match(/^\\/blockly\\/codelabs\\/([^/]+)\\/index\\.html$/);
+    if (!transformedMatch) {
+      return;
+    }
+    
+    var category = transformedMatch[1];
+    var categoryData = mapping[category];
+    if (!categoryData) {
+      return;
+    }
+    
+    // Extract hash value
+    var hash = window.location.hash;
+    var hashValue = parseInt(hash.replace('#', '') || '0', 10);
+    
+    // Find step by hash value
+    var stepId = null;
+    var steps = categoryData.steps;
+    for (var step in steps) {
+      if (steps[step] === hashValue) {
+        stepId = step;
+        break;
+      }
+    }
+    
+    if (stepId) {
+      // Set flag and redirect IMMEDIATELY - no delays
+      sessionStorage.setItem('codelab_redirect', 'true');
+      window.location.replace('/blockly/codelabs/' + category + '/' + stepId);
+    }
+  }
+  
+  // Listen for hash changes - use capture phase for earliest possible interception
+  // hashchange only fires on window, not document
+  window.addEventListener('hashchange', handleHashChangeOnTransformedUrl, true);
+})();
+      `.trim();
+
+      return {
+        headTags: [
+          {
+            tagName: 'script',
+            innerHTML: scriptContent,
+            attributes: {
+              type: 'text/javascript',
+            },
+          },
+        ],
+      };
+    },
+  };
+}
+
+module.exports = codelabRoutesPlugin;

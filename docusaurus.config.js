@@ -64,6 +64,8 @@ const config = {
   organizationName: 'Joe-Davis-Blockly', // Usually your GitHub org/user name.
   projectName: 'blockly', // Usually your repo name.
 
+  trailingSlash: true,
+  
   onBrokenLinks: 'warn',
   //onBrokenMarkdownLinks: 'warn',
 
@@ -96,6 +98,10 @@ const config = {
         fromExtensions: ['md', 'mdx'],
       },
     ],
+    [
+      './plugins/codelab-routes/index.js',
+      {},
+    ]
   ],
 
   presets: [
