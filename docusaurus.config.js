@@ -89,6 +89,15 @@ const config = {
     locales: ['en'],
   },
 
+  plugins: [
+    [
+      '@docusaurus/plugin-client-redirects',
+      {
+        fromExtensions: ['md', 'mdx'],
+      },
+    ],
+  ],
+
   presets: [
     [
       'classic',
