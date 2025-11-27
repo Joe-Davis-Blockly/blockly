@@ -43,6 +43,7 @@ export declare abstract class CommentBarButton implements IFocusableNode
 |  [getFocusableElement()](./blockly.comments_namespace.commentbarbutton_class.getfocusableelement_1_method.md) |  | Returns a DOM element representing this button that can receive focus. |
 |  [getFocusableTree()](./blockly.comments_namespace.commentbarbutton_class.getfocusabletree_1_method.md) |  | Returns the workspace this button is a child of. |
 |  [getMargin()](./blockly.comments_namespace.commentbarbutton_class.getmargin_1_method.md) |  | Returns the margin in workspace coordinates surrounding this button. |
+|  [getParentComment()](./blockly.comments_namespace.commentbarbutton_class.getparentcomment_1_method.md) |  | Returns the parent comment of this comment bar button. |
 |  [getSize(includeMargin)](./blockly.comments_namespace.commentbarbutton_class.getsize_1_method.md) |  | Returns the dimensions of this button in workspace coordinates. |
 |  [isVisible()](./blockly.comments_namespace.commentbarbutton_class.isvisible_1_method.md) |  | Returns whether or not this button is currently visible. |
 |  [onNodeBlur()](./blockly.comments_namespace.commentbarbutton_class.onnodeblur_1_method.md) |  | Called when this button's focusable DOM element loses focus. |

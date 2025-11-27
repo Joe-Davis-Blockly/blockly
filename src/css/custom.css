@@ -75,7 +75,10 @@
 /* The default 3rem comes from Infima theme's .markdown h1:first-child rule */
 .markdown h1:first-child,
 .theme-doc-markdown h1:first-child {
-  --ifm-h1-font-size: 2rem;
+  /* --ifm-h1-font-size: 2rem; */
+  --ifm-h1-font-size: 32px;
+  --ifm-h2-font-size: 24px;
+  --ifm-h3-font-size: 20px;
 }
 
 .blockly-maze-img {
@@ -144,7 +147,6 @@
 
 .footer__links{
   border-block-end: 1px solid var(--border-divider-footer);
-  padding-bottom: 1rem;
 }
 
 .footer__title{
@@ -165,6 +167,13 @@
 
 .footer__copyright{
   font-size: 16px;
+}
+
+.footer_linkboxes_list{
+  display: grid;
+  grid-gap: 24px;
+  grid-template-columns: repeat(auto-fit,minmax(85.4px,1fr));
+  list-style: none;
 }
 
 /** Added changes for hide level 3 menus **/
@@ -266,3 +275,12 @@
 .appendInputImg{
   width: 145px !important;
 }
+
+h2{
+  font-size: 24px;
+}
+
+h3{
+  font-size: 20px;
+}
+

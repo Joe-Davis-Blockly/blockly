@@ -12212,6 +12212,11 @@ export const referenceSidebar = [
           },
           {
             "type": "doc",
+            "label": "blockly.comments_namespace.commentbarbutton_class.getparentcomment_1_method",
+            "id": "reference/js/blockly.comments_namespace.commentbarbutton_class.getparentcomment_1_method"
+          },
+          {
+            "type": "doc",
             "label": "blockly.comments_namespace.commentbarbutton_class.getsize_1_method",
             "id": "reference/js/blockly.comments_namespace.commentbarbutton_class.getsize_1_method"
           },

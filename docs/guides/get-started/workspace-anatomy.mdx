@@ -3,6 +3,7 @@ sidebar: guidesSidebar
 ---
 
 import Image from '@site/src/components/Image';
+import ClassBlock from '@site/src/components/ClassBlock';
 
 [workspace]: /blockly/guides/configure/web/configuration_struct
 [workspace-img]: /blockly/images/glossary/workspace.png
@@ -156,7 +157,7 @@ option chosen, and the label "do".][fields-img]
 
 A [connection][connection] is a place on a block other blocks can connect to.
 
-| Connection       | Image                                                |
+| <ClassBlock className="displayTableHeader"> Connection </ClassBlock> | <ClassBlock className="displayTableHeader"> Image </ClassBlock> |
 |------------------|------------------------------------------------------|
 | Output           | <Image alt="an output connection" src="/blockly/images/connections/output-connection.png" className="connectionImg" />   |
 | Input            | <Image alt="an input connection" src="/blockly/images/connections/input-connection.png" className="connectionImg" />    |
@@ -173,7 +174,7 @@ is built by rendering its inputs in one or more rows like bricks.
 All inputs can contain fields. Only value and statement inputs can contain a
 connection.
 
-| Input type | Connection type | Notes                                 |
+| <ClassBlock className="displayTableHeader"> Input type </ClassBlock> | <ClassBlock className="displayTableHeader"> Connection type </ClassBlock> | <ClassBlock className="displayTableHeader"> Notes </ClassBlock>|
 |------------|-----------------|---------------------------------------|
 | Dummy      | None            |                                       |
 | End-of-row | None            | Forces next input to start a new row. |

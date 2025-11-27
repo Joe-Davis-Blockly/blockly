@@ -19,9 +19,9 @@
   overflow: hidden;
 }
 
-.heroContainer {
+/* .heroContainer {
   max-width: 1200px;
-}
+} */
 
 .heroContent {
   display: flex;
