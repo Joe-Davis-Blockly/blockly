@@ -34,8 +34,8 @@ const codelabMappingData = {
       'summary': 7,
     },
   },
-  'theme-extension': {
-    basePath: 'blockly/codelabs/theme-extension',
+  'theme-extension-identifier': {
+    basePath: 'blockly/codelabs/theme-extension-identifier',
     steps: {
       'codelab-overview': 0,
       'setup': 1,
@@ -193,46 +193,33 @@ function codelabRoutesPlugin(context, options) {
   var originalPushState = history.pushState;
   var originalReplaceState = history.replaceState;
   
+  // Track if we've already transformed to prevent loops
+  var lastTransformedUrl = null;
+  var transformCooldown = false;
+  
   function transformIfNeeded() {
     // Check redirect flag to prevent loops
     if (sessionStorage.getItem('codelab_redirect')) {
       return;
     }
     
+    // Prevent rapid re-transformations
+    if (transformCooldown) {
+      return;
+    }
+    
     var path = window.location.pathname;
     var search = window.location.search;
     var hash = window.location.hash;
+    var currentUrl = path + search + hash;
     
-    // First, check if we're on a transformed URL that needs redirecting
-    // This handles hash changes and other navigation events
-    var transformedMatch = path.match(/^\\/blockly\\/codelabs\\/([^/]+)\\/index\\.html$/);
-    if (transformedMatch && search.includes('index=')) {
-      var category = transformedMatch[1];
-      var categoryData = mapping[category];
-      
-      if (categoryData) {
-        var hashValue = parseInt(hash.replace('#', '') || '0', 10);
-        var stepId = null;
-        for (var step in categoryData.steps) {
-          if (categoryData.steps[step] === hashValue) {
-            stepId = step;
-            break;
-          }
-        }
-        
-        if (stepId) {
-          var actualPath = '/blockly/codelabs/' + category + '/' + stepId;
-          // Only redirect if we're not already on the correct path
-          if (path !== actualPath) {
-            sessionStorage.setItem('codelab_redirect', 'true');
-            window.location.replace(actualPath);
-            return;
-          }
-        }
-      }
+    // Skip if we're already on the transformed URL we want
+    if (currentUrl === lastTransformedUrl) {
+      return;
     }
     
-    // Then handle normal route transformation
+    // Only transform from actual route to transformed URL (not the reverse)
+    // The redirect from transformed URL to actual route only happens on initial page load
     var match = path.match(/^\\/blockly\\/codelabs\\/([^/]+)\\/([^/]+)\\/?$/);
     if (match && !path.includes('/index.html') && !search.includes('index=')) {
       var cat = match[1];
@@ -243,19 +230,133 @@ function codelabRoutesPlugin(context, options) {
         var np = '/' + catData.basePath + '/index.html';
         var qp = 'index=..%2F..index';
         var nu = np + '?' + qp + '#' + h;
-        if (path + search + hash !== nu) {
+        
+        if (currentUrl !== nu) {
+          // Set cooldown to prevent rapid transformations
+          transformCooldown = true;
+          setTimeout(function() {
+            transformCooldown = false;
+          }, 200);
+          
+          lastTransformedUrl = nu;
           originalReplaceState.call(history, null, '', nu);
         }
       }
+    } else {
+      // Reset last transformed URL if we're not on a codelab route
+      lastTransformedUrl = null;
     }
   }
   
+  // Less aggressive transformation - only run once with a small delay
+  function aggressiveTransform() {
+    // Clear any pending timeouts to prevent multiple rapid calls
+    if (aggressiveTransform.timeoutId) {
+      clearTimeout(aggressiveTransform.timeoutId);
+    }
+    
+    transformIfNeeded();
+    
+    // Only schedule one delayed transformation
+    aggressiveTransform.timeoutId = setTimeout(transformIfNeeded, 50);
+  }
+  
+  // Track codelab navigation to ensure transformation happens
+  document.addEventListener('click', function(e) {
+    var target = e.target;
+    // Find the link element (might be nested)
+    while (target && target.tagName !== 'A') {
+      target = target.parentElement;
+    }
+    
+    if (!target || !target.href) {
+      return;
+    }
+    
+    try {
+      var url = new URL(target.href, window.location.origin);
+      var path = url.pathname;
+      var match = path.match(/^\\/blockly\\/codelabs\\/([^/]+)\\/([^/]+)\\/?$/);
+      
+      if (match) {
+        var cat = match[1];
+        var step = match[2];
+        var catData = mapping[cat];
+        
+        if (catData && catData.steps[step] !== undefined) {
+          // Check if we're already on this step with transformed URL
+          var currentPath = window.location.pathname;
+          var currentSearch = window.location.search;
+          var currentHash = window.location.hash;
+          
+          var currentTransformedMatch = currentPath.match(/^\\/blockly\\/codelabs\\/([^/]+)\\/index\\.html$/);
+          if (currentTransformedMatch && currentSearch.includes('index=')) {
+            var currentCategory = currentTransformedMatch[1];
+            var currentHashValue = parseInt(currentHash.replace('#', '') || '0', 10);
+            var targetHash = catData.steps[step];
+            
+            // If clicking the same step we're already on, prevent navigation to preserve transformed URL
+            if (currentCategory === cat && currentHashValue === targetHash) {
+              e.preventDefault();
+              e.stopPropagation();
+              e.stopImmediatePropagation();
+              return false;
+            }
+          }
+          
+          // Store the target step so we can transform after navigation
+          sessionStorage.setItem('codelab_pending_transform', JSON.stringify({
+            category: cat,
+            step: step,
+            hash: catData.steps[step]
+          }));
+          
+          // Schedule aggressive transformation after navigation
+          setTimeout(function() {
+            var pending = sessionStorage.getItem('codelab_pending_transform');
+            if (pending) {
+              sessionStorage.removeItem('codelab_pending_transform');
+              aggressiveTransform();
+            }
+          }, 0);
+        }
+      }
+    } catch (err) {
+      // Ignore errors
+    }
+  }, true);
+  
   history.pushState = function() {
     originalPushState.apply(history, arguments);
-    transformIfNeeded();
+    aggressiveTransform();
   };
   
-  window.addEventListener('popstate', transformIfNeeded);
+  history.replaceState = function() {
+    originalReplaceState.apply(history, arguments);
+    aggressiveTransform();
+  };
+  
+  window.addEventListener('popstate', aggressiveTransform);
+  
+  // Also watch for URL changes that might happen after React navigation
+  var lastUrl = window.location.href;
+  var urlCheckTimeout = null;
+  function checkUrlChange() {
+    var currentUrl = window.location.href;
+    if (currentUrl !== lastUrl) {
+      lastUrl = currentUrl;
+      // Debounce the transformation to prevent rapid calls
+      if (urlCheckTimeout) {
+        clearTimeout(urlCheckTimeout);
+      }
+      urlCheckTimeout = setTimeout(function() {
+        transformIfNeeded();
+      }, 100);
+    }
+  }
+  
+  // Check URL changes periodically (as fallback) - less frequent to avoid loops
+  setInterval(checkUrlChange, 200);
   
   // Case 3: Handle hash changes on transformed URLs (e.g., user manually changes #3 to #5)
   // This makes the URLs reverse compatible - any hash change should redirect to the correct route

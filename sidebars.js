@@ -132,37 +132,37 @@ const sidebars = {
         {
           "type": "doc",
           "label": "1. Codelab-overview",
-          "id": "codelabs/theme-extension/codelab-overview",
+          "id": "codelabs/theme-extension-identifier/codelab-overview",
         },
         {
           "type": "doc",
           "label": "2. Setup",
-          "id": "codelabs/theme-extension/setup",
+          "id": "codelabs/theme-extension-identifier/setup",
         },  
         {
           "type": "doc",
           "label": "3. Workspace Theme",
-          "id": "codelabs/theme-extension/workspace-theme",
+          "id": "codelabs/theme-extension-identifier/workspace-theme",
         }, 
         {
           "type": "doc",
           "label": "4. Customize Components",
-          "id": "codelabs/theme-extension/customize-components",
+          "id": "codelabs/theme-extension-identifier/customize-components",
         }, 
         {
           "type": "doc",
           "label": "5. Customize Category Styles",
-          "id": "codelabs/theme-extension/customize-category-styles",
+          "id": "codelabs/theme-extension-identifier/customize-category-styles",
         }, 
         {
           "type": "doc",
           "label": "6. Customize Block Styles",
-          "id": "codelabs/theme-extension/customize-block-styles",
+          "id": "codelabs/theme-extension-identifier/customize-block-styles",
         },
         {
           "type": "doc",
           "label": "7. Summary",
-          "id": "codelabs/theme-extension/summary",
+          "id": "codelabs/theme-extension-identifier/summary",
         },   
       ]
     },
@@ -429,7 +429,7 @@ const sidebars = {
             {
               type: "link",
               label: "Get started codelab",
-              href: "https://blocklycodelabs.dev/codelabs/getting-started/index.html?index=..%2F..index#0",
+              href: "/blockly/codelabs/getting-started/codelab-overview/",
             },
             {
               type: "link",

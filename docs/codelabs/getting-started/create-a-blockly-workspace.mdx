@@ -1,3 +1,5 @@
+import ClassBlock from '@site/src/components/ClassBlock';
+
 # Getting started with Blockly
 
 ## 5. Create a Blockly workspace
@@ -10,7 +12,7 @@ A Blockly workspace has two main components:
 - The area where the user assembles their blocks (the white area).
 - A toolbox that contains all blocks that are available to the user (the grey area).
 
-![image](../../../static/images/codelabs/getting-started/d4_three_times.png)
+<ClassBlock className="codelabImages"> ![image](../../../static/images/codelabs/getting-started/d4_three_times.png) </ClassBlock>
 
 The toolbox may be organized into categories, and may contain both single blocks and groups of blocks. A well-organized toolbox helps the user to explore the available blocks and understand the capabilities of the underlying system.
 
@@ -80,12 +82,12 @@ Let's look at the options we used to initialize your blockly editor:
 - `horizontalLayout`: Whether to display the toolbox horizontally or vertically in the workspace.
 - `toolboxPosition`: Whether to show the toolbox at the top or bottom of the workspace.
 
-The `options` struct gives you significant control over your Blockly instance. You can pass options to set Blockly's theme, modify scrolling behaviour, set the renderer, and more. For more information, head over to Blockly's developer site and check out the [configuration](/blockly/guides/configure/web/configuration_struct#the_options_dictionary) section.
+The `options` struct gives you significant control over your Blockly instance. You can pass options to set Blockly's theme, modify scrolling behaviour, set the renderer, and more. For more information, head over to Blockly's developer site and check out the [configuration](/blockly/guides/get-started/get-the-code) section.
 
 ### Check your work
 
 Now refresh the page. Select the EDIT mode, then tap on one of the buttons. You should see a Blockly editor:
 
-![image](../../../static/images/codelabs/getting-started/workspace_with_loop.png)
+<ClassBlock className="codelabImages"> ![image](../../../static/images/codelabs/getting-started/workspace_with_loop.png) </ClassBlock>
 
 Drag and drop the available loop block to the workspace to test it out.

@@ -2,6 +2,7 @@
 pagination_prev: null
 ---
 
+import ClassBlock from '@site/src/components/ClassBlock';
 
 # Customizing a Blockly toolbox
 
@@ -23,7 +24,7 @@ Over the course of this codelab you will customize your toolbox categories as we
 as create a custom toolbox item.
 The resulting toolbox is shown below.
 
-![A toolbox with colored background and the blockly label above the category text.](../../../static/images/codelabs/custom-toolbox/final_toolbox.png)
+<ClassBlock className="codelabImages"> ![A toolbox with colored background and the blockly label above the category text.](../../../static/images/codelabs/custom-toolbox/final_toolbox.png) </ClassBlock>
 
 The code samples are written in ES6 syntax. You can find the code for the [completed custom toolbox](https://github.com/RaspberryPiFoundation/blockly-samples/tree/master/examples/custom-toolbox-codelab/complete-code/index.html) on GitHub.
 
@@ -33,6 +34,6 @@ The code samples are written in ES6 syntax. You can find the code for the [compl
 - Basic knowledge of HTML, CSS, and JavaScript.
 - Basic understanding of the [Blockly toolbox](/blockly/guides/configure/web/toolboxes/toolbox).
 
-Throughout various parts of this codelab we will be talking about [toolbox definitions](/blockly/guides/configure/web/toolboxes/category#xml).
+Throughout various parts of this codelab we will be talking about [toolbox definitions](/blockly/guides/configure/web/toolboxes/toolbox/).
 The toolbox definition can be written in XML or JSON. We will be using an XML
 toolbox definition that can be found in the provided code.

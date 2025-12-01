@@ -36,8 +36,8 @@ export const codelabMapping = {
       { id: 'summary', hash: 7, label: '8. Summary' },
     ],
   },
-  'theme-extension': {
-    basePath: 'blockly/codelabs/theme-extension',
+  'theme-extension-identifier': {
+    basePath: 'blockly/codelabs/theme-extension-identifier',
     steps: [
       { id: 'codelab-overview', hash: 0, label: '1. Codelab-overview' },
       { id: 'setup', hash: 1, label: '2. Setup' },
