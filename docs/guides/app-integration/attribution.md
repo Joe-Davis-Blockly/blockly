@@ -1,5 +1,7 @@
 ---
 description: How to properly attribute Blockly.
+title: Attribute Blockly
+image: images/blockly_banner.png
 ---
 
 <head>

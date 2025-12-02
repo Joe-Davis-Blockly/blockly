@@ -129,7 +129,7 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       // Replace with your project's social card
-      image: 'img/logo.svg',
+      image: 'images/blockly_banner.png',
       navbar: {
         title: 'Blockly',
         logo: {

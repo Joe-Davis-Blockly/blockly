@@ -1,5 +1,7 @@
 ---
 description: How to use Blockly's tools for defining blocks, toolboxes, and workspaces.
+title: Legacy Blockly Developer Tools
+image: images/blockly_banner.png
 ---
 
 # Legacy Blockly Developer Tools

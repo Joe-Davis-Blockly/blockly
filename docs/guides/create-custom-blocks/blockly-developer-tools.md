@@ -1,5 +1,7 @@
 ---
 description: How to use Blockly's tools for defining blocks.
+title: Blockly Developer Tools
+image: images/blockly_banner.png
 ---
 
 # Blockly Developer Tools
