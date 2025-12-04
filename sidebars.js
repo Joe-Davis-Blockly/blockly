@@ -429,7 +429,7 @@ const sidebars = {
             {
               type: "link",
               label: "Get started codelab",
-              href: "/blockly/codelabs/getting-started/codelab-overview/",
+              href: "/blockly/codelabs/getting-started/codelab-overview/index.html",
             },
             {
               type: "link",
