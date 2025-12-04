@@ -155,8 +155,8 @@ element on your page.
         <a href="/blockly/images/logos/logo_vertical.svg" target="_blank">SVG</a></td>
       <td><a href="/blockly/images/logos/logo_only.png" target="_blank">PNG</a>
         <a href="/blockly/images/logos/logo_only.svg" target="_blank">SVG</a></td>
-      <td><a href="/blockly/images/logos/logo_knockout.png" target="_blank">PNG</a>
-        <a href="/blockly/images/logos/logo_knockout.svg" target="_blank">SVG</a></td>
+      <td><a href="/blockly/images/logos/logo_knockout_with_bg.png" target="_blank">PNG</a>
+        <a href="/blockly/images/logos/logo_knockout_with_bg.svg" target="_blank">SVG</a></td>
     </tr>
   </tbody>
 </table>
