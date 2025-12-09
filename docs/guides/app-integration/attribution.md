@@ -72,10 +72,10 @@ following logos, depending on background color:
       <td>For dark backgrounds with overlapping shapes or varied patterns.</td>
     </tr>
     <tr>
-      <td><a href="/blockly/images/logos/built-with-blockly-badge-white.png" target="_blank">PNG</a>
-        <a href="/blockly/images/logos/built-with-blockly-badge-white.svg" target="_blank">SVG</a></td>
-      <td><a href="/blockly/images/logos/built-with-blockly-badge-black.png" target="_blank">PNG</a>
-        <a href="/blockly/images/logos/built-with-blockly-badge-black.svg" target="_blank">SVG</a></td>
+      <td><a class="assetDownloadLink" href="/blockly/images/logos/built-with-blockly-badge-white.png" target="_blank">PNG</a>
+        <a class="assetDownloadLink" href="/blockly/images/logos/built-with-blockly-badge-white.svg" target="_blank">SVG</a></td>
+      <td><a class="assetDownloadLink" href="/blockly/images/logos/built-with-blockly-badge-black.png" target="_blank">PNG</a>
+        <a class="assetDownloadLink" href="/blockly/images/logos/built-with-blockly-badge-black.svg" target="_blank">SVG</a></td>
     </tr>
   </tbody>
 </table>
@@ -113,8 +113,8 @@ element on your page.
       with a full color logomark and neutral 700 (#5F6368) or solid white
       logotype.
       </p>
-      <a href="/blockly/images/logos/logo_standard.png" target="_blank">PNG</a>
-      <a href="/blockly/images/logos/logo_standard.svg" target="_blank">SVG</a>
+      <a class="assetDownloadLink" href="/blockly/images/logos/logo_standard.png" target="_blank">PNG</a>
+      <a class="assetDownloadLink" href="/blockly/images/logos/logo_standard.svg" target="_blank">SVG</a>
     </td>
   </tr>
 </table>
@@ -151,12 +151,12 @@ element on your page.
       </td>
     </tr>
     <tr>
-      <td><a href="/blockly/images/logos/logo_vertical.png" target="_blank">PNG</a>
-        <a href="/blockly/images/logos/logo_vertical.svg" target="_blank">SVG</a></td>
-      <td><a href="/blockly/images/logos/logo_only.png" target="_blank">PNG</a>
-        <a href="/blockly/images/logos/logo_only.svg" target="_blank">SVG</a></td>
-      <td><a href="/blockly/images/logos/logo_knockout_with_bg.png" target="_blank">PNG</a>
-        <a href="/blockly/images/logos/logo_knockout_with_bg.svg" target="_blank">SVG</a></td>
+      <td><a class="assetDownloadLink" href="/blockly/images/logos/logo_vertical.png" target="_blank">PNG</a>
+        <a class="assetDownloadLink" href="/blockly/images/logos/logo_vertical.svg" target="_blank">SVG</a></td>
+      <td><a class="assetDownloadLink" href="/blockly/images/logos/logo_only.png" target="_blank">PNG</a>
+        <a class="assetDownloadLink" href="/blockly/images/logos/logo_only.svg" target="_blank">SVG</a></td>
+      <td><a class="assetDownloadLink" href="/blockly/images/logos/logo_knockout_with_bg.png" target="_blank">PNG</a>
+        <a class="assetDownloadLink" href="/blockly/images/logos/logo_knockout_with_bg.svg" target="_blank">SVG</a></td>
     </tr>
   </tbody>
 </table>

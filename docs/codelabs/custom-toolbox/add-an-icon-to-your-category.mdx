@@ -1,6 +1,9 @@
 ---
 slug: /codelabs/custom-toolbox/add-an-icon-to-your-category/index.html
+description: How to add an icon to your category.
 ---
+
+import ClassBlock from '@site/src/components/ClassBlock';
 
 # Customizing a Blockly toolbox
 
@@ -25,7 +28,7 @@ to be:
 <category css-icon="customIcon fa fa-cog" name="Logic" categorystyle="logic_category">
 ```
 All the classes used to create a category can be set similar to how we set the
-icon class above. See the [Blockly toolbox documentation](https://developers.google.com/blockly/guides/configure/web/toolboxes/appearance#category_css) for more information.
+icon class above. See the [Blockly toolbox documentation](/blockly/guides/configure/web/toolboxes/appearance#category-css) for more information.
 
 ### Add some CSS
 If you open `index.html` you will notice that the gear icon is positioned
@@ -97,6 +100,6 @@ Your `setSelected` method should look similar to below:
 If you open your `index.html` file, you should see a white gear above your "Logic"
 label, and it should change to blue when the category has been selected.
 
-![A white gear above the word "Logic" on a blue background.](../../../static/images/codelabs/custom-toolbox/category_gear.png)
+<ClassBlock className="codelabImages"> ![A white gear above the word "Logic" on a blue background.](../../../static/images/codelabs/custom-toolbox/category_gear.png) </ClassBlock>
 
-![A blue gear above the word "Logic" on a white background.](../../../static/images/codelabs/custom-toolbox/category_gear_selected.png)
+<ClassBlock className="codelabImages"> ![A blue gear above the word "Logic" on a white background.](../../../static/images/codelabs/custom-toolbox/category_gear_selected.png) </ClassBlock>

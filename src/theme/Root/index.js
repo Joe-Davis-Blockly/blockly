@@ -1,10 +1,10 @@
 /**
  * Root theme component - wraps the entire app
- * Handles client-side tracking for Algolia search queries
+ * Handles client-side tracking
  */
 
 import React, { useEffect } from 'react';
-import { trackSiteSearch } from '../../utils/tracking';
+import { trackSiteSearch, trackCTAClick, trackCopyCode, extractFunctionName } from '../../utils/tracking';
 
 export default function Root({ children }) {
   useEffect(() => {
@@ -12,36 +12,13 @@ export default function Root({ children }) {
       return;
     }
 
-    // Ensure dataLayer exists
     if (!window.dataLayer) {
       window.dataLayer = [];
     }
 
-    // Diagnostic: Check if GTM script is in the page
-    const checkGTMLoading = () => {
-      const gtmScript = document.querySelector('script[src*="googletagmanager.com"]');
-      const gtmNoscript = document.querySelector('noscript iframe[src*="googletagmanager.com"]');
-      
-      console.log('🔍 GTM Diagnostic:');
-      console.log('  - GTM script tag found:', !!gtmScript);
-      console.log('  - GTM noscript found:', !!gtmNoscript);
-      console.log('  - window.google_tag_manager:', !!window.google_tag_manager);
-      console.log('  - window.dataLayer exists:', !!window.dataLayer);
-      
-      if (gtmScript) {
-        console.log('  - GTM script src:', gtmScript.src);
-      } else {
-        console.warn('  ⚠️ GTM script not found in page - plugin may not be loading');
-      }
-    };
-
-    // Check after a short delay to allow scripts to load
-    setTimeout(checkGTMLoading, 2000);
-
     let lastTrackedQuery = '';
     let searchTimeout = null;
 
-    // Method 1: Listen for Algolia DocSearch custom events
     const handleDocSearchQuery = (event) => {
       if (event.detail && event.detail.query) {
         const query = event.detail.query.trim();
@@ -54,7 +31,6 @@ export default function Root({ children }) {
 
     document.addEventListener('docsearch:query', handleDocSearchQuery);
 
-    // Method 2: Monitor the search input field when the modal is open
     const setupInputTracking = (searchInput) => {
       if (searchInput.hasAttribute('data-tracking-setup')) {
         return;
@@ -62,7 +38,6 @@ export default function Root({ children }) {
 
       searchInput.setAttribute('data-tracking-setup', 'true');
 
-      // Track on input with debouncing
       const handleInput = (e) => {
         const query = e.target.value.trim();
 
@@ -70,7 +45,6 @@ export default function Root({ children }) {
           clearTimeout(searchTimeout);
         }
 
-        // Only track if query is meaningful (at least 2 characters)
         if (query.length >= 2 && query !== lastTrackedQuery) {
           searchTimeout = setTimeout(() => {
             trackSiteSearch(query);
@@ -79,7 +53,6 @@ export default function Root({ children }) {
         }
       };
 
-      // Track when user presses Enter (immediate tracking)
       const handleKeyDown = (e) => {
         if (e.key === 'Enter') {
           const query = e.target.value.trim();
@@ -97,7 +70,6 @@ export default function Root({ children }) {
       searchInput.addEventListener('keydown', handleKeyDown);
     };
 
-    // Use MutationObserver to detect when search modal opens
     const observer = new MutationObserver(() => {
       const searchInput = document.querySelector('.DocSearch-Input');
       if (searchInput) {
@@ -110,13 +82,11 @@ export default function Root({ children }) {
       subtree: true
     });
 
-    // Also check immediately in case modal is already open
     const initialSearchInput = document.querySelector('.DocSearch-Input');
     if (initialSearchInput) {
       setupInputTracking(initialSearchInput);
     }
 
-    // Method 3: Listen for clicks on search results (fallback)
     const handleResultClick = (e) => {
       const hitElement = e.target.closest('.DocSearch-Hit');
       if (hitElement) {
@@ -133,10 +103,166 @@ export default function Root({ children }) {
 
     document.addEventListener('click', handleResultClick);
 
+    // CTA Click Tracking
+    // Track clicks on buttons and links that should be treated as CTAs
+    const handleCTAClick = (e) => {
+      // Find the clicked element (could be button, link, or child element)
+      let target = e.target;
+
+      // Traverse up to find the actual button/link element
+      while (target && target !== document.body) {
+        // Check if it's a button or link with CTA classes
+        const ctaSelector = 'a.button, button.button, .button, a.cardButton, .cardButton, .downloadAsset, a.downloadAsset, .assetDownloadLink, a.assetDownloadLink';
+        const isCTA = target.matches && (
+          target.matches(ctaSelector) ||
+          target.closest(ctaSelector)
+        );
+
+        if (isCTA) {
+          const ctaElement = target.matches(ctaSelector)
+            ? target
+            : target.closest(ctaSelector);
+
+          if (ctaElement) {
+            let clickUrl = '';
+            if (ctaElement.href) {
+              clickUrl = ctaElement.href;
+            } else if (ctaElement.getAttribute('href')) {
+              const href = ctaElement.getAttribute('href');
+              clickUrl = href.startsWith('http') ? href : window.location.origin + href;
+            } else if (ctaElement.getAttribute('to')) {
+              // Docusaurus Link component uses 'to' attribute
+              const to = ctaElement.getAttribute('to');
+              clickUrl = to.startsWith('http') ? to : window.location.origin + to;
+            } else {
+              clickUrl = window.location.href;
+            }
+
+            // Get the text content
+            let clickText = ctaElement.textContent?.trim() ||
+              ctaElement.innerText?.trim() ||
+              ctaElement.getAttribute('aria-label') ||
+              ctaElement.getAttribute('title') ||
+              'CTA Click';
+
+            // Clean up the text (remove extra whitespace)
+            clickText = clickText.replace(/\s+/g, ' ').trim();
+
+            // Track the CTA click
+            if (clickUrl && clickText) {
+              trackCTAClick(clickUrl, clickText);
+            }
+          }
+          break;
+        }
+        target = target.parentElement;
+      }
+    };
+
+    document.addEventListener('click', handleCTAClick);
+
+    // Code Copy Tracking
+    const handleCodeCopyClick = (e) => {
+      // Find the copy button (Docusaurus uses a button with aria-label containing "copy")
+      const copyButton = e.target.closest('button[aria-label*="copy" i], button[aria-label*="copier" i]');
+
+      if (copyButton) {
+        const codeBlock = copyButton.closest('div[class*="codeBlock"], .theme-code-block, .prism-code, pre');
+
+        if (codeBlock) {
+          let codeElement = codeBlock.querySelector('code');
+
+          if (!codeElement) {
+            const preElement = codeBlock.querySelector('pre code') || codeBlock.closest('pre')?.querySelector('code');
+            if (preElement) {
+              codeElement = preElement;
+            }
+          }
+
+          if (codeElement) {
+            // Extract language from class names (recursive search)
+            const findLanguage = (element) => {
+              if (!element || element === document.body) return 'unknown';
+
+              const classList = Array.from(element.classList);
+              const langClass = classList.find(cls => cls.startsWith('language-'));
+
+              if (langClass) {
+                return langClass.replace('language-', '');
+              }
+
+              return findLanguage(element.parentElement);
+            };
+
+            // Also check pre element and container for language class
+            let languageName = findLanguage(codeElement);
+            if (languageName === 'unknown') {
+              const preElement = codeElement.closest('pre');
+              if (preElement) {
+                languageName = findLanguage(preElement);
+              }
+            }
+            if (languageName === 'unknown') {
+              languageName = findLanguage(codeBlock);
+            }
+
+            const codeContent = codeElement.textContent || codeElement.innerText || '';
+
+            const functionName = extractFunctionName(codeContent, languageName);
+
+            trackCopyCode(functionName, languageName);
+          }
+        }
+      }
+    };
+
+    // Also listen for copy events to catch any copy operations
+    const handleCopyEvent = (e) => {
+      const selection = window.getSelection();
+      if (!selection || selection.rangeCount === 0) return;
+
+      const range = selection.getRangeAt(0);
+      let node = range.commonAncestorContainer;
+
+      if (node.nodeType === Node.TEXT_NODE) {
+        node = node.parentElement;
+      }
+
+      const codeElement = node?.closest?.('code');
+      if (!codeElement) return;
+
+      // Extract language
+      const findLanguage = (element) => {
+        const classList = Array.from(element.classList);
+        const langClass = classList.find(cls => cls.startsWith('language-'));
+        console.log("hello", langClass);
+
+        if (langClass) return langClass.replace('language-', '');
+
+        const parent = element.parentElement;
+        if (parent && parent !== document.body) {
+          return findLanguage(parent);
+        }
+        return 'unknown';
+      };
+
+      const languageName = findLanguage(codeElement);
+      const codeContent = selection.toString() || codeElement.textContent || '';
+      const functionName = extractFunctionName(codeContent, languageName);
+
+      trackCopyCode(functionName, languageName);
+    };
+
+    document.addEventListener('click', handleCodeCopyClick);
+    document.addEventListener('copy', handleCopyEvent);
+
     // Cleanup
     return () => {
       document.removeEventListener('docsearch:query', handleDocSearchQuery);
       document.removeEventListener('click', handleResultClick);
+      document.removeEventListener('click', handleCTAClick);
+      document.removeEventListener('click', handleCodeCopyClick);
+      document.removeEventListener('copy', handleCopyEvent);
       observer.disconnect();
       if (searchTimeout) {
         clearTimeout(searchTimeout);

@@ -25,7 +25,6 @@
   --ifm-heading-font-family: 'Google Sans', sans-serif;
 
   --background-color-footer: #E8F0FE;
-  --border-footer: #dadce0;
   --font-color-footer: #202124;
   --font-color-hover-footer: #1a73e8;
   --border-divider-footer: #dadce0;
@@ -43,7 +42,6 @@
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
 
   --background-color-footer: #1c1e21;
-  --border-footer: #dadce042;
   --font-color-footer: #dadde1;
   --font-color-hover-footer: #25c2a0;
   --border-divider-footer: #dadce042;
@@ -145,7 +143,6 @@
 /* footer CSS */
 .footer{
   background-color: var(--background-color-footer);
-  border-top: 1px solid var(--border-footer);
 }
 
 .footer__links{

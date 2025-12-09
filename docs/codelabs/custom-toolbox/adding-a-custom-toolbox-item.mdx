@@ -1,6 +1,9 @@
 ---
 slug: /codelabs/custom-toolbox/adding-a-custom-toolbox-item/index.html
+description: How to add a custom item to a toolbox.
 ---
+
+import ClassBlock from '@site/src/components/ClassBlock';
 
 # Customizing a Blockly toolbox
 
@@ -82,7 +85,7 @@ Next, we are going to return this element:
 
 If you open the `index.html` file you should see a label above your first category.
 
-![The toolbox with a label at the top.](../../../static/images/codelabs/custom-toolbox/toolbox_label.png)
+<ClassBlock className="codelabImages">  ![The toolbox with a label at the top.](../../../static/images/codelabs/custom-toolbox/toolbox_label.png) </ClassBlock>
 
 ### Add attributes to the toolbox definition
 The above code is rather limiting since it only allows us to create a toolbox
@@ -116,7 +119,7 @@ All attributes on our toolbox definition get added to the `toolboxItemDef_`.
 
 Open your `index.html` in a browser to see the updated label.
 
-![The toolbox with a label that now says "Custom Toolbox".](../../../static/images/codelabs/custom-toolbox/custom_label.png)
+<ClassBlock className="codelabImages">  ![The toolbox with a label that now says "Custom Toolbox".](../../../static/images/codelabs/custom-toolbox/custom_label.png) </ClassBlock>
 
 ### Add some CSS
 Similar to how we added `colour` and `name` above, we are going to add a custom
@@ -156,4 +159,4 @@ the below CSS to make the label bold.
 If you open `index.html` you should now see a bold dark gray label at the
 top of your toolbox.
 
-![A toolbox with colored background and the blockly label above the category text.](../../../static/images/codelabs/custom-toolbox/final_toolbox.png)
+<ClassBlock className="codelabImages">  ![A toolbox with colored background and the blockly label above the category text.](../../../static/images/codelabs/custom-toolbox/final_toolbox.png) </ClassBlock>
