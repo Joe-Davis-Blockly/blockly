@@ -5,6 +5,8 @@ description: How to create your own custom fields.
 image: images/blockly_banner.png
 ---
 
+import Image from '@site/src/components/Image';
+
 # Create a custom field
 
 Before creating a new field type, consider if one of the [other
@@ -249,7 +251,7 @@ field](/blockly/guides/create-custom-blocks/fields/anatomy-of-a-field).
 
 ### Validation order
 
-![Flowchart describing the order in which validators are run](/blockly/images/validation-order.svg)
+<Image alt="Flowchart describing the order in which validators are run" src="/blockly/images/validation-order.svg" srcDark="/blockly/images/validation-order-dark.svg"/>
 
 ### Implementing a class validator
 
@@ -562,7 +564,7 @@ on-block display has additional dynamic elements, you will need to [customize
 the `render_`
 function](/blockly/guides/create-custom-blocks/fields/customizing-fields/creating#customizing_rendering).
 
-![Flowchart describing how to make decision of whether to override render_](/blockly/images/override-render-decision.svg)
+<Image alt="Flowchart describing how to make decision of whether to override render_" src="/blockly/images/override-render-decision.svg" srcDark="/blockly/images/override-render-decision-dark.svg"/>
 
 ### Customizing rendering
 

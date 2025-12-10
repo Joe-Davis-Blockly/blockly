@@ -27,10 +27,10 @@ There are four types of connections:
 
 | <ClassBlock className="displayTableHeader"> Connection type </ClassBlock> | <ClassBlock className="displayTableHeader"> Image </ClassBlock> |
 |---------------------|--------------------------------------------------|
-| Output connection   | <Image alt="an output connection" src="/blockly/images/connections/output-connection.png" width="40px" />   |
-| Input connection    | <Image alt="an input connection" src="/blockly/images/connections/input-connection.png" width="45px" />     |
-| Previous connection | <Image alt="a previous connection" src="/blockly/images/connections/previous-connection.png" width="50px" /> |
-| Next connection     | <Image alt="a next connection" src="/blockly/images/connections/next-connection.png" width="50px" />       |
+| Output connection   | <Image alt="an output connection" src="/blockly/images/connections/output-connection.png" width={40} />   |
+| Input connection    | <Image alt="an input connection" src="/blockly/images/connections/input-connection.png" srcDark="/blockly/images/connections/input-connection-dark.png" width={45} />     |
+| Previous connection | <Image alt="a previous connection" src="/blockly/images/connections/previous-connection.png" width={50} /> |
+| Next connection     | <Image alt="a next connection" src="/blockly/images/connections/next-connection.png" width={50} />       |
 
 [output]: /blockly/images/connections/output-connection.png
 [input]: /blockly/images/connections/input-connection.png
@@ -55,7 +55,7 @@ connector on the leading edge of a block. An output connection passes a block's
 value (expression) to another block. A block with an output connection is called
 a **value block**.
 
-![A math_number block.](/blockly/images/block-anatomy/output-connection.png)
+<Image alt="A math_number block." src="/blockly/images/block-anatomy/output-connection.png" srcDark="/blockly/images/block-anatomy/output-connection-dark.png" />
 
 A block may have a previous connection on its top (represented as a notch) and a
 next connection on its bottom (represented as a tab). These allow blocks to be
@@ -63,8 +63,7 @@ stacked vertically, representing a sequence of statements. A block without an
 output connection is called a **statement block** and usually has both previous
 and next connections.
 
-![A variables_set
-block.](/blockly/images/block-anatomy/prev-next-connection.png)
+<Image alt="A variables_set block." src="/blockly/images/block-anatomy/prev-next-connection.png" srcDark="/blockly/images/block-anatomy/prev-next-connection-dark.png" />
 
 For more information, see [Top-level
 connections](/blockly/guides/create-custom-blocks/define/top-level-connections).
@@ -77,7 +76,7 @@ string labels, dropdowns, checkboxes, images, and inputs for
 such as strings and numbers. For example, this loop block uses label fields, a
 dropdown field, and number fields.
 
-![A block with multiple fields.](/blockly/images/block-anatomy/loop.png)
+<Image alt="A block with multiple fields." src="/blockly/images/block-anatomy/loop.png" srcDark="/blockly/images/block-anatomy/loop-dark.png" />
 
 Blockly provides a number of [built-in
 fields](/blockly/guides/create-custom-blocks/fields/built-in-fields/overview),
@@ -108,10 +107,10 @@ rendering](/blockly/guides/create-custom-blocks/renderers/overview).
 
 | <ClassBlock className="displayTableHeader"> Input type </ClassBlock> | <ClassBlock className="displayTableHeader"> Connection type </ClassBlock> | <ClassBlock className="displayTableHeader"> Image </ClassBlock> |
 |------------------|------------------|-------------------------------------------------|
-| Dummy input      | None             | <Image alt="dummy input" src="/blockly/images/connections/dummy-input.png" width="40px" />       |
-| End-of-row input | None             | <Image alt="end-of-row input" src="/blockly/images/connections/dummy-input.png" width="40px" /> |
-| Value input      | Input connection | <Image alt="value input" src="/blockly/images/connections/input-connection.png" width="45px" />        |
-| Statement input  | Next connection  | <Image alt="statement input" src="/blockly/images/connections/statement-input.png" width="50px" /> |
+| Dummy input      | None             | <Image alt="dummy input" src="/blockly/images/connections/dummy-input.png" srcDark="/blockly/images/connections/dummy-input-dark.png" width={40} />       |
+| End-of-row input | None             | <Image alt="end-of-row input" src="/blockly/images/connections/dummy-input.png" srcDark="/blockly/images/connections/dummy-input-dark.png" width={40} /> |
+| Value input      | Input connection | <Image alt="value input" src="/blockly/images/connections/input-connection.png" srcDark="/blockly/images/connections/input-connection-dark.png" width={45} />        |
+| Statement input  | Next connection  | <Image alt="statement input" src="/blockly/images/connections/statement-input.png" srcDark="/blockly/images/connections/statement-input-dark.png" width={50} /> |
 
 [dummy-img]: /blockly/images/connections/dummy-input.png
 [value-img]: /blockly/images/connections/input-connection.png
@@ -156,8 +155,7 @@ connection. For example, here is the addition block built from an end-of-row
 input with two fields and a dummy input with one field. The end-of-row input
 forces the dummy input to be rendered in a new row.
 
-![An addition block split into two rows by an end-of-row
-input.](/blockly/images/block-anatomy/end-of-row-inputs.png)
+<Image alt="An addition block split into two rows by an end-of-row input." src="/blockly/images/block-anatomy/end-of-row-inputs.png" srcDark="/blockly/images/block-anatomy/end-of-row-inputs-dark.png" />
 
 ### Value inputs
 
@@ -172,8 +170,7 @@ The following block replaces the number fields in the addition block with input
 connections. It is built from two value inputs -- the first does not contain any
 fields and the second contains a label field. Both end in input connections.
 
-![An addition block with two value
-inputs.](/blockly/images/block-anatomy/value-inputs-addition.png)
+<Image alt="An addition block with two value inputs." src="/blockly/images/block-anatomy/value-inputs-addition.png" srcDark="/blockly/images/block-anatomy/value-inputs-addition-dark.png" />
 
 ### Statement inputs
 
@@ -183,15 +180,13 @@ stack of statement blocks inside your block. For example, consider the following
 repeat block. The second row of this block consists of a statement input with a
 single label field and a next connection.
 
-![A repeat block with a statement input to nest repeated
-statements.](/blockly/images/block-anatomy/statement-input-repeat.png)
+<Image alt="A repeat block with a statement input to nest repeated statements." src="/blockly/images/block-anatomy/statement-input-repeat.png" srcDark="/blockly/images/block-anatomy/statement-input-repeat-dark.png" />
 
 Statement inputs are always rendered in their own row. You can see this in the
 following if-then-else block, which has a value input in its first row and
 statement inputs in the next two rows.
 
-![An if-then-else block with separate statement inputs for then and else
-statements.](/blockly/images/block-anatomy/statement-input-ite.png)
+<Image alt="An if-then-else block with separate statement inputs for then and else statements." src="/blockly/images/block-anatomy/statement-input-ite.png" srcDark="/blockly/images/block-anatomy/statement-input-ite-dark.png" />
 
 ### Inline versus external inputs
 
@@ -220,8 +215,7 @@ In addition to inputs, connections, and fields, blocks can have one or more
 block-level comments, or displaying the mutator UI. For example, here is a block
 with a comment icon and its associated editor.
 
-![A block with a comment icon and an open comment
-editor.](/blockly/images/block-anatomy/comment-icon.png)
+<Image alt="A block with a comment icon and an open comment editor." src="/blockly/images/block-anatomy/comment-icon.png" srcDark="/blockly/images/block-anatomy/comment-icon-dark.png" />
 
 For more information, see
 [Icons](/blockly/guides/create-custom-blocks/icons/overview).

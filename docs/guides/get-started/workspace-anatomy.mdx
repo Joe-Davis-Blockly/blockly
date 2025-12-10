@@ -161,26 +161,17 @@ A [connection][connection] is a place on a block other blocks can connect to.
 
 | <ClassBlock className="displayTableHeader"> Connection </ClassBlock> | <ClassBlock className="displayTableHeader"> Image </ClassBlock> |
 |------------------|------------------------------------------------------|
-| Output           | <Image alt="an output connection" src="/blockly/images/connections/output-connection.png" width="40px" />   |
-| Input            | <Image alt="an input connection" src="/blockly/images/connections/input-connection.png" width="45px" />    |
-| Previous         | <Image alt="a previous connection" src="/blockly/images/connections/previous-connection.png" width="50px" /> |
-| Next             | <Image alt="a next connection" src="/blockly/images/connections/next-connection.png" width="50px" />      |
+| Output           | <Image alt="an output connection" src="/blockly/images/connections/output-connection.png" width={40} />   |
+| Input            | <Image alt="an input connection" src="/blockly/images/connections/input-connection.png" srcDark="/blockly/images/connections/input-connection-dark.png" width={45} />    |
+| Previous         | <Image alt="a previous connection" src="/blockly/images/connections/previous-connection.png" width={50} /> |
+| Next             | <Image alt="a next connection" src="/blockly/images/connections/next-connection.png" width={50} />      |
 
 ### Inputs
 
 An [input][input] is a container for fields and connections. A block
 is built by rendering its inputs in one or more rows like bricks.
 
-<picture>
-  <source 
-    media="(prefers-color-scheme: dark)" 
-    srcset="/blockly/images/glossary/inputs-dark.png"
-  /> 
-  <img 
-    alt="Block built from a value input, an end-of-row input, and a statement input." 
-    src="/blockly/images/glossary/inputs.png" 
-  />
-</picture>
+<Image alt="Block built from a value input, an end-of-row input, and a statement input." src="/blockly/images/glossary/inputs.png" srcDark="/blockly/images/glossary/inputs-dark.png" />
 
 All inputs can contain fields. Only value and statement inputs can contain a
 connection.

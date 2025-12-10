@@ -6,6 +6,7 @@ image: images/blockly_banner.png
 
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
+import Image from '@site/src/components/Image';
 
 # Block structure in JSON
 
@@ -90,8 +91,7 @@ are created from them.
 This creates a single value input with three fields: a label (`"set"`), a
 variable field, and another label (`"to"`).
 
-![Map the message "set %1 to %2" to a value input with three
-fields.](/blockly/images/structure-json/set-one-to-two.png)
+<Image alt="Map the message to a value input with three fields." src="/blockly/images/structure-json/set-one-to-two.png" srcDark="/blockly/images/structure-json/set-one-to-two-dark.png"/>
 
 ### Example 2
 
@@ -111,8 +111,7 @@ fields.](/blockly/images/structure-json/set-one-to-two.png)
 This creates two value inputs. The first has no fields and the second has one
 field (`"+"`).
 
-![Map the message "%1 + %2" to two value
-inputs.](/blockly/images/structure-json/one-plus-two.png)
+<Image alt="Map the message to two value inputs." src="/blockly/images/structure-json/one-plus-two.png" srcDark="/blockly/images/structure-json/one-plus-two-dark.png"/>
 
 ### Example 3
 
@@ -138,8 +137,7 @@ This creates:
     rendered on a new row, and
 *   A value input with no fields.
 
-![Map the message "%1 + %2 %3" to two value inputs and an end-of-row
-input.](/blockly/images/structure-json/one-plus-two-three.png)
+<Image alt="Map the message to two value inputs and an end-of-row input." src="/blockly/images/structure-json/one-plus-two-three.png" srcDark="/blockly/images/structure-json/one-plus-two-three-dark.png"/>
 
 ## Dummy input at end of message
 
@@ -160,8 +158,8 @@ for you. For example, instead of defining a `lists_isEmpty` block like this:
   ```
   </TabItem>
 </Tabs>
-![Map the message "%1 is empty" to a value input and an automatically created dummy
-input.](/blockly/images/structure-json/is-empty-dummy.png)
+
+<Image alt="Map the message to a value input and an automatically created dummy input." src="/blockly/images/structure-json/is-empty-dummy.png" srcDark="/blockly/images/structure-json/is-empty-dummy-dark.png"/>
 
 you can let Blockly add the dummy input and define it like this:
 
@@ -177,8 +175,8 @@ you can let Blockly add the dummy input and define it like this:
   ```
   </TabItem>
 </Tabs>
-![Map the message "%1 is empty" to a value input and an automatically created dummy
-input.](/blockly/images/structure-json/is-empty.png)
+
+<Image alt="Map the message to a value input and an automatically created dummy input." src="/blockly/images/structure-json/is-empty.png" srcDark="/blockly/images/structure-json/is-empty-dark.png"/>
 
 The automatic addition of a tailing dummy input allows translators to change
 `message` without needing to modify the arguments that describe the
@@ -241,9 +239,9 @@ is to use more than one `message` and `args` properties:
   ```
   </TabItem>
 </Tabs>
-![Map the message "repeat %1 times" to a value input and an automatically
-created dummy input and the message "do %1" to a statement
-input.](/blockly/images/structure-json/controls-repeat-ext.png)
+
+<Image alt="Map the message to a value input and an automatically created dummy input and the message to a statement
+input." src="/blockly/images/structure-json/controls-repeat-ext.png" srcDark="/blockly/images/structure-json/controls-repeat-ext-dark.png"/>
 
 Any number of `message`, `args`, and `implicitAlign` properties may be defined
 in the JSON format, starting with 0 and incrementing sequentially. Note that the
@@ -299,8 +297,8 @@ string with an end-of-row input.
   ```
   </TabItem>
 </Tabs>
-![Map the newline character in "set %1\nto %2" to an end-of-row
-input.](/blockly/images/structure-json/newline-character.png)
+
+<Image alt="Map the newline character to an end-of-row input." src="/blockly/images/structure-json/newline-character.png" srcDark="/blockly/images/structure-json/newline-character-dark.png"/>
 
 ## Arguments arrays
 
