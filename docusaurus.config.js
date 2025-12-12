@@ -263,7 +263,7 @@ const config = {
               },
               {
                 label: 'Report Issue',
-                to: 'https://github.com/RaspberryPiFoundation/blockly/issues/new/choose',
+                to: 'https://github.com/RaspberryPiFoundation/blockly/issues',
               },
             ],
           },
