@@ -8,11 +8,13 @@ image: images/blockly_banner.png
 
 ## Introduction
 
-A codelab is an interactive tutorial written in Markdown syntax. We publish our
-codelabs at [blocklycodelabs.dev](/blockly/codelabs/). Codelabs use
+Codelabs are interactive tutorials written in Markdown syntax. They are 
+published as [part of our documentation](/blockly/codelabs/). Codelabs use
 a mix of natural language, code samples, and screenshots to create a more
 interesting tutorial experience. The target user of a codelab is following along
 and running the code as they read.
+
+![screenshots of the custom renderers codelabs](../../../../static/images/structure-codelabs.png)
 
 Writing a codelab is a great way to contribute to the community. It's a way to
 share your knowledge and make life easier for the next developer who runs into
@@ -28,13 +30,21 @@ understanding code to complete a specific task.
 
 If you have an idea for a codelab, you can tell us about it by making a
 [feature request](/blockly/guides/contribute/get-started/write_a_good_issue#feature-request)
-in the blockly-samples repository. Include a description of what you want to
+in the blockly repository. Include a description of what you want to
 teach and what you will build in the codelab. We'll discuss and refine the idea.
 Then you can write it up and
 [submit a pull request](/blockly/guides/contribute/get-started/write_a_good_pr) for
 it. Once it's been through
 [review](/blockly/guides/contribute/get-started/pr_review_process), a member of the
 Blockly team will publish it.
+
+## Directory structure
+
+The [codelabs directory](https://github.com/RaspberryPiFoundation/blockly/tree/main/docs/docs/codelabs)
+has one folder per codelab. Each codelab folder contains the codelab's Markdown
+files and usually contain `starter-code/` and `complete-code/` subdirectories.
+Assets (PNGs, GIFs, etc.) are stored in subdirectories of the
+[`docs/static/images/codelabs`](https://github.com/RaspberryPiFoundation/blockly/tree/main/docs/static/images/codelabs).
 
 ## Writing tips
 
@@ -55,20 +65,18 @@ technical writing.
 
 - What is the minimum setup required for the user to run your code?
 
-If helpful, you can publish [starter code](https://github.com/RaspberryPiFoundation/blockly-samples/tree/main/examples/context-menu-codelab/starter-code)
-and [completed code](https://github.com/RaspberryPiFoundation/blockly-samples/tree/main/examples/context-menu-codelab/complete-code)
-in the `examples` directory.
-
 ### Structure
 
 As with any writing, start with an outline. This is a good structure for most
 codelabs:
 
-- Introduction
+- Codelab overview
   - What you'll learn
   - What you'll build
   - What you need to know
-  - Setup instructions
+- Setup
+  - Download the repository code
+  - Additional setup instructions
 - Step one: [Title goes here]
   - Explanation/motivation
   - Code sample
@@ -80,9 +88,9 @@ codelabs:
   - What you learned
   - What you built
   - Additional resources
-  - Link to completed code (if available)
+  - Link to completed code
 
-While you can have more than ten steps, if you're hitting twenty you should
+Most codelabs have five to ten steps. If you have more than that, you should
 consider breaking it into two codelabs.
 
 ### Writing style

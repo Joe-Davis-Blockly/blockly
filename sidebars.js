@@ -1374,6 +1374,11 @@ const sidebars = {
               label: "Unit tests",
               id: "guides/contribute/core/unit_testing",
             },
+            {
+              type: "doc",
+              label: "Write a codelab",
+              id: "guides/contribute/core/write_a_codelab",
+            },
           ],
         },
         {
@@ -1420,11 +1425,6 @@ const sidebars = {
                   id: "guides/contribute/samples/block_factory",
                 },
               ],
-            },
-            {
-              type: "doc",
-              label: "Write a codelab",
-              id: "guides/contribute/samples/write_a_codelab",
             },
           ],
         },
