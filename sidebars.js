@@ -365,6 +365,37 @@ const sidebars = {
         }
       ]
     },
+    {
+      type: 'category',
+      label: 'Use CSS in Blockly',
+      items: [
+        {
+          "type": "doc",
+          "label": "1. Codelab-overview",
+          "id": "codelabs/css/codelab-overview",
+        },
+        {
+          "type": "doc",
+          "label": "2. Components",
+          "id": "codelabs/css/components",
+        },
+        {
+          "type": "doc",
+          "label": "3. Toolbox categories",
+          "id": "codelabs/css/categories",
+        },
+        {
+          "type": "doc",
+          "label": "4. Blocks",
+          "id": "codelabs/css/blocks",
+        },
+        {
+          "type": "doc",
+          "label": "5. Summary",
+          "id": "codelabs/css/summary",
+        },
+      ]
+    },
   ],
   guidesSidebar: [
     {
