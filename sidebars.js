@@ -376,22 +376,32 @@ const sidebars = {
         },
         {
           "type": "doc",
-          "label": "2. Components",
+          "label": "2. Setup",
+          "id": "codelabs/css/setup",
+        },
+        {
+          "type": "doc",
+          "label": "3. A tour of Blockly's elements",
+          "id": "codelabs/css/tour",
+        },
+        {
+          "type": "doc",
+          "label": "4. Components",
           "id": "codelabs/css/components",
         },
         {
           "type": "doc",
-          "label": "3. Toolbox categories",
+          "label": "5. Toolbox categories",
           "id": "codelabs/css/categories",
         },
         {
           "type": "doc",
-          "label": "4. Blocks",
+          "label": "6. Blocks",
           "id": "codelabs/css/blocks",
         },
         {
           "type": "doc",
-          "label": "5. Summary",
+          "label": "7. Summary",
           "id": "codelabs/css/summary",
         },
       ]
