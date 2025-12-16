@@ -133,7 +133,7 @@ const config = {
       navbar: {
         title: 'Blockly',
         logo: {
-          alt: 'My Site Logo',
+          alt: 'Blockly Logo',
           src: 'img/logo.svg',
           srcDark: 'img/blockly-dark-theme-logo.png',
         },
@@ -141,7 +141,6 @@ const config = {
           {
             type: 'dropdown',
             label: 'Guides',
-            // sidebarId: 'guidesSidebar',
             position: 'left',
             items: [
               {
@@ -185,6 +184,11 @@ const config = {
             label: 'Codelabs',
             sidebarId: 'tutorialSidebar',
             position: 'left',
+          },
+          {
+            label: 'Samples',
+            href: 'https://raspberrypifoundation.github.io/blockly-samples/',
+            position: 'right',
           },
           {
             label: 'GitHub',
