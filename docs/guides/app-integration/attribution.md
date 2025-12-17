@@ -84,7 +84,11 @@ Please hyperlink the badge to Blockly's home page: [https://www.blockly.com](htt
 
 ### Badge sizing and spacing
 
-<img src="/blockly/images/logos/blockly-badge.png" alt="blockly badge" class="attempt-right">
+<picture>
+  <source srcset="/blockly/images/logos/blockly-badge-dark.png" media="(prefers-color-scheme: dark)">
+  <img src="/blockly/images/logos/blockly-badge.png" alt="blockly badge" class="attempt-right">
+</picture>
+
 To ensure legibility, badges should not be used with a height smaller than 24px.
 
 For lockups, provide at least x-height and width x1 white space around the
