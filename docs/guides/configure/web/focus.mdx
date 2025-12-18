@@ -26,7 +26,7 @@ The focus system has three parts:
     focus.
 
     The focus manager is primarily used by Blockly. It is sometimes used by
-    custom code to [interact with the focus system](#use_the_focus_manager).
+    custom code to [interact with the focus system](#use-the-focus-manager).
 
 *   An `IFocusableTree` is an independent area of a Blockly editor, such as a
     workspace or toolbox. It is composed of focusable nodes, such as blocks and
@@ -34,7 +34,7 @@ The focus system has three parts:
     block in the main workspace is a subtree of the main workspace.
 
     `IFocusableTree` is primarily used by the focus manager. Unless you write a
-    custom toolbox, you probably won't need to [implement it](#custom_classes).
+    custom toolbox, you probably won't need to [implement it](#custom-classes).
 
 *   An `IFocusableNode` is a Blockly component that can have focus, such as a
     block, field, or toolbox category. Focusable nodes have a DOM element that
@@ -49,7 +49,7 @@ The focus system has three parts:
     block is passed to the item's callback function as an `IFocusableNode`.
 
     If you write custom components, you may need to [implement
-    `IFocusableNode`](#custom_classes).
+    `IFocusableNode`](#custom-classes).
 
 ## Types of focus
 
@@ -230,7 +230,7 @@ not need to implement `IFocusableNode`. These include:
 
 *   Classes that create a visible component that manages its own focus, such as
     a field editor or a dialog. (Note that such classes do need to [take
-    ephemeral focus](#ephemeral_focus) when they start and return it when they
+    ephemeral focus](#ephemeral-focus) when they start and return it when they
     end. Using `WidgetDiv` or `DropDownDiv` will handle this for you.)
 
 Finally, some classes do not interact with the focus system and do not need to
@@ -321,9 +321,9 @@ returnEphemeralFocus();
 ```
 
 If you use
-[`WidgetDiv`](/blockly/guides/create-custom-blocks/fields/customizing-fields/creating#widgetdiv_sample_code)
+[`WidgetDiv`](/blockly/guides/create-custom-blocks/fields/customizing-fields/creating#widgetdiv-sample-code)
 or
-[`DropDownDiv`](/blockly/guides/create-custom-blocks/fields/customizing-fields/creating#dropdowndiv_sample_code),
+[`DropDownDiv`](/blockly/guides/create-custom-blocks/fields/customizing-fields/creating#dropdowndiv-sample-code),
 they will handle ephemeral focus for you.
 
 ### Tab stops

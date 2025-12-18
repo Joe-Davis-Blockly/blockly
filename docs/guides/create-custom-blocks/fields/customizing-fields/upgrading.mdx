@@ -11,13 +11,13 @@ a more codified fields API was added. It is intended to
 be as backwards compatible as possible. This means that if you had created a
 custom field before July 2019 it will most likely continue to work.
 Before deciding whether your custom field needs to be upgraded you should read
-through the [Danger areas](#danger_areas) section, and give your field a thorough testing.
+through the [Danger areas](#danger-areas) section, and give your field a thorough testing.
 
 Because there was a lack of standardization between fields before July 2019
 it is tricky to cover all changes a developer might need to make.
 This document tries to cover all likely changes, but if this document does not
 cover something you are interested in, please read the section on
-[getting upgrade assistance](#getting_upgrade_assistance).
+[getting upgrade assistance](#getting-upgrade-assistance).
 
 :::note
 If you have a small number of custom fields it may be easier to simply
@@ -49,9 +49,9 @@ Blockly.fieldRegistry.register('my_field_name', myFieldClass);
 
 The `setText` function is no longer called by the Blockly core, so if your `setText`
 function contains logic it will need to be moved to the
-[value handling](/blockly/guides/create-custom-blocks/fields/customizing-fields/creating#value_handling)
+[value handling](/blockly/guides/create-custom-blocks/fields/customizing-fields/creating#value-handling)
 suite of functions, the [`getText`](/blockly/guides/create-custom-blocks/fields/customizing-fields/creating#text)
-function, and the [rendering functions](/blockly/guides/create-custom-blocks/fields/customizing-fields/creating#updating_the_on-block_display)
+function, and the [rendering functions](/blockly/guides/create-custom-blocks/fields/customizing-fields/creating#updating-the-on-block-display)
 (depending on what exactly your `setText` function is doing).
 
 ```js
@@ -101,9 +101,9 @@ Blockly automatically handles:
 
 You will need to handle:
 
-+   [Value validation](/blockly/guides/create-custom-blocks/fields/customizing-fields/creating#value_handling) (`doClassValidation_`).
++   [Value validation](/blockly/guides/create-custom-blocks/fields/customizing-fields/creating#value-handling) (`doClassValidation_`).
 +   [Field text](/blockly/guides/create-custom-blocks/fields/customizing-fields/creating#text) (`getText`).
-+   [Field UI](/blockly/guides/create-custom-blocks/fields/customizing-fields/creating#updating_the_on-block_display)
++   [Field UI](/blockly/guides/create-custom-blocks/fields/customizing-fields/creating#updating-the-on-block-display)
 
 :::note
 We recommend that you change any `setText` calls to
@@ -118,7 +118,7 @@ choose not to make changes your field will most likely still work.
 ### SERIALIZABLE
 
 For more information about the `EDITABLE` and `SERIALIZABLE` properties see
-[Editable and serializable properties](/blockly/guides/create-custom-blocks/fields/customizing-fields/creating#editable_and_serializable_properties).
+[Editable and serializable properties](/blockly/guides/create-custom-blocks/fields/customizing-fields/creating#editable-and-serializable-properties).
 
 ```js
 CustomFields.UpgradeField.prototype.SERIALIZABLE = true;
@@ -163,7 +163,7 @@ The warning above means that Blockly has detected you are using an old method fo
 field, and would like you to use the new method.
 
 For more information about the `isDirty_` property see
-[isDirty_](/blockly/guides/create-custom-blocks/fields/customizing-fields/creating#isdirty_).
+[isDirty_](/blockly/guides/create-custom-blocks/fields/customizing-fields/creating#isdirty-).
 
 ### init
 
@@ -244,9 +244,9 @@ This means that blockly now automatically handles:
 You will need to handle:
 
 +   Adding additional
-    [DOM elements](/blockly/guides/create-custom-blocks/fields/customizing-fields/creating#on-block_display) (`initView`).
+    [DOM elements](/blockly/guides/create-custom-blocks/fields/customizing-fields/creating#on-block-display) (`initView`).
 +   Adding additional
-    [event bindings](/blockly/guides/create-custom-blocks/fields/customizing-fields/creating#input_events) (`bindEvents_`).
+    [event bindings](/blockly/guides/create-custom-blocks/fields/customizing-fields/creating#input-events) (`bindEvents_`).
 +   [Disposing](/blockly/guides/create-custom-blocks/fields/customizing-fields/creating#disposing) of event bindings (`dispose`).
 
 :::info
@@ -275,7 +275,7 @@ We recommend that you override the `showEditor_` function to handle mouse
 clicks rather than the `onMouseDown_` function as that allows input to pass
 through the gesture system.
 
-For more information on editors see [Editors](/blockly/guides/create-custom-blocks/fields/customizing-fields/creating#creating_an_editor).
+For more information on editors see [Editors](/blockly/guides/create-custom-blocks/fields/customizing-fields/creating#creating-an-editor).
 
 ### setValue
 
@@ -283,7 +283,7 @@ The `setValue` function is now a [template
 function](https://en.wikipedia.org/wiki/Template_method_pattern) to reduce
 duplicate code in subclasses. If your `setValue` function contains logic,
 consider refactoring it to fit the value handling paths described in [Value
-handling](/blockly/guides/create-custom-blocks/fields/customizing-fields/creating#value_handling).
+handling](/blockly/guides/create-custom-blocks/fields/customizing-fields/creating#value-handling).
 
 ### text_
 

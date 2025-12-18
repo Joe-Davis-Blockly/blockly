@@ -24,7 +24,7 @@ it.
 
 Context menus are supported by workspaces, blocks, workspace comments, bubbles,
 and connections. You can also [implement them on your own custom
-components](#show_a_context_menu_on_a_custom_object). Blockly provides standard
+components](#show-a-context-menu-on-a-custom-object). Blockly provides standard
 context menus that you can customize. You can also customize context menus on
 workspaces and blocks on a per-workspace or per-block basis.
 
@@ -43,7 +43,7 @@ user invokes a context menu on a component, the component:
 
 1.  If the component is a workspace or block, checks to see if the specific
     workspace or block on which the menu was invoked has a [function for
-    customizing the context menu](#customize_per_block). If so, it passes the
+    customizing the context menu](#customize-per-block). If so, it passes the
     array to the function, which can add, delete, or modify elements of the
     array.
 
@@ -54,10 +54,10 @@ Blockly defines a standard set of templates for the context menus for
 workspaces, blocks, and workspace comments. It preloads the templates for
 workspaces and blocks into the registry. If you want to use the templates for
 workspace comments, you must [load them into the registry
-yourself](/blockly/guides/configure/web/workspace_comment#enable_workspace_comments).
+yourself](/blockly/guides/configure/web/workspace_comment#enable-workspace-comments).
 
 For information on how to add, delete, and modify templates in the registry, see
-[Customize the registry](#customize_the_registry).
+[Customize the registry](#customize-the-registry).
 
 :::info
 Blockly's API and documentation use the terms _item_ and _option_ to
@@ -373,7 +373,7 @@ In the JSON definition of a block type, use the `enableContextMenu` key:
 ## Customize context menus per block type or workspace \{#customize_per_block\}
 
 After Blockly has [generated an array of context menu
-items](#how_context_menus_work), you can customize it for individual blocks or
+items](#how-context-menus-work), you can customize it for individual blocks or
 workspaces. To do this, set [`BlockSvg.customContextMenu`][customContextMenu] or
 [`WorkspaceSvg.configureContextMenu`][configureContextMenu] to a function that
 modifies the array in place.
@@ -449,7 +449,7 @@ steps:
     [keyboard navigation plugin][keyboard-navigation-plugin] provides an event
     handler that calls `showContextMenu` when the user presses `Ctrl+Enter`
     (Windows) or `Command+Enter` (Mac).
-1.  [Add templates](#add_a_template) to the registry for your context menu
+1.  [Add templates](#add-a-template) to the registry for your context menu
     items.
 
 [block-default-menu-image]: /blockly/images/context-menus/block-default-menu.png

@@ -52,7 +52,7 @@ As examples, we will write JavaScript code generators for the following blocks.
     negate the if condition.](/blockly/images/code-generation/custom-if.png)
 
 This document builds the generators step by step. You can find the completed
-generators at the [end of this document](#complete_code_generators).
+generators at the [end of this document](#complete-code-generators).
 
 Note that these blocks are intended only to illustrate code generation. In a
 real application, use the built-in `logic_compare` and `controls_if` blocks.
@@ -239,7 +239,7 @@ the inner block's code as needed:
 You don't actually need to know whether `valueToCode` added parentheses. All you
 need to do is pass the precedence to `valueToCode` and add the returned code to
 your code string. For more information, see [valueToCode
-precedence](/blockly/guides/create-custom-blocks/code-generation/operator-precedence#valuetocode_precedence).
+precedence](/blockly/guides/create-custom-blocks/code-generation/operator-precedence#valuetocode-precedence).
 
 ### Inner statement blocks
 
@@ -277,7 +277,7 @@ type:
     precedence of the weakest operator in your code. `valueToCode` uses this to
     decide if your code needs to be wrapped in parentheses when your block is
     used as an inner block. For more information, see [Return
-    precedence](/blockly/guides/create-custom-blocks/code-generation/operator-precedence#return_precedence).
+    precedence](/blockly/guides/create-custom-blocks/code-generation/operator-precedence#return-precedence).
 
 *   **Statement blocks:** Return the code string.
 

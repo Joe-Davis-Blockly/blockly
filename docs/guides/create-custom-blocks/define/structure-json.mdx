@@ -60,7 +60,7 @@ The first interpolation token (`%1`) represents a [variable
 field](/blockly/guides/create-custom-blocks/fields/built-in-fields/variable)
 (`type: "field_variable"`). It is described by the first object in the `args0`
 array. The second token (`%2`) represents the input connection at the end of a
-[value input](/blockly/guides/create-custom-blocks/define/block-anatomy#value_inputs)
+[value input](/blockly/guides/create-custom-blocks/define/block-anatomy#value-inputs)
 (`type: "input_value"`). It is described by the second object in the `args0`
 array.
 
@@ -132,7 +132,7 @@ field (`"+"`).
 This creates:
 
 *   A value input with no fields,
-*   An [end-of-row input](/blockly/guides/create-custom-blocks/define/block-anatomy#end-of-row_inputs)
+*   An [end-of-row input](/blockly/guides/create-custom-blocks/define/block-anatomy#end-of-row-inputs)
         with a label field (`"+"`), which causes the following value input to be
     rendered on a new row, and
 *   A value input with no fields.
@@ -181,7 +181,7 @@ you can let Blockly add the dummy input and define it like this:
 The automatic addition of a tailing dummy input allows translators to change
 `message` without needing to modify the arguments that describe the
 interpolation tokens. For more information, see [Interpolation token
-order](#interpolation_token_order).
+order](#interpolation-token-order).
 
 ### implicitAlign
 
@@ -200,7 +200,7 @@ right-aligned.](/blockly/images/send-email.png)
 `implicitAlign`
 applies to all inputs that are not explicitly defined in the JSON
 block definition, including end-of-row inputs that [replace newline characters
-(`'\n'`)](#text_handling). There is also the deprecated property
+(`'\n'`)](#text-handling). There is also the deprecated property
 `lastDummyAlign0` that has the same behavior as `implicitAlign0`.
 
 When designing blocks for RTL (Arabic and Hebrew), left and right are reversed.
@@ -268,12 +268,12 @@ following block:
 "to", and a dropdown field for the variable.](/blockly/images/variables-put.png)
 
 Blockly automatically changed the order of the fields, [created a dummy
-input](#dummy_input_at_end_of_message), and switched from external to internal
+input](#dummy-input-at-end-of-message), and switched from external to internal
 inputs.
 
 The ability to change the order of the interpolation tokens in a message makes
 localization easier. For more information, see [JSON message
-interpolation](/blockly/guides/configure/web/translations#json_message_interpolation).
+interpolation](/blockly/guides/configure/web/translations#json-message-interpolation).
 
 ## Text handling
 

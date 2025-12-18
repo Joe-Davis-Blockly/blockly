@@ -32,7 +32,7 @@ monkeypatching and forking the code. Both are strongly discouraged, as you run
 the risk of breaking code that depends on the monkeypatched or forked code. Both
 techniques also make it difficult to integrate updates and bug fixes. For more
 information, see [What about
-monkeypatching?](/blockly/guides/programming/using_blockly_apis#what_about_monkeypatching)
+monkeypatching?](/blockly/guides/programming/using_blockly_apis#what-about-monkeypatching)
 and [Fork Blockly](/blockly/guides/programming/forking_blockly).
 
 ### Subclass an existing definition
@@ -62,7 +62,7 @@ magically replace just one line. There are several problems with this:
     function to copy -- it's generated at run time.
 *   It requires you to define your block using JavaScript, which may [cause
     problems with
-    localization](/blockly/guides/configure/web/translations#json_message_interpolation).
+    localization](/blockly/guides/configure/web/translations#json-message-interpolation).
 
 ### Overwrite the results of init
 
@@ -90,7 +90,7 @@ Unfortunately, this is less useful that it seems. For example:
     field validators and may break event handlers. It may also be extremely
     difficult to do for localized blocks because different locales may result in
     blocks with [different types and orders of inputs and
-    fields](/blockly/guides/configure/web/translations#json_message_interpolation).
+    fields](/blockly/guides/configure/web/translations#json-message-interpolation).
 
 ### Overwrite a key-value pair in a JSON definition
 
@@ -163,12 +163,12 @@ Another alternative is to define your JSON in a publicly available object and
 pass that object to `initJson` in your `init` function. This makes it possible
 for others to overwrite individual properties. For more information, see
 [Overwrite a key-value pair in a JSON
-definition](#overwrite_a_key-value_pair_in_a_json_definition).
+definition](#overwrite-a-key-value-pair-in-a-json-definition).
 
 ### Reuse functions
 
 Blocks may define a number of [standard
-functions](/blockly/guides/create-custom-blocks/define/block-definitions#how_block_definitions_work),
+functions](/blockly/guides/create-custom-blocks/define/block-definitions#how-block-definitions-work),
 such as block-level event handlers, custom tooltips, field validators, and the
 functions used by mutators, as well as functions that provide custom behavior,
 such as a function that sets field values from external data, like the current

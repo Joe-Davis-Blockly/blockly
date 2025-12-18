@@ -11,9 +11,9 @@ In order to extend an existing field you must subclass a built in field (e.g
 Some parts of a field you can modify are:
 
 +   Its
-    [editor](/blockly/guides/create-custom-blocks/fields/anatomy-of-a-field#editor_display).
+    [editor](/blockly/guides/create-custom-blocks/fields/anatomy-of-a-field#editor-display).
 +   Its
-    [on-block display](/blockly/guides/create-custom-blocks/fields/anatomy-of-a-field#on-block_display).
+    [on-block display](/blockly/guides/create-custom-blocks/fields/anatomy-of-a-field#on-block-display).
 +   The
     [text](/blockly/guides/create-custom-blocks/fields/anatomy-of-a-field#text)
     it displays.
@@ -51,7 +51,7 @@ export class MyCustomTextField extends Blockly.FieldTextInput {
 ```
 
 The constructor for a field's subclass looks very similar to the [constructor for
-a custom field](/blockly/guides/create-custom-blocks/fields/customizing-fields/creating#implementing_a_constructor). The signature of the sub-constructor should
+a custom field](/blockly/guides/create-custom-blocks/fields/customizing-fields/creating#implementing-a-constructor). The signature of the sub-constructor should
 generally match the signature of the super-constructor.
 
 ## JSON and registration
@@ -72,5 +72,5 @@ static fromJson(options) {
 }
 ```
 
-For more information about registering a field see the [JSON and registration](/blockly/guides/create-custom-blocks/fields/customizing-fields/creating#json_and_registration)
+For more information about registering a field see the [JSON and registration](/blockly/guides/create-custom-blocks/fields/customizing-fields/creating#json-and-registration)
 section in Creating a Custom Field.

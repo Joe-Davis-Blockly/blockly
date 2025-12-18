@@ -7,40 +7,6 @@
 import { themes as prismThemes } from 'prism-react-renderer';
 import remarkAttributes from 'remark-attributes';
 
-/**
- * A custom function to generate URL-friendly slugs with underscores.
- * This avoids needing external dependencies.
- * @param {string} str The heading text.
- * @returns {string} The generated slug.
- */
-const createUnderscoreSlug = (str) => {
-  return str
-    .toString()
-    .toLowerCase()
-    .trim()
-    .replace(/[^a-z0-9_\- ]/g, '')  // Remove all characters except a-z, 0-9, hyphen, underscore, and space
-    .replace(/[ ][ ]+/g, ' ')         // Replace multiple spaces with a single space
-    .replace(/[ ]/g, '_')      // Replace single spaces with underscores
-};
-
-// =============================================================================
-// PART 2: THE PREPROCESSOR BOILERPLATE (You can safely ignore this part)
-// =============================================================================
-
-const headingIdPreprocessor = ({ fileContent }) => {
-  const lines = fileContent.split('\n');
-  const processedLines = lines.map((line) => {
-    const headingRegex = /^(#{1,6}\s+.*)/;
-    if (headingRegex.test(line) && !line.includes('{#')) {
-      const headingText = line.replace(/^#{1,6}\s+/, '');
-      const slug = createUnderscoreSlug(headingText);
-      return `${line} {#${slug}}`;
-    }
-    return line;
-  });
-  return processedLines.join('\n');
-};
-
 // This runs in Node.js - Don't use client-side code here (browser APIs, JSX...)
 
 /** @type {import('@docusaurus/types').Config} */
@@ -69,13 +35,6 @@ const config = {
 
   markdown: {
     format: 'detect',
-    preprocessor: (ctx) => {
-      // Only process .md files, never MDX
-      if (ctx.filePath && ctx.filePath.endsWith('.md')) {
-        return headingIdPreprocessor({ fileContent: ctx.fileContent });
-      }
-      return ctx.fileContent;
-    },
     hooks: {
       onBrokenMarkdownLinks: 'warn',
     },

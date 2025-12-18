@@ -179,7 +179,7 @@ blocks.
 If you include a variable or function block in their toolbox, include a
 "Variables" or "Functions" category in your toolbox to allow users to fully
 utilize the block. Learn more about ["Variables" or "Functions"
-categories](/blockly/guides/configure/web/toolboxes/dynamic#built-in_dynamic_categories).
+categories](/blockly/guides/configure/web/toolboxes/dynamic#built-in-dynamic-categories).
 
 ### Configuring a workspace
 
@@ -189,7 +189,7 @@ tab and select "Workspace".
 #### Choose Workspace Options
 
 Set different values for [configuration
-options](/blockly/guides/configure/web/configuration_struct#the_options_dictionary)
+options](/blockly/guides/configure/web/configuration_struct#the-options-dictionary)
 and see the result in the preview area. Enabling
 [grid](/blockly/guides/configure/web/grid) or
 [zoom](/blockly/guides/configure/web/zoom) reveals more options to configure.

@@ -137,14 +137,14 @@ precedences, `Order.ATOMIC` and `Order.NONE`.
 
 `Order.ATOMIC` is the strongest precedence. It is used when:
 
-*   You want to [ensure code is always parenthesized](#generate_correct_output),
+*   You want to [ensure code is always parenthesized](#generate-correct-output),
     so you pass it to `valueToCode`.
 *   Your block doesn't include any operators, so you return it from your
     block-code generator.
 
 `Order.NONE` is the weakest precedence. It is used when:
 
-*   You want to [ensure code is always parenthesized](#generate_correct_output),
+*   You want to [ensure code is always parenthesized](#generate-correct-output),
     so you return it from your block-code generator.
 *   There are no operators acting on an inner block, so you pass it to
     `valueToCode`.

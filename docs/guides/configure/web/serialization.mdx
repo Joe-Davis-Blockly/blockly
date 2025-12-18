@@ -76,7 +76,7 @@ prevent duplicating state within a save.
 
 When `Blockly.serialization.workspaces.load` is called, serializers are given
 state to deserialize in order of *priority*. This is explained further in the
-[Serializers](/blockly/guides/configure/web/serialization#serializer_hooks)
+[Serializers](/blockly/guides/configure/web/serialization#serializer-hooks)
 section, and its purpose is to allow serializers to depend on state from other
 systems.
 
@@ -117,7 +117,7 @@ However, if you have an input that only exists if a field has a certain value,
 you do not need to add info about the field to your extra state. This is because
 the state of your field will be deserialized first, and when it is, you can add
 the input to your block. Usually adding the input will be triggered by a
-[validator](/blockly/guides/create-custom-blocks/fields/validators#registering_a_local_validator).
+[validator](/blockly/guides/create-custom-blocks/fields/validators#registering-a-local-validator).
 
 Note that the rule about duplicating state should also take into account that
 block stacks, icons, fields, and input blocks are deserialized in an arbitrary
@@ -167,7 +167,7 @@ When you register a serializer you must provide several things:
 *   A function to `clear` the state.
 *   A function to `load` the state.
 *   A `priority`, which is used to determine the [deserialization
-    order](/blockly/guides/configure/web/serialization#deserialization_order).
+    order](/blockly/guides/configure/web/serialization#deserialization-order).
 
     You can base the priority of your serializer on the [built-in
     priorities](/blockly/reference/js/blockly.serialization_namespace.priorities_namespace)

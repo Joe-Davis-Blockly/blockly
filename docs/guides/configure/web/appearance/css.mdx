@@ -72,7 +72,7 @@ labels](/blockly/guides/configure/web/toolboxes/buttons).
 To override the CSS classes used for the various parts of a category, use the
 `cssConfig` key in your JSON definition of the category. This allows you to
 style individual categories. For more information, see [Category
-CSS](/blockly/guides/configure/web/toolboxes/appearance#category_css).
+CSS](/blockly/guides/configure/web/toolboxes/appearance#category-css).
 
 #### Blocks
 
@@ -131,7 +131,7 @@ custom CSS classes:
     For more information, see [Customizing fields with
     CSS](/blockly/guides/create-custom-blocks/fields/customizing-fields/creating#customizing-with-css)
     or [Create the icon's
-    view](/blockly/guides/create-custom-blocks/icons/creating-custom-icons/basic-implementation#create_the_icons_view).
+    view](/blockly/guides/create-custom-blocks/icons/creating-custom-icons/basic-implementation#create-the-icons-view).
 
 *   When constructing an SVG element, pass your class to
     `Blockly.utils.dom.createSvgElement`:
@@ -169,7 +169,7 @@ lead to unpredictable results.
 ## CSS rules background
 
 If you understand SVG styling properties and the CSS cascade, you can
-[skip](#css_rules) this section.
+[skip](#css-rules) this section.
 
 ### SVG styling properties versus CSS properties {#svg-style}
 
@@ -289,7 +289,7 @@ tag. The rules in this tag come from:
     `Blockly.css.register`](https://github.com/search?q=repo%3ARaspberryPiFoundation%2Fblockly+css.register+path%3Acore&type=code).
 
 If you do not want to use these rules, set the [`css` configuration
-option](/blockly/guides/configure/web/configuration_struct#the_options_dictionary)
+option](/blockly/guides/configure/web/configuration_struct#the-options-dictionary)
 to `false`. In this case, you are responsible for providing an alternate set of
 CSS rules.
 
@@ -347,7 +347,7 @@ If your CSS is not working, here are some possible causes:
     lower [specificity](#simplified). Possible ways to fix this are:
     *   Use a class selector instead of a type (element) selector.
     *   Use multiple selectors.
-    *   If possible, [add a custom class](#custom_css_classes) to your target
+    *   If possible, [add a custom class](#custom-css-classes) to your target
         element and use this class in your rule.
     *   As a last resort, add an `!important` annotation to your rule. This is
         your only choice if a competing rule is specified using an inline style
