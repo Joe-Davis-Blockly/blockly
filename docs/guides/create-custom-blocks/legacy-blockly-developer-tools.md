@@ -242,6 +242,6 @@ these.](/blockly/images/workspace_export_opt.png)
 * Toolbox: Produces XML to specify your toolbox.
 * Workspace Blocks: Produces XML which can be loaded into a workspace.
 
-[block-code-generator]: /blockly/guides/create-custom-blocks/code-generation/overview#block-code_generators
-[block-factory-import]: /blockly/guides/create-custom-blocks/blockly-developer-tools#import_from_legacy_block_factory
+[block-code-generator]: /blockly/guides/create-custom-blocks/code-generation/overview#block-code-generators
+[block-factory-import]: /blockly/guides/create-custom-blocks/blockly-developer-tools#import-from-legacy-block-factory
 [legacy-tool]: https://blockly-demo.appspot.com/static/demos/blockfactory/index.html

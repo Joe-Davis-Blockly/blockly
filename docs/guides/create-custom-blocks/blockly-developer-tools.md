@@ -174,11 +174,11 @@ following these steps:
 [add-custom-blocks]: /blockly/guides/create-custom-blocks/overview
 [json-and-js]: /blockly/guides/create-custom-blocks/define/json-and-js
 [block-definitions]: /blockly/guides/create-custom-blocks/define/block-definitions
-[block-code-generator]: /blockly/guides/create-custom-blocks/code-generation/overview#block-code_generators
+[block-code-generator]: /blockly/guides/create-custom-blocks/code-generation/overview#block-code-generators
 [inputs]: /blockly/guides/get-started/workspace-anatomy#inputs
 [fields]: /blockly/guides/get-started/workspace-anatomy#fields
 [toolbox-preset]: /blockly/guides/configure/web/toolboxes/preset
 [mutators]: /blockly/guides/create-custom-blocks/mutators
-[loading-blockly]: /blockly/guides/get-started/get-the-code#get_the_code
-[code-generation]: /blockly/guides/create-custom-blocks/code-generation/overview#language_code_generators
-[sample-app]: /blockly/guides/get-started/get-the-code#create-package_script
+[loading-blockly]: /blockly/guides/get-started/get-the-code#get-the-code
+[code-generation]: /blockly/guides/create-custom-blocks/code-generation/overview#language-code-generators
+[sample-app]: /blockly/guides/get-started/get-the-code#create-package-script
