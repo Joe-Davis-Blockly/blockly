@@ -24,7 +24,7 @@ JSON](/blockly/guides/create-custom-blocks/define/structure-json).
 The JavaScript API includes an `append` method for each [input
 type](/blockly/guides/create-custom-blocks/define/block-anatomy#inputs):
 
-<Tabs groupId="group-1">
+<Tabs groupId="javascript">
   <TabItem value="javascript" label="JavaScript" default>
   ```js
   init: function() {
@@ -56,7 +56,7 @@ The JavaScript API also includes a generic `appendInput` method for appending
 [custom inputs][custom-inputs]. Note that in this case, the identifier should
 be passed directly to your custom input's constructor.
 
-<Tabs groupId="group-2">
+<Tabs groupId="javascript">
   <TabItem value="javascript" label="JavaScript" default>
   ```js
   init: function() {
@@ -79,7 +79,7 @@ may optionally append any number of
 the input. These fields
 are often used as labels to describe what each input is for.
 
-<Tabs groupId="group-3">
+<Tabs groupId="javascript">
   <TabItem value="javascript" label="JavaScript" default>
   ```js
   init: function() {
@@ -99,7 +99,7 @@ An input row can contain any number of fields.  Multiple `appendField`
 calls may be chained together to efficiently add several fields to the same
 input row.
 
-<Tabs groupId="group-4">
+<Tabs groupId="javascript">
   <TabItem value="javascript" label="JavaScript" default>
   ```js
   init: function() {
@@ -121,7 +121,7 @@ class name so that the label may be styled using a CSS rule.
 
 ## Connection checks
 
-<Tabs groupId="group-5">
+<Tabs groupId="javascript">
   <TabItem value="javascript" label="JavaScript" default>
   ```js
   init: function() {
@@ -140,7 +140,7 @@ details.
 
 ## Align fields
 
-<Tabs groupId="group-6">
+<Tabs groupId="javascript">
   <TabItem value="javascript" label="JavaScript" default>
   ```js
   init: function() {

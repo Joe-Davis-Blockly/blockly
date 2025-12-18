@@ -35,7 +35,7 @@ variable, the label "to", and a value input.](/blockly/images/variables-set.png)
 
 is defined by the following JSON:
 
-<Tabs groupId="group-1">
+<Tabs groupId="json">
   <TabItem value="json" label="JSON" default>
   ```js
   {
@@ -75,7 +75,7 @@ are created from them.
 
 ### Example 1
 
-<Tabs groupId="group-2">
+<Tabs groupId="json">
   <TabItem value="json" label="JSON" default>
   ```js
   {
@@ -95,7 +95,7 @@ variable field, and another label (`"to"`).
 
 ### Example 2
 
-<Tabs groupId="group-3">
+<Tabs groupId="json">
   <TabItem value="json" label="JSON" default>
   ```js
   {
@@ -115,7 +115,7 @@ field (`"+"`).
 
 ### Example 3
 
-<Tabs groupId="group-4">
+<Tabs groupId="json">
   <TabItem value="json" label="JSON" default>
   ```js
   {
@@ -145,7 +145,7 @@ If your `message` string ends with text or fields, you don't need to add an
 interpolation token for the dummy input that contains them -- Blockly adds it
 for you. For example, instead of defining a `lists_isEmpty` block like this:
 
-<Tabs groupId="group-5">
+<Tabs groupId="json">
   <TabItem value="json" label="JSON" default>
   ```js
   {
@@ -163,7 +163,7 @@ for you. For example, instead of defining a `lists_isEmpty` block like this:
 
 you can let Blockly add the dummy input and define it like this:
 
-<Tabs groupId="group-6">
+<Tabs groupId="json">
   <TabItem value="json" label="JSON" default>
   ```js
   {
@@ -223,7 +223,7 @@ input may also not even be desired in some languages.  And there may be multiple
 blocks that wish to share the text of the second row.  A better approach
 is to use more than one `message` and `args` properties:
 
-<Tabs groupId="group-7">
+<Tabs groupId="json">
   <TabItem value="json" label="JSON" default>
   ```js
   {
@@ -284,7 +284,7 @@ Text using the character `%` (e.g. when referring to a percentage) should use
 Blockly also automatically replaces any newline character (`\n`) in the message
 string with an end-of-row input.
 
-<Tabs groupId="group-8">
+<Tabs groupId="json">
   <TabItem value="json" label="JSON" default>
   ```js
   {
@@ -340,7 +340,7 @@ example, if a new field named `field_time` is added to Blockly, blocks using
 this field could use `alt` to define a `field_input` fallback for older versions
 of Blockly:
 
-<Tabs groupId="group-9">
+<Tabs groupId="json">
   <TabItem value="json" label="JSON" default>
   ```js
   {
