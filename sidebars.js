@@ -260,6 +260,47 @@ const sidebars = {
     },
     {
       type: 'category',
+      label: 'Use CSS in Blockly',
+      items: [
+        {
+          "type": "doc",
+          "label": "1. Codelab-overview",
+          "id": "codelabs/css/codelab-overview",
+        },
+        {
+          "type": "doc",
+          "label": "2. Setup",
+          "id": "codelabs/css/setup",
+        },
+        {
+          "type": "doc",
+          "label": "3. A tour of Blockly's elements",
+          "id": "codelabs/css/tour",
+        },
+        {
+          "type": "doc",
+          "label": "4. Components",
+          "id": "codelabs/css/components",
+        },
+        {
+          "type": "doc",
+          "label": "5. Toolbox categories",
+          "id": "codelabs/css/categories",
+        },
+        {
+          "type": "doc",
+          "label": "6. Blocks",
+          "id": "codelabs/css/blocks",
+        },
+        {
+          "type": "doc",
+          "label": "7. Summary",
+          "id": "codelabs/css/summary",
+        },
+      ]
+    },
+    {
+      type: 'category',
       label: 'Build a custom generator',
       items: [
         {
@@ -363,47 +404,6 @@ const sidebars = {
           "label": "9. Summary",
           "id": "codelabs/custom-renderer/summary",
         }
-      ]
-    },
-    {
-      type: 'category',
-      label: 'Use CSS in Blockly',
-      items: [
-        {
-          "type": "doc",
-          "label": "1. Codelab-overview",
-          "id": "codelabs/css/codelab-overview",
-        },
-        {
-          "type": "doc",
-          "label": "2. Setup",
-          "id": "codelabs/css/setup",
-        },
-        {
-          "type": "doc",
-          "label": "3. A tour of Blockly's elements",
-          "id": "codelabs/css/tour",
-        },
-        {
-          "type": "doc",
-          "label": "4. Components",
-          "id": "codelabs/css/components",
-        },
-        {
-          "type": "doc",
-          "label": "5. Toolbox categories",
-          "id": "codelabs/css/categories",
-        },
-        {
-          "type": "doc",
-          "label": "6. Blocks",
-          "id": "codelabs/css/blocks",
-        },
-        {
-          "type": "doc",
-          "label": "7. Summary",
-          "id": "codelabs/css/summary",
-        },
       ]
     },
   ],
@@ -694,8 +694,8 @@ const sidebars = {
           items: [
             {
               type: "doc",
-              label: "Style with CSS",
-              id: "guides/configure/web/appearance/css",
+              label: "Themes",
+              id: "guides/configure/web/appearance/themes",
             },
             {
               type: "doc",
@@ -709,9 +709,9 @@ const sidebars = {
             },
             {
               type: "doc",
-              label: "Themes",
-              id: "guides/configure/web/appearance/themes",
-            },
+              label: "Style with CSS",
+              id: "guides/configure/web/appearance/css",
+            }
           ],
         },
         {
