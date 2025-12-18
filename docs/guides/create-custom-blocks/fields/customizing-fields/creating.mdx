@@ -223,11 +223,11 @@ When overriding `bindEvents_` you should always call the base function.
 :::
 
 To bind to an event you should generally use the
-[`Blockly.utils.browserEvents.conditionalBind`](/blockly/reference/js/blockly.utils_namespace.browserevents_namespace.conditionalbind_1_function.md)
+[`Blockly.utils.browserEvents.conditionalBind`](/blockly/reference/js/blockly.utils_namespace.browserevents_namespace.conditionalbind_1_function)
 function. This method of binding events filters out secondary touches during
 drags. If you want your handler to run even in the middle of an in-progress drag
 you can use the
-[`Blockly.browserEvents.bind`](/blockly/reference/js/blockly.utils_namespace.browserevents_namespace.bind_1_function.md)
+[`Blockly.browserEvents.bind`](/blockly/reference/js/blockly.utils_namespace.browserevents_namespace.bind_1_function)
 function.
 
 ## Disposing
@@ -389,7 +389,7 @@ currently there is no way to enforce this pattern.
 ### isDirty_
 
 `isDirty_` is a flag used in the
-[`setValue`](/blockly/reference/js/blockly.field_class.setvalue_1_method.md)
+[`setValue`](/blockly/reference/js/blockly.field_class.setvalue_1_method)
 function, as well as other parts of the field, to tell if the field needs to be
 re-rendered. If the field's display value has changed, `isDirty_` should usually
 be set to `true`.
@@ -402,7 +402,7 @@ field](/blockly/guides/create-custom-blocks/fields/anatomy-of-a-field).
 
 If the text of your field is different than the value of your field, you should
 override the
-[`getText`](/blockly/reference/js/blockly.field_class.gettext_1_method.md)function
+[`getText`](/blockly/reference/js/blockly.field_class.gettext_1_method)function
 to provide the correct text.
 
 ```js
@@ -546,7 +546,7 @@ property to `true`.
 ### Defaults
 
 The default `render_` function sets the display text to the result of the
-[`getDisplayText_`](/blockly/reference/js/blockly.field_class.getdisplaytext__1_method.md)
+[`getDisplayText_`](/blockly/reference/js/blockly.field_class.getdisplaytext__1_method)
 function. The `getDisplayText_` function returns the field's `value_` property
 cast to a string, after it has been truncated to respect the maximum text
 length.

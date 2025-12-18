@@ -43,7 +43,7 @@ This seems like a good target for your rule, except that the `fill` property is 
 }
 ```
 
-Refresh your page and notice the change in colour:
+Refresh your page and notice that the workspace background is now orange:
 
 ![A Blockly editor with an orange workspace.](../../../static/images/codelabs/css/components-workspace.png)
 
@@ -75,8 +75,9 @@ Next, add a CSS rule to set the workspace's background colour:
 }
 ```
 
-To see your new colours, reload the web page, drag the `if do` block out again, and reopen the mutator. You should see something like this:
-
+To see your new colours, reload the web page, drag the `if do` block out again,
+and reopen the mutator. You should see that the mutator workspace background
+colour is orange, matching the main workspace background:
 ![An 'if do' block with a mutator that has an orange background.](../../../static/images/codelabs/css/components-mutator.png)
 
 ### Other component colours
@@ -129,14 +130,18 @@ Add the following rules to `halloween.css`:
 }
 ```
 
-Now reload your page. You should see a Blockly editor with Halloween colours:
-
+Now reload your page. You should see a Blockly editor with a yellow toolbox and
+red scrollbars:
 ![A Blockly editor with Halloween colors.](../../../static/images/codelabs/css/components-halloween.png)
 
 ### fill vs background-color
 
-You might have noticed that some rules use `background-color` and `color` and others use `fill` and `stroke`. This is because `background-color` and `color` apply to HTML elements, like the `<div>` used by the toolbox, and `fill` and `stroke` apply to SVG elements, like the `<path>` used by the flyout background. (An exception to this is the `<svg>` element, which uses `background-color` and `color`.)
-
+You might have noticed that some rules use `background-color` and `color` and
+others use `fill` and `stroke`. This is because `background-color` and `color`
+apply to HTML elements, like the `<div>` used by the toolbox, and `fill` and
+`stroke` apply to most SVG elements, like the `<path>` used by the flyout
+background. (An exception to this is the top-level `<svg>` element that contains
+Blockly, which uses `background-color` and `color`.)
 ### The !important declaration
 
 You might have also noticed that some rules use an `!important` declaration while others don't. This is because Blockly sets colours in several different ways, some of which are easily overridden and some of which aren't.

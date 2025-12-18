@@ -26,8 +26,9 @@ Your first rule will set the colour of the **Logic** category. This rule needs t
 
 Unfortunately, the only thing that distinguishes this `<div>` from other category `<div>`s is a generated `id` attribute (`blockly-1`). This isn't stable enough to use in a CSS rule -- for example, if you switched the order of two categories you'd also have to switch the selectors in their rules.
 
-To solve this problem, you'll need to add a class. Open the `toolbox.js` file and find the definition of the **Logic** category:
-
+To solve this problem, you'll need to add a class to the
+`blocklyToolboxCategory` `<div>` for the **Logic** category. Open the
+`toolbox.js` file and find the definition of the **Logic** category:
 ```js
     {
       kind: 'category',
@@ -37,8 +38,12 @@ To solve this problem, you'll need to add a class. Open the `toolbox.js` file an
     },
 ```
 
-The `categorystyle` property assigns a style that is used by a theme. Because you're not using themes to assign category colours, replace this with a `cssConfig` property that adds two classes to the **Logic** category's `<div>`: `logic_category` uniquely identifies the `<div>` and `blocklyToolboxCategory` is used by Blockly's CSS to define rules that apply to all categories.
-
+The `categorystyle` property assigns a style that is used by a theme. Because
+you're not using themes to assign category colours, you don't need the
+`categorystyle` property. Delete it and add a `cssConfig` property that adds two
+classes to the **Logic** category's `<div>`: `logic_category` uniquely
+identifies the `<div>` and `blocklyToolboxCategory` is used by Blockly's CSS to
+define rules that apply to all categories.
 ```js
     {
       kind: 'category',

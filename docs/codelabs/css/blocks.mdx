@@ -14,6 +14,12 @@ In this section, you will create CSS rules to assign the colours used by the [bl
 
 Your first step is to set the `fill` and `stroke` of the logic blocks.
 
+Note that setting the `fill` and `stroke` is specific to the
+[renderer](/blockly/guides/create-custom-blocks/renderers/overview)
+you are using. (In this codelab, you are using the Thrasos renderer.) An
+important consequence of this is that you need different CSS for different
+renderers.
+
 #### Identify the block element
 
 Drag an `if do` block onto the workspace and find it with the element inspector:
@@ -36,8 +42,10 @@ Notice that the block's `<g>` element has classes for the block's type (`control
 
 Next, you need to decide what element to use in your colour rule. The `<g>` element identifies the block but doesn't draw it. Instead, you can use the `<g>` element's first child. This is a `<path>` element with `fill` and `stroke` presentation attributes, which are easily overridden.
 
-(Note that different renderers use different numbers of `<path>` elements to draw a block. The renderer used in this codelab (thrasos) uses a single `<path>` element. Geras uses three. And zelos uses one `<path>` for the outside of the block and one `<path>` for each inline input. An important consequence of this is that you need to write different CSS rules for different renderers.)
-
+Note that different renderers use different numbers of `<path>` elements to
+draw a block: Thrasos uses a single `<path>` element, Geras uses three `<path>`
+elements, and Zelos uses one `<path>` for the outside of the block and one
+`<path>` for each inline input.
 #### Choose colours
 
 The last step before writing your colour rules is to decide what colours to use. The Halloween theme in the themes codelab sets three colours:
@@ -46,12 +54,14 @@ The last step before writing your colour rules is to decide what colours to use.
     'logic_blocks': {
       'colourPrimary': "#8b4513",
       'colourSecondary':"#ff0000",
-      'colourTertiary':"#C5EAFF"
+      'colourTertiary':"#c5eaff"
     },
 ```
 
-How these colours are used depends on the renderer. The thrasos renderer uses the primary colour as the `fill` of the block, the tertiary colour as the `stroke`, and the secondary colour as the `fill` when the block is a [shadow block](https://developers.google.com/blockly/guides/configure/web/toolboxes/preset#shadow_blocks).
-
+How these colours are used depends on the renderer. The Thrasos renderer uses
+the primary colour as the `fill` of the block, the tertiary colour as the
+`stroke`, and the secondary colour as the `fill` when the block is a
+[shadow block](/blockly/guides/configure/web/toolboxes/preset#shadow_blocks).
 #### Add your rules
 
 You're now ready to add your rules to set the `fill` and `stroke` of the logic blocks:
@@ -74,8 +84,8 @@ You're now ready to add your rules to set the `fill` and `stroke` of the logic b
 }
 ```
 
-Refresh your web page and open the **Logic** category. You should see something like this:
-
+Refresh your web page and open the **Logic** category. You should see that the
+logic blocks are now rendered in autumnal brown instead of blue:
 ![A Blockly editor with the Logic category open. The blocks in the flyout are brown.](../../../static/images/codelabs/css/blocks-logic.png)
 
 ### Disabled blocks
