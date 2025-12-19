@@ -128,7 +128,7 @@ const config = {
               },
               {
                 label: 'Contribute to Blockly',
-                to: 'guides/contribute',
+                to: 'guides/contribute/index',
               },
             ],
           },
@@ -201,7 +201,7 @@ const config = {
             items: [
               {
                 label: 'Codelabs',
-                to: '/blockly/codelabs/',
+                to: '/blockly/codelabs/index',
               },
               {
                 label: 'Samples and Demos',

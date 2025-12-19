@@ -31,7 +31,7 @@ interpolation tokens.
 For example, this block:
 
 ![A variable setter block. It has the label "set", a dropdown for choosing the
-variable, the label "to", and a value input.](/blockly/images/variables-set.png)
+variable, the label "to", and a value input.](/images/variables-set.png)
 
 is defined by the following JSON:
 
@@ -195,7 +195,7 @@ and Blockly automatically adds a dummy input for the third row. Setting
 ![A block for sending email. The first row has the label "send email to" and a
 value input. The second row has the label "subject" and a value input. The
 third line has the label "secure" and a checkbox; it is
-right-aligned.](/blockly/images/send-email.png)
+right-aligned.](/images/send-email.png)
 
 `implicitAlign`
 applies to all inputs that are not explicitly defined in the JSON
@@ -213,7 +213,7 @@ Consider this repeat block which has two rows:
 
 ![A repeat block with two rows. The first row has the label "repeat", a value
 input, and the label "times". The second row has the label "do" and a statement
-input.](/blockly/images/repeat.png)
+input.](/images/repeat.png)
 
 If this block were described with a single message, the `message0` property
 would be `"repeat %1 times %2 do %3"`, where `%2` represents an end-of-row
@@ -257,7 +257,7 @@ by the message `"set %1 to %2"`:
 
 ![A variable setter block with the label "set", a dropdown field for the
 variable, the label "to", and an external value
-input.](/blockly/images/variables-set.png)
+input.](/images/variables-set.png)
 
 Now consider a hypothetical language where `"set %1 to %2"` needs to be reversed
 to say `"put %2 in %1"`. Changing the message (including the order of the
@@ -265,7 +265,7 @@ interpolation tokens) and leaving the arguments array unchanged results in the
 following block:
 
 ![A variable setter block with the label "put", an inline value input, the label
-"to", and a dropdown field for the variable.](/blockly/images/variables-put.png)
+"to", and a dropdown field for the variable.](/images/variables-put.png)
 
 Blockly automatically changed the order of the fields, [created a dummy
 input](#dummy-input-at-end-of-message), and switched from external to internal

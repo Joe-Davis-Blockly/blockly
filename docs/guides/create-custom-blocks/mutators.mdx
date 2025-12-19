@@ -13,9 +13,9 @@ many inputs they have. It may also add a UI so the user can change the block's
 shape.
 
 ![Three mutations of a create list block: no inputs, three inputs, and five
-inputs.](/blockly/images/lists-mutated.png)
+inputs.](/images/lists-mutated.png)
 
-![Two mutations of an if/do block: if-do and if-do-else-if-do-else.](/blockly/images/if-mutated.png)
+![Two mutations of an if/do block: if-do and if-do-else-if-do-else.](/images/if-mutated.png)
 
 Note that changing the shape of your block *does not necessarily* mean you need
 extra serialization. For example, the `math_number_property` block changes
@@ -25,9 +25,9 @@ validator](/blockly/guides/create-custom-blocks/fields/validators), and doesn't
 need a mutator.
 
 ![The `math_number_property` block with its dropdown set to `even`. It has a
-single value input.](/blockly/images/is-even.png) ![The `math_number_property`
+single value input.](/images/is-even.png) ![The `math_number_property`
 block with its dropdown set to `divisible by`. It has two value
-inputs.](/blockly/images/is-divisible-by.png)
+inputs.](/images/is-divisible-by.png)
 
 See the [serialization
 page](/blockly/guides/configure/web/serialization#when-to-save-extra-state) for
@@ -152,7 +152,7 @@ If you provide certain functions as part of your mutator, Blockly will add a
 default "mutator" UI to your block.
 
 ![An if-do block with its mutator bubble open. This lets users add else-if and
-else clauses to the if-do block.](/blockly/images/mutator-annot.png)
+else clauses to the if-do block.](/images/mutator-annot.png)
 
 You don't have to use this UI if you want to add extra serialization. You could
 use a custom UI, like the [blocks-plus-minus

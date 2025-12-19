@@ -18,18 +18,18 @@ a human-readable string that will be displayed to the user.
 #### Dropdown field
 
 ![A block with the label "drop down:", a dropdown field with "first" selected,
-and the label "item".](/blockly/images/fields/dropdown/on_block.png)
+and the label "item".](/images/fields/dropdown/on_block.png)
 
 #### Dropdown field with editor open
 
 ![The same block with the dropdown open. The dropdown contains the items "first"
-and "second".](/blockly/images/fields/dropdown/with_editor.png)
+and "second".](/images/fields/dropdown/with_editor.png)
 
 #### Dropdown field on collapsed block
 
 ![The same block after being collapsed. It has the label "drop down: first item"
 and a jagged right edge to show it is
-collapsed.](/blockly/images/fields/dropdown/collapsed.png)
+collapsed.](/images/fields/dropdown/collapsed.png)
 
 ## Creation
 
@@ -42,7 +42,7 @@ and the array can contain a mixture of options of different types.
 
 ### Simple text dropdowns
 
-![Open dropdown with two text options](/blockly/images/fields/dropdown/with_editor.png)
+![Open dropdown with two text options](/images/fields/dropdown/with_editor.png)
 
 <Tabs groupId="javascript-json">
 <TabItem value="json" label="JSON" default>
@@ -90,7 +90,7 @@ instance an English version of a block may define `[['left', 'LEFT'], ['right',
 Options in a dropdown menu may be images, which are represented as objects with
 `src`, `width`, `height`, and `alt` properties.
 
-![Dropdown field containing images and text](/blockly/images/fields/dropdown/with_images.png)
+![Dropdown field containing images and text](/images/fields/dropdown/with_images.png)
 
 <Tabs groupId="javascript-json">
 <TabItem value="json" label="JSON" default>
@@ -145,7 +145,7 @@ of preference) the element's `title` attribute, its `aria-label` attribute, or
 its `innerText` property.
 
 ![Dropdown field containing text and HTML
-elements](/blockly/images/fields/dropdown/with_html.png)
+elements](/images/fields/dropdown/with_html.png)
 
 <Tabs groupId="javascript-json">
 <TabItem value="json" label="JSON" default>
@@ -242,7 +242,7 @@ Blockly.Blocks['flags_with_text_dropdown'] = {
 
 ### Dynamic dropdowns
 
-![Dropdown field with days of the week](/blockly/images/fields/dropdown/dynamic.png)
+![Dropdown field with days of the week](/images/fields/dropdown/dynamic.png)
 
 <Tabs groupId="javascript-json">
 <TabItem value="json" label="JSON" default>
@@ -325,7 +325,7 @@ dynamic dropdowns.
 Use the string `'separator'` to add a line between options in a dropdown menu.
 
 ![Dropdown field with a line between the second and third
-options](/blockly/images/fields/dropdown/with_separator.png)
+options](/images/fields/dropdown/with_separator.png)
 
 <Tabs groupId="javascript-json">
 <TabItem value="json" label="JSON">
@@ -376,7 +376,7 @@ Blockly.Blocks["separator_dropdown"] = {
 <TabItem value="json" label="JSON" default>
 The JSON for a dropdown field looks like so:
 
-```json
+```js
 {
   "fields": {
     "FIELDNAME": "LANGUAGE-NEUTRAL-KEY"
@@ -408,7 +408,7 @@ text should be a valid language-neutral option key.
 The `Blockly.FieldDropdown.ARROW_CHAR` property can be used to change the
 unicode character representing the dropdown arrow.
 
-![Dropdown field with custom arrow](/blockly/images/fields/dropdown/customized_arrow.png)
+![Dropdown field with custom arrow](/images/fields/dropdown/customized_arrow.png)
 
 The `ARROW_CHAR` property defaults to `\u25BC` (▼) on Android and `\u25BE` (▾)
 otherwise.
@@ -511,7 +511,7 @@ Blockly.Blocks['dropdown_with_matching'] = {
 </Tabs>
 
 
-![Dropdown field with "hello" as a label and "world", "computer" as options](/blockly/images/fields/dropdown/prefix_matched.png)
+![Dropdown field with "hello" as a label and "world", "computer" as options](/images/fields/dropdown/prefix_matched.png)
 
 One advantage of this approach is that the block is easier to translate into
 other languages. The earlier code has the strings `'hello'`, `'world'`, and
@@ -597,4 +597,4 @@ updateConnections: function(newValue) {
 ![An animated GIF showing a dropdown field with three items: "neither",
 "statement", and "value". When "neither" is selected, it has no inputs. When
 "statement" is selected, it has a statement input. When "value" is connected, it
-has a "value" input.](/blockly/images/fields/dropdown/validator.gif)
+has a "value" input.](/images/fields/dropdown/validator.gif)

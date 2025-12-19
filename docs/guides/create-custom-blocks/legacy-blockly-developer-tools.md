@@ -47,16 +47,16 @@ a unique name. The UI enforces this and makes it clear when you are 'saving'
 a new block or 'updating' an existing block.
 
 ![The Block Factory tab with Save and Delete buttons that include the block
-name.](/blockly/images/block_save_as.png) ![The Block Factory tab with Update
+name.](/images/block_save_as.png) ![The Block Factory tab with Update
 and Delete buttons that include the block
-name.](/blockly/images/update_button.png)
+name.](/images/update_button.png)
 
 You can switch between blocks you've previously saved or create a new empty
 block by clicking the Library button. Changing the name of an existing block is
 another way to quickly create multiple blocks with similar definitions.
 
 ![Block Library dropdown with four entries: "Create New Block" and the names of
-three previously created blocks.](/blockly/images/blocklib_button.png)
+three previously created blocks.](/images/blocklib_button.png)
 
 ### Exporting and importing a library
 
@@ -71,7 +71,7 @@ The import and export features are also the recommended way to maintain and
 share different sets of custom blocks.
 
 ![The Clear Library, Import Block Library, and Download Block Library
-buttons.](/blockly/images/block_manage_buttons.png)
+buttons.](/images/block_manage_buttons.png)
 
 ## Block Exporter tab
 
@@ -89,7 +89,7 @@ clicking "Select" → "All Used In Workspace Factory".
 ![The Block Selector area of the Block Exporter tab. This has a Select button to
 select all blocks in the block library or select all blocks used in the
 Workspace Factory, a Clear Selected button, and a list of blocks that can be
-selected individually.](/blockly/images/block_exporter_select.png)
+selected individually.](/images/block_exporter_select.png)
 
 The export settings let you choose which generated language you want to target
 and whether you want the definitions, the generator stubs, or both for the
@@ -98,7 +98,7 @@ files.
 
 ![The entire Block Exporter tab. This has a Block Selector area, an Export
 Settings area, and an Export Preview
-area.](/blockly/images/block_exporter_tab.png)
+area.](/images/block_exporter_tab.png)
 
 :::note
 If using a save dialog on Mac you can only download
@@ -111,7 +111,7 @@ The Workspace Factory makes it easy to configure a toolbox and the default
 set of blocks in a workspace. You can switch between editing the toolbox and the
 starting workspace with the "Toolbox" and "Workspace" buttons.
 
-![The Toolbox and Workspace buttons.](/blockly/images/ws_fac_tb_ws_buttons.png)
+![The Toolbox and Workspace buttons.](/images/ws_fac_tb_ws_buttons.png)
 
 ### Building a toolbox
 
@@ -131,7 +131,7 @@ editor on the left for choosing the blocks in the toolbox, a categories area in
 the center for adding categories to the toolbox, and a preview area on the right
 to show the toolbox you have constructed. Three blocks have been dragged onto
 the workspace on the left. This constructs a flyout toolbox, which is shown on
-the right.](/blockly/images/workspace_fac_no_cat.png)
+the right.](/images/workspace_fac_no_cat.png)
 
 ### Toolbox with categories
 
@@ -144,7 +144,7 @@ standard Blockly categories. Use the arrow buttons to reorder categories.
 ![The categories area of the Workspace Factory tab. This shows the current list
 of categories and buttons to add and delete categories and move them up and down
 in the list. The + button has been selected to add a
-category.](/blockly/images/category_menu.png)
+category.](/images/category_menu.png)
 
 :::note
 The standard categories and toolbox include all the blocks in the
@@ -158,7 +158,7 @@ dropdown. Dragging a block into the workspace will add it to the selected
 category.
 
 ![The Edit Category dropdown, with fields to change a category's name and
-color.](/blockly/images/edit_category.png)
+color.](/images/edit_category.png)
 
 ### Advanced blocks
 
@@ -199,7 +199,7 @@ first category.
 
 ![The Workspace Factory tab with the Workspace button selected. The categories
 area has been replaced with a list of workspace options to choose
-from.](/blockly/images/configure_workspace.png)
+from.](/images/configure_workspace.png)
 
 #### Add Pre-loaded Blocks to the Workspace
 
@@ -216,7 +216,7 @@ blocks when you select them.
 ![The Workspace Factory tab with the Workspace button selected. Blocks have been
 dragged onto the workspace of the Blockly editor on the left. These are shown as
 pre-loaded blocks in the workspace of the Blockly editor on the
-right.](/blockly/images/load_workspace_blocks.png)
+right.](/images/load_workspace_blocks.png)
 
 You can export these blocks as XML (see below). Add them to your workspace with
 `Blockly.Xml.domToWorkspace`, immediately after you create your workspace:
@@ -235,7 +235,7 @@ Workspace Factory gives you the following export options:
 
 ![The Export dropdown at the top of the Workspace Factory tab, with options to
 export starter code, the toolbox, the pre-loaded workspace blocks, or all of
-these.](/blockly/images/workspace_export_opt.png)
+these.](/images/workspace_export_opt.png)
 
 * Starter Code: Produces starter html and javascript to inject your customized
   Blockly workspace.

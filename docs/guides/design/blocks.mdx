@@ -32,7 +32,7 @@ text-based languages.
 ## Consider user input choices
 
 ![Three repeat blocks showing different ways to input a number: drop-down,
-numeric field, and value input.](/blockly/images/language03.png)
+numeric field, and value input.](/images/language03.png)
 
 There are three ways to obtain a parameter from the user. A dropdown is the most
 restrictive and is good for simple tutorials and exercises. An input field
@@ -45,7 +45,7 @@ input (usually with a shadow block) offers the opportunity to compute a value
 ## Use separate conditional and loop blocks
 
 ![Counterexample showing if/then and while blocks in the same
-category.](/blockly/images/language01.png)
+category.](/images/language01.png)
 
 The most difficult blocks for new users are conditionals and loops. Many
 block-based environments group both of these blocks into the same 'Controls'
@@ -70,7 +70,7 @@ blocks. An example would be adding three numbers, by nesting two two-number
 addition blocks.  Another example would be only providing if/else blocks,
 and making the user nest them to create elseif conditions.
 
-![Nested addition blocks: 1 + (2 + 3).](/blockly/images/mutate-compound.png)
+![Nested addition blocks: 1 + (2 + 3).](/images/mutate-compound.png)
 
 The advantage of this approach is its initial simplicity (both for the user and
 the developer).  The disadvantage is that in cases where there are a large
@@ -83,7 +83,7 @@ two free inputs at the end.  This is the approach that the first version of
 App Inventor used.
 
 ![Block that adds four value inputs, the last one of which is
-empty.](/blockly/images/mutate-extra.png)
+empty.](/images/mutate-extra.png)
 
 Blocks that grew automatically were disliked by App Inventor's users for a couple
 of reasons.  First, there was always a free input and the program was never
@@ -100,7 +100,7 @@ accommodated.  Others add two up/down buttons at each row so that reordering of
 the stack may be accommodated.
 
 ![Block that adds three external value inputs and has plus and minus buttons to
-add or remove inputs.](/blockly/images/mutate-add-minus.png)
+add or remove inputs.](/images/mutate-add-minus.png)
 
 This strategy is a spectrum of options ranging from just two buttons per block,
 through to four buttons per row.  At one end is the danger that users aren't able
@@ -112,7 +112,7 @@ is represented as a single button that opens a configuration dialog for that
 block.  Elements may be added, deleted, or rearranged at will.
 
 ![Block that adds three value inputs and has a mutator for adding or removing
-value inputs.](/blockly/images/mutate-bubble.png)
+value inputs.](/images/mutate-bubble.png)
 
 The disadvantage of this approach is that it mutators are not intuitive for
 novice users.  Introducing mutators requires some form of instruction.

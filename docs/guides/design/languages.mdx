@@ -13,7 +13,7 @@ to consider when designing your own block-based language.
 ## Use one-based lists
 
 ![Block that selects the letter at a certain index in a string and which uses 1
-to mean the first letter.](/blockly/images/language02.png)
+to mean the first letter.](/images/language02.png)
 
 Novice programmers react badly when they encounter zero-based lists for the
 first time. As a result, Blockly follows the lead of Lua and Lambda Moo by
@@ -28,7 +28,7 @@ indexing is still recommended.
 ## Support liberal naming rules
 
 ![Blocks with the case-insensitive variable names location_x (lower case x) and
-location_X (upper case X).](/blockly/images/mistakes09.png)
+location_X (upper case X).](/images/mistakes09.png)
 
 Novice programmers do not expect that `location_X` and `location_x` are
 different variables. As a result, Blockly follows the lead of BASIC and HTML by
@@ -78,7 +78,7 @@ without a return value. The downside is that this can lead to a confusing
 toolbox with lot of nearly identical blocks.
 
 ![A value block that removes and returns the last item in a list and a statement
-block that just removes the last item in a last.](/blockly/images/return1.png)
+block that just removes the last item in a last.](/images/return1.png)
 
 c) Mutate one block. Use a dropdown, checkbox, or other control allowing the
 user to choose whether there is a return value or not. The block then changes
@@ -87,7 +87,7 @@ access block.
 
 ![Block that changes shape from a value block to a statement block when removing
 the last item in a list, depending on whether it also returns that
-item.](/blockly/images/return3.png)
+item.](/images/return3.png)
 
 d) Eat the value. The first version of App Inventor created a special pipe block
 that ate any connected value. Users didn't understand the concept, and the
@@ -96,7 +96,7 @@ that users simply assign the value to a throwaway variable.
 
 ![Blocks showing two different ways to ignore the output of a block. The first
 uses a pipe block to "eat" the value and the second sets the value of a variable
-named "junk".](/blockly/images/return2.png)
+named "junk".](/images/return2.png)
 
 *Recommendation: Each strategy has pros and cons, choose what's right for your
 users.*
