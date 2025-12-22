@@ -45,7 +45,7 @@ export default function Root({ children }) {
           clearTimeout(searchTimeout);
         }
 
-        if (query.length >= 2 && query !== lastTrackedQuery) {
+        if (query.length > 0 && query !== lastTrackedQuery) {
           searchTimeout = setTimeout(() => {
             trackSiteSearch(query);
             lastTrackedQuery = query;
@@ -112,7 +112,7 @@ export default function Root({ children }) {
       // Traverse up to find the actual button/link element
       while (target && target !== document.body) {
         // Check if it's a button or link with CTA classes
-        const ctaSelector = 'a.button, button.button, .button, a.cardButton, .cardButton, .downloadAsset, a.downloadAsset, .assetDownloadLink, a.assetDownloadLink';
+        const ctaSelector = 'a.getStarted, a.button, button.button, .button, a.cardButton, .cardButton, .downloadAsset, a.downloadAsset, .assetDownloadLink, a.assetDownloadLink';
         const isCTA = target.matches && (
           target.matches(ctaSelector) ||
           target.closest(ctaSelector)

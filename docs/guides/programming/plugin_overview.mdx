@@ -63,32 +63,31 @@ We recommend installing plugins with a package manager like npm or yarn. This
 makes it easy to receive updates.
 
 *   **Install a plugin with a package manager**
-
-<Tabs groupId="group-1">
-  <TabItem value="npm" label="npm" default>
-  ```shell
-  npm install @blockly/field-angle
-  ```
-  </TabItem>
-  <TabItem value="yarn" label="yarn">
-  ```shell
-  yarn add @blockly/field-angle
-  ```
-  </TabItem>
-</Tabs>
+    <Tabs groupId="group-1">
+      <TabItem value="npm" label="npm" default>
+      ```shell
+      npm install @blockly/field-angle
+      ```
+      </TabItem>
+      <TabItem value="yarn" label="yarn">
+      ```shell
+      yarn add @blockly/field-angle
+      ```
+      </TabItem>
+    </Tabs>
 *   **Install a plugin without a package manager**
+    <Tabs groupId="group-2">
+      <TabItem value="unpkg" label="unpkg" default>
+      ```html
+      <script src="https://unpkg.com/@blockly/field-angle"></script>
+      ```
+      
+      You can also clone the GitHub repository that contains the plugin. For
+      first-party plugins, this is
+      [`blockly-samples`](https://github.com/RaspberryPiFoundation/blockly-samples/tree/main).
+      </TabItem>
+    </Tabs>
 
-<Tabs groupId="group-2">
-  <TabItem value="unpkg" label="unpkg" default>
-  ```html
-  <script src="https://unpkg.com/@blockly/field-angle"></script>
-  ```
-  
-  You can also clone the GitHub repository that contains the plugin. For
-  first-party plugins, this is
-  [`blockly-samples`](https://github.com/RaspberryPiFoundation/blockly-samples/tree/main).
-  </TabItem>
-</Tabs>
 Check the plugin's README to see if there are any additional installation
 instructions.
 
@@ -101,23 +100,22 @@ plugin](https://www.npmjs.com/package/@blockly/field-angle):
 
 1.  Import code from the plugin. How you do this depends on how you installed
     the plugin.
-
-<Tabs groupId="group-3">
-  <TabItem value="npm-or-yarn" label="npm or yarn" default>
-  ```js
-  import Blockly from 'blockly';
-  import {registerFieldAngle} from '@blockly/field-angle';
-  ```
-  </TabItem>
-  <TabItem value="unpkg" label="unpkg">
-  You do not need to use an `import` statement.
-  </TabItem>
-  <TabItem value="cloned-repository" label="Cloned repository">
-  ```js
-  import {registerFieldAngle} from 'path/to/plugin';
-  ```
-  </TabItem>
-</Tabs>
+    <Tabs groupId="group-3">
+      <TabItem value="npm-or-yarn" label="npm or yarn" default>
+      ```js
+      import Blockly from 'blockly';
+      import {registerFieldAngle} from '@blockly/field-angle';
+      ```
+      </TabItem>
+      <TabItem value="unpkg" label="unpkg">
+      You do not need to use an `import` statement.
+      </TabItem>
+      <TabItem value="cloned-repository" label="Cloned repository">
+      ```js
+      import {registerFieldAngle} from 'path/to/plugin';
+      ```
+      </TabItem>
+    </Tabs>
 1.  Initialize the plugin as needed. Plugins that provide custom fields often
     require you to register the field:
 

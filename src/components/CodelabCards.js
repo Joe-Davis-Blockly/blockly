@@ -1,7 +1,6 @@
 import React from 'react';
 import Link from '@docusaurus/Link';
 import styles from './styles.module.css';
-import LastUpdatedInfo from '@site/src/components/LastUpdatedInfo';
 
 // This component renders the grid layout
 export function CodelabGrid({ children }) {

@@ -27,7 +27,7 @@ function HomepageHeader() {
             </p>
             <div className={styles.buttons}>
               <Link
-                className={styles.button}
+                className={clsx(styles.button, 'getStarted')}
                 to="/guides/get-started/what-is-blockly">
                 Get started
               </Link>

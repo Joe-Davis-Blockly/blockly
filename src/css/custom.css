@@ -28,6 +28,7 @@
   --font-color-footer: #202124;
   --font-color-hover-footer: #1a73e8;
   --border-divider-footer: #dadce0;
+  --tabs-border: #dadce0;
 }
 
 /* For readability concerns, you should choose a lighter palette in dark mode. */
@@ -45,6 +46,7 @@
   --font-color-footer: #dadde1;
   --font-color-hover-footer: #25c2a0;
   --border-divider-footer: #dadce042;
+  --tabs-border: #3c4043;
 }
 
 /* Hide the previous/next pagination links */
@@ -286,4 +288,17 @@ h3{
 
 .codelabImages{
   text-align: center;
+}
+
+.tabs-container{
+  border: 1px solid var(--tabs-border);
+  border-radius: 8px;
+}
+
+.tabs-container p{
+  padding: 0px 0px 16px 16px;
+}
+
+.tabs{
+  border-bottom: 1px solid var(--tabs-border);
 }

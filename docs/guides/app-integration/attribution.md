@@ -84,15 +84,19 @@ Please hyperlink the badge to Blockly's home page: [https://www.blockly.com](htt
 
 ### Badge sizing and spacing
 
-<picture>
-  <source srcset="/blockly/images/logos/blockly-badge-dark.png" media="(prefers-color-scheme: dark)">
-  <img src="/blockly/images/logos/blockly-badge.png" alt="blockly badge" class="attempt-right">
-</picture>
-
-To ensure legibility, badges should not be used with a height smaller than 24px.
-
-For lockups, provide at least x-height and width x1 white space around the
- logo. Never crowd or overlap the logo with other elements.
+<div style="display: flex; align-items: flex-start; gap: 20px;">
+  <div style="flex: 1 1 50%;">
+    <p>To ensure legibility, badges should not be used with a height smaller than 24px.</p>
+    <p>For lockups, provide at least x-height and width x1 white space around the
+    logo. Never crowd or overlap the logo with other elements.</p>
+  </div>
+  <div style="flex: 1 1 50%;">
+    <picture>
+      <source srcset="/blockly/images/logos/blockly-badge-dark.png" media="(prefers-color-scheme: dark)">
+      <img src="/blockly/images/logos/blockly-badge.png" alt="blockly badge">
+    </picture>
+  </div>
+</div>
 
 ### Other uses of the Blockly logo
 
@@ -202,30 +206,30 @@ element on your page.
   </tbody>
 </table>
 
-<img src="/blockly/images/logos/logo_x_height.png"
-     alt="Height references for padding the logo" width="380"
-     class="attempt-right">
-
-### Sizing and spacing
-
-To ensure legibility, the logo should not be used with a height
-smaller than 24px.
-
-For lockups, provide at least x-height x2 white space around the
-logo. Never crowd or overlap the logo with other elements.
-
-### Common errors
-
-<span class="compare-worse">Do not...</span>
-
-- Alter or distort the logo in any way
-- Use the white knockout in any color but white
-- Alter color, shape, or angles
-- Rotate or flip in any direction
-- Alter proportions, positioning, or placement
-- Replace the logotype with a different typeface
-- Use the old Blockly logo (existing uses should be updated when convenient)
-- Use the logo on a poorly contrasting background (e.g. the knockout logo on a light gray background)
-- Overlap or crowd the logo with other elements
-- Redraw the logo
-
+<div style="display: flex; align-items: flex-start; gap: 20px;">
+  <div style="flex: 1 1 60%;">
+    <h3>Sizing and spacing</h3>
+    <p>To ensure legibility, the logo should not be used with a height
+    smaller than 24px.</p>
+    <p>For lockups, provide at least x-height x2 white space around the
+    logo. Never crowd or overlap the logo with other elements.</p>
+    <h3>Common errors</h3>
+    <span class="compare-worse">Do not...</span>
+    <ul>
+    <li>Alter or distort the logo in any way</li>
+    <li>Use the white knockout in any color but white</li>
+    <li>Alter color, shape, or angles</li>
+    <li>Rotate or flip in any direction</li>
+    <li>Alter proportions, positioning, or placement</li>
+    <li>Replace the logotype with a different typeface</li>
+    <li>Use the old Blockly logo (existing uses should be updated when convenient)</li>
+    <li>Use the logo on a poorly contrasting background (e.g. the knockout logo on a light gray background)</li>
+    <li>Overlap or crowd the logo with other elements</li>
+    <li>Redraw the logo</li>
+    </ul>
+  </div>
+  <div style="flex: 1 1 40%;">
+    <img src="/blockly/images/logos/logo_x_height.png"
+         alt="Height references for padding the logo" width="380">
+  </div>
+</div>
