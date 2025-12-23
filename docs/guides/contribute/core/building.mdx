@@ -10,7 +10,7 @@ image: images/blockly_banner.png
 Unless you are modifying the Blockly source code directly, you probably
 don't need to build Blockly run any of the scripts documented below yourself.
 Instead, follow the instructions in [the "Get the Code"
-section](/blockly/guides/get-started/get-the-code) of the [Get Started](/blockly/guides/get-started/get-the-code) page to install [the `blockly` NPM package](
+section](/blockly/guides/get-started/get-the-code#get-the-code-1) of the [Get Started](/blockly/guides/get-started/get-the-code) page to install [the `blockly` NPM package](
 https://www.npmjs.com/package/blockly) or download the `.tgz` file attached to
 [the latest release on GitHub](
 https://github.com/RaspberryPiFoundation/blockly/releases/latest).
@@ -71,7 +71,7 @@ this alternative terminology is potentially confusing and discouraged.
 Unless you are modifying the Blockly source code directly, you probably
 don't need to build Blockly run any of the scripts documented below yourself.
 Instead, follow the instructions in [the "Get the Code"
-section](/blockly/guides/get-started/get-the-code) of the [Get Started](/blockly/guides/get-started/get-the-code) page to install [the `blockly` NPM package](
+section](/blockly/guides/get-started/get-the-code#get-the-code-1) of the [Get Started](/blockly/guides/get-started/get-the-code) page to install [the `blockly` NPM package](
 https://www.npmjs.com/package/blockly) or download the `.tgz` file attached to
 [the latest release on GitHub](
 https://github.com/RaspberryPiFoundation/blockly/releases/latest).
@@ -80,14 +80,14 @@ https://github.com/RaspberryPiFoundation/blockly/releases/latest).
 * If you've made local changes and want to make sure they've not broken the
   build or any tests, run
 
-  ```shell {: .devsite-terminal }
+  ```shell
   npm test
   ```
   to build Blockly and run its test suite.
 
 * If you want to test local changes in the browser, run
 
-  ```shell {: .devsite-terminal }
+  ```shell
   npm start
   ```
   This compiles Blockly and opens a web browser pointing at the Blockly
@@ -99,18 +99,18 @@ https://github.com/RaspberryPiFoundation/blockly/releases/latest).
 * To build your locally-modified version of Blockly and test it, in compressed
   mode, as a dependency of another npm package, run
 
-  ```shell {: .devsite-terminal }
+  ```shell
   npm run package
   ```
   to build Blockly package, then
 
-  ```shell {: .devsite-terminal }
+  ```shell
   cd dist && npm link
   ```
   to tell npm where to find the compiled files, and then `cd` to your project's
   directory before running
 
-  ```shell {: .devsite-terminal }
+  ```shell
   npm link blockly
   ```
   to have your package use the freshly-compiled version of Blockly in
@@ -188,8 +188,7 @@ or uncompressed mode.
 ### `publish`
 
 `npm run publish` is used by the Blockly team to publish the `blockly` npm
-package. It depends on check with Maribeth so is not useful
-to external developers.
+package. It depends on Google-internal infrastructure so is not useful to external developers.
 
 ### `lint`
 

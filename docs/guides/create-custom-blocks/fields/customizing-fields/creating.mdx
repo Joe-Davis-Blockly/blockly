@@ -287,7 +287,7 @@ If the value passed to a field with `setValue` is valid you will receive a
 `doValueUpdate_` callback. By default the `doValueUpdate_` function:
 
 +   Sets the `value_` property to `newValue`.
-+   Sets the [`isDirty_`](/blockly/guides/create-custom-blocks/fields/customizing-fields/creating#isdirty-)
++   Sets the [`isDirty_`](/blockly/guides/create-custom-blocks/fields/customizing-fields/creating#isdirty)
     property to `true`.
 
 If you simply need to store the value, and don't want to do any custom handling,
@@ -320,13 +320,13 @@ If the value passed to the field with `setValue` is invalid you will receive a
 `doValueInvalid_` callback. By default the `doValueInvalid_` function does
 nothing. This means that by default invalid values will not be shown. It also
 means the field will not be rerendered, because the
-[`isDirty_`](/blockly/guides/create-custom-blocks/fields/customizing-fields/creating#isdirty-)
+[`isDirty_`](/blockly/guides/create-custom-blocks/fields/customizing-fields/creating#isdirty)
 property will not be set.
 
 If you wish to display invalid values you should override `doValueInvalid_`.
 Under most circumstances you should set a `displayValue_` property to the
 invalid value, set
-[`isDirty_`](/blockly/guides/create-custom-blocks/fields/customizing-fields/creating#isdirty-)
+[`isDirty_`](/blockly/guides/create-custom-blocks/fields/customizing-fields/creating#isdirty)
 to `true`, and [override
 render_](/blockly/guides/create-custom-blocks/fields/customizing-fields/creating#updating-the-on-block-display)
 for the on-block display to update based on the `displayValue_` instead of the
@@ -446,7 +446,7 @@ will need to be manually positioned. The coordinate system is in pixel
 coordinates relative to the top left of the window. The text input editor is a
 good example of the `WidgetDiv`.
 
-![Image of text input editor](/images/text-input-editor.png)
+<Image alt="Image of text input editor" src="/blockly/images/text-input-editor.png" width={200} />
 
 ### DropDownDiv sample code
 
@@ -539,7 +539,7 @@ Common examples include:
 :::info
 The field should never call `render_` directly. Instead rerenders
 should be triggered by setting the
-[`isDirty_`](/blockly/guides/create-custom-blocks/fields/customizing-fields/creating#isdirty-)
+[`isDirty_`](/blockly/guides/create-custom-blocks/fields/customizing-fields/creating#isdirty)
 property to `true`.
 :::
 

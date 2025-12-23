@@ -91,10 +91,8 @@ Please hyperlink the badge to Blockly's home page: [https://www.blockly.com](htt
     logo. Never crowd or overlap the logo with other elements.</p>
   </div>
   <div style="flex: 1 1 50%;">
-    <picture>
-      <source srcset="/blockly/images/logos/blockly-badge-dark.png" media="(prefers-color-scheme: dark)">
-      <img src="/blockly/images/logos/blockly-badge.png" alt="blockly badge">
-    </picture>
+    <img src="/blockly/images/logos/blockly-badge.png" class="blockly-badge-light" alt="Blockly Badge" />
+    <img src="/blockly/images/logos/blockly-badge-dark.png" class="blockly-badge-dark" alt="Blockly Badge" />
   </div>
 </div>
 

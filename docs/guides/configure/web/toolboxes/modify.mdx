@@ -20,8 +20,10 @@ did not have any categories, then the new toolbox may not have any categories.
 
 The contents of a single category can be updated by:
 
-    var category = workspace.getToolbox().getToolboxItems()[0];
-    category.updateFlyoutContents(flyoutContents);
+```js
+var category = workspace.getToolbox().getToolboxItems()[0];
+category.updateFlyoutContents(flyoutContents);
+```
 
 Where `flyoutContents` can be a list of blocks defined using JSON, a tree of nodes,
 or a string representation.

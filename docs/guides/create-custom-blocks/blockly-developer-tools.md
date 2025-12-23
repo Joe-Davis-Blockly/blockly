@@ -18,7 +18,7 @@ is compatible with Blockly v10+. If you are looking for the legacy tool, see the
 :::
 
 ![Screenshot of the Block Factory showing the toolbox and various output
-areas](/images/block-factory/block_factory_overview.png){: .screenshot}
+areas](/images/block-factory/block_factory_overview.png)
 
 ## Define a block
 
@@ -49,7 +49,7 @@ you can set them in the Block Factory to change the code output.
 
 ![Screenshot of the output configuration panel, with selectors for the blockly
 import format, block definition format, and code generator
-language](/images/block-factory/block_factory_configuration.png){: .screenshot}
+language](/images/block-factory/block_factory_configuration.png)
 
 ### Blockly import format
 
@@ -154,13 +154,13 @@ following these steps:
 
     ![Screenshot of the legacy Block Factory with the "Export Block Library"
     button
-    highlighted](/images/block-factory/block_factory_legacy_export.png){: .screenshot}
+    highlighted](/images/block-factory/block_factory_legacy_export.png)
 1.  In the new Block Factory, click the "Load block" button in the toolbar.
 1.  Select the "Import from Block Factory" option in the menu.
 
     ![Screenshot of the Block Factory showing the "Load block" and "Import"
     buttons
-    highlighted](/images/block-factory/block_factory_import.png){: .screenshot}
+    highlighted](/images/block-factory/block_factory_import.png)
 1.  Upload the file you downloaded in Step 1.
 1.  Your block definitions should be automatically converted to the new format
     and will now be available from the `Load block` menu. Blocks may have been
@@ -179,6 +179,6 @@ following these steps:
 [fields]: /blockly/guides/get-started/workspace-anatomy#fields
 [toolbox-preset]: /blockly/guides/configure/web/toolboxes/preset
 [mutators]: /blockly/guides/create-custom-blocks/mutators
-[loading-blockly]: /blockly/guides/get-started/get-the-code#get-the-code
+[loading-blockly]: /blockly/guides/get-started/get-the-code#get-the-code-1
 [code-generation]: /blockly/guides/create-custom-blocks/code-generation/overview#language-code-generators
 [sample-app]: /blockly/guides/get-started/get-the-code#create-package-script

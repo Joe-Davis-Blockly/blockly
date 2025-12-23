@@ -29,6 +29,7 @@
   --font-color-hover-footer: #1a73e8;
   --border-divider-footer: #dadce0;
   --tabs-border: #dadce0;
+  --codeblock-background-color: #f1f3f4;
 }
 
 /* For readability concerns, you should choose a lighter palette in dark mode. */
@@ -47,6 +48,7 @@
   --font-color-hover-footer: #25c2a0;
   --border-divider-footer: #dadce042;
   --tabs-border: #3c4043;
+  --codeblock-background-color: #282a36;
 }
 
 /* Hide the previous/next pagination links */
@@ -97,9 +99,9 @@
   max-width: 70%;
 }*/
 
-.screenshot img {
+/* .screenshot img {
   border: 1px solid #000;
-}
+} */
 
 .screenshotImg{
   width: 200px;
@@ -155,6 +157,7 @@
   font-weight: bold;
   font-family: 'Google Sans', sans-serif;
   font-size: 16px;
+  text-align: center;
 }
 
 .footer__link-item{
@@ -171,11 +174,108 @@
   font-size: 16px;
 }
 
-.footer_linkboxes_list{
+.footer_linkboxes_list {
   display: grid;
   grid-gap: 24px;
-  grid-template-columns: repeat(auto-fit,minmax(85.4px,1fr));
+  grid-template-columns: repeat(auto-fit, minmax(85.4px, 1fr));
   list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer__col {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  text-align: left;
+}
+
+.footer__items,
+.footer__item {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.footer__items {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  text-align: left;
+}
+
+/* Responsive footer styles */
+@media (max-width: 768px) {
+  .footer_linkboxes_list {
+    grid-template-columns: 1fr;
+    grid-gap: 32px;
+    padding: 24px 0;
+  }
+
+  .footer__col,
+  .footer__title,
+  .footer__link-item {
+    text-align: center;
+  }
+
+  .footer__col,
+  .footer__items {
+    align-items: center;
+  }
+
+  .footer__col {
+    width: 100%;
+  }
+
+  .footer__title {
+    margin-bottom: 12px;
+  }
+
+  .footer__copyright {
+    padding: 16px 0;
+  }
+
+  .footer__bottom {
+    padding: 16px 0;
+  }
+
+  .footer .container {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 996px) {
+  .footer_linkboxes_list {
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 40px;
+    padding: 32px 0;
+  }
+
+  .footer__col,
+  .footer__title,
+  .footer__link-item {
+    text-align: center;
+  }
+
+  .footer__col,
+  .footer__items {
+    align-items: center;
+  }
+
+  .footer__col {
+    width: 100%;
+  }
+
+  .footer__title {
+    margin-bottom: 16px;
+  }
+}
+
+@media (min-width: 997px) {
+  .footer_linkboxes_list {
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  }
 }
 
 /** Added changes for hide level 3 menus **/
@@ -270,6 +370,10 @@
   width: 24px;
 }
 
+.compare-better, .compare-worse{
+ font-weight: 700;
+}
+
 .compare-better p, .compare-worse p{
   margin-top:0px;
 }
@@ -301,4 +405,22 @@ h3{
 
 .tabs{
   border-bottom: 1px solid var(--tabs-border);
+}
+
+.prism-code{
+  background-color: var(--codeblock-background-color) !important;
+}
+
+/* Hide dark badge by default */
+.blockly-badge-dark {
+  display: none;
+}
+
+/* When theme is dark, swap visibility */
+[data-theme='dark'] .blockly-badge-light {
+  display: none;
+}
+
+[data-theme='dark'] .blockly-badge-dark {
+  display: block;
 }

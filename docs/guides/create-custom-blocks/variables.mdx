@@ -237,8 +237,9 @@ Next, your user needs a way to create variables. The simplest way is with a
 "Create Variable" [button](/blockly/guides/configure/web/toolboxes/buttons).
 
 When creating the button, make the callback call
-
-    Blockly.Variables.createVariableButtonHandler(button.getTargetWorkspace(), null, 'panda');
+```js
+Blockly.Variables.createVariableButtonHandler(button.getTargetWorkspace(), null, 'panda');
+```
 
 and a `"Panda"` typed variable will be created!
 

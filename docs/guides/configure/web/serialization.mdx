@@ -94,14 +94,14 @@ The order for deserialization of built-in serializers is:
     [Mutators](/blockly/guides/create-custom-blocks/mutators) documentation for
     more info.
 4.  **The block is connected to its parent (if one exists).**
-    5.  **Icons are deserialized.** Individual icons are deserialized in an
+5.  **Icons are deserialized.** Individual icons are deserialized in an
         *arbitrary order*.
-    6.  **Fields are deserialized.** Individual fields are deserialized in an
+    1.  **Fields are deserialized.** Individual fields are deserialized in an
         *arbitrary order*.
-    7.  **Input blocks are deserialized.** This includes blocks connected to
+    2.  **Input blocks are deserialized.** This includes blocks connected to
         value inputs and statement inputs. Individual inputs are deserialized in
         an *arbitrary order*.
-    8.  **Next blocks are deserialized.**
+    3.  **Next blocks are deserialized.**
 
 ### When to save extra state
 
