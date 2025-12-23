@@ -159,6 +159,7 @@ const config = {
       prism: {
         theme: prismThemes.github,
         darkTheme: prismThemes.dracula,
+        additionalLanguages: ['bash', 'typescript'],
       },
       algolia: {
         appId: "JOPASJ603L",

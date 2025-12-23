@@ -243,6 +243,10 @@
     padding-left: 16px;
     padding-right: 16px;
   }
+
+  .footer_linkboxes_list > .footer__col:last-child {
+    margin-bottom: 32px;
+  }
 }
 
 @media (min-width: 769px) and (max-width: 996px) {
@@ -269,6 +273,10 @@
 
   .footer__title {
     margin-bottom: 16px;
+  }
+
+  .footer_linkboxes_list > .footer__col:last-child {
+    margin-bottom: 32px;
   }
 }
 
