@@ -4,6 +4,8 @@ title: Advanced customization
 image: images/blockly_banner.png
 ---
 
+import ClassBlock from '@site/src/components/ClassBlock';
+
 # Advanced customization
 
 Blockly lets you customize certain functionality by replacing the corresponding
@@ -13,7 +15,7 @@ Blockly classes.
 
 The following Blockly classes can be replaced:
 
-| Blockly class                        | Interface                        | Registry type name         |
+| <ClassBlock className="displayTableHeader"> Blockly class </ClassBlock>| <ClassBlock className="displayTableHeader"> Interface </ClassBlock>| <ClassBlock className="displayTableHeader"> Registry type name </ClassBlock>|
 | ------------------------------------ | -------------------------------- | -------------------------- |
 | [`Blockly.dragging.Dragger`]         | [`Blockly.IDragger`]             | `blockDragger`             |
 | [`Blockly.ConnectionChecker`]        | [`Blockly.IConnectionChecker`]   | `connectionChecker`        |

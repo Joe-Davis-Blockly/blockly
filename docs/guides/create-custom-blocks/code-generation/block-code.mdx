@@ -62,7 +62,7 @@ real application, use the built-in `logic_compare` and `controls_if` blocks.
 You can import a language code generator using one of the following methods. Use
 the imported generator to store block-code generators in the `forBlock` object.
 
-<Tabs groupId="custom_compare-custom_if">
+<Tabs groupId="group-1">
 <TabItem value="modules" label="Modules" default>
 ```js
 import {javascriptGenerator} from 'blockly/javascript';
@@ -137,7 +137,7 @@ fields](/blockly/guides/create-custom-blocks/fields/built-in-fields/overview).
 Depending on the field, you may need to transform the returned value before
 using it in code.
 
-<Tabs groupId="custom_compare-custom_if">
+<Tabs groupId="group-2">
 <TabItem value="custom_compare" label="custom_compare" default>
 ```js
 javascriptGenerator.forBlock['custom_compare'] = function (block, generator) {
@@ -192,7 +192,7 @@ for next blocks.
 To get code from an inner block attached to a value input, call `valueToCode`.
 This method calls the inner block's code generator.
 
-<Tabs groupId="custom_compare-custom_if">
+<Tabs groupId="group-3">
 <TabItem value="custom_compare" label="custom_compare" default>
 ```js
 import {javascriptGenerator, Order} from 'blockly/javascript';
@@ -247,7 +247,7 @@ To get code from an inner block attached to a statement input, call
 `statementToCode`. This method calls the inner block's code generator and
 handles indenting code.
 
-<Tabs groupId="custom_compare-custom_if">
+<Tabs groupId="group-4">
 <TabItem value="custom_compare" label="custom_compare">
 The `custom_compare` block does not have any statement inputs.
 </TabItem>
@@ -281,7 +281,7 @@ type:
 
 *   **Statement blocks:** Return the code string.
 
-<Tabs groupId="custom_compare-custom_if">
+<Tabs groupId="group-5">
 <TabItem value="custom_compare" label="custom_compare">
 ```js
 import {javascriptGenerator, Order} from 'blockly/javascript';
@@ -315,7 +315,7 @@ to avoid subtle bugs and unwanted side-effects.
 
 For reference, here are the complete code generators for each block:
 
-<Tabs groupId="tab">
+<Tabs groupId="group-6">
 <TabItem value="custom_compare" label="custom_compare">
 ```js
 import {javascriptGenerator, Order} from 'blockly/javascript';

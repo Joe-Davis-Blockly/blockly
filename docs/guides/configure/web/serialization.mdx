@@ -90,18 +90,18 @@ The order for deserialization of built-in serializers is:
         method, and mixes in extensions.
     2.  **Attributes are deserialized.** This includes properties that can apply
         to any block. For example: x, y, collapsed, disabled, and data.
-3.  **Extra state is deserialized.** See the
+4.  **Extra state is deserialized.** See the
     [Mutators](/blockly/guides/create-custom-blocks/mutators) documentation for
     more info.
-4.  **The block is connected to its parent (if one exists).**
-5.  **Icons are deserialized.** Individual icons are deserialized in an
+5.  **The block is connected to its parent (if one exists).**
+    1.  **Icons are deserialized.** Individual icons are deserialized in an
         *arbitrary order*.
-    1.  **Fields are deserialized.** Individual fields are deserialized in an
+    2.  **Fields are deserialized.** Individual fields are deserialized in an
         *arbitrary order*.
-    2.  **Input blocks are deserialized.** This includes blocks connected to
+    3.  **Input blocks are deserialized.** This includes blocks connected to
         value inputs and statement inputs. Individual inputs are deserialized in
         an *arbitrary order*.
-    3.  **Next blocks are deserialized.**
+    4.  **Next blocks are deserialized.**
 
 ### When to save extra state
 

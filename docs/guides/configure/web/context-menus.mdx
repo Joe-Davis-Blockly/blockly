@@ -5,6 +5,7 @@ image: images/blockly_banner.png
 ---
 
 import Image from '@site/src/components/Image';
+import ClassBlock from '@site/src/components/ClassBlock';
 
 # Context menus
 
@@ -43,7 +44,7 @@ user invokes a context menu on a component, the component:
 
 1.  If the component is a workspace or block, checks to see if the specific
     workspace or block on which the menu was invoked has a [function for
-    customizing the context menu](#customize_per_block). If so, it passes the
+    customizing the context menu](#customize-per-block). If so, it passes the
     array to the function, which can add, delete, or modify elements of the
     array.
 
@@ -129,7 +130,7 @@ should be displayed.
 It should return one of a set of strings: `'enabled'`, `'disabled'`, or
 `'hidden'`.
 
-| Value        | Description                        | Image                                               |
+| <ClassBlock className="displayTableHeader"> Value </ClassBlock>| <ClassBlock className="displayTableHeader"> Description </ClassBlock>| <ClassBlock className="displayTableHeader"> Image </ClassBlock>|
 | ------------ | ---------------------------------- | --------------------------------------------------- |
 | `'enabled'`  | Shows that the item is active.     | <Image alt="An enabled option" src="/blockly/images/context-menus/enabled-option.png" width={150} />  |
 | `'disabled'` | Shows that the item is not active. | <Image alt="A disabled option" src="/blockly/images/context-menus/disabled-option.png" width={150} /> |
@@ -370,7 +371,7 @@ In the JSON definition of a block type, use the `enableContextMenu` key:
 }
 ```
 
-## Customize context menus per block type or workspace \{#customize_per_block\}
+## Customize context menus per block type or workspace \{#customize-per-block\}
 
 After Blockly has [generated an array of context menu
 items](#how-context-menus-work), you can customize it for individual blocks or

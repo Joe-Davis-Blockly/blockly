@@ -6,6 +6,7 @@ image: images/blockly_banner.png
 
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
+import ClassBlock from '@site/src/components/ClassBlock';
 
 # Category appearance
 
@@ -48,7 +49,7 @@ The following table lists the types, descriptions, and default CSS classes of
 each part of a category toolbox. If you're having trouble visualizing this, open
 the developer tools in your browser and inspect the toolbox.
 
-| Part type           | Description                                                              | Default CSS class                  |
+| <ClassBlock className="displayTableHeader"> Part type </ClassBlock> | <ClassBlock className="displayTableHeader"> Description </ClassBlock> | <ClassBlock className="displayTableHeader"> Default CSS class </ClassBlock> |
 | ------------------- | ------------------------------------------------------------------------ | ---------------------------------- |
 | contents            | The `div` that contains all categories.                                  | `blocklyToolboxCategoryGroup`      |
 | container           | The `div` that contains a single category and its subcategories.         | `blocklyToolboxCategoryContainer`  |
@@ -59,7 +60,7 @@ the developer tools in your browser and inspect the toolbox.
 
 CSS is also used to label the state of some parts of the toolbox.
 
-| State               | Description                                                              | Default CSS class                  |
+| <ClassBlock className="displayTableHeader"> State </ClassBlock> | <ClassBlock className="displayTableHeader"> Description </ClassBlock> | <ClassBlock className="displayTableHeader"> Default CSS class </ClassBlock> |
 | ------------------- | ------------------------------------------------------------------------ | ---------------------------------- |
 | selected            | Added to the "row" `div` when the category is selected.                  | `blocklyToolboxSelected`           |
 | openicon            | Added to the "icon" `span` when a category with subcategories is open.   | `blocklyToolboxCategoryIconOpen`   |
