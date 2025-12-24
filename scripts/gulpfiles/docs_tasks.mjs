@@ -326,6 +326,8 @@ const convertToMdx = function() {
   return gulp.src(`${DOCS_DIR}/*.md`)
       // Convert HTML comments to MDX comments
       .pipe(replace(/<!--\s*([\s\S]*?)\s*-->/g, '{/* $1 */}'))
+      // Fix malformed markdown links: [text][/path](https://developers.google.com/path) -> [text](/path)
+      .pipe(replace(/\[([^\]]+)\]\[([^\]]+)\]\(https:\/\/developers\.google\.com([^)]+)\)/g, '[$1]($2)'))
       // Fix all internal links: remove .md extension
       .pipe(replace(/\]\(\.\/([^)]+)\.md\)/g, '](./$1)'))
       // Replace developers.google.com links with relative paths

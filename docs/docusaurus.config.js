@@ -69,7 +69,7 @@ const config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/Joe-Davis-Blockly/blockly/tree/cybage-blockly/',
+            'https://github.com/Joe-Davis-Blockly/blockly/tree/cybage-blockly/docs',
           remarkPlugins: [remarkAttributes],
         },
         blog: false,
