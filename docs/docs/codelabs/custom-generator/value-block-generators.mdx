@@ -3,6 +3,8 @@ slug: /codelabs/custom-generator/value-block-generators/index.html
 description: How to write a block code generator for a simple value block.
 ---
 
+import ClassBlock from '@site/src/components/ClassBlock';
+
 # Build a custom generator
 
 ## 5. Value block generators
@@ -15,7 +17,7 @@ It will use `getFieldValue` on several types of fields.
 
 The simplest block in this example is the `logic_null` block.
 
-![The null block simply returns "null".](../../../static/images/codelabs/custom-generator/null_block.png)
+<ClassBlock className="codelabImages">![The null block simply returns "null".](../../../static/images/codelabs/custom-generator/null_block.png)</ClassBlock>
 
 No matter what, it generates the code `'null'`. Notice that this is a string, because all generated code is a string.
 Add the following code to `src/generators/json.js`:
@@ -31,7 +33,7 @@ jsonGenerator.forBlock['logic_null'] = function(block) {
 
 Next is the `text` block.
 
-![The text block has an input for the user to type text into.](../../../static/images/codelabs/custom-generator/text_block.png)
+<ClassBlock className="codelabImages">![The text block has an input for the user to type text into.](../../../static/images/codelabs/custom-generator/text_block.png)</ClassBlock>
 
 Unlike `logic_null`, there is a single text input field on this block. Use `getFieldValue`:
 
@@ -53,7 +55,7 @@ jsonGenerator.forBlock['text'] = function(block) {
 
 The `math_number` block has a number field.
 
-![The number block has an input for a user to type a number](../../../static/images/codelabs/custom-generator/number_block.png)
+<ClassBlock className="codelabImages">![The number block has an input for a user to type a number](../../../static/images/codelabs/custom-generator/number_block.png)</ClassBlock>
 
 Like the `text` block, the `math_number` block can use `getFieldValue`. Unlike the text block, the function doesn't need to wrap it in additional quotation marks, because in the JSON code, it won't be a string.
 
@@ -70,7 +72,7 @@ jsonGenerator.forBlock['math_number'] = function(block) {
 
 The `logic_boolean` block has a dropdown field named `BOOL`.
 
-![The boolean block lets the user select 'true' or 'false' from a dropdown menu.](../../../static/images/codelabs/custom-generator/boolean_block.png)
+<ClassBlock className="codelabImages">![The boolean block lets the user select 'true' or 'false' from a dropdown menu.](../../../static/images/codelabs/custom-generator/boolean_block.png)</ClassBlock>
 
 Calling `getFieldValue` on a dropdown field returns the value of the selected option, which may not be the same as the display text. In this case the dropdown has two possible values: `TRUE` and `FALSE`.
 

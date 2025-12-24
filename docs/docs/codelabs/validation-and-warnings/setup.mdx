@@ -3,6 +3,8 @@ slug: /codelabs/validation-and-warnings/setup/index.html
 description: Setting up the "Block validation and warnings" codelab.
 ---
 
+import ClassBlock from '@site/src/components/ClassBlock';
+
 # Block validation and warnings
 
 ## 2. Setup
@@ -75,7 +77,7 @@ Then, to make this block available from the toolbox, find the toolbox definition
 
 Now, if you reload `index.html` and open the toolbox, you should see the new block at the top:
 
-![A Blockly toolbox containing range, for-each, sum, print, and break blocks.](../../../static/images/codelabs/validation-and-warnings/completed_toolbox.png)
+<ClassBlock className="codelabImages">![A Blockly toolbox containing range, for-each, sum, print, and break blocks.](../../../static/images/codelabs/validation-and-warnings/completed_toolbox.png)</ClassBlock>
 
 ### Generating JavaScript code for the custom block
 You can drag this block out from the toolbox into the workspace, but if you try to use it, you'll find that Blockly doesn't know how to generate JavaScript code from this block yet and error messages will appear in the browser console when it tries to update the display of the generated code. To fix this, add the following code below the custom block definition:
