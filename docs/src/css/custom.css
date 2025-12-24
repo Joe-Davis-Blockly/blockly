@@ -432,3 +432,7 @@ h3{
 [data-theme='dark'] .blockly-badge-dark {
   display: block;
 }
+
+td{
+  vertical-align: top;
+}
