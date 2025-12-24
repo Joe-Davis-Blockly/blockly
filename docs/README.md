@@ -17,7 +17,7 @@ Node.js version 20.0 or above
 ## Installation
 
 ```bash
-cd blockly
+cd blockly/docs
 npm install
 ```
 

@@ -8,8 +8,7 @@ export const referenceSidebar = [
     "type": "category",
     "label": "Classes",
     "collapsible": true,
-    // "collapsed": false,
-    "className": 'hide-level-3',
+    "className": "hide-level-3",
     "items": [
       {
         "type": "category",
@@ -366,13 +365,13 @@ export const referenceSidebar = [
           },
           {
             "type": "doc",
-            "label": "blockly.block_class.isinsertionmarker_1_method",
-            "id": "reference/js/blockly.block_class.isinsertionmarker_1_method"
+            "label": "blockly.block_class.isinsertionmarker__property",
+            "id": "reference/js/blockly.block_class.isinsertionmarker__property"
           },
           {
             "type": "doc",
-            "label": "blockly.block_class.isinsertionmarker__property",
-            "id": "reference/js/blockly.block_class.isinsertionmarker__property"
+            "label": "blockly.block_class.isinsertionmarker_1_method",
+            "id": "reference/js/blockly.block_class.isinsertionmarker_1_method"
           },
           {
             "type": "doc",
@@ -618,9 +617,9 @@ export const referenceSidebar = [
             "type": "doc",
             "label": "blockly.block_class.workspace_property",
             "id": "reference/js/blockly.block_class.workspace_property"
-          }
+          },
         ],
-        "className": 'hide-from-sidebar',
+        "className": "hide-from-sidebar"
       },
       {
         "type": "category",
@@ -689,8 +688,9 @@ export const referenceSidebar = [
             "type": "doc",
             "label": "blockly.blockflyoutinflater_class.setflyout_1_method",
             "id": "reference/js/blockly.blockflyoutinflater_class.setflyout_1_method"
-          }
-        ]
+          },
+        ],
+        "className": "hide-from-sidebar"
       },
       {
         "type": "category",
@@ -729,8 +729,9 @@ export const referenceSidebar = [
             "type": "doc",
             "label": "blockly.blocknavigationpolicy_class.isnavigable_1_method",
             "id": "reference/js/blockly.blocknavigationpolicy_class.isnavigable_1_method"
-          }
-        ]
+          },
+        ],
+        "className": "hide-from-sidebar"
       },
       {
         "type": "category",
@@ -1144,8 +1145,9 @@ export const referenceSidebar = [
             "type": "doc",
             "label": "blockly.blocksvg_class.workspace_property",
             "id": "reference/js/blockly.blocksvg_class.workspace_property"
-          }
-        ]
+          },
+        ],
+        "className": "hide-from-sidebar"
       },
       {
         "type": "category",
@@ -1174,8 +1176,9 @@ export const referenceSidebar = [
             "type": "doc",
             "label": "blockly.buttonflyoutinflater_class.load_1_method",
             "id": "reference/js/blockly.buttonflyoutinflater_class.load_1_method"
-          }
-        ]
+          },
+        ],
+        "className": "hide-from-sidebar"
       },
       {
         "type": "category",
@@ -1344,8 +1347,9 @@ export const referenceSidebar = [
             "type": "doc",
             "label": "blockly.codegenerator_class.workspacetocode_1_method",
             "id": "reference/js/blockly.codegenerator_class.workspacetocode_1_method"
-          }
-        ]
+          },
+        ],
+        "className": "hide-from-sidebar"
       },
       {
         "type": "category",
@@ -1449,8 +1453,9 @@ export const referenceSidebar = [
             "type": "doc",
             "label": "blockly.collapsibletoolboxcategory_class.toolboxitems__property",
             "id": "reference/js/blockly.collapsibletoolboxcategory_class.toolboxitems__property"
-          }
-        ]
+          },
+        ],
+        "className": "hide-from-sidebar"
       },
       {
         "type": "category",
@@ -1499,8 +1504,9 @@ export const referenceSidebar = [
             "type": "doc",
             "label": "blockly.componentmanager_class.removecomponent_1_method",
             "id": "reference/js/blockly.componentmanager_class.removecomponent_1_method"
-          }
-        ]
+          },
+        ],
+        "className": "hide-from-sidebar"
       },
       {
         "type": "category",
@@ -1522,13 +1528,13 @@ export const referenceSidebar = [
           },
           {
             "type": "doc",
-            "label": "blockly.connection_class.connect_1_method",
-            "id": "reference/js/blockly.connection_class.connect_1_method"
+            "label": "blockly.connection_class.connect__1_method",
+            "id": "reference/js/blockly.connection_class.connect__1_method"
           },
           {
             "type": "doc",
-            "label": "blockly.connection_class.connect__1_method",
-            "id": "reference/js/blockly.connection_class.connect__1_method"
+            "label": "blockly.connection_class.connect_1_method",
+            "id": "reference/js/blockly.connection_class.connect_1_method"
           },
           {
             "type": "doc",
@@ -1679,8 +1685,9 @@ export const referenceSidebar = [
             "type": "doc",
             "label": "blockly.connection_class.type_property",
             "id": "reference/js/blockly.connection_class.type_property"
-          }
-        ]
+          },
+        ],
+        "className": "hide-from-sidebar"
       },
       {
         "type": "category",
@@ -1724,8 +1731,9 @@ export const referenceSidebar = [
             "type": "doc",
             "label": "blockly.connectionchecker_class.geterrormessage_1_method",
             "id": "reference/js/blockly.connectionchecker_class.geterrormessage_1_method"
-          }
-        ]
+          },
+        ],
+        "className": "hide-from-sidebar"
       },
       {
         "type": "category",
@@ -1759,8 +1767,9 @@ export const referenceSidebar = [
             "type": "doc",
             "label": "blockly.connectiondb_class.searchforclosest_1_method",
             "id": "reference/js/blockly.connectiondb_class.searchforclosest_1_method"
-          }
-        ]
+          },
+        ],
+        "className": "hide-from-sidebar"
       },
       {
         "type": "category",
@@ -1804,8 +1813,9 @@ export const referenceSidebar = [
             "type": "doc",
             "label": "blockly.connectionnavigationpolicy_class.isnavigable_1_method",
             "id": "reference/js/blockly.connectionnavigationpolicy_class.isnavigable_1_method"
-          }
-        ]
+          },
+        ],
+        "className": "hide-from-sidebar"
       },
       {
         "type": "category",
@@ -1849,8 +1859,9 @@ export const referenceSidebar = [
             "type": "doc",
             "label": "blockly.contextmenuregistry_class.unregister_1_method",
             "id": "reference/js/blockly.contextmenuregistry_class.unregister_1_method"
-          }
-        ]
+          },
+        ],
+        "className": "hide-from-sidebar"
       },
       {
         "type": "category",
@@ -1877,15 +1888,16 @@ export const referenceSidebar = [
           },
           {
             "type": "doc",
-            "label": "blockly.deletearea_class.woulddelete_1_method",
-            "id": "reference/js/blockly.deletearea_class.woulddelete_1_method"
+            "label": "blockly.deletearea_class.woulddelete__property",
+            "id": "reference/js/blockly.deletearea_class.woulddelete__property"
           },
           {
             "type": "doc",
-            "label": "blockly.deletearea_class.woulddelete__property",
-            "id": "reference/js/blockly.deletearea_class.woulddelete__property"
-          }
-        ]
+            "label": "blockly.deletearea_class.woulddelete_1_method",
+            "id": "reference/js/blockly.deletearea_class.woulddelete_1_method"
+          },
+        ],
+        "className": "hide-from-sidebar"
       },
       {
         "type": "category",
@@ -1934,8 +1946,9 @@ export const referenceSidebar = [
             "type": "doc",
             "label": "blockly.dragtarget_class.shouldpreventmove_1_method",
             "id": "reference/js/blockly.dragtarget_class.shouldpreventmove_1_method"
-          }
-        ]
+          },
+        ],
+        "className": "hide-from-sidebar"
       },
       {
         "type": "category",
@@ -2019,8 +2032,9 @@ export const referenceSidebar = [
             "type": "doc",
             "label": "blockly.fieldcheckbox_class.value__property",
             "id": "reference/js/blockly.fieldcheckbox_class.value__property"
-          }
-        ]
+          },
+        ],
+        "className": "hide-from-sidebar"
       },
       {
         "type": "category",
@@ -2169,8 +2183,9 @@ export const referenceSidebar = [
             "type": "doc",
             "label": "blockly.fielddropdown_class.validateoptions_1_method",
             "id": "reference/js/blockly.fielddropdown_class.validateoptions_1_method"
-          }
-        ]
+          },
+        ],
+        "className": "hide-from-sidebar"
       },
       {
         "type": "category",
@@ -2259,8 +2274,9 @@ export const referenceSidebar = [
             "type": "doc",
             "label": "blockly.fieldimage_class.updatesize__1_method",
             "id": "reference/js/blockly.fieldimage_class.updatesize__1_method"
-          }
-        ]
+          },
+        ],
+        "className": "hide-from-sidebar"
       },
       {
         "type": "category",
@@ -2304,8 +2320,9 @@ export const referenceSidebar = [
             "type": "doc",
             "label": "blockly.fieldlabel_class.setclass_1_method",
             "id": "reference/js/blockly.fieldlabel_class.setclass_1_method"
-          }
-        ]
+          },
+        ],
+        "className": "hide-from-sidebar"
       },
       {
         "type": "category",
@@ -2329,8 +2346,9 @@ export const referenceSidebar = [
             "type": "doc",
             "label": "blockly.fieldlabelserializable_class.serializable_property",
             "id": "reference/js/blockly.fieldlabelserializable_class.serializable_property"
-          }
-        ]
+          },
+        ],
+        "className": "hide-from-sidebar"
       },
       {
         "type": "category",
@@ -2369,8 +2387,9 @@ export const referenceSidebar = [
             "type": "doc",
             "label": "blockly.fieldnavigationpolicy_class.isnavigable_1_method",
             "id": "reference/js/blockly.fieldnavigationpolicy_class.isnavigable_1_method"
-          }
-        ]
+          },
+        ],
+        "className": "hide-from-sidebar"
       },
       {
         "type": "category",
@@ -2459,8 +2478,9 @@ export const referenceSidebar = [
             "type": "doc",
             "label": "blockly.fieldnumber_class.widgetcreate__1_method",
             "id": "reference/js/blockly.fieldnumber_class.widgetcreate__1_method"
-          }
-        ]
+          },
+        ],
+        "className": "hide-from-sidebar"
       },
       {
         "type": "category",
@@ -2484,8 +2504,9 @@ export const referenceSidebar = [
             "type": "doc",
             "label": "blockly.fieldtextinput_class.initview_1_method",
             "id": "reference/js/blockly.fieldtextinput_class.initview_1_method"
-          }
-        ]
+          },
+        ],
+        "className": "hide-from-sidebar"
       },
       {
         "type": "category",
@@ -2594,8 +2615,9 @@ export const referenceSidebar = [
             "type": "doc",
             "label": "blockly.fieldvariable_class.variabletypes_property",
             "id": "reference/js/blockly.fieldvariable_class.variabletypes_property"
-          }
-        ]
+          },
+        ],
+        "className": "hide-from-sidebar"
       },
       {
         "type": "category",
@@ -2609,6 +2631,11 @@ export const referenceSidebar = [
             "type": "doc",
             "label": "blockly.flyoutbutton_class.border_radius_property",
             "id": "reference/js/blockly.flyoutbutton_class.border_radius_property"
+          },
+          {
+            "type": "doc",
+            "label": "blockly.flyoutbutton_class.callbackkey_property",
+            "id": "reference/js/blockly.flyoutbutton_class.callbackkey_property"
           },
           {
             "type": "doc",
@@ -2724,8 +2751,9 @@ export const referenceSidebar = [
             "type": "doc",
             "label": "blockly.flyoutbutton_class.width_property",
             "id": "reference/js/blockly.flyoutbutton_class.width_property"
-          }
-        ]
+          },
+        ],
+        "className": "hide-from-sidebar"
       },
       {
         "type": "category",
@@ -2764,8 +2792,9 @@ export const referenceSidebar = [
             "type": "doc",
             "label": "blockly.flyoutbuttonnavigationpolicy_class.isnavigable_1_method",
             "id": "reference/js/blockly.flyoutbuttonnavigationpolicy_class.isnavigable_1_method"
-          }
-        ]
+          },
+        ],
+        "className": "hide-from-sidebar"
       },
       {
         "type": "category",
@@ -2789,8 +2818,9 @@ export const referenceSidebar = [
             "type": "doc",
             "label": "blockly.flyoutitem_class.gettype_1_method",
             "id": "reference/js/blockly.flyoutitem_class.gettype_1_method"
-          }
-        ]
+          },
+        ],
+        "className": "hide-from-sidebar"
       },
       {
         "type": "category",
@@ -2819,8 +2849,9 @@ export const referenceSidebar = [
             "type": "doc",
             "label": "blockly.flyoutmetricsmanager_class.getscrollmetrics_1_method",
             "id": "reference/js/blockly.flyoutmetricsmanager_class.getscrollmetrics_1_method"
-          }
-        ]
+          },
+        ],
+        "className": "hide-from-sidebar"
       },
       {
         "type": "category",
@@ -2864,8 +2895,9 @@ export const referenceSidebar = [
             "type": "doc",
             "label": "blockly.flyoutnavigationpolicy_class.isnavigable_1_method",
             "id": "reference/js/blockly.flyoutnavigationpolicy_class.isnavigable_1_method"
-          }
-        ]
+          },
+        ],
+        "className": "hide-from-sidebar"
       },
       {
         "type": "category",
@@ -2879,8 +2911,9 @@ export const referenceSidebar = [
             "type": "doc",
             "label": "blockly.flyoutnavigator_class._constructor__1_constructor",
             "id": "reference/js/blockly.flyoutnavigator_class._constructor__1_constructor"
-          }
-        ]
+          },
+        ],
+        "className": "hide-from-sidebar"
       },
       {
         "type": "category",
@@ -2934,8 +2967,9 @@ export const referenceSidebar = [
             "type": "doc",
             "label": "blockly.flyoutseparator_class.onnodefocus_1_method",
             "id": "reference/js/blockly.flyoutseparator_class.onnodefocus_1_method"
-          }
-        ]
+          },
+        ],
+        "className": "hide-from-sidebar"
       },
       {
         "type": "category",
@@ -2974,8 +3008,9 @@ export const referenceSidebar = [
             "type": "doc",
             "label": "blockly.flyoutseparatornavigationpolicy_class.isnavigable_1_method",
             "id": "reference/js/blockly.flyoutseparatornavigationpolicy_class.isnavigable_1_method"
-          }
-        ]
+          },
+        ],
+        "className": "hide-from-sidebar"
       },
       {
         "type": "category",
@@ -2994,8 +3029,9 @@ export const referenceSidebar = [
             "type": "doc",
             "label": "blockly.focusabletreetraverser_class.findfocusednode_1_method",
             "id": "reference/js/blockly.focusabletreetraverser_class.findfocusednode_1_method"
-          }
-        ]
+          },
+        ],
+        "className": "hide-from-sidebar"
       },
       {
         "type": "category",
@@ -3069,8 +3105,9 @@ export const referenceSidebar = [
             "type": "doc",
             "label": "blockly.focusmanager_class.unregistertree_1_method",
             "id": "reference/js/blockly.focusmanager_class.unregistertree_1_method"
-          }
-        ]
+          },
+        ],
+        "className": "hide-from-sidebar"
       },
       {
         "type": "category",
@@ -3109,8 +3146,9 @@ export const referenceSidebar = [
             "type": "doc",
             "label": "blockly.gesture_class.startworkspace__property",
             "id": "reference/js/blockly.gesture_class.startworkspace__property"
-          }
-        ]
+          },
+        ],
+        "className": "hide-from-sidebar"
       },
       {
         "type": "category",
@@ -3159,8 +3197,9 @@ export const referenceSidebar = [
             "type": "doc",
             "label": "blockly.grid_class.shouldsnap_1_method",
             "id": "reference/js/blockly.grid_class.shouldsnap_1_method"
-          }
-        ]
+          },
+        ],
+        "className": "hide-from-sidebar"
       },
       {
         "type": "category",
@@ -3229,8 +3268,9 @@ export const referenceSidebar = [
             "type": "doc",
             "label": "blockly.horizontalflyout_class.wheel__1_method",
             "id": "reference/js/blockly.horizontalflyout_class.wheel__1_method"
-          }
-        ]
+          },
+        ],
+        "className": "hide-from-sidebar"
       },
       {
         "type": "category",
@@ -3329,8 +3369,9 @@ export const referenceSidebar = [
             "type": "doc",
             "label": "blockly.input_class.type_property",
             "id": "reference/js/blockly.input_class.type_property"
-          }
-        ]
+          },
+        ],
+        "className": "hide-from-sidebar"
       },
       {
         "type": "category",
@@ -3369,8 +3410,9 @@ export const referenceSidebar = [
             "type": "doc",
             "label": "blockly.insertionmarkerpreviewer_class.serializeblocktoinsertionmarker_1_method",
             "id": "reference/js/blockly.insertionmarkerpreviewer_class.serializeblocktoinsertionmarker_1_method"
-          }
-        ]
+          },
+        ],
+        "className": "hide-from-sidebar"
       },
       {
         "type": "category",
@@ -3389,8 +3431,9 @@ export const referenceSidebar = [
             "type": "doc",
             "label": "blockly.keyboardnavigationcontroller_class.setisactive_1_method",
             "id": "reference/js/blockly.keyboardnavigationcontroller_class.setisactive_1_method"
-          }
-        ]
+          },
+        ],
+        "className": "hide-from-sidebar"
       },
       {
         "type": "category",
@@ -3419,8 +3462,9 @@ export const referenceSidebar = [
             "type": "doc",
             "label": "blockly.labelflyoutinflater_class.load_1_method",
             "id": "reference/js/blockly.labelflyoutinflater_class.load_1_method"
-          }
-        ]
+          },
+        ],
+        "className": "hide-from-sidebar"
       },
       {
         "type": "category",
@@ -3509,8 +3553,9 @@ export const referenceSidebar = [
             "type": "doc",
             "label": "blockly.linecursor_class.workspace_property",
             "id": "reference/js/blockly.linecursor_class.workspace_property"
-          }
-        ]
+          },
+        ],
+        "className": "hide-from-sidebar"
       },
       {
         "type": "category",
@@ -3559,8 +3604,9 @@ export const referenceSidebar = [
             "type": "doc",
             "label": "blockly.marker_class.type_property",
             "id": "reference/js/blockly.marker_class.type_property"
-          }
-        ]
+          },
+        ],
+        "className": "hide-from-sidebar"
       },
       {
         "type": "category",
@@ -3599,8 +3645,9 @@ export const referenceSidebar = [
             "type": "doc",
             "label": "blockly.markermanager_class.unregistermarker_1_method",
             "id": "reference/js/blockly.markermanager_class.unregistermarker_1_method"
-          }
-        ]
+          },
+        ],
+        "className": "hide-from-sidebar"
       },
       {
         "type": "category",
@@ -3629,8 +3676,9 @@ export const referenceSidebar = [
             "type": "doc",
             "label": "blockly.menu_class.render_1_method",
             "id": "reference/js/blockly.menu_class.render_1_method"
-          }
-        ]
+          },
+        ],
+        "className": "hide-from-sidebar"
       },
       {
         "type": "category",
@@ -3654,8 +3702,9 @@ export const referenceSidebar = [
             "type": "doc",
             "label": "blockly.menuitem_class.dispose_1_method",
             "id": "reference/js/blockly.menuitem_class.dispose_1_method"
-          }
-        ]
+          },
+        ],
+        "className": "hide-from-sidebar"
       },
       {
         "type": "category",
@@ -3734,8 +3783,9 @@ export const referenceSidebar = [
             "type": "doc",
             "label": "blockly.metricsmanager_class.workspace__property",
             "id": "reference/js/blockly.metricsmanager_class.workspace__property"
-          }
-        ]
+          },
+        ],
+        "className": "hide-from-sidebar"
       },
       {
         "type": "category",
@@ -3794,8 +3844,9 @@ export const referenceSidebar = [
             "type": "doc",
             "label": "blockly.names_class.setvariablemap_1_method",
             "id": "reference/js/blockly.names_class.setvariablemap_1_method"
-          }
-        ]
+          },
+        ],
+        "className": "hide-from-sidebar"
       },
       {
         "type": "category",
@@ -3834,8 +3885,9 @@ export const referenceSidebar = [
             "type": "doc",
             "label": "blockly.navigator_class.rules_property",
             "id": "reference/js/blockly.navigator_class.rules_property"
-          }
-        ]
+          },
+        ],
+        "className": "hide-from-sidebar"
       },
       {
         "type": "category",
@@ -3999,8 +4051,9 @@ export const referenceSidebar = [
             "type": "doc",
             "label": "blockly.options_class.zoomoptions_property",
             "id": "reference/js/blockly.options_class.zoomoptions_property"
-          }
-        ]
+          },
+        ],
+        "className": "hide-from-sidebar"
       },
       {
         "type": "category",
@@ -4144,8 +4197,9 @@ export const referenceSidebar = [
             "type": "doc",
             "label": "blockly.renderedconnection_class.unhighlight_1_method",
             "id": "reference/js/blockly.renderedconnection_class.unhighlight_1_method"
-          }
-        ]
+          },
+        ],
+        "className": "hide-from-sidebar"
       },
       {
         "type": "category",
@@ -4259,8 +4313,9 @@ export const referenceSidebar = [
             "type": "doc",
             "label": "blockly.scrollbar_class.updatedisplay__1_method",
             "id": "reference/js/blockly.scrollbar_class.updatedisplay__1_method"
-          }
-        ]
+          },
+        ],
+        "className": "hide-from-sidebar"
       },
       {
         "type": "category",
@@ -4349,8 +4404,9 @@ export const referenceSidebar = [
             "type": "doc",
             "label": "blockly.scrollbarpair_class.vscroll_property",
             "id": "reference/js/blockly.scrollbarpair_class.vscroll_property"
-          }
-        ]
+          },
+        ],
+        "className": "hide-from-sidebar"
       },
       {
         "type": "category",
@@ -4379,8 +4435,9 @@ export const referenceSidebar = [
             "type": "doc",
             "label": "blockly.separatorflyoutinflater_class.load_1_method",
             "id": "reference/js/blockly.separatorflyoutinflater_class.load_1_method"
-          }
-        ]
+          },
+        ],
+        "className": "hide-from-sidebar"
       },
       {
         "type": "category",
@@ -4459,8 +4516,9 @@ export const referenceSidebar = [
             "type": "doc",
             "label": "blockly.shortcutregistry_class.unregister_1_method",
             "id": "reference/js/blockly.shortcutregistry_class.unregister_1_method"
-          }
-        ]
+          },
+        ],
+        "className": "hide-from-sidebar"
       },
       {
         "type": "category",
@@ -4514,23 +4572,14 @@ export const referenceSidebar = [
             "type": "doc",
             "label": "blockly.theme_class.setstarthats_1_method",
             "id": "reference/js/blockly.theme_class.setstarthats_1_method"
-          }
-        ]
+          },
+        ],
+        "className": "hide-from-sidebar"
       },
       {
-        "type": "category",
+        "type": "doc",
         "label": "ThemeManager",
-        "link": {
-          "type": "doc",
-          "id": "reference/js/blockly.thememanager_class"
-        },
-        "items": [
-          {
-            "type": "doc",
-            "label": "Label",
-            "id": "reference/js/blockly.thememanager_class"
-          }
-        ]
+        "id": "reference/js/blockly.thememanager_class"
       },
       {
         "type": "category",
@@ -4554,8 +4603,9 @@ export const referenceSidebar = [
             "type": "doc",
             "label": "blockly.toast_class.show_1_method",
             "id": "reference/js/blockly.toast_class.show_1_method"
-          }
-        ]
+          },
+        ],
+        "className": "hide-from-sidebar"
       },
       {
         "type": "category",
@@ -4894,8 +4944,9 @@ export const referenceSidebar = [
             "type": "doc",
             "label": "blockly.toolbox_class.woulddelete_1_method",
             "id": "reference/js/blockly.toolbox_class.woulddelete_1_method"
-          }
-        ]
+          },
+        ],
+        "className": "hide-from-sidebar"
       },
       {
         "type": "category",
@@ -5144,8 +5195,9 @@ export const referenceSidebar = [
             "type": "doc",
             "label": "blockly.toolboxcategory_class.updateflyoutcontents_1_method",
             "id": "reference/js/blockly.toolboxcategory_class.updateflyoutcontents_1_method"
-          }
-        ]
+          },
+        ],
+        "className": "hide-from-sidebar"
       },
       {
         "type": "category",
@@ -5259,8 +5311,9 @@ export const referenceSidebar = [
             "type": "doc",
             "label": "blockly.toolboxitem_class.workspace__property",
             "id": "reference/js/blockly.toolboxitem_class.workspace__property"
-          }
-        ]
+          },
+        ],
+        "className": "hide-from-sidebar"
       },
       {
         "type": "category",
@@ -5304,8 +5357,9 @@ export const referenceSidebar = [
             "type": "doc",
             "label": "blockly.toolboxseparator_class.registrationname_property",
             "id": "reference/js/blockly.toolboxseparator_class.registrationname_property"
-          }
-        ]
+          },
+        ],
+        "className": "hide-from-sidebar"
       },
       {
         "type": "category",
@@ -5409,23 +5463,14 @@ export const referenceSidebar = [
             "type": "doc",
             "label": "blockly.trashcan_class.position_1_method",
             "id": "reference/js/blockly.trashcan_class.position_1_method"
-          }
-        ]
+          },
+        ],
+        "className": "hide-from-sidebar"
       },
       {
-        "type": "category",
+        "type": "doc",
         "label": "UnattachedFieldError",
-        "link": {
-          "type": "doc",
-          "id": "reference/js/blockly.unattachedfielderror_class"
-        },
-        "items": [
-          {
-            "type": "doc",
-            "label": "Label",
-            "id": "reference/js/blockly.unattachedfielderror_class"
-          }
-        ]
+        "id": "reference/js/blockly.unattachedfielderror_class"
       },
       {
         "type": "category",
@@ -5524,8 +5569,9 @@ export const referenceSidebar = [
             "type": "doc",
             "label": "blockly.variablemap_class.workspace_property",
             "id": "reference/js/blockly.variablemap_class.workspace_property"
-          }
-        ]
+          },
+        ],
+        "className": "hide-from-sidebar"
       },
       {
         "type": "category",
@@ -5579,8 +5625,9 @@ export const referenceSidebar = [
             "type": "doc",
             "label": "blockly.variablemodel_class.settype_1_method",
             "id": "reference/js/blockly.variablemodel_class.settype_1_method"
-          }
-        ]
+          },
+        ],
+        "className": "hide-from-sidebar"
       },
       {
         "type": "category",
@@ -5649,8 +5696,9 @@ export const referenceSidebar = [
             "type": "doc",
             "label": "blockly.verticalflyout_class.wheel__1_method",
             "id": "reference/js/blockly.verticalflyout_class.wheel__1_method"
-          }
-        ]
+          },
+        ],
+        "className": "hide-from-sidebar"
       },
       {
         "type": "category",
@@ -5949,8 +5997,9 @@ export const referenceSidebar = [
             "type": "doc",
             "label": "blockly.workspace_class.undostack__property",
             "id": "reference/js/blockly.workspace_class.undostack__property"
-          }
-        ]
+          },
+        ],
+        "className": "hide-from-sidebar"
       },
       {
         "type": "category",
@@ -5984,8 +6033,9 @@ export const referenceSidebar = [
             "type": "doc",
             "label": "blockly.workspaceaudio_class.setmuted_1_method",
             "id": "reference/js/blockly.workspaceaudio_class.setmuted_1_method"
-          }
-        ]
+          },
+        ],
+        "className": "hide-from-sidebar"
       },
       {
         "type": "category",
@@ -6004,8 +6054,9 @@ export const referenceSidebar = [
             "type": "doc",
             "label": "blockly.workspacedragger_class.startscrollxy__property",
             "id": "reference/js/blockly.workspacedragger_class.startscrollxy__property"
-          }
-        ]
+          },
+        ],
+        "className": "hide-from-sidebar"
       },
       {
         "type": "category",
@@ -6044,8 +6095,9 @@ export const referenceSidebar = [
             "type": "doc",
             "label": "blockly.workspacenavigationpolicy_class.isnavigable_1_method",
             "id": "reference/js/blockly.workspacenavigationpolicy_class.isnavigable_1_method"
-          }
-        ]
+          },
+        ],
+        "className": "hide-from-sidebar"
       },
       {
         "type": "category",
@@ -6604,8 +6656,9 @@ export const referenceSidebar = [
             "type": "doc",
             "label": "blockly.workspacesvg_class.zoomtofit_1_method",
             "id": "reference/js/blockly.workspacesvg_class.zoomtofit_1_method"
-          }
-        ]
+          },
+        ],
+        "className": "hide-from-sidebar"
       },
       {
         "type": "category",
@@ -6649,17 +6702,17 @@ export const referenceSidebar = [
             "type": "doc",
             "label": "blockly.zoomcontrols_class.position_1_method",
             "id": "reference/js/blockly.zoomcontrols_class.position_1_method"
-          }
-        ]
-      }
+          },
+        ],
+        "className": "hide-from-sidebar"
+      },
     ]
   },
   {
     "type": "category",
     "label": "Abstract Classes",
     "collapsible": true,
-    // "collapsed": false,
-    "className": 'hide-level-3',
+    "className": "hide-level-3",
     "items": [
       {
         "type": "category",
@@ -6836,13 +6889,13 @@ export const referenceSidebar = [
           },
           {
             "type": "doc",
-            "label": "blockly.field_class.gettext_1_method",
-            "id": "reference/js/blockly.field_class.gettext_1_method"
+            "label": "blockly.field_class.gettext__1_method",
+            "id": "reference/js/blockly.field_class.gettext__1_method"
           },
           {
             "type": "doc",
-            "label": "blockly.field_class.gettext__1_method",
-            "id": "reference/js/blockly.field_class.gettext__1_method"
+            "label": "blockly.field_class.gettext_1_method",
+            "id": "reference/js/blockly.field_class.gettext_1_method"
           },
           {
             "type": "doc",
@@ -7093,8 +7146,9 @@ export const referenceSidebar = [
             "type": "doc",
             "label": "blockly.field_class.visible__property",
             "id": "reference/js/blockly.field_class.visible__property"
-          }
-        ]
+          },
+        ],
+        "className": "hide-from-sidebar"
       },
       {
         "type": "category",
@@ -7403,290 +7457,118 @@ export const referenceSidebar = [
             "type": "doc",
             "label": "blockly.flyout_class.workspace__property",
             "id": "reference/js/blockly.flyout_class.workspace__property"
-          }
-        ]
-      }
+          },
+        ],
+        "className": "hide-from-sidebar"
+      },
     ]
   },
   {
     "type": "category",
     "label": "Enumerations",
     "collapsible": true,
-    // "collapsed": false,
-    "className": 'hide-level-3',
+    "className": "hide-level-3",
     "items": [
       {
-        "type": "category",
+        "type": "doc",
         "label": "ConnectionType",
-        "link": {
-          "type": "doc",
-          "id": "reference/js/blockly.connectiontype_enum"
-        },
-        "items": [
-          {
-            "type": "doc",
-            "label": "Label",
-            "id": "reference/js/blockly.connectiontype_enum"
-          }
-        ]
-      }
+        "id": "reference/js/blockly.connectiontype_enum"
+      },
     ]
   },
   {
     "type": "category",
     "label": "Functions",
     "collapsible": true,
-    // "collapsed": false,
-    "className": 'hide-level-3',
+    "className": "hide-level-3",
     "items": [
       {
-        "type": "category",
+        "type": "doc",
         "label": "getFocusManager()",
-        "link": {
-          "type": "doc",
-          "id": "reference/js/blockly.getfocusmanager_1_function"
-        },
-        "items": [
-          {
-            "type": "doc",
-            "label": "Label",
-            "id": "reference/js/blockly.getfocusmanager_1_function"
-          }
-        ]
+        "id": "reference/js/blockly.getfocusmanager_1_function"
       },
       {
-        "type": "category",
+        "type": "doc",
         "label": "hasBubble(obj)",
-        "link": {
-          "type": "doc",
-          "id": "reference/js/blockly.hasbubble_1_function"
-        },
-        "items": [
-          {
-            "type": "doc",
-            "label": "Label",
-            "id": "reference/js/blockly.hasbubble_1_function"
-          }
-        ]
+        "id": "reference/js/blockly.hasbubble_1_function"
       },
       {
-        "type": "category",
+        "type": "doc",
         "label": "hideChaff(opt_onlyClosePopups)",
-        "link": {
-          "type": "doc",
-          "id": "reference/js/blockly.hidechaff_1_function"
-        },
-        "items": [
-          {
-            "type": "doc",
-            "label": "Label",
-            "id": "reference/js/blockly.hidechaff_1_function"
-          }
-        ]
+        "id": "reference/js/blockly.hidechaff_1_function"
       },
       {
-        "type": "category",
+        "type": "doc",
         "label": "inject(container, opt_options)",
-        "link": {
-          "type": "doc",
-          "id": "reference/js/blockly.inject_1_function"
-        },
-        "items": [
-          {
-            "type": "doc",
-            "label": "Label",
-            "id": "reference/js/blockly.inject_1_function"
-          }
-        ]
+        "id": "reference/js/blockly.inject_1_function"
       },
       {
-        "type": "category",
+        "type": "doc",
         "label": "isCopyable(obj)",
-        "link": {
-          "type": "doc",
-          "id": "reference/js/blockly.iscopyable_1_function"
-        },
-        "items": [
-          {
-            "type": "doc",
-            "label": "Label",
-            "id": "reference/js/blockly.iscopyable_1_function"
-          }
-        ]
+        "id": "reference/js/blockly.iscopyable_1_function"
       },
       {
-        "type": "category",
+        "type": "doc",
         "label": "isDeletable(obj)",
-        "link": {
-          "type": "doc",
-          "id": "reference/js/blockly.isdeletable_1_function"
-        },
-        "items": [
-          {
-            "type": "doc",
-            "label": "Label",
-            "id": "reference/js/blockly.isdeletable_1_function"
-          }
-        ]
+        "id": "reference/js/blockly.isdeletable_1_function"
       },
       {
-        "type": "category",
+        "type": "doc",
         "label": "isDraggable(obj)",
-        "link": {
-          "type": "doc",
-          "id": "reference/js/blockly.isdraggable_1_function"
-        },
-        "items": [
-          {
-            "type": "doc",
-            "label": "Label",
-            "id": "reference/js/blockly.isdraggable_1_function"
-          }
-        ]
+        "id": "reference/js/blockly.isdraggable_1_function"
       },
       {
-        "type": "category",
+        "type": "doc",
         "label": "isIcon(obj)",
-        "link": {
-          "type": "doc",
-          "id": "reference/js/blockly.isicon_1_function"
-        },
-        "items": [
-          {
-            "type": "doc",
-            "label": "Label",
-            "id": "reference/js/blockly.isicon_1_function"
-          }
-        ]
+        "id": "reference/js/blockly.isicon_1_function"
       },
       {
-        "type": "category",
+        "type": "doc",
         "label": "isPaster(obj)",
-        "link": {
-          "type": "doc",
-          "id": "reference/js/blockly.ispaster_1_function"
-        },
-        "items": [
-          {
-            "type": "doc",
-            "label": "Label",
-            "id": "reference/js/blockly.ispaster_1_function"
-          }
-        ]
+        "id": "reference/js/blockly.ispaster_1_function"
       },
       {
-        "type": "category",
+        "type": "doc",
         "label": "isRenderedElement(obj)",
-        "link": {
-          "type": "doc",
-          "id": "reference/js/blockly.isrenderedelement_1_function"
-        },
-        "items": [
-          {
-            "type": "doc",
-            "label": "Label",
-            "id": "reference/js/blockly.isrenderedelement_1_function"
-          }
-        ]
+        "id": "reference/js/blockly.isrenderedelement_1_function"
       },
       {
-        "type": "category",
+        "type": "doc",
         "label": "isSelectable(obj)",
-        "link": {
-          "type": "doc",
-          "id": "reference/js/blockly.isselectable_1_function"
-        },
-        "items": [
-          {
-            "type": "doc",
-            "label": "Label",
-            "id": "reference/js/blockly.isselectable_1_function"
-          }
-        ]
+        "id": "reference/js/blockly.isselectable_1_function"
       },
       {
-        "type": "category",
+        "type": "doc",
         "label": "isSerializable(obj)",
-        "link": {
-          "type": "doc",
-          "id": "reference/js/blockly.isserializable_1_function"
-        },
-        "items": [
-          {
-            "type": "doc",
-            "label": "Label",
-            "id": "reference/js/blockly.isserializable_1_function"
-          }
-        ]
+        "id": "reference/js/blockly.isserializable_1_function"
       },
       {
-        "type": "category",
+        "type": "doc",
         "label": "isVariableBackedParameterModel(param)",
-        "link": {
-          "type": "doc",
-          "id": "reference/js/blockly.isvariablebackedparametermodel_1_function"
-        },
-        "items": [
-          {
-            "type": "doc",
-            "label": "Label",
-            "id": "reference/js/blockly.isvariablebackedparametermodel_1_function"
-          }
-        ]
+        "id": "reference/js/blockly.isvariablebackedparametermodel_1_function"
       },
       {
-        "type": "category",
+        "type": "doc",
         "label": "navigateBlock(current, delta)",
-        "link": {
-          "type": "doc",
-          "id": "reference/js/blockly.navigateblock_1_function"
-        },
-        "items": [
-          {
-            "type": "doc",
-            "label": "Label",
-            "id": "reference/js/blockly.navigateblock_1_function"
-          }
-        ]
+        "id": "reference/js/blockly.navigateblock_1_function"
       },
       {
-        "type": "category",
+        "type": "doc",
         "label": "navigateStacks(current, delta)",
-        "link": {
-          "type": "doc",
-          "id": "reference/js/blockly.navigatestacks_1_function"
-        },
-        "items": [
-          {
-            "type": "doc",
-            "label": "Label",
-            "id": "reference/js/blockly.navigatestacks_1_function"
-          }
-        ]
+        "id": "reference/js/blockly.navigatestacks_1_function"
       },
       {
-        "type": "category",
+        "type": "doc",
         "label": "setLocale(locale)",
-        "link": {
-          "type": "doc",
-          "id": "reference/js/blockly.setlocale_1_function"
-        },
-        "items": [
-          {
-            "type": "doc",
-            "label": "Label",
-            "id": "reference/js/blockly.setlocale_1_function"
-          }
-        ]
-      }
+        "id": "reference/js/blockly.setlocale_1_function"
+      },
     ]
   },
   {
     "type": "category",
     "label": "Interfaces",
     "collapsible": true,
-    // "collapsed": false,
-    "className": 'hide-level-3',
+    "className": "hide-level-3",
     "items": [
       {
         "type": "category",
@@ -7825,8 +7707,8 @@ export const referenceSidebar = [
             "type": "doc",
             "label": "blockly.blocklyoptions_interface.zoom_propertysignature",
             "id": "reference/js/blockly.blocklyoptions_interface.zoom_propertysignature"
-          }
-        ]
+          },
+        ],
       },
       {
         "type": "category",
@@ -7840,8 +7722,8 @@ export const referenceSidebar = [
             "type": "doc",
             "label": "blockly.fieldcheckboxconfig_interface.checkcharacter_propertysignature",
             "id": "reference/js/blockly.fieldcheckboxconfig_interface.checkcharacter_propertysignature"
-          }
-        ]
+          },
+        ],
       },
       {
         "type": "category",
@@ -7855,8 +7737,8 @@ export const referenceSidebar = [
             "type": "doc",
             "label": "blockly.fieldcheckboxfromjsonconfig_interface.checked_propertysignature",
             "id": "reference/js/blockly.fieldcheckboxfromjsonconfig_interface.checked_propertysignature"
-          }
-        ]
+          },
+        ],
       },
       {
         "type": "category",
@@ -7870,8 +7752,8 @@ export const referenceSidebar = [
             "type": "doc",
             "label": "blockly.fieldconfig_interface.tooltip_propertysignature",
             "id": "reference/js/blockly.fieldconfig_interface.tooltip_propertysignature"
-          }
-        ]
+          },
+        ],
       },
       {
         "type": "category",
@@ -7885,8 +7767,8 @@ export const referenceSidebar = [
             "type": "doc",
             "label": "blockly.fielddropdownfromjsonconfig_interface.options_propertysignature",
             "id": "reference/js/blockly.fielddropdownfromjsonconfig_interface.options_propertysignature"
-          }
-        ]
+          },
+        ],
       },
       {
         "type": "category",
@@ -7905,8 +7787,8 @@ export const referenceSidebar = [
             "type": "doc",
             "label": "blockly.fieldimageconfig_interface.fliprtl_propertysignature",
             "id": "reference/js/blockly.fieldimageconfig_interface.fliprtl_propertysignature"
-          }
-        ]
+          },
+        ],
       },
       {
         "type": "category",
@@ -7930,8 +7812,8 @@ export const referenceSidebar = [
             "type": "doc",
             "label": "blockly.fieldimagefromjsonconfig_interface.width_propertysignature",
             "id": "reference/js/blockly.fieldimagefromjsonconfig_interface.width_propertysignature"
-          }
-        ]
+          },
+        ],
       },
       {
         "type": "category",
@@ -7945,8 +7827,8 @@ export const referenceSidebar = [
             "type": "doc",
             "label": "blockly.fieldlabelconfig_interface.class_propertysignature",
             "id": "reference/js/blockly.fieldlabelconfig_interface.class_propertysignature"
-          }
-        ]
+          },
+        ],
       },
       {
         "type": "category",
@@ -7960,8 +7842,8 @@ export const referenceSidebar = [
             "type": "doc",
             "label": "blockly.fieldlabelfromjsonconfig_interface.text_propertysignature",
             "id": "reference/js/blockly.fieldlabelfromjsonconfig_interface.text_propertysignature"
-          }
-        ]
+          },
+        ],
       },
       {
         "type": "category",
@@ -7985,8 +7867,8 @@ export const referenceSidebar = [
             "type": "doc",
             "label": "blockly.fieldnumberconfig_interface.precision_propertysignature",
             "id": "reference/js/blockly.fieldnumberconfig_interface.precision_propertysignature"
-          }
-        ]
+          },
+        ],
       },
       {
         "type": "category",
@@ -8000,8 +7882,8 @@ export const referenceSidebar = [
             "type": "doc",
             "label": "blockly.fieldnumberfromjsonconfig_interface.value_propertysignature",
             "id": "reference/js/blockly.fieldnumberfromjsonconfig_interface.value_propertysignature"
-          }
-        ]
+          },
+        ],
       },
       {
         "type": "category",
@@ -8015,8 +7897,8 @@ export const referenceSidebar = [
             "type": "doc",
             "label": "blockly.fieldtextinputfromjsonconfig_interface.text_propertysignature",
             "id": "reference/js/blockly.fieldtextinputfromjsonconfig_interface.text_propertysignature"
-          }
-        ]
+          },
+        ],
       },
       {
         "type": "category",
@@ -8035,8 +7917,8 @@ export const referenceSidebar = [
             "type": "doc",
             "label": "blockly.fieldvariableconfig_interface.variabletypes_propertysignature",
             "id": "reference/js/blockly.fieldvariableconfig_interface.variabletypes_propertysignature"
-          }
-        ]
+          },
+        ],
       },
       {
         "type": "category",
@@ -8050,8 +7932,8 @@ export const referenceSidebar = [
             "type": "doc",
             "label": "blockly.fieldvariablefromjsonconfig_interface.variable_propertysignature",
             "id": "reference/js/blockly.fieldvariablefromjsonconfig_interface.variable_propertysignature"
-          }
-        ]
+          },
+        ],
       },
       {
         "type": "category",
@@ -8065,8 +7947,8 @@ export const referenceSidebar = [
             "type": "doc",
             "label": "blockly.iautohideable_interface.autohide_1_methodsignature",
             "id": "reference/js/blockly.iautohideable_interface.autohide_1_methodsignature"
-          }
-        ]
+          },
+        ],
       },
       {
         "type": "category",
@@ -8085,8 +7967,8 @@ export const referenceSidebar = [
             "type": "doc",
             "label": "blockly.iboundedelement_interface.moveby_1_methodsignature",
             "id": "reference/js/blockly.iboundedelement_interface.moveby_1_methodsignature"
-          }
-        ]
+          },
+        ],
       },
       {
         "type": "category",
@@ -8130,8 +8012,8 @@ export const referenceSidebar = [
             "type": "doc",
             "label": "blockly.ibubble_interface.setdragging_1_methodsignature",
             "id": "reference/js/blockly.ibubble_interface.setdragging_1_methodsignature"
-          }
-        ]
+          },
+        ],
       },
       {
         "type": "category",
@@ -8155,8 +8037,8 @@ export const referenceSidebar = [
             "type": "doc",
             "label": "blockly.icollapsibletoolboxitem_interface.toggleexpanded_1_methodsignature",
             "id": "reference/js/blockly.icollapsibletoolboxitem_interface.toggleexpanded_1_methodsignature"
-          }
-        ]
+          },
+        ],
       },
       {
         "type": "category",
@@ -8170,8 +8052,8 @@ export const referenceSidebar = [
             "type": "doc",
             "label": "blockly.icomponent_interface.id_propertysignature",
             "id": "reference/js/blockly.icomponent_interface.id_propertysignature"
-          }
-        ]
+          },
+        ],
       },
       {
         "type": "category",
@@ -8210,8 +8092,8 @@ export const referenceSidebar = [
             "type": "doc",
             "label": "blockly.iconnectionchecker_interface.geterrormessage_1_methodsignature",
             "id": "reference/js/blockly.iconnectionchecker_interface.geterrormessage_1_methodsignature"
-          }
-        ]
+          },
+        ],
       },
       {
         "type": "category",
@@ -8240,8 +8122,8 @@ export const referenceSidebar = [
             "type": "doc",
             "label": "blockly.iconnectionpreviewer_interface.previewreplacement_1_methodsignature",
             "id": "reference/js/blockly.iconnectionpreviewer_interface.previewreplacement_1_methodsignature"
-          }
-        ]
+          },
+        ],
       },
       {
         "type": "category",
@@ -8255,8 +8137,8 @@ export const referenceSidebar = [
             "type": "doc",
             "label": "blockly.icontextmenu_interface.showcontextmenu_1_methodsignature",
             "id": "reference/js/blockly.icontextmenu_interface.showcontextmenu_1_methodsignature"
-          }
-        ]
+          },
+        ],
       },
       {
         "type": "category",
@@ -8275,8 +8157,8 @@ export const referenceSidebar = [
             "type": "doc",
             "label": "blockly.icopyable_interface.tocopydata_1_methodsignature",
             "id": "reference/js/blockly.icopyable_interface.tocopydata_1_methodsignature"
-          }
-        ]
+          },
+        ],
       },
       {
         "type": "category",
@@ -8300,8 +8182,8 @@ export const referenceSidebar = [
             "type": "doc",
             "label": "blockly.ideletable_interface.setdeletestyle_1_methodsignature",
             "id": "reference/js/blockly.ideletable_interface.setdeletestyle_1_methodsignature"
-          }
-        ]
+          },
+        ],
       },
       {
         "type": "category",
@@ -8315,8 +8197,8 @@ export const referenceSidebar = [
             "type": "doc",
             "label": "blockly.ideletearea_interface.woulddelete_1_methodsignature",
             "id": "reference/js/blockly.ideletearea_interface.woulddelete_1_methodsignature"
-          }
-        ]
+          },
+        ],
       },
       {
         "type": "category",
@@ -8330,8 +8212,8 @@ export const referenceSidebar = [
             "type": "doc",
             "label": "blockly.idraggable_interface.getrelativetosurfacexy_1_methodsignature",
             "id": "reference/js/blockly.idraggable_interface.getrelativetosurfacexy_1_methodsignature"
-          }
-        ]
+          },
+        ],
       },
       {
         "type": "category",
@@ -8355,8 +8237,8 @@ export const referenceSidebar = [
             "type": "doc",
             "label": "blockly.idragger_interface.ondragstart_1_methodsignature",
             "id": "reference/js/blockly.idragger_interface.ondragstart_1_methodsignature"
-          }
-        ]
+          },
+        ],
       },
       {
         "type": "category",
@@ -8390,8 +8272,8 @@ export const referenceSidebar = [
             "type": "doc",
             "label": "blockly.idragstrategy_interface.startdrag_1_methodsignature",
             "id": "reference/js/blockly.idragstrategy_interface.startdrag_1_methodsignature"
-          }
-        ]
+          },
+        ],
       },
       {
         "type": "category",
@@ -8430,8 +8312,8 @@ export const referenceSidebar = [
             "type": "doc",
             "label": "blockly.idragtarget_interface.shouldpreventmove_1_methodsignature",
             "id": "reference/js/blockly.idragtarget_interface.shouldpreventmove_1_methodsignature"
-          }
-        ]
+          },
+        ],
       },
       {
         "type": "category",
@@ -8575,8 +8457,8 @@ export const referenceSidebar = [
             "type": "doc",
             "label": "blockly.iflyout_interface.targetworkspace_propertysignature",
             "id": "reference/js/blockly.iflyout_interface.targetworkspace_propertysignature"
-          }
-        ]
+          },
+        ],
       },
       {
         "type": "category",
@@ -8605,8 +8487,8 @@ export const referenceSidebar = [
             "type": "doc",
             "label": "blockly.iflyoutinflater_interface.load_1_methodsignature",
             "id": "reference/js/blockly.iflyoutinflater_interface.load_1_methodsignature"
-          }
-        ]
+          },
+        ],
       },
       {
         "type": "category",
@@ -8640,8 +8522,8 @@ export const referenceSidebar = [
             "type": "doc",
             "label": "blockly.ifocusablenode_interface.onnodefocus_1_methodsignature",
             "id": "reference/js/blockly.ifocusablenode_interface.onnodefocus_1_methodsignature"
-          }
-        ]
+          },
+        ],
       },
       {
         "type": "category",
@@ -8680,8 +8562,8 @@ export const referenceSidebar = [
             "type": "doc",
             "label": "blockly.ifocusabletree_interface.ontreefocus_1_methodsignature",
             "id": "reference/js/blockly.ifocusabletree_interface.ontreefocus_1_methodsignature"
-          }
-        ]
+          },
+        ],
       },
       {
         "type": "category",
@@ -8705,8 +8587,8 @@ export const referenceSidebar = [
             "type": "doc",
             "label": "blockly.ihasbubble_interface.setbubblevisible_1_methodsignature",
             "id": "reference/js/blockly.ihasbubble_interface.setbubblevisible_1_methodsignature"
-          }
-        ]
+          },
+        ],
       },
       {
         "type": "category",
@@ -8785,8 +8667,8 @@ export const referenceSidebar = [
             "type": "doc",
             "label": "blockly.iicon_interface.updateeditable_1_methodsignature",
             "id": "reference/js/blockly.iicon_interface.updateeditable_1_methodsignature"
-          }
-        ]
+          },
+        ],
       },
       {
         "type": "category",
@@ -8800,8 +8682,8 @@ export const referenceSidebar = [
             "type": "doc",
             "label": "blockly.ikeyboardaccessible_interface.onshortcut_1_methodsignature",
             "id": "reference/js/blockly.ikeyboardaccessible_interface.onshortcut_1_methodsignature"
-          }
-        ]
+          },
+        ],
       },
       {
         "type": "category",
@@ -8830,8 +8712,8 @@ export const referenceSidebar = [
             "type": "doc",
             "label": "blockly.imageproperties_interface.width_propertysignature",
             "id": "reference/js/blockly.imageproperties_interface.width_propertysignature"
-          }
-        ]
+          },
+        ],
       },
       {
         "type": "category",
@@ -8885,8 +8767,8 @@ export const referenceSidebar = [
             "type": "doc",
             "label": "blockly.imetricsmanager_interface.getviewmetrics_1_methodsignature",
             "id": "reference/js/blockly.imetricsmanager_interface.getviewmetrics_1_methodsignature"
-          }
-        ]
+          },
+        ],
       },
       {
         "type": "category",
@@ -8900,8 +8782,8 @@ export const referenceSidebar = [
             "type": "doc",
             "label": "blockly.imovable_interface.ismovable_1_methodsignature",
             "id": "reference/js/blockly.imovable_interface.ismovable_1_methodsignature"
-          }
-        ]
+          },
+        ],
       },
       {
         "type": "category",
@@ -8940,8 +8822,8 @@ export const referenceSidebar = [
             "type": "doc",
             "label": "blockly.inavigationpolicy_interface.isnavigable_1_methodsignature",
             "id": "reference/js/blockly.inavigationpolicy_interface.isnavigable_1_methodsignature"
-          }
-        ]
+          },
+        ],
       },
       {
         "type": "category",
@@ -8955,8 +8837,8 @@ export const referenceSidebar = [
             "type": "doc",
             "label": "blockly.ipaster_interface.paste_1_methodsignature",
             "id": "reference/js/blockly.ipaster_interface.paste_1_methodsignature"
-          }
-        ]
+          },
+        ],
       },
       {
         "type": "category",
@@ -8975,23 +8857,13 @@ export const referenceSidebar = [
             "type": "doc",
             "label": "blockly.ipositionable_interface.position_1_methodsignature",
             "id": "reference/js/blockly.ipositionable_interface.position_1_methodsignature"
-          }
-        ]
+          },
+        ],
       },
       {
-        "type": "category",
+        "type": "doc",
         "label": "IRegistrable",
-        "link": {
-          "type": "doc",
-          "id": "reference/js/blockly.iregistrable_interface"
-        },
-        "items": [
-          {
-            "type": "doc",
-            "label": "Label",
-            "id": "reference/js/blockly.iregistrable_interface"
-          }
-        ]
+        "id": "reference/js/blockly.iregistrable_interface"
       },
       {
         "type": "category",
@@ -9005,8 +8877,8 @@ export const referenceSidebar = [
             "type": "doc",
             "label": "blockly.irenderedelement_interface.getsvgroot_1_methodsignature",
             "id": "reference/js/blockly.irenderedelement_interface.getsvgroot_1_methodsignature"
-          }
-        ]
+          },
+        ],
       },
       {
         "type": "category",
@@ -9035,8 +8907,8 @@ export const referenceSidebar = [
             "type": "doc",
             "label": "blockly.iselectable_interface.workspace_propertysignature",
             "id": "reference/js/blockly.iselectable_interface.workspace_propertysignature"
-          }
-        ]
+          },
+        ],
       },
       {
         "type": "category",
@@ -9070,8 +8942,8 @@ export const referenceSidebar = [
             "type": "doc",
             "label": "blockly.iselectabletoolboxitem_interface.setselected_1_methodsignature",
             "id": "reference/js/blockly.iselectabletoolboxitem_interface.setselected_1_methodsignature"
-          }
-        ]
+          },
+        ],
       },
       {
         "type": "category",
@@ -9090,8 +8962,8 @@ export const referenceSidebar = [
             "type": "doc",
             "label": "blockly.iserializable_interface.savestate_1_methodsignature",
             "id": "reference/js/blockly.iserializable_interface.savestate_1_methodsignature"
-          }
-        ]
+          },
+        ],
       },
       {
         "type": "category",
@@ -9110,8 +8982,8 @@ export const referenceSidebar = [
             "type": "doc",
             "label": "blockly.istyleable_interface.removestyle_1_methodsignature",
             "id": "reference/js/blockly.istyleable_interface.removestyle_1_methodsignature"
-          }
-        ]
+          },
+        ],
       },
       {
         "type": "category",
@@ -9205,8 +9077,8 @@ export const referenceSidebar = [
             "type": "doc",
             "label": "blockly.itoolbox_interface.setvisible_1_methodsignature",
             "id": "reference/js/blockly.itoolbox_interface.setvisible_1_methodsignature"
-          }
-        ]
+          },
+        ],
       },
       {
         "type": "category",
@@ -9260,8 +9132,8 @@ export const referenceSidebar = [
             "type": "doc",
             "label": "blockly.itoolboxitem_interface.setvisible__1_methodsignature",
             "id": "reference/js/blockly.itoolboxitem_interface.setvisible__1_methodsignature"
-          }
-        ]
+          },
+        ],
       },
       {
         "type": "category",
@@ -9275,8 +9147,8 @@ export const referenceSidebar = [
             "type": "doc",
             "label": "blockly.ivariablebackedparametermodel_interface.getvariablemodel_1_methodsignature",
             "id": "reference/js/blockly.ivariablebackedparametermodel_interface.getvariablemodel_1_methodsignature"
-          }
-        ]
+          },
+        ],
       },
       {
         "type": "category",
@@ -9340,8 +9212,8 @@ export const referenceSidebar = [
             "type": "doc",
             "label": "blockly.ivariablemap_interface.renamevariable_1_methodsignature",
             "id": "reference/js/blockly.ivariablemap_interface.renamevariable_1_methodsignature"
-          }
-        ]
+          },
+        ],
       },
       {
         "type": "category",
@@ -9385,8 +9257,8 @@ export const referenceSidebar = [
             "type": "doc",
             "label": "blockly.ivariablemodel_interface.settype_1_methodsignature",
             "id": "reference/js/blockly.ivariablemodel_interface.settype_1_methodsignature"
-          }
-        ]
+          },
+        ],
       },
       {
         "type": "category",
@@ -9410,8 +9282,8 @@ export const referenceSidebar = [
             "type": "doc",
             "label": "blockly.ivariablestate_interface.type_propertysignature",
             "id": "reference/js/blockly.ivariablestate_interface.type_propertysignature"
-          }
-        ]
+          },
+        ],
       },
       {
         "type": "category",
@@ -9445,17 +9317,16 @@ export const referenceSidebar = [
             "type": "doc",
             "label": "blockly.toastoptions_interface.oncepersession_propertysignature",
             "id": "reference/js/blockly.toastoptions_interface.oncepersession_propertysignature"
-          }
-        ]
-      }
+          },
+        ],
+      },
     ]
   },
   {
     "type": "category",
     "label": "Namespaces",
     "collapsible": true,
-    // "collapsed": false,
-    "className": 'hide-level-3',
+    "className": "hide-level-3",
     "items": [
       {
         "type": "category",
@@ -9484,23 +9355,13 @@ export const referenceSidebar = [
             "type": "doc",
             "label": "blockly.block_namespace.commentmodel_interface.text_propertysignature",
             "id": "reference/js/blockly.block_namespace.commentmodel_interface.text_propertysignature"
-          }
-        ]
+          },
+        ],
       },
       {
-        "type": "category",
+        "type": "doc",
         "label": "blockAnimations",
-        "link": {
-          "type": "doc",
-          "id": "reference/js/blockly.blockanimations_namespace"
-        },
-        "items": [
-          {
-            "type": "doc",
-            "label": "Label",
-            "id": "reference/js/blockly.blockanimations_namespace"
-          }
-        ]
+        "id": "reference/js/blockly.blockanimations_namespace"
       },
       {
         "type": "category",
@@ -9512,13 +9373,143 @@ export const referenceSidebar = [
         "items": [
           {
             "type": "doc",
+            "label": "blockly.blockrendering_namespace.bottomrow_class._constructor__1_constructor",
+            "id": "reference/js/blockly.blockrendering_namespace.bottomrow_class._constructor__1_constructor"
+          },
+          {
+            "type": "doc",
+            "label": "blockly.blockrendering_namespace.connection_class._constructor__1_constructor",
+            "id": "reference/js/blockly.blockrendering_namespace.connection_class._constructor__1_constructor"
+          },
+          {
+            "type": "doc",
+            "label": "blockly.blockrendering_namespace.constantprovider_class._constructor__1_constructor",
+            "id": "reference/js/blockly.blockrendering_namespace.constantprovider_class._constructor__1_constructor"
+          },
+          {
+            "type": "doc",
+            "label": "blockly.blockrendering_namespace.drawer_class._constructor__1_constructor",
+            "id": "reference/js/blockly.blockrendering_namespace.drawer_class._constructor__1_constructor"
+          },
+          {
+            "type": "doc",
+            "label": "blockly.blockrendering_namespace.externalvalueinput_class._constructor__1_constructor",
+            "id": "reference/js/blockly.blockrendering_namespace.externalvalueinput_class._constructor__1_constructor"
+          },
+          {
+            "type": "doc",
+            "label": "blockly.blockrendering_namespace.field_class._constructor__1_constructor",
+            "id": "reference/js/blockly.blockrendering_namespace.field_class._constructor__1_constructor"
+          },
+          {
+            "type": "doc",
+            "label": "blockly.blockrendering_namespace.hat_class._constructor__1_constructor",
+            "id": "reference/js/blockly.blockrendering_namespace.hat_class._constructor__1_constructor"
+          },
+          {
+            "type": "doc",
+            "label": "blockly.blockrendering_namespace.icon_class._constructor__1_constructor",
+            "id": "reference/js/blockly.blockrendering_namespace.icon_class._constructor__1_constructor"
+          },
+          {
+            "type": "doc",
+            "label": "blockly.blockrendering_namespace.inlineinput_class._constructor__1_constructor",
+            "id": "reference/js/blockly.blockrendering_namespace.inlineinput_class._constructor__1_constructor"
+          },
+          {
+            "type": "doc",
+            "label": "blockly.blockrendering_namespace.inputconnection_class._constructor__1_constructor",
+            "id": "reference/js/blockly.blockrendering_namespace.inputconnection_class._constructor__1_constructor"
+          },
+          {
+            "type": "doc",
+            "label": "blockly.blockrendering_namespace.inputrow_class._constructor__1_constructor",
+            "id": "reference/js/blockly.blockrendering_namespace.inputrow_class._constructor__1_constructor"
+          },
+          {
+            "type": "doc",
+            "label": "blockly.blockrendering_namespace.inrowspacer_class._constructor__1_constructor",
+            "id": "reference/js/blockly.blockrendering_namespace.inrowspacer_class._constructor__1_constructor"
+          },
+          {
+            "type": "doc",
+            "label": "blockly.blockrendering_namespace.jaggededge_class._constructor__1_constructor",
+            "id": "reference/js/blockly.blockrendering_namespace.jaggededge_class._constructor__1_constructor"
+          },
+          {
+            "type": "doc",
+            "label": "blockly.blockrendering_namespace.measurable_class._constructor__1_constructor",
+            "id": "reference/js/blockly.blockrendering_namespace.measurable_class._constructor__1_constructor"
+          },
+          {
+            "type": "doc",
+            "label": "blockly.blockrendering_namespace.nextconnection_class._constructor__1_constructor",
+            "id": "reference/js/blockly.blockrendering_namespace.nextconnection_class._constructor__1_constructor"
+          },
+          {
+            "type": "doc",
+            "label": "blockly.blockrendering_namespace.outputconnection_class._constructor__1_constructor",
+            "id": "reference/js/blockly.blockrendering_namespace.outputconnection_class._constructor__1_constructor"
+          },
+          {
+            "type": "doc",
+            "label": "blockly.blockrendering_namespace.pathobject_class._constructor__1_constructor",
+            "id": "reference/js/blockly.blockrendering_namespace.pathobject_class._constructor__1_constructor"
+          },
+          {
+            "type": "doc",
+            "label": "blockly.blockrendering_namespace.previousconnection_class._constructor__1_constructor",
+            "id": "reference/js/blockly.blockrendering_namespace.previousconnection_class._constructor__1_constructor"
+          },
+          {
+            "type": "doc",
+            "label": "blockly.blockrendering_namespace.renderer_class._constructor__1_constructor",
+            "id": "reference/js/blockly.blockrendering_namespace.renderer_class._constructor__1_constructor"
+          },
+          {
+            "type": "doc",
+            "label": "blockly.blockrendering_namespace.renderinfo_class._constructor__1_constructor",
+            "id": "reference/js/blockly.blockrendering_namespace.renderinfo_class._constructor__1_constructor"
+          },
+          {
+            "type": "doc",
+            "label": "blockly.blockrendering_namespace.roundcorner_class._constructor__1_constructor",
+            "id": "reference/js/blockly.blockrendering_namespace.roundcorner_class._constructor__1_constructor"
+          },
+          {
+            "type": "doc",
+            "label": "blockly.blockrendering_namespace.row_class._constructor__1_constructor",
+            "id": "reference/js/blockly.blockrendering_namespace.row_class._constructor__1_constructor"
+          },
+          {
+            "type": "doc",
+            "label": "blockly.blockrendering_namespace.spacerrow_class._constructor__1_constructor",
+            "id": "reference/js/blockly.blockrendering_namespace.spacerrow_class._constructor__1_constructor"
+          },
+          {
+            "type": "doc",
+            "label": "blockly.blockrendering_namespace.squarecorner_class._constructor__1_constructor",
+            "id": "reference/js/blockly.blockrendering_namespace.squarecorner_class._constructor__1_constructor"
+          },
+          {
+            "type": "doc",
+            "label": "blockly.blockrendering_namespace.statementinput_class._constructor__1_constructor",
+            "id": "reference/js/blockly.blockrendering_namespace.statementinput_class._constructor__1_constructor"
+          },
+          {
+            "type": "doc",
+            "label": "blockly.blockrendering_namespace.toprow_class._constructor__1_constructor",
+            "id": "reference/js/blockly.blockrendering_namespace.toprow_class._constructor__1_constructor"
+          },
+          {
+            "type": "doc",
             "label": "blockly.blockrendering_namespace.baseshape_typealias",
             "id": "reference/js/blockly.blockrendering_namespace.baseshape_typealias"
           },
           {
             "type": "doc",
-            "label": "blockly.blockrendering_namespace.bottomrow_class._constructor__1_constructor",
-            "id": "reference/js/blockly.blockrendering_namespace.bottomrow_class._constructor__1_constructor"
+            "label": "blockly.blockrendering_namespace.bottomrow_class",
+            "id": "reference/js/blockly.blockrendering_namespace.bottomrow_class"
           },
           {
             "type": "doc",
@@ -9557,11 +9548,6 @@ export const referenceSidebar = [
           },
           {
             "type": "doc",
-            "label": "blockly.blockrendering_namespace.bottomrow_class",
-            "id": "reference/js/blockly.blockrendering_namespace.bottomrow_class"
-          },
-          {
-            "type": "doc",
             "label": "blockly.blockrendering_namespace.bottomrow_class.measure_1_method",
             "id": "reference/js/blockly.blockrendering_namespace.bottomrow_class.measure_1_method"
           },
@@ -9572,8 +9558,8 @@ export const referenceSidebar = [
           },
           {
             "type": "doc",
-            "label": "blockly.blockrendering_namespace.connection_class._constructor__1_constructor",
-            "id": "reference/js/blockly.blockrendering_namespace.connection_class._constructor__1_constructor"
+            "label": "blockly.blockrendering_namespace.connection_class",
+            "id": "reference/js/blockly.blockrendering_namespace.connection_class"
           },
           {
             "type": "doc",
@@ -9592,18 +9578,13 @@ export const referenceSidebar = [
           },
           {
             "type": "doc",
-            "label": "blockly.blockrendering_namespace.connection_class",
-            "id": "reference/js/blockly.blockrendering_namespace.connection_class"
-          },
-          {
-            "type": "doc",
             "label": "blockly.blockrendering_namespace.connection_class.shape_property",
             "id": "reference/js/blockly.blockrendering_namespace.connection_class.shape_property"
           },
           {
             "type": "doc",
-            "label": "blockly.blockrendering_namespace.constantprovider_class._constructor__1_constructor",
-            "id": "reference/js/blockly.blockrendering_namespace.constantprovider_class._constructor__1_constructor"
+            "label": "blockly.blockrendering_namespace.constantprovider_class",
+            "id": "reference/js/blockly.blockrendering_namespace.constantprovider_class"
           },
           {
             "type": "doc",
@@ -9952,11 +9933,6 @@ export const referenceSidebar = [
           },
           {
             "type": "doc",
-            "label": "blockly.blockrendering_namespace.constantprovider_class",
-            "id": "reference/js/blockly.blockrendering_namespace.constantprovider_class"
-          },
-          {
-            "type": "doc",
             "label": "blockly.blockrendering_namespace.constantprovider_class.medium_large_padding_property",
             "id": "reference/js/blockly.blockrendering_namespace.constantprovider_class.medium_large_padding_property"
           },
@@ -10137,8 +10113,8 @@ export const referenceSidebar = [
           },
           {
             "type": "doc",
-            "label": "blockly.blockrendering_namespace.drawer_class._constructor__1_constructor",
-            "id": "reference/js/blockly.blockrendering_namespace.drawer_class._constructor__1_constructor"
+            "label": "blockly.blockrendering_namespace.drawer_class",
+            "id": "reference/js/blockly.blockrendering_namespace.drawer_class"
           },
           {
             "type": "doc",
@@ -10227,11 +10203,6 @@ export const referenceSidebar = [
           },
           {
             "type": "doc",
-            "label": "blockly.blockrendering_namespace.drawer_class",
-            "id": "reference/js/blockly.blockrendering_namespace.drawer_class"
-          },
-          {
-            "type": "doc",
             "label": "blockly.blockrendering_namespace.drawer_class.outlinepath__property",
             "id": "reference/js/blockly.blockrendering_namespace.drawer_class.outlinepath__property"
           },
@@ -10287,8 +10258,8 @@ export const referenceSidebar = [
           },
           {
             "type": "doc",
-            "label": "blockly.blockrendering_namespace.externalvalueinput_class._constructor__1_constructor",
-            "id": "reference/js/blockly.blockrendering_namespace.externalvalueinput_class._constructor__1_constructor"
+            "label": "blockly.blockrendering_namespace.externalvalueinput_class",
+            "id": "reference/js/blockly.blockrendering_namespace.externalvalueinput_class"
           },
           {
             "type": "doc",
@@ -10312,18 +10283,13 @@ export const referenceSidebar = [
           },
           {
             "type": "doc",
-            "label": "blockly.blockrendering_namespace.externalvalueinput_class",
-            "id": "reference/js/blockly.blockrendering_namespace.externalvalueinput_class"
-          },
-          {
-            "type": "doc",
             "label": "blockly.blockrendering_namespace.externalvalueinput_class.width_property",
             "id": "reference/js/blockly.blockrendering_namespace.externalvalueinput_class.width_property"
           },
           {
             "type": "doc",
-            "label": "blockly.blockrendering_namespace.field_class._constructor__1_constructor",
-            "id": "reference/js/blockly.blockrendering_namespace.field_class._constructor__1_constructor"
+            "label": "blockly.blockrendering_namespace.field_class",
+            "id": "reference/js/blockly.blockrendering_namespace.field_class"
           },
           {
             "type": "doc",
@@ -10347,11 +10313,6 @@ export const referenceSidebar = [
           },
           {
             "type": "doc",
-            "label": "blockly.blockrendering_namespace.field_class",
-            "id": "reference/js/blockly.blockrendering_namespace.field_class"
-          },
-          {
-            "type": "doc",
             "label": "blockly.blockrendering_namespace.field_class.parentinput_property",
             "id": "reference/js/blockly.blockrendering_namespace.field_class.parentinput_property"
           },
@@ -10362,8 +10323,8 @@ export const referenceSidebar = [
           },
           {
             "type": "doc",
-            "label": "blockly.blockrendering_namespace.hat_class._constructor__1_constructor",
-            "id": "reference/js/blockly.blockrendering_namespace.hat_class._constructor__1_constructor"
+            "label": "blockly.blockrendering_namespace.hat_class",
+            "id": "reference/js/blockly.blockrendering_namespace.hat_class"
           },
           {
             "type": "doc",
@@ -10372,13 +10333,8 @@ export const referenceSidebar = [
           },
           {
             "type": "doc",
-            "label": "blockly.blockrendering_namespace.hat_class",
-            "id": "reference/js/blockly.blockrendering_namespace.hat_class"
-          },
-          {
-            "type": "doc",
-            "label": "blockly.blockrendering_namespace.icon_class._constructor__1_constructor",
-            "id": "reference/js/blockly.blockrendering_namespace.icon_class._constructor__1_constructor"
+            "label": "blockly.blockrendering_namespace.icon_class",
+            "id": "reference/js/blockly.blockrendering_namespace.icon_class"
           },
           {
             "type": "doc",
@@ -10392,13 +10348,8 @@ export const referenceSidebar = [
           },
           {
             "type": "doc",
-            "label": "blockly.blockrendering_namespace.icon_class",
-            "id": "reference/js/blockly.blockrendering_namespace.icon_class"
-          },
-          {
-            "type": "doc",
-            "label": "blockly.blockrendering_namespace.inlineinput_class._constructor__1_constructor",
-            "id": "reference/js/blockly.blockrendering_namespace.inlineinput_class._constructor__1_constructor"
+            "label": "blockly.blockrendering_namespace.inlineinput_class",
+            "id": "reference/js/blockly.blockrendering_namespace.inlineinput_class"
           },
           {
             "type": "doc",
@@ -10412,13 +10363,8 @@ export const referenceSidebar = [
           },
           {
             "type": "doc",
-            "label": "blockly.blockrendering_namespace.inlineinput_class",
-            "id": "reference/js/blockly.blockrendering_namespace.inlineinput_class"
-          },
-          {
-            "type": "doc",
-            "label": "blockly.blockrendering_namespace.inputconnection_class._constructor__1_constructor",
-            "id": "reference/js/blockly.blockrendering_namespace.inputconnection_class._constructor__1_constructor"
+            "label": "blockly.blockrendering_namespace.inputconnection_class",
+            "id": "reference/js/blockly.blockrendering_namespace.inputconnection_class"
           },
           {
             "type": "doc",
@@ -10457,13 +10403,8 @@ export const referenceSidebar = [
           },
           {
             "type": "doc",
-            "label": "blockly.blockrendering_namespace.inputconnection_class",
-            "id": "reference/js/blockly.blockrendering_namespace.inputconnection_class"
-          },
-          {
-            "type": "doc",
-            "label": "blockly.blockrendering_namespace.inputrow_class._constructor__1_constructor",
-            "id": "reference/js/blockly.blockrendering_namespace.inputrow_class._constructor__1_constructor"
+            "label": "blockly.blockrendering_namespace.inputrow_class",
+            "id": "reference/js/blockly.blockrendering_namespace.inputrow_class"
           },
           {
             "type": "doc",
@@ -10477,18 +10418,8 @@ export const referenceSidebar = [
           },
           {
             "type": "doc",
-            "label": "blockly.blockrendering_namespace.inputrow_class",
-            "id": "reference/js/blockly.blockrendering_namespace.inputrow_class"
-          },
-          {
-            "type": "doc",
             "label": "blockly.blockrendering_namespace.inputrow_class.measure_1_method",
             "id": "reference/js/blockly.blockrendering_namespace.inputrow_class.measure_1_method"
-          },
-          {
-            "type": "doc",
-            "label": "blockly.blockrendering_namespace.inrowspacer_class._constructor__1_constructor",
-            "id": "reference/js/blockly.blockrendering_namespace.inrowspacer_class._constructor__1_constructor"
           },
           {
             "type": "doc",
@@ -10497,13 +10428,13 @@ export const referenceSidebar = [
           },
           {
             "type": "doc",
-            "label": "blockly.blockrendering_namespace.insidecorners_interface.height_propertysignature",
-            "id": "reference/js/blockly.blockrendering_namespace.insidecorners_interface.height_propertysignature"
+            "label": "blockly.blockrendering_namespace.insidecorners_interface",
+            "id": "reference/js/blockly.blockrendering_namespace.insidecorners_interface"
           },
           {
             "type": "doc",
-            "label": "blockly.blockrendering_namespace.insidecorners_interface",
-            "id": "reference/js/blockly.blockrendering_namespace.insidecorners_interface"
+            "label": "blockly.blockrendering_namespace.insidecorners_interface.height_propertysignature",
+            "id": "reference/js/blockly.blockrendering_namespace.insidecorners_interface.height_propertysignature"
           },
           {
             "type": "doc",
@@ -10519,6 +10450,11 @@ export const referenceSidebar = [
             "type": "doc",
             "label": "blockly.blockrendering_namespace.insidecorners_interface.width_propertysignature",
             "id": "reference/js/blockly.blockrendering_namespace.insidecorners_interface.width_propertysignature"
+          },
+          {
+            "type": "doc",
+            "label": "blockly.blockrendering_namespace.ipathobject_interface",
+            "id": "reference/js/blockly.blockrendering_namespace.ipathobject_interface"
           },
           {
             "type": "doc",
@@ -10539,11 +10475,6 @@ export const referenceSidebar = [
             "type": "doc",
             "label": "blockly.blockrendering_namespace.ipathobject_interface.fliprtl_1_methodsignature",
             "id": "reference/js/blockly.blockrendering_namespace.ipathobject_interface.fliprtl_1_methodsignature"
-          },
-          {
-            "type": "doc",
-            "label": "blockly.blockrendering_namespace.ipathobject_interface",
-            "id": "reference/js/blockly.blockrendering_namespace.ipathobject_interface"
           },
           {
             "type": "doc",
@@ -10597,23 +10528,18 @@ export const referenceSidebar = [
           },
           {
             "type": "doc",
-            "label": "blockly.blockrendering_namespace.jaggededge_class._constructor__1_constructor",
-            "id": "reference/js/blockly.blockrendering_namespace.jaggededge_class._constructor__1_constructor"
-          },
-          {
-            "type": "doc",
             "label": "blockly.blockrendering_namespace.jaggededge_class",
             "id": "reference/js/blockly.blockrendering_namespace.jaggededge_class"
           },
           {
             "type": "doc",
-            "label": "blockly.blockrendering_namespace.jaggedteeth_interface.height_propertysignature",
-            "id": "reference/js/blockly.blockrendering_namespace.jaggedteeth_interface.height_propertysignature"
+            "label": "blockly.blockrendering_namespace.jaggedteeth_interface",
+            "id": "reference/js/blockly.blockrendering_namespace.jaggedteeth_interface"
           },
           {
             "type": "doc",
-            "label": "blockly.blockrendering_namespace.jaggedteeth_interface",
-            "id": "reference/js/blockly.blockrendering_namespace.jaggedteeth_interface"
+            "label": "blockly.blockrendering_namespace.jaggedteeth_interface.height_propertysignature",
+            "id": "reference/js/blockly.blockrendering_namespace.jaggedteeth_interface.height_propertysignature"
           },
           {
             "type": "doc",
@@ -10627,8 +10553,8 @@ export const referenceSidebar = [
           },
           {
             "type": "doc",
-            "label": "blockly.blockrendering_namespace.measurable_class._constructor__1_constructor",
-            "id": "reference/js/blockly.blockrendering_namespace.measurable_class._constructor__1_constructor"
+            "label": "blockly.blockrendering_namespace.measurable_class",
+            "id": "reference/js/blockly.blockrendering_namespace.measurable_class"
           },
           {
             "type": "doc",
@@ -10644,11 +10570,6 @@ export const referenceSidebar = [
             "type": "doc",
             "label": "blockly.blockrendering_namespace.measurable_class.height_property",
             "id": "reference/js/blockly.blockrendering_namespace.measurable_class.height_property"
-          },
-          {
-            "type": "doc",
-            "label": "blockly.blockrendering_namespace.measurable_class",
-            "id": "reference/js/blockly.blockrendering_namespace.measurable_class"
           },
           {
             "type": "doc",
@@ -10672,23 +10593,18 @@ export const referenceSidebar = [
           },
           {
             "type": "doc",
-            "label": "blockly.blockrendering_namespace.nextconnection_class._constructor__1_constructor",
-            "id": "reference/js/blockly.blockrendering_namespace.nextconnection_class._constructor__1_constructor"
-          },
-          {
-            "type": "doc",
             "label": "blockly.blockrendering_namespace.nextconnection_class",
             "id": "reference/js/blockly.blockrendering_namespace.nextconnection_class"
           },
           {
             "type": "doc",
-            "label": "blockly.blockrendering_namespace.notch_interface.height_propertysignature",
-            "id": "reference/js/blockly.blockrendering_namespace.notch_interface.height_propertysignature"
+            "label": "blockly.blockrendering_namespace.notch_interface",
+            "id": "reference/js/blockly.blockrendering_namespace.notch_interface"
           },
           {
             "type": "doc",
-            "label": "blockly.blockrendering_namespace.notch_interface",
-            "id": "reference/js/blockly.blockrendering_namespace.notch_interface"
+            "label": "blockly.blockrendering_namespace.notch_interface.height_propertysignature",
+            "id": "reference/js/blockly.blockrendering_namespace.notch_interface.height_propertysignature"
           },
           {
             "type": "doc",
@@ -10712,8 +10628,8 @@ export const referenceSidebar = [
           },
           {
             "type": "doc",
-            "label": "blockly.blockrendering_namespace.outputconnection_class._constructor__1_constructor",
-            "id": "reference/js/blockly.blockrendering_namespace.outputconnection_class._constructor__1_constructor"
+            "label": "blockly.blockrendering_namespace.outputconnection_class",
+            "id": "reference/js/blockly.blockrendering_namespace.outputconnection_class"
           },
           {
             "type": "doc",
@@ -10727,13 +10643,13 @@ export const referenceSidebar = [
           },
           {
             "type": "doc",
-            "label": "blockly.blockrendering_namespace.outputconnection_class",
-            "id": "reference/js/blockly.blockrendering_namespace.outputconnection_class"
+            "label": "blockly.blockrendering_namespace.outputconnection_class.startx_property",
+            "id": "reference/js/blockly.blockrendering_namespace.outputconnection_class.startx_property"
           },
           {
             "type": "doc",
-            "label": "blockly.blockrendering_namespace.outputconnection_class.startx_property",
-            "id": "reference/js/blockly.blockrendering_namespace.outputconnection_class.startx_property"
+            "label": "blockly.blockrendering_namespace.outsidecorners_interface",
+            "id": "reference/js/blockly.blockrendering_namespace.outsidecorners_interface"
           },
           {
             "type": "doc",
@@ -10744,11 +10660,6 @@ export const referenceSidebar = [
             "type": "doc",
             "label": "blockly.blockrendering_namespace.outsidecorners_interface.bottomright_propertysignature",
             "id": "reference/js/blockly.blockrendering_namespace.outsidecorners_interface.bottomright_propertysignature"
-          },
-          {
-            "type": "doc",
-            "label": "blockly.blockrendering_namespace.outsidecorners_interface",
-            "id": "reference/js/blockly.blockrendering_namespace.outsidecorners_interface"
           },
           {
             "type": "doc",
@@ -10767,8 +10678,8 @@ export const referenceSidebar = [
           },
           {
             "type": "doc",
-            "label": "blockly.blockrendering_namespace.pathobject_class._constructor__1_constructor",
-            "id": "reference/js/blockly.blockrendering_namespace.pathobject_class._constructor__1_constructor"
+            "label": "blockly.blockrendering_namespace.pathobject_class",
+            "id": "reference/js/blockly.blockrendering_namespace.pathobject_class"
           },
           {
             "type": "doc",
@@ -10789,11 +10700,6 @@ export const referenceSidebar = [
             "type": "doc",
             "label": "blockly.blockrendering_namespace.pathobject_class.fliprtl_1_method",
             "id": "reference/js/blockly.blockrendering_namespace.pathobject_class.fliprtl_1_method"
-          },
-          {
-            "type": "doc",
-            "label": "blockly.blockrendering_namespace.pathobject_class",
-            "id": "reference/js/blockly.blockrendering_namespace.pathobject_class"
           },
           {
             "type": "doc",
@@ -10877,23 +10783,18 @@ export const referenceSidebar = [
           },
           {
             "type": "doc",
-            "label": "blockly.blockrendering_namespace.previousconnection_class._constructor__1_constructor",
-            "id": "reference/js/blockly.blockrendering_namespace.previousconnection_class._constructor__1_constructor"
-          },
-          {
-            "type": "doc",
             "label": "blockly.blockrendering_namespace.previousconnection_class",
             "id": "reference/js/blockly.blockrendering_namespace.previousconnection_class"
           },
           {
             "type": "doc",
-            "label": "blockly.blockrendering_namespace.puzzletab_interface.height_propertysignature",
-            "id": "reference/js/blockly.blockrendering_namespace.puzzletab_interface.height_propertysignature"
+            "label": "blockly.blockrendering_namespace.puzzletab_interface",
+            "id": "reference/js/blockly.blockrendering_namespace.puzzletab_interface"
           },
           {
             "type": "doc",
-            "label": "blockly.blockrendering_namespace.puzzletab_interface",
-            "id": "reference/js/blockly.blockrendering_namespace.puzzletab_interface"
+            "label": "blockly.blockrendering_namespace.puzzletab_interface.height_propertysignature",
+            "id": "reference/js/blockly.blockrendering_namespace.puzzletab_interface.height_propertysignature"
           },
           {
             "type": "doc",
@@ -10922,8 +10823,8 @@ export const referenceSidebar = [
           },
           {
             "type": "doc",
-            "label": "blockly.blockrendering_namespace.renderer_class._constructor__1_constructor",
-            "id": "reference/js/blockly.blockrendering_namespace.renderer_class._constructor__1_constructor"
+            "label": "blockly.blockrendering_namespace.renderer_class",
+            "id": "reference/js/blockly.blockrendering_namespace.renderer_class"
           },
           {
             "type": "doc",
@@ -10972,11 +10873,6 @@ export const referenceSidebar = [
           },
           {
             "type": "doc",
-            "label": "blockly.blockrendering_namespace.renderer_class",
-            "id": "reference/js/blockly.blockrendering_namespace.renderer_class"
-          },
-          {
-            "type": "doc",
             "label": "blockly.blockrendering_namespace.renderer_class.name_property",
             "id": "reference/js/blockly.blockrendering_namespace.renderer_class.name_property"
           },
@@ -11002,8 +10898,8 @@ export const referenceSidebar = [
           },
           {
             "type": "doc",
-            "label": "blockly.blockrendering_namespace.renderinfo_class._constructor__1_constructor",
-            "id": "reference/js/blockly.blockrendering_namespace.renderinfo_class._constructor__1_constructor"
+            "label": "blockly.blockrendering_namespace.renderinfo_class",
+            "id": "reference/js/blockly.blockrendering_namespace.renderinfo_class"
           },
           {
             "type": "doc",
@@ -11132,11 +11028,6 @@ export const referenceSidebar = [
           },
           {
             "type": "doc",
-            "label": "blockly.blockrendering_namespace.renderinfo_class",
-            "id": "reference/js/blockly.blockrendering_namespace.renderinfo_class"
-          },
-          {
-            "type": "doc",
             "label": "blockly.blockrendering_namespace.renderinfo_class.measure_1_method",
             "id": "reference/js/blockly.blockrendering_namespace.renderinfo_class.measure_1_method"
           },
@@ -11212,18 +11103,13 @@ export const referenceSidebar = [
           },
           {
             "type": "doc",
-            "label": "blockly.blockrendering_namespace.roundcorner_class._constructor__1_constructor",
-            "id": "reference/js/blockly.blockrendering_namespace.roundcorner_class._constructor__1_constructor"
-          },
-          {
-            "type": "doc",
             "label": "blockly.blockrendering_namespace.roundcorner_class",
             "id": "reference/js/blockly.blockrendering_namespace.roundcorner_class"
           },
           {
             "type": "doc",
-            "label": "blockly.blockrendering_namespace.row_class._constructor__1_constructor",
-            "id": "reference/js/blockly.blockrendering_namespace.row_class._constructor__1_constructor"
+            "label": "blockly.blockrendering_namespace.row_class",
+            "id": "reference/js/blockly.blockrendering_namespace.row_class"
           },
           {
             "type": "doc",
@@ -11292,11 +11178,6 @@ export const referenceSidebar = [
           },
           {
             "type": "doc",
-            "label": "blockly.blockrendering_namespace.row_class",
-            "id": "reference/js/blockly.blockrendering_namespace.row_class"
-          },
-          {
-            "type": "doc",
             "label": "blockly.blockrendering_namespace.row_class.measure_1_method",
             "id": "reference/js/blockly.blockrendering_namespace.row_class.measure_1_method"
           },
@@ -11352,8 +11233,8 @@ export const referenceSidebar = [
           },
           {
             "type": "doc",
-            "label": "blockly.blockrendering_namespace.spacerrow_class._constructor__1_constructor",
-            "id": "reference/js/blockly.blockrendering_namespace.spacerrow_class._constructor__1_constructor"
+            "label": "blockly.blockrendering_namespace.spacerrow_class",
+            "id": "reference/js/blockly.blockrendering_namespace.spacerrow_class"
           },
           {
             "type": "doc",
@@ -11369,11 +11250,6 @@ export const referenceSidebar = [
             "type": "doc",
             "label": "blockly.blockrendering_namespace.spacerrow_class.height_property",
             "id": "reference/js/blockly.blockrendering_namespace.spacerrow_class.height_property"
-          },
-          {
-            "type": "doc",
-            "label": "blockly.blockrendering_namespace.spacerrow_class",
-            "id": "reference/js/blockly.blockrendering_namespace.spacerrow_class"
           },
           {
             "type": "doc",
@@ -11397,23 +11273,18 @@ export const referenceSidebar = [
           },
           {
             "type": "doc",
-            "label": "blockly.blockrendering_namespace.squarecorner_class._constructor__1_constructor",
-            "id": "reference/js/blockly.blockrendering_namespace.squarecorner_class._constructor__1_constructor"
-          },
-          {
-            "type": "doc",
             "label": "blockly.blockrendering_namespace.squarecorner_class",
             "id": "reference/js/blockly.blockrendering_namespace.squarecorner_class"
           },
           {
             "type": "doc",
-            "label": "blockly.blockrendering_namespace.starthat_interface.height_propertysignature",
-            "id": "reference/js/blockly.blockrendering_namespace.starthat_interface.height_propertysignature"
+            "label": "blockly.blockrendering_namespace.starthat_interface",
+            "id": "reference/js/blockly.blockrendering_namespace.starthat_interface"
           },
           {
             "type": "doc",
-            "label": "blockly.blockrendering_namespace.starthat_interface",
-            "id": "reference/js/blockly.blockrendering_namespace.starthat_interface"
+            "label": "blockly.blockrendering_namespace.starthat_interface.height_propertysignature",
+            "id": "reference/js/blockly.blockrendering_namespace.starthat_interface.height_propertysignature"
           },
           {
             "type": "doc",
@@ -11427,18 +11298,13 @@ export const referenceSidebar = [
           },
           {
             "type": "doc",
-            "label": "blockly.blockrendering_namespace.statementinput_class._constructor__1_constructor",
-            "id": "reference/js/blockly.blockrendering_namespace.statementinput_class._constructor__1_constructor"
-          },
-          {
-            "type": "doc",
             "label": "blockly.blockrendering_namespace.statementinput_class",
             "id": "reference/js/blockly.blockrendering_namespace.statementinput_class"
           },
           {
             "type": "doc",
-            "label": "blockly.blockrendering_namespace.toprow_class._constructor__1_constructor",
-            "id": "reference/js/blockly.blockrendering_namespace.toprow_class._constructor__1_constructor"
+            "label": "blockly.blockrendering_namespace.toprow_class",
+            "id": "reference/js/blockly.blockrendering_namespace.toprow_class"
           },
           {
             "type": "doc",
@@ -11477,11 +11343,6 @@ export const referenceSidebar = [
           },
           {
             "type": "doc",
-            "label": "blockly.blockrendering_namespace.toprow_class",
-            "id": "reference/js/blockly.blockrendering_namespace.toprow_class"
-          },
-          {
-            "type": "doc",
             "label": "blockly.blockrendering_namespace.toprow_class.measure_1_method",
             "id": "reference/js/blockly.blockrendering_namespace.toprow_class.measure_1_method"
           },
@@ -11499,8 +11360,8 @@ export const referenceSidebar = [
             "type": "doc",
             "label": "blockly.blockrendering_namespace.unregister_1_function",
             "id": "reference/js/blockly.blockrendering_namespace.unregister_1_function"
-          }
-        ]
+          },
+        ],
       },
       {
         "type": "category",
@@ -11549,8 +11410,8 @@ export const referenceSidebar = [
             "type": "doc",
             "label": "blockly.browserevents_namespace.unbind_1_function",
             "id": "reference/js/blockly.browserevents_namespace.unbind_1_function"
-          }
-        ]
+          },
+        ],
       },
       {
         "type": "category",
@@ -11564,6 +11425,21 @@ export const referenceSidebar = [
             "type": "doc",
             "label": "blockly.bubbles_namespace.bubble_class._constructor__1_constructor",
             "id": "reference/js/blockly.bubbles_namespace.bubble_class._constructor__1_constructor"
+          },
+          {
+            "type": "doc",
+            "label": "blockly.bubbles_namespace.textbubble_class._constructor__1_constructor",
+            "id": "reference/js/blockly.bubbles_namespace.textbubble_class._constructor__1_constructor"
+          },
+          {
+            "type": "doc",
+            "label": "blockly.bubbles_namespace.textinputbubble_class._constructor__1_constructor",
+            "id": "reference/js/blockly.bubbles_namespace.textinputbubble_class._constructor__1_constructor"
+          },
+          {
+            "type": "doc",
+            "label": "blockly.bubbles_namespace.bubble_class",
+            "id": "reference/js/blockly.bubbles_namespace.bubble_class"
           },
           {
             "type": "doc",
@@ -11649,11 +11525,6 @@ export const referenceSidebar = [
             "type": "doc",
             "label": "blockly.bubbles_namespace.bubble_class.ismovable_1_method",
             "id": "reference/js/blockly.bubbles_namespace.bubble_class.ismovable_1_method"
-          },
-          {
-            "type": "doc",
-            "label": "blockly.bubbles_namespace.bubble_class",
-            "id": "reference/js/blockly.bubbles_namespace.bubble_class"
           },
           {
             "type": "doc",
@@ -11767,6 +11638,11 @@ export const referenceSidebar = [
           },
           {
             "type": "doc",
+            "label": "blockly.bubbles_namespace.miniworkspacebubble_class",
+            "id": "reference/js/blockly.bubbles_namespace.miniworkspacebubble_class"
+          },
+          {
+            "type": "doc",
             "label": "blockly.bubbles_namespace.miniworkspacebubble_class.addworkspacechangelistener_1_method",
             "id": "reference/js/blockly.bubbles_namespace.miniworkspacebubble_class.addworkspacechangelistener_1_method"
           },
@@ -11779,11 +11655,6 @@ export const referenceSidebar = [
             "type": "doc",
             "label": "blockly.bubbles_namespace.miniworkspacebubble_class.dispose_1_method",
             "id": "reference/js/blockly.bubbles_namespace.miniworkspacebubble_class.dispose_1_method"
-          },
-          {
-            "type": "doc",
-            "label": "blockly.bubbles_namespace.miniworkspacebubble_class",
-            "id": "reference/js/blockly.bubbles_namespace.miniworkspacebubble_class"
           },
           {
             "type": "doc",
@@ -11802,8 +11673,8 @@ export const referenceSidebar = [
           },
           {
             "type": "doc",
-            "label": "blockly.bubbles_namespace.textbubble_class._constructor__1_constructor",
-            "id": "reference/js/blockly.bubbles_namespace.textbubble_class._constructor__1_constructor"
+            "label": "blockly.bubbles_namespace.textbubble_class",
+            "id": "reference/js/blockly.bubbles_namespace.textbubble_class"
           },
           {
             "type": "doc",
@@ -11814,11 +11685,6 @@ export const referenceSidebar = [
             "type": "doc",
             "label": "blockly.bubbles_namespace.textbubble_class.gettext_1_method",
             "id": "reference/js/blockly.bubbles_namespace.textbubble_class.gettext_1_method"
-          },
-          {
-            "type": "doc",
-            "label": "blockly.bubbles_namespace.textbubble_class",
-            "id": "reference/js/blockly.bubbles_namespace.textbubble_class"
           },
           {
             "type": "doc",
@@ -11837,8 +11703,8 @@ export const referenceSidebar = [
           },
           {
             "type": "doc",
-            "label": "blockly.bubbles_namespace.textinputbubble_class._constructor__1_constructor",
-            "id": "reference/js/blockly.bubbles_namespace.textinputbubble_class._constructor__1_constructor"
+            "label": "blockly.bubbles_namespace.textinputbubble_class",
+            "id": "reference/js/blockly.bubbles_namespace.textinputbubble_class"
           },
           {
             "type": "doc",
@@ -11874,11 +11740,6 @@ export const referenceSidebar = [
             "type": "doc",
             "label": "blockly.bubbles_namespace.textinputbubble_class.iseditable_1_method",
             "id": "reference/js/blockly.bubbles_namespace.textinputbubble_class.iseditable_1_method"
-          },
-          {
-            "type": "doc",
-            "label": "blockly.bubbles_namespace.textinputbubble_class",
-            "id": "reference/js/blockly.bubbles_namespace.textinputbubble_class"
           },
           {
             "type": "doc",
@@ -11924,8 +11785,8 @@ export const referenceSidebar = [
             "type": "doc",
             "label": "blockly.bubbles_namespace.textinputbubble_class.workspace_property",
             "id": "reference/js/blockly.bubbles_namespace.textinputbubble_class.workspace_property"
-          }
-        ]
+          },
+        ],
       },
       {
         "type": "category",
@@ -11949,8 +11810,8 @@ export const referenceSidebar = [
             "type": "doc",
             "label": "blockly.bumpobjects_namespace.bumptopobjectsintobounds_1_function",
             "id": "reference/js/blockly.bumpobjects_namespace.bumptopobjectsintobounds_1_function"
-          }
-        ]
+          },
+        ],
       },
       {
         "type": "category",
@@ -11962,13 +11823,13 @@ export const referenceSidebar = [
         "items": [
           {
             "type": "doc",
-            "label": "blockly.clipboard_namespace.blockcopydata_interface.blockstate_propertysignature",
-            "id": "reference/js/blockly.clipboard_namespace.blockcopydata_interface.blockstate_propertysignature"
+            "label": "blockly.clipboard_namespace.blockcopydata_interface",
+            "id": "reference/js/blockly.clipboard_namespace.blockcopydata_interface"
           },
           {
             "type": "doc",
-            "label": "blockly.clipboard_namespace.blockcopydata_interface",
-            "id": "reference/js/blockly.clipboard_namespace.blockcopydata_interface"
+            "label": "blockly.clipboard_namespace.blockcopydata_interface.blockstate_propertysignature",
+            "id": "reference/js/blockly.clipboard_namespace.blockcopydata_interface.blockstate_propertysignature"
           },
           {
             "type": "doc",
@@ -12049,8 +11910,8 @@ export const referenceSidebar = [
             "type": "doc",
             "label": "blockly.clipboard_namespace.setlastcopiedworkspace_1_function",
             "id": "reference/js/blockly.clipboard_namespace.setlastcopiedworkspace_1_function"
-          }
-        ]
+          },
+        ],
       },
       {
         "type": "category",
@@ -12060,6 +11921,11 @@ export const referenceSidebar = [
           "id": "reference/js/blockly.collapsibletoolboxcategory_namespace"
         },
         "items": [
+          {
+            "type": "doc",
+            "label": "blockly.collapsibletoolboxcategory_namespace.cssconfig_interface",
+            "id": "reference/js/blockly.collapsibletoolboxcategory_namespace.cssconfig_interface"
+          },
           {
             "type": "doc",
             "label": "blockly.collapsibletoolboxcategory_namespace.cssconfig_interface.closedicon_propertysignature",
@@ -12087,11 +11953,6 @@ export const referenceSidebar = [
           },
           {
             "type": "doc",
-            "label": "blockly.collapsibletoolboxcategory_namespace.cssconfig_interface",
-            "id": "reference/js/blockly.collapsibletoolboxcategory_namespace.cssconfig_interface"
-          },
-          {
-            "type": "doc",
             "label": "blockly.collapsibletoolboxcategory_namespace.cssconfig_interface.openicon_propertysignature",
             "id": "reference/js/blockly.collapsibletoolboxcategory_namespace.cssconfig_interface.openicon_propertysignature"
           },
@@ -12109,8 +11970,8 @@ export const referenceSidebar = [
             "type": "doc",
             "label": "blockly.collapsibletoolboxcategory_namespace.cssconfig_interface.selected_propertysignature",
             "id": "reference/js/blockly.collapsibletoolboxcategory_namespace.cssconfig_interface.selected_propertysignature"
-          }
-        ]
+          },
+        ],
       },
       {
         "type": "category",
@@ -12124,6 +11985,41 @@ export const referenceSidebar = [
             "type": "doc",
             "label": "blockly.comments_namespace.collapsecommentbarbutton_class._constructor__1_constructor",
             "id": "reference/js/blockly.comments_namespace.collapsecommentbarbutton_class._constructor__1_constructor"
+          },
+          {
+            "type": "doc",
+            "label": "blockly.comments_namespace.commentbarbutton_class._constructor__1_constructor",
+            "id": "reference/js/blockly.comments_namespace.commentbarbutton_class._constructor__1_constructor"
+          },
+          {
+            "type": "doc",
+            "label": "blockly.comments_namespace.commenteditor_class._constructor__1_constructor",
+            "id": "reference/js/blockly.comments_namespace.commenteditor_class._constructor__1_constructor"
+          },
+          {
+            "type": "doc",
+            "label": "blockly.comments_namespace.commentview_class._constructor__1_constructor",
+            "id": "reference/js/blockly.comments_namespace.commentview_class._constructor__1_constructor"
+          },
+          {
+            "type": "doc",
+            "label": "blockly.comments_namespace.deletecommentbarbutton_class._constructor__1_constructor",
+            "id": "reference/js/blockly.comments_namespace.deletecommentbarbutton_class._constructor__1_constructor"
+          },
+          {
+            "type": "doc",
+            "label": "blockly.comments_namespace.renderedworkspacecomment_class._constructor__1_constructor",
+            "id": "reference/js/blockly.comments_namespace.renderedworkspacecomment_class._constructor__1_constructor"
+          },
+          {
+            "type": "doc",
+            "label": "blockly.comments_namespace.workspacecomment_class._constructor__1_constructor",
+            "id": "reference/js/blockly.comments_namespace.workspacecomment_class._constructor__1_constructor"
+          },
+          {
+            "type": "doc",
+            "label": "blockly.comments_namespace.collapsecommentbarbutton_class",
+            "id": "reference/js/blockly.comments_namespace.collapsecommentbarbutton_class"
           },
           {
             "type": "doc",
@@ -12152,11 +12048,6 @@ export const referenceSidebar = [
           },
           {
             "type": "doc",
-            "label": "blockly.comments_namespace.collapsecommentbarbutton_class",
-            "id": "reference/js/blockly.comments_namespace.collapsecommentbarbutton_class"
-          },
-          {
-            "type": "doc",
             "label": "blockly.comments_namespace.collapsecommentbarbutton_class.performaction_1_method",
             "id": "reference/js/blockly.comments_namespace.collapsecommentbarbutton_class.performaction_1_method"
           },
@@ -12172,8 +12063,8 @@ export const referenceSidebar = [
           },
           {
             "type": "doc",
-            "label": "blockly.comments_namespace.commentbarbutton_class._constructor__1_constructor",
-            "id": "reference/js/blockly.comments_namespace.commentbarbutton_class._constructor__1_constructor"
+            "label": "blockly.comments_namespace.commentbarbutton_class",
+            "id": "reference/js/blockly.comments_namespace.commentbarbutton_class"
           },
           {
             "type": "doc",
@@ -12212,11 +12103,6 @@ export const referenceSidebar = [
           },
           {
             "type": "doc",
-            "label": "blockly.comments_namespace.commentbarbutton_class.getparentcomment_1_method",
-            "id": "reference/js/blockly.comments_namespace.commentbarbutton_class.getparentcomment_1_method"
-          },
-          {
-            "type": "doc",
             "label": "blockly.comments_namespace.commentbarbutton_class.getsize_1_method",
             "id": "reference/js/blockly.comments_namespace.commentbarbutton_class.getsize_1_method"
           },
@@ -12234,11 +12120,6 @@ export const referenceSidebar = [
             "type": "doc",
             "label": "blockly.comments_namespace.commentbarbutton_class.isvisible_1_method",
             "id": "reference/js/blockly.comments_namespace.commentbarbutton_class.isvisible_1_method"
-          },
-          {
-            "type": "doc",
-            "label": "blockly.comments_namespace.commentbarbutton_class",
-            "id": "reference/js/blockly.comments_namespace.commentbarbutton_class"
           },
           {
             "type": "doc",
@@ -12267,8 +12148,8 @@ export const referenceSidebar = [
           },
           {
             "type": "doc",
-            "label": "blockly.comments_namespace.commenteditor_class._constructor__1_constructor",
-            "id": "reference/js/blockly.comments_namespace.commenteditor_class._constructor__1_constructor"
+            "label": "blockly.comments_namespace.commenteditor_class",
+            "id": "reference/js/blockly.comments_namespace.commenteditor_class"
           },
           {
             "type": "doc",
@@ -12304,11 +12185,6 @@ export const referenceSidebar = [
             "type": "doc",
             "label": "blockly.comments_namespace.commenteditor_class.id_property",
             "id": "reference/js/blockly.comments_namespace.commenteditor_class.id_property"
-          },
-          {
-            "type": "doc",
-            "label": "blockly.comments_namespace.commenteditor_class",
-            "id": "reference/js/blockly.comments_namespace.commenteditor_class"
           },
           {
             "type": "doc",
@@ -12352,8 +12228,8 @@ export const referenceSidebar = [
           },
           {
             "type": "doc",
-            "label": "blockly.comments_namespace.commentview_class._constructor__1_constructor",
-            "id": "reference/js/blockly.comments_namespace.commentview_class._constructor__1_constructor"
+            "label": "blockly.comments_namespace.commentview_class",
+            "id": "reference/js/blockly.comments_namespace.commentview_class"
           },
           {
             "type": "doc",
@@ -12452,11 +12328,6 @@ export const referenceSidebar = [
           },
           {
             "type": "doc",
-            "label": "blockly.comments_namespace.commentview_class",
-            "id": "reference/js/blockly.comments_namespace.commentview_class"
-          },
-          {
-            "type": "doc",
             "label": "blockly.comments_namespace.commentview_class.moveto_1_method",
             "id": "reference/js/blockly.comments_namespace.commentview_class.moveto_1_method"
           },
@@ -12517,8 +12388,8 @@ export const referenceSidebar = [
           },
           {
             "type": "doc",
-            "label": "blockly.comments_namespace.deletecommentbarbutton_class._constructor__1_constructor",
-            "id": "reference/js/blockly.comments_namespace.deletecommentbarbutton_class._constructor__1_constructor"
+            "label": "blockly.comments_namespace.deletecommentbarbutton_class",
+            "id": "reference/js/blockly.comments_namespace.deletecommentbarbutton_class"
           },
           {
             "type": "doc",
@@ -12547,11 +12418,6 @@ export const referenceSidebar = [
           },
           {
             "type": "doc",
-            "label": "blockly.comments_namespace.deletecommentbarbutton_class",
-            "id": "reference/js/blockly.comments_namespace.deletecommentbarbutton_class"
-          },
-          {
-            "type": "doc",
             "label": "blockly.comments_namespace.deletecommentbarbutton_class.performaction_1_method",
             "id": "reference/js/blockly.comments_namespace.deletecommentbarbutton_class.performaction_1_method"
           },
@@ -12567,8 +12433,8 @@ export const referenceSidebar = [
           },
           {
             "type": "doc",
-            "label": "blockly.comments_namespace.renderedworkspacecomment_class._constructor__1_constructor",
-            "id": "reference/js/blockly.comments_namespace.renderedworkspacecomment_class._constructor__1_constructor"
+            "label": "blockly.comments_namespace.renderedworkspacecomment_class",
+            "id": "reference/js/blockly.comments_namespace.renderedworkspacecomment_class"
           },
           {
             "type": "doc",
@@ -12629,11 +12495,6 @@ export const referenceSidebar = [
             "type": "doc",
             "label": "blockly.comments_namespace.renderedworkspacecomment_class.ismovable_1_method",
             "id": "reference/js/blockly.comments_namespace.renderedworkspacecomment_class.ismovable_1_method"
-          },
-          {
-            "type": "doc",
-            "label": "blockly.comments_namespace.renderedworkspacecomment_class",
-            "id": "reference/js/blockly.comments_namespace.renderedworkspacecomment_class"
           },
           {
             "type": "doc",
@@ -12732,8 +12593,8 @@ export const referenceSidebar = [
           },
           {
             "type": "doc",
-            "label": "blockly.comments_namespace.workspacecomment_class._constructor__1_constructor",
-            "id": "reference/js/blockly.comments_namespace.workspacecomment_class._constructor__1_constructor"
+            "label": "blockly.comments_namespace.workspacecomment_class",
+            "id": "reference/js/blockly.comments_namespace.workspacecomment_class"
           },
           {
             "type": "doc",
@@ -12822,11 +12683,6 @@ export const referenceSidebar = [
           },
           {
             "type": "doc",
-            "label": "blockly.comments_namespace.workspacecomment_class",
-            "id": "reference/js/blockly.comments_namespace.workspacecomment_class"
-          },
-          {
-            "type": "doc",
             "label": "blockly.comments_namespace.workspacecomment_class.moveto_1_method",
             "id": "reference/js/blockly.comments_namespace.workspacecomment_class.moveto_1_method"
           },
@@ -12864,8 +12720,8 @@ export const referenceSidebar = [
             "type": "doc",
             "label": "blockly.comments_namespace.workspacecomment_class.workspace_property",
             "id": "reference/js/blockly.comments_namespace.workspacecomment_class.workspace_property"
-          }
-        ]
+          },
+        ],
       },
       {
         "type": "category",
@@ -12954,8 +12810,8 @@ export const referenceSidebar = [
             "type": "doc",
             "label": "blockly.common_namespace.unregisterworkpace_1_function",
             "id": "reference/js/blockly.common_namespace.unregisterworkpace_1_function"
-          }
-        ]
+          },
+        ],
       },
       {
         "type": "category",
@@ -12965,6 +12821,11 @@ export const referenceSidebar = [
           "id": "reference/js/blockly.componentmanager_namespace"
         },
         "items": [
+          {
+            "type": "doc",
+            "label": "blockly.componentmanager_namespace.componentdatum_interface",
+            "id": "reference/js/blockly.componentmanager_namespace.componentdatum_interface"
+          },
           {
             "type": "doc",
             "label": "blockly.componentmanager_namespace.componentdatum_interface.capabilities_propertysignature",
@@ -12977,11 +12838,6 @@ export const referenceSidebar = [
           },
           {
             "type": "doc",
-            "label": "blockly.componentmanager_namespace.componentdatum_interface",
-            "id": "reference/js/blockly.componentmanager_namespace.componentdatum_interface"
-          },
-          {
-            "type": "doc",
             "label": "blockly.componentmanager_namespace.componentdatum_interface.weight_propertysignature",
             "id": "reference/js/blockly.componentmanager_namespace.componentdatum_interface.weight_propertysignature"
           },
@@ -12989,8 +12845,8 @@ export const referenceSidebar = [
             "type": "doc",
             "label": "blockly.componentmanager_namespace.componentweight_enum",
             "id": "reference/js/blockly.componentmanager_namespace.componentweight_enum"
-          }
-        ]
+          },
+        ],
       },
       {
         "type": "category",
@@ -13014,8 +12870,8 @@ export const referenceSidebar = [
             "type": "doc",
             "label": "blockly.constants_namespace.manually_disabled_variable",
             "id": "reference/js/blockly.constants_namespace.manually_disabled_variable"
-          }
-        ]
+          },
+        ],
       },
       {
         "type": "category",
@@ -13054,8 +12910,8 @@ export const referenceSidebar = [
             "type": "doc",
             "label": "blockly.contextmenu_namespace.show_1_function",
             "id": "reference/js/blockly.contextmenu_namespace.show_1_function"
-          }
-        ]
+          },
+        ],
       },
       {
         "type": "category",
@@ -13149,8 +13005,8 @@ export const referenceSidebar = [
             "type": "doc",
             "label": "blockly.contextmenuitems_namespace.registerundo_1_function",
             "id": "reference/js/blockly.contextmenuitems_namespace.registerundo_1_function"
-          }
-        ]
+          },
+        ],
       },
       {
         "type": "category",
@@ -13162,6 +13018,11 @@ export const referenceSidebar = [
         "items": [
           {
             "type": "doc",
+            "label": "blockly.contextmenuregistry_namespace.actioncontextmenuoption_interface",
+            "id": "reference/js/blockly.contextmenuregistry_namespace.actioncontextmenuoption_interface"
+          },
+          {
+            "type": "doc",
             "label": "blockly.contextmenuregistry_namespace.actioncontextmenuoption_interface.callback_propertysignature",
             "id": "reference/js/blockly.contextmenuregistry_namespace.actioncontextmenuoption_interface.callback_propertysignature"
           },
@@ -13169,11 +13030,6 @@ export const referenceSidebar = [
             "type": "doc",
             "label": "blockly.contextmenuregistry_namespace.actioncontextmenuoption_interface.enabled_propertysignature",
             "id": "reference/js/blockly.contextmenuregistry_namespace.actioncontextmenuoption_interface.enabled_propertysignature"
-          },
-          {
-            "type": "doc",
-            "label": "blockly.contextmenuregistry_namespace.actioncontextmenuoption_interface",
-            "id": "reference/js/blockly.contextmenuregistry_namespace.actioncontextmenuoption_interface"
           },
           {
             "type": "doc",
@@ -13187,6 +13043,11 @@ export const referenceSidebar = [
           },
           {
             "type": "doc",
+            "label": "blockly.contextmenuregistry_namespace.actionregistryitem_interface",
+            "id": "reference/js/blockly.contextmenuregistry_namespace.actionregistryitem_interface"
+          },
+          {
+            "type": "doc",
             "label": "blockly.contextmenuregistry_namespace.actionregistryitem_interface.callback_propertysignature",
             "id": "reference/js/blockly.contextmenuregistry_namespace.actionregistryitem_interface.callback_propertysignature"
           },
@@ -13194,11 +13055,6 @@ export const referenceSidebar = [
             "type": "doc",
             "label": "blockly.contextmenuregistry_namespace.actionregistryitem_interface.displaytext_propertysignature",
             "id": "reference/js/blockly.contextmenuregistry_namespace.actionregistryitem_interface.displaytext_propertysignature"
-          },
-          {
-            "type": "doc",
-            "label": "blockly.contextmenuregistry_namespace.actionregistryitem_interface",
-            "id": "reference/js/blockly.contextmenuregistry_namespace.actionregistryitem_interface"
           },
           {
             "type": "doc",
@@ -13232,13 +13088,13 @@ export const referenceSidebar = [
           },
           {
             "type": "doc",
-            "label": "blockly.contextmenuregistry_namespace.coreregistryitem_interface.id_propertysignature",
-            "id": "reference/js/blockly.contextmenuregistry_namespace.coreregistryitem_interface.id_propertysignature"
+            "label": "blockly.contextmenuregistry_namespace.coreregistryitem_interface",
+            "id": "reference/js/blockly.contextmenuregistry_namespace.coreregistryitem_interface"
           },
           {
             "type": "doc",
-            "label": "blockly.contextmenuregistry_namespace.coreregistryitem_interface",
-            "id": "reference/js/blockly.contextmenuregistry_namespace.coreregistryitem_interface"
+            "label": "blockly.contextmenuregistry_namespace.coreregistryitem_interface.id_propertysignature",
+            "id": "reference/js/blockly.contextmenuregistry_namespace.coreregistryitem_interface.id_propertysignature"
           },
           {
             "type": "doc",
@@ -13252,6 +13108,11 @@ export const referenceSidebar = [
           },
           {
             "type": "doc",
+            "label": "blockly.contextmenuregistry_namespace.legacycontextmenuoption_interface",
+            "id": "reference/js/blockly.contextmenuregistry_namespace.legacycontextmenuoption_interface"
+          },
+          {
+            "type": "doc",
             "label": "blockly.contextmenuregistry_namespace.legacycontextmenuoption_interface.callback_propertysignature",
             "id": "reference/js/blockly.contextmenuregistry_namespace.legacycontextmenuoption_interface.callback_propertysignature"
           },
@@ -13259,11 +13120,6 @@ export const referenceSidebar = [
             "type": "doc",
             "label": "blockly.contextmenuregistry_namespace.legacycontextmenuoption_interface.enabled_propertysignature",
             "id": "reference/js/blockly.contextmenuregistry_namespace.legacycontextmenuoption_interface.enabled_propertysignature"
-          },
-          {
-            "type": "doc",
-            "label": "blockly.contextmenuregistry_namespace.legacycontextmenuoption_interface",
-            "id": "reference/js/blockly.contextmenuregistry_namespace.legacycontextmenuoption_interface"
           },
           {
             "type": "doc",
@@ -13282,6 +13138,11 @@ export const referenceSidebar = [
           },
           {
             "type": "doc",
+            "label": "blockly.contextmenuregistry_namespace.scope_interface",
+            "id": "reference/js/blockly.contextmenuregistry_namespace.scope_interface"
+          },
+          {
+            "type": "doc",
             "label": "blockly.contextmenuregistry_namespace.scope_interface.block_propertysignature",
             "id": "reference/js/blockly.contextmenuregistry_namespace.scope_interface.block_propertysignature"
           },
@@ -13297,11 +13158,6 @@ export const referenceSidebar = [
           },
           {
             "type": "doc",
-            "label": "blockly.contextmenuregistry_namespace.scope_interface",
-            "id": "reference/js/blockly.contextmenuregistry_namespace.scope_interface"
-          },
-          {
-            "type": "doc",
             "label": "blockly.contextmenuregistry_namespace.scope_interface.workspace_propertysignature",
             "id": "reference/js/blockly.contextmenuregistry_namespace.scope_interface.workspace_propertysignature"
           },
@@ -13309,6 +13165,11 @@ export const referenceSidebar = [
             "type": "doc",
             "label": "blockly.contextmenuregistry_namespace.scopetype_enum",
             "id": "reference/js/blockly.contextmenuregistry_namespace.scopetype_enum"
+          },
+          {
+            "type": "doc",
+            "label": "blockly.contextmenuregistry_namespace.separatorcontextmenuoption_interface",
+            "id": "reference/js/blockly.contextmenuregistry_namespace.separatorcontextmenuoption_interface"
           },
           {
             "type": "doc",
@@ -13322,11 +13183,6 @@ export const referenceSidebar = [
           },
           {
             "type": "doc",
-            "label": "blockly.contextmenuregistry_namespace.separatorcontextmenuoption_interface",
-            "id": "reference/js/blockly.contextmenuregistry_namespace.separatorcontextmenuoption_interface"
-          },
-          {
-            "type": "doc",
             "label": "blockly.contextmenuregistry_namespace.separatorcontextmenuoption_interface.separator_propertysignature",
             "id": "reference/js/blockly.contextmenuregistry_namespace.separatorcontextmenuoption_interface.separator_propertysignature"
           },
@@ -13334,6 +13190,11 @@ export const referenceSidebar = [
             "type": "doc",
             "label": "blockly.contextmenuregistry_namespace.separatorcontextmenuoption_interface.text_propertysignature",
             "id": "reference/js/blockly.contextmenuregistry_namespace.separatorcontextmenuoption_interface.text_propertysignature"
+          },
+          {
+            "type": "doc",
+            "label": "blockly.contextmenuregistry_namespace.separatorregistryitem_interface",
+            "id": "reference/js/blockly.contextmenuregistry_namespace.separatorregistryitem_interface"
           },
           {
             "type": "doc",
@@ -13347,11 +13208,6 @@ export const referenceSidebar = [
           },
           {
             "type": "doc",
-            "label": "blockly.contextmenuregistry_namespace.separatorregistryitem_interface",
-            "id": "reference/js/blockly.contextmenuregistry_namespace.separatorregistryitem_interface"
-          },
-          {
-            "type": "doc",
             "label": "blockly.contextmenuregistry_namespace.separatorregistryitem_interface.preconditionfn_propertysignature",
             "id": "reference/js/blockly.contextmenuregistry_namespace.separatorregistryitem_interface.preconditionfn_propertysignature"
           },
@@ -13359,8 +13215,8 @@ export const referenceSidebar = [
             "type": "doc",
             "label": "blockly.contextmenuregistry_namespace.separatorregistryitem_interface.separator_propertysignature",
             "id": "reference/js/blockly.contextmenuregistry_namespace.separatorregistryitem_interface.separator_propertysignature"
-          }
-        ]
+          },
+        ],
       },
       {
         "type": "category",
@@ -13379,8 +13235,8 @@ export const referenceSidebar = [
             "type": "doc",
             "label": "blockly.css_namespace.register_1_function",
             "id": "reference/js/blockly.css_namespace.register_1_function"
-          }
-        ]
+          },
+        ],
       },
       {
         "type": "category",
@@ -13429,8 +13285,8 @@ export const referenceSidebar = [
             "type": "doc",
             "label": "blockly.dialog_namespace.toast_1_function",
             "id": "reference/js/blockly.dialog_namespace.toast_1_function"
-          }
-        ]
+          },
+        ],
       },
       {
         "type": "category",
@@ -13444,6 +13300,26 @@ export const referenceSidebar = [
             "type": "doc",
             "label": "blockly.dragging_namespace.blockdragstrategy_class._constructor__1_constructor",
             "id": "reference/js/blockly.dragging_namespace.blockdragstrategy_class._constructor__1_constructor"
+          },
+          {
+            "type": "doc",
+            "label": "blockly.dragging_namespace.bubbledragstrategy_class._constructor__1_constructor",
+            "id": "reference/js/blockly.dragging_namespace.bubbledragstrategy_class._constructor__1_constructor"
+          },
+          {
+            "type": "doc",
+            "label": "blockly.dragging_namespace.commentdragstrategy_class._constructor__1_constructor",
+            "id": "reference/js/blockly.dragging_namespace.commentdragstrategy_class._constructor__1_constructor"
+          },
+          {
+            "type": "doc",
+            "label": "blockly.dragging_namespace.dragger_class._constructor__1_constructor",
+            "id": "reference/js/blockly.dragging_namespace.dragger_class._constructor__1_constructor"
+          },
+          {
+            "type": "doc",
+            "label": "blockly.dragging_namespace.blockdragstrategy_class",
+            "id": "reference/js/blockly.dragging_namespace.blockdragstrategy_class"
           },
           {
             "type": "doc",
@@ -13467,11 +13343,6 @@ export const referenceSidebar = [
           },
           {
             "type": "doc",
-            "label": "blockly.dragging_namespace.blockdragstrategy_class",
-            "id": "reference/js/blockly.dragging_namespace.blockdragstrategy_class"
-          },
-          {
-            "type": "doc",
             "label": "blockly.dragging_namespace.blockdragstrategy_class.revertdrag_1_method",
             "id": "reference/js/blockly.dragging_namespace.blockdragstrategy_class.revertdrag_1_method"
           },
@@ -13487,8 +13358,8 @@ export const referenceSidebar = [
           },
           {
             "type": "doc",
-            "label": "blockly.dragging_namespace.bubbledragstrategy_class._constructor__1_constructor",
-            "id": "reference/js/blockly.dragging_namespace.bubbledragstrategy_class._constructor__1_constructor"
+            "label": "blockly.dragging_namespace.bubbledragstrategy_class",
+            "id": "reference/js/blockly.dragging_namespace.bubbledragstrategy_class"
           },
           {
             "type": "doc",
@@ -13507,11 +13378,6 @@ export const referenceSidebar = [
           },
           {
             "type": "doc",
-            "label": "blockly.dragging_namespace.bubbledragstrategy_class",
-            "id": "reference/js/blockly.dragging_namespace.bubbledragstrategy_class"
-          },
-          {
-            "type": "doc",
             "label": "blockly.dragging_namespace.bubbledragstrategy_class.revertdrag_1_method",
             "id": "reference/js/blockly.dragging_namespace.bubbledragstrategy_class.revertdrag_1_method"
           },
@@ -13522,8 +13388,8 @@ export const referenceSidebar = [
           },
           {
             "type": "doc",
-            "label": "blockly.dragging_namespace.commentdragstrategy_class._constructor__1_constructor",
-            "id": "reference/js/blockly.dragging_namespace.commentdragstrategy_class._constructor__1_constructor"
+            "label": "blockly.dragging_namespace.commentdragstrategy_class",
+            "id": "reference/js/blockly.dragging_namespace.commentdragstrategy_class"
           },
           {
             "type": "doc",
@@ -13542,11 +13408,6 @@ export const referenceSidebar = [
           },
           {
             "type": "doc",
-            "label": "blockly.dragging_namespace.commentdragstrategy_class",
-            "id": "reference/js/blockly.dragging_namespace.commentdragstrategy_class"
-          },
-          {
-            "type": "doc",
             "label": "blockly.dragging_namespace.commentdragstrategy_class.revertdrag_1_method",
             "id": "reference/js/blockly.dragging_namespace.commentdragstrategy_class.revertdrag_1_method"
           },
@@ -13557,8 +13418,8 @@ export const referenceSidebar = [
           },
           {
             "type": "doc",
-            "label": "blockly.dragging_namespace.dragger_class._constructor__1_constructor",
-            "id": "reference/js/blockly.dragging_namespace.dragger_class._constructor__1_constructor"
+            "label": "blockly.dragging_namespace.dragger_class",
+            "id": "reference/js/blockly.dragging_namespace.dragger_class"
           },
           {
             "type": "doc",
@@ -13569,11 +13430,6 @@ export const referenceSidebar = [
             "type": "doc",
             "label": "blockly.dragging_namespace.dragger_class.dragtarget_property",
             "id": "reference/js/blockly.dragging_namespace.dragger_class.dragtarget_property"
-          },
-          {
-            "type": "doc",
-            "label": "blockly.dragging_namespace.dragger_class",
-            "id": "reference/js/blockly.dragging_namespace.dragger_class"
           },
           {
             "type": "doc",
@@ -13619,8 +13475,8 @@ export const referenceSidebar = [
             "type": "doc",
             "label": "blockly.dragging_namespace.dragger_class.woulddeletedraggable_1_method",
             "id": "reference/js/blockly.dragging_namespace.dragger_class.woulddeletedraggable_1_method"
-          }
-        ]
+          },
+        ],
       },
       {
         "type": "category",
@@ -13634,6 +13490,156 @@ export const referenceSidebar = [
             "type": "doc",
             "label": "blockly.events_namespace.abstract_class._constructor__1_constructor",
             "id": "reference/js/blockly.events_namespace.abstract_class._constructor__1_constructor"
+          },
+          {
+            "type": "doc",
+            "label": "blockly.events_namespace.blockbase_class._constructor__1_constructor",
+            "id": "reference/js/blockly.events_namespace.blockbase_class._constructor__1_constructor"
+          },
+          {
+            "type": "doc",
+            "label": "blockly.events_namespace.blockchange_class._constructor__1_constructor",
+            "id": "reference/js/blockly.events_namespace.blockchange_class._constructor__1_constructor"
+          },
+          {
+            "type": "doc",
+            "label": "blockly.events_namespace.blockcreate_class._constructor__1_constructor",
+            "id": "reference/js/blockly.events_namespace.blockcreate_class._constructor__1_constructor"
+          },
+          {
+            "type": "doc",
+            "label": "blockly.events_namespace.blockdelete_class._constructor__1_constructor",
+            "id": "reference/js/blockly.events_namespace.blockdelete_class._constructor__1_constructor"
+          },
+          {
+            "type": "doc",
+            "label": "blockly.events_namespace.blockdrag_class._constructor__1_constructor",
+            "id": "reference/js/blockly.events_namespace.blockdrag_class._constructor__1_constructor"
+          },
+          {
+            "type": "doc",
+            "label": "blockly.events_namespace.blockfieldintermediatechange_class._constructor__1_constructor",
+            "id": "reference/js/blockly.events_namespace.blockfieldintermediatechange_class._constructor__1_constructor"
+          },
+          {
+            "type": "doc",
+            "label": "blockly.events_namespace.blockmove_class._constructor__1_constructor",
+            "id": "reference/js/blockly.events_namespace.blockmove_class._constructor__1_constructor"
+          },
+          {
+            "type": "doc",
+            "label": "blockly.events_namespace.bubbleopen_class._constructor__1_constructor",
+            "id": "reference/js/blockly.events_namespace.bubbleopen_class._constructor__1_constructor"
+          },
+          {
+            "type": "doc",
+            "label": "blockly.events_namespace.click_class._constructor__1_constructor",
+            "id": "reference/js/blockly.events_namespace.click_class._constructor__1_constructor"
+          },
+          {
+            "type": "doc",
+            "label": "blockly.events_namespace.commentbase_class._constructor__1_constructor",
+            "id": "reference/js/blockly.events_namespace.commentbase_class._constructor__1_constructor"
+          },
+          {
+            "type": "doc",
+            "label": "blockly.events_namespace.commentchange_class._constructor__1_constructor",
+            "id": "reference/js/blockly.events_namespace.commentchange_class._constructor__1_constructor"
+          },
+          {
+            "type": "doc",
+            "label": "blockly.events_namespace.commentcollapse_class._constructor__1_constructor",
+            "id": "reference/js/blockly.events_namespace.commentcollapse_class._constructor__1_constructor"
+          },
+          {
+            "type": "doc",
+            "label": "blockly.events_namespace.commentcreate_class._constructor__1_constructor",
+            "id": "reference/js/blockly.events_namespace.commentcreate_class._constructor__1_constructor"
+          },
+          {
+            "type": "doc",
+            "label": "blockly.events_namespace.commentdelete_class._constructor__1_constructor",
+            "id": "reference/js/blockly.events_namespace.commentdelete_class._constructor__1_constructor"
+          },
+          {
+            "type": "doc",
+            "label": "blockly.events_namespace.commentdrag_class._constructor__1_constructor",
+            "id": "reference/js/blockly.events_namespace.commentdrag_class._constructor__1_constructor"
+          },
+          {
+            "type": "doc",
+            "label": "blockly.events_namespace.commentmove_class._constructor__1_constructor",
+            "id": "reference/js/blockly.events_namespace.commentmove_class._constructor__1_constructor"
+          },
+          {
+            "type": "doc",
+            "label": "blockly.events_namespace.commentresize_class._constructor__1_constructor",
+            "id": "reference/js/blockly.events_namespace.commentresize_class._constructor__1_constructor"
+          },
+          {
+            "type": "doc",
+            "label": "blockly.events_namespace.finishedloading_class._constructor__1_constructor",
+            "id": "reference/js/blockly.events_namespace.finishedloading_class._constructor__1_constructor"
+          },
+          {
+            "type": "doc",
+            "label": "blockly.events_namespace.selected_class._constructor__1_constructor",
+            "id": "reference/js/blockly.events_namespace.selected_class._constructor__1_constructor"
+          },
+          {
+            "type": "doc",
+            "label": "blockly.events_namespace.themechange_class._constructor__1_constructor",
+            "id": "reference/js/blockly.events_namespace.themechange_class._constructor__1_constructor"
+          },
+          {
+            "type": "doc",
+            "label": "blockly.events_namespace.toolboxitemselect_class._constructor__1_constructor",
+            "id": "reference/js/blockly.events_namespace.toolboxitemselect_class._constructor__1_constructor"
+          },
+          {
+            "type": "doc",
+            "label": "blockly.events_namespace.trashcanopen_class._constructor__1_constructor",
+            "id": "reference/js/blockly.events_namespace.trashcanopen_class._constructor__1_constructor"
+          },
+          {
+            "type": "doc",
+            "label": "blockly.events_namespace.uibase_class._constructor__1_constructor",
+            "id": "reference/js/blockly.events_namespace.uibase_class._constructor__1_constructor"
+          },
+          {
+            "type": "doc",
+            "label": "blockly.events_namespace.varbase_class._constructor__1_constructor",
+            "id": "reference/js/blockly.events_namespace.varbase_class._constructor__1_constructor"
+          },
+          {
+            "type": "doc",
+            "label": "blockly.events_namespace.varcreate_class._constructor__1_constructor",
+            "id": "reference/js/blockly.events_namespace.varcreate_class._constructor__1_constructor"
+          },
+          {
+            "type": "doc",
+            "label": "blockly.events_namespace.vardelete_class._constructor__1_constructor",
+            "id": "reference/js/blockly.events_namespace.vardelete_class._constructor__1_constructor"
+          },
+          {
+            "type": "doc",
+            "label": "blockly.events_namespace.varrename_class._constructor__1_constructor",
+            "id": "reference/js/blockly.events_namespace.varrename_class._constructor__1_constructor"
+          },
+          {
+            "type": "doc",
+            "label": "blockly.events_namespace.vartypechange_class._constructor__1_constructor",
+            "id": "reference/js/blockly.events_namespace.vartypechange_class._constructor__1_constructor"
+          },
+          {
+            "type": "doc",
+            "label": "blockly.events_namespace.viewportchange_class._constructor__1_constructor",
+            "id": "reference/js/blockly.events_namespace.viewportchange_class._constructor__1_constructor"
+          },
+          {
+            "type": "doc",
+            "label": "blockly.events_namespace.abstract_class",
+            "id": "reference/js/blockly.events_namespace.abstract_class"
           },
           {
             "type": "doc",
@@ -13662,11 +13668,6 @@ export const referenceSidebar = [
           },
           {
             "type": "doc",
-            "label": "blockly.events_namespace.abstract_class",
-            "id": "reference/js/blockly.events_namespace.abstract_class"
-          },
-          {
-            "type": "doc",
             "label": "blockly.events_namespace.abstract_class.recordundo_property",
             "id": "reference/js/blockly.events_namespace.abstract_class.recordundo_property"
           },
@@ -13692,13 +13693,13 @@ export const referenceSidebar = [
           },
           {
             "type": "doc",
-            "label": "blockly.events_namespace.abstracteventjson_interface.group_propertysignature",
-            "id": "reference/js/blockly.events_namespace.abstracteventjson_interface.group_propertysignature"
+            "label": "blockly.events_namespace.abstracteventjson_interface",
+            "id": "reference/js/blockly.events_namespace.abstracteventjson_interface"
           },
           {
             "type": "doc",
-            "label": "blockly.events_namespace.abstracteventjson_interface",
-            "id": "reference/js/blockly.events_namespace.abstracteventjson_interface"
+            "label": "blockly.events_namespace.abstracteventjson_interface.group_propertysignature",
+            "id": "reference/js/blockly.events_namespace.abstracteventjson_interface.group_propertysignature"
           },
           {
             "type": "doc",
@@ -13737,8 +13738,8 @@ export const referenceSidebar = [
           },
           {
             "type": "doc",
-            "label": "blockly.events_namespace.blockbase_class._constructor__1_constructor",
-            "id": "reference/js/blockly.events_namespace.blockbase_class._constructor__1_constructor"
+            "label": "blockly.events_namespace.blockbase_class",
+            "id": "reference/js/blockly.events_namespace.blockbase_class"
           },
           {
             "type": "doc",
@@ -13752,18 +13753,8 @@ export const referenceSidebar = [
           },
           {
             "type": "doc",
-            "label": "blockly.events_namespace.blockbase_class",
-            "id": "reference/js/blockly.events_namespace.blockbase_class"
-          },
-          {
-            "type": "doc",
             "label": "blockly.events_namespace.blockbase_class.tojson_1_method",
             "id": "reference/js/blockly.events_namespace.blockbase_class.tojson_1_method"
-          },
-          {
-            "type": "doc",
-            "label": "blockly.events_namespace.blockbasejson_interface.blockid_propertysignature",
-            "id": "reference/js/blockly.events_namespace.blockbasejson_interface.blockid_propertysignature"
           },
           {
             "type": "doc",
@@ -13772,8 +13763,13 @@ export const referenceSidebar = [
           },
           {
             "type": "doc",
-            "label": "blockly.events_namespace.blockchange_class._constructor__1_constructor",
-            "id": "reference/js/blockly.events_namespace.blockchange_class._constructor__1_constructor"
+            "label": "blockly.events_namespace.blockbasejson_interface.blockid_propertysignature",
+            "id": "reference/js/blockly.events_namespace.blockbasejson_interface.blockid_propertysignature"
+          },
+          {
+            "type": "doc",
+            "label": "blockly.events_namespace.blockchange_class",
+            "id": "reference/js/blockly.events_namespace.blockchange_class"
           },
           {
             "type": "doc",
@@ -13784,11 +13780,6 @@ export const referenceSidebar = [
             "type": "doc",
             "label": "blockly.events_namespace.blockchange_class.isnull_1_method",
             "id": "reference/js/blockly.events_namespace.blockchange_class.isnull_1_method"
-          },
-          {
-            "type": "doc",
-            "label": "blockly.events_namespace.blockchange_class",
-            "id": "reference/js/blockly.events_namespace.blockchange_class"
           },
           {
             "type": "doc",
@@ -13827,6 +13818,11 @@ export const referenceSidebar = [
           },
           {
             "type": "doc",
+            "label": "blockly.events_namespace.blockchangejson_interface",
+            "id": "reference/js/blockly.events_namespace.blockchangejson_interface"
+          },
+          {
+            "type": "doc",
             "label": "blockly.events_namespace.blockchangejson_interface.disabledreason_propertysignature",
             "id": "reference/js/blockly.events_namespace.blockchangejson_interface.disabledreason_propertysignature"
           },
@@ -13834,11 +13830,6 @@ export const referenceSidebar = [
             "type": "doc",
             "label": "blockly.events_namespace.blockchangejson_interface.element_propertysignature",
             "id": "reference/js/blockly.events_namespace.blockchangejson_interface.element_propertysignature"
-          },
-          {
-            "type": "doc",
-            "label": "blockly.events_namespace.blockchangejson_interface",
-            "id": "reference/js/blockly.events_namespace.blockchangejson_interface"
           },
           {
             "type": "doc",
@@ -13857,8 +13848,8 @@ export const referenceSidebar = [
           },
           {
             "type": "doc",
-            "label": "blockly.events_namespace.blockcreate_class._constructor__1_constructor",
-            "id": "reference/js/blockly.events_namespace.blockcreate_class._constructor__1_constructor"
+            "label": "blockly.events_namespace.blockcreate_class",
+            "id": "reference/js/blockly.events_namespace.blockcreate_class"
           },
           {
             "type": "doc",
@@ -13869,11 +13860,6 @@ export const referenceSidebar = [
             "type": "doc",
             "label": "blockly.events_namespace.blockcreate_class.json_property",
             "id": "reference/js/blockly.events_namespace.blockcreate_class.json_property"
-          },
-          {
-            "type": "doc",
-            "label": "blockly.events_namespace.blockcreate_class",
-            "id": "reference/js/blockly.events_namespace.blockcreate_class"
           },
           {
             "type": "doc",
@@ -13897,6 +13883,11 @@ export const referenceSidebar = [
           },
           {
             "type": "doc",
+            "label": "blockly.events_namespace.blockcreatejson_interface",
+            "id": "reference/js/blockly.events_namespace.blockcreatejson_interface"
+          },
+          {
+            "type": "doc",
             "label": "blockly.events_namespace.blockcreatejson_interface.ids_propertysignature",
             "id": "reference/js/blockly.events_namespace.blockcreatejson_interface.ids_propertysignature"
           },
@@ -13904,11 +13895,6 @@ export const referenceSidebar = [
             "type": "doc",
             "label": "blockly.events_namespace.blockcreatejson_interface.json_propertysignature",
             "id": "reference/js/blockly.events_namespace.blockcreatejson_interface.json_propertysignature"
-          },
-          {
-            "type": "doc",
-            "label": "blockly.events_namespace.blockcreatejson_interface",
-            "id": "reference/js/blockly.events_namespace.blockcreatejson_interface"
           },
           {
             "type": "doc",
@@ -13922,18 +13908,13 @@ export const referenceSidebar = [
           },
           {
             "type": "doc",
-            "label": "blockly.events_namespace.blockdelete_class._constructor__1_constructor",
-            "id": "reference/js/blockly.events_namespace.blockdelete_class._constructor__1_constructor"
+            "label": "blockly.events_namespace.blockdelete_class",
+            "id": "reference/js/blockly.events_namespace.blockdelete_class"
           },
           {
             "type": "doc",
             "label": "blockly.events_namespace.blockdelete_class.ids_property",
             "id": "reference/js/blockly.events_namespace.blockdelete_class.ids_property"
-          },
-          {
-            "type": "doc",
-            "label": "blockly.events_namespace.blockdelete_class",
-            "id": "reference/js/blockly.events_namespace.blockdelete_class"
           },
           {
             "type": "doc",
@@ -13967,13 +13948,13 @@ export const referenceSidebar = [
           },
           {
             "type": "doc",
-            "label": "blockly.events_namespace.blockdeletejson_interface.ids_propertysignature",
-            "id": "reference/js/blockly.events_namespace.blockdeletejson_interface.ids_propertysignature"
+            "label": "blockly.events_namespace.blockdeletejson_interface",
+            "id": "reference/js/blockly.events_namespace.blockdeletejson_interface"
           },
           {
             "type": "doc",
-            "label": "blockly.events_namespace.blockdeletejson_interface",
-            "id": "reference/js/blockly.events_namespace.blockdeletejson_interface"
+            "label": "blockly.events_namespace.blockdeletejson_interface.ids_propertysignature",
+            "id": "reference/js/blockly.events_namespace.blockdeletejson_interface.ids_propertysignature"
           },
           {
             "type": "doc",
@@ -13997,8 +13978,8 @@ export const referenceSidebar = [
           },
           {
             "type": "doc",
-            "label": "blockly.events_namespace.blockdrag_class._constructor__1_constructor",
-            "id": "reference/js/blockly.events_namespace.blockdrag_class._constructor__1_constructor"
+            "label": "blockly.events_namespace.blockdrag_class",
+            "id": "reference/js/blockly.events_namespace.blockdrag_class"
           },
           {
             "type": "doc",
@@ -14017,11 +13998,6 @@ export const referenceSidebar = [
           },
           {
             "type": "doc",
-            "label": "blockly.events_namespace.blockdrag_class",
-            "id": "reference/js/blockly.events_namespace.blockdrag_class"
-          },
-          {
-            "type": "doc",
             "label": "blockly.events_namespace.blockdrag_class.tojson_1_method",
             "id": "reference/js/blockly.events_namespace.blockdrag_class.tojson_1_method"
           },
@@ -14029,6 +14005,11 @@ export const referenceSidebar = [
             "type": "doc",
             "label": "blockly.events_namespace.blockdrag_class.type_property",
             "id": "reference/js/blockly.events_namespace.blockdrag_class.type_property"
+          },
+          {
+            "type": "doc",
+            "label": "blockly.events_namespace.blockdragjson_interface",
+            "id": "reference/js/blockly.events_namespace.blockdragjson_interface"
           },
           {
             "type": "doc",
@@ -14047,23 +14028,13 @@ export const referenceSidebar = [
           },
           {
             "type": "doc",
-            "label": "blockly.events_namespace.blockdragjson_interface",
-            "id": "reference/js/blockly.events_namespace.blockdragjson_interface"
-          },
-          {
-            "type": "doc",
-            "label": "blockly.events_namespace.blockfieldintermediatechange_class._constructor__1_constructor",
-            "id": "reference/js/blockly.events_namespace.blockfieldintermediatechange_class._constructor__1_constructor"
+            "label": "blockly.events_namespace.blockfieldintermediatechange_class",
+            "id": "reference/js/blockly.events_namespace.blockfieldintermediatechange_class"
           },
           {
             "type": "doc",
             "label": "blockly.events_namespace.blockfieldintermediatechange_class.isnull_1_method",
             "id": "reference/js/blockly.events_namespace.blockfieldintermediatechange_class.isnull_1_method"
-          },
-          {
-            "type": "doc",
-            "label": "blockly.events_namespace.blockfieldintermediatechange_class",
-            "id": "reference/js/blockly.events_namespace.blockfieldintermediatechange_class"
           },
           {
             "type": "doc",
@@ -14122,18 +14093,13 @@ export const referenceSidebar = [
           },
           {
             "type": "doc",
-            "label": "blockly.events_namespace.blockmove_class._constructor__1_constructor",
-            "id": "reference/js/blockly.events_namespace.blockmove_class._constructor__1_constructor"
+            "label": "blockly.events_namespace.blockmove_class",
+            "id": "reference/js/blockly.events_namespace.blockmove_class"
           },
           {
             "type": "doc",
             "label": "blockly.events_namespace.blockmove_class.isnull_1_method",
             "id": "reference/js/blockly.events_namespace.blockmove_class.isnull_1_method"
-          },
-          {
-            "type": "doc",
-            "label": "blockly.events_namespace.blockmove_class",
-            "id": "reference/js/blockly.events_namespace.blockmove_class"
           },
           {
             "type": "doc",
@@ -14247,8 +14213,8 @@ export const referenceSidebar = [
           },
           {
             "type": "doc",
-            "label": "blockly.events_namespace.bubbleopen_class._constructor__1_constructor",
-            "id": "reference/js/blockly.events_namespace.bubbleopen_class._constructor__1_constructor"
+            "label": "blockly.events_namespace.bubbleopen_class",
+            "id": "reference/js/blockly.events_namespace.bubbleopen_class"
           },
           {
             "type": "doc",
@@ -14267,11 +14233,6 @@ export const referenceSidebar = [
           },
           {
             "type": "doc",
-            "label": "blockly.events_namespace.bubbleopen_class",
-            "id": "reference/js/blockly.events_namespace.bubbleopen_class"
-          },
-          {
-            "type": "doc",
             "label": "blockly.events_namespace.bubbleopen_class.tojson_1_method",
             "id": "reference/js/blockly.events_namespace.bubbleopen_class.tojson_1_method"
           },
@@ -14279,6 +14240,11 @@ export const referenceSidebar = [
             "type": "doc",
             "label": "blockly.events_namespace.bubbleopen_class.type_property",
             "id": "reference/js/blockly.events_namespace.bubbleopen_class.type_property"
+          },
+          {
+            "type": "doc",
+            "label": "blockly.events_namespace.bubbleopenjson_interface",
+            "id": "reference/js/blockly.events_namespace.bubbleopenjson_interface"
           },
           {
             "type": "doc",
@@ -14294,11 +14260,6 @@ export const referenceSidebar = [
             "type": "doc",
             "label": "blockly.events_namespace.bubbleopenjson_interface.isopen_propertysignature",
             "id": "reference/js/blockly.events_namespace.bubbleopenjson_interface.isopen_propertysignature"
-          },
-          {
-            "type": "doc",
-            "label": "blockly.events_namespace.bubbleopenjson_interface",
-            "id": "reference/js/blockly.events_namespace.bubbleopenjson_interface"
           },
           {
             "type": "doc",
@@ -14327,18 +14288,13 @@ export const referenceSidebar = [
           },
           {
             "type": "doc",
-            "label": "blockly.events_namespace.click_class._constructor__1_constructor",
-            "id": "reference/js/blockly.events_namespace.click_class._constructor__1_constructor"
+            "label": "blockly.events_namespace.click_class",
+            "id": "reference/js/blockly.events_namespace.click_class"
           },
           {
             "type": "doc",
             "label": "blockly.events_namespace.click_class.blockid_property",
             "id": "reference/js/blockly.events_namespace.click_class.blockid_property"
-          },
-          {
-            "type": "doc",
-            "label": "blockly.events_namespace.click_class",
-            "id": "reference/js/blockly.events_namespace.click_class"
           },
           {
             "type": "doc",
@@ -14362,13 +14318,13 @@ export const referenceSidebar = [
           },
           {
             "type": "doc",
-            "label": "blockly.events_namespace.clickjson_interface.blockid_propertysignature",
-            "id": "reference/js/blockly.events_namespace.clickjson_interface.blockid_propertysignature"
+            "label": "blockly.events_namespace.clickjson_interface",
+            "id": "reference/js/blockly.events_namespace.clickjson_interface"
           },
           {
             "type": "doc",
-            "label": "blockly.events_namespace.clickjson_interface",
-            "id": "reference/js/blockly.events_namespace.clickjson_interface"
+            "label": "blockly.events_namespace.clickjson_interface.blockid_propertysignature",
+            "id": "reference/js/blockly.events_namespace.clickjson_interface.blockid_propertysignature"
           },
           {
             "type": "doc",
@@ -14412,8 +14368,8 @@ export const referenceSidebar = [
           },
           {
             "type": "doc",
-            "label": "blockly.events_namespace.commentbase_class._constructor__1_constructor",
-            "id": "reference/js/blockly.events_namespace.commentbase_class._constructor__1_constructor"
+            "label": "blockly.events_namespace.commentbase_class",
+            "id": "reference/js/blockly.events_namespace.commentbase_class"
           },
           {
             "type": "doc",
@@ -14432,18 +14388,8 @@ export const referenceSidebar = [
           },
           {
             "type": "doc",
-            "label": "blockly.events_namespace.commentbase_class",
-            "id": "reference/js/blockly.events_namespace.commentbase_class"
-          },
-          {
-            "type": "doc",
             "label": "blockly.events_namespace.commentbase_class.tojson_1_method",
             "id": "reference/js/blockly.events_namespace.commentbase_class.tojson_1_method"
-          },
-          {
-            "type": "doc",
-            "label": "blockly.events_namespace.commentbasejson_interface.commentid_propertysignature",
-            "id": "reference/js/blockly.events_namespace.commentbasejson_interface.commentid_propertysignature"
           },
           {
             "type": "doc",
@@ -14452,18 +14398,18 @@ export const referenceSidebar = [
           },
           {
             "type": "doc",
-            "label": "blockly.events_namespace.commentchange_class._constructor__1_constructor",
-            "id": "reference/js/blockly.events_namespace.commentchange_class._constructor__1_constructor"
-          },
-          {
-            "type": "doc",
-            "label": "blockly.events_namespace.commentchange_class.isnull_1_method",
-            "id": "reference/js/blockly.events_namespace.commentchange_class.isnull_1_method"
+            "label": "blockly.events_namespace.commentbasejson_interface.commentid_propertysignature",
+            "id": "reference/js/blockly.events_namespace.commentbasejson_interface.commentid_propertysignature"
           },
           {
             "type": "doc",
             "label": "blockly.events_namespace.commentchange_class",
             "id": "reference/js/blockly.events_namespace.commentchange_class"
+          },
+          {
+            "type": "doc",
+            "label": "blockly.events_namespace.commentchange_class.isnull_1_method",
+            "id": "reference/js/blockly.events_namespace.commentchange_class.isnull_1_method"
           },
           {
             "type": "doc",
@@ -14507,11 +14453,6 @@ export const referenceSidebar = [
           },
           {
             "type": "doc",
-            "label": "blockly.events_namespace.commentcollapse_class._constructor__1_constructor",
-            "id": "reference/js/blockly.events_namespace.commentcollapse_class._constructor__1_constructor"
-          },
-          {
-            "type": "doc",
             "label": "blockly.events_namespace.commentcollapse_class",
             "id": "reference/js/blockly.events_namespace.commentcollapse_class"
           },
@@ -14547,18 +14488,13 @@ export const referenceSidebar = [
           },
           {
             "type": "doc",
-            "label": "blockly.events_namespace.commentcreate_class._constructor__1_constructor",
-            "id": "reference/js/blockly.events_namespace.commentcreate_class._constructor__1_constructor"
+            "label": "blockly.events_namespace.commentcreate_class",
+            "id": "reference/js/blockly.events_namespace.commentcreate_class"
           },
           {
             "type": "doc",
             "label": "blockly.events_namespace.commentcreate_class.json_property",
             "id": "reference/js/blockly.events_namespace.commentcreate_class.json_property"
-          },
-          {
-            "type": "doc",
-            "label": "blockly.events_namespace.commentcreate_class",
-            "id": "reference/js/blockly.events_namespace.commentcreate_class"
           },
           {
             "type": "doc",
@@ -14582,13 +14518,13 @@ export const referenceSidebar = [
           },
           {
             "type": "doc",
-            "label": "blockly.events_namespace.commentcreatejson_interface.json_propertysignature",
-            "id": "reference/js/blockly.events_namespace.commentcreatejson_interface.json_propertysignature"
+            "label": "blockly.events_namespace.commentcreatejson_interface",
+            "id": "reference/js/blockly.events_namespace.commentcreatejson_interface"
           },
           {
             "type": "doc",
-            "label": "blockly.events_namespace.commentcreatejson_interface",
-            "id": "reference/js/blockly.events_namespace.commentcreatejson_interface"
+            "label": "blockly.events_namespace.commentcreatejson_interface.json_propertysignature",
+            "id": "reference/js/blockly.events_namespace.commentcreatejson_interface.json_propertysignature"
           },
           {
             "type": "doc",
@@ -14597,18 +14533,13 @@ export const referenceSidebar = [
           },
           {
             "type": "doc",
-            "label": "blockly.events_namespace.commentdelete_class._constructor__1_constructor",
-            "id": "reference/js/blockly.events_namespace.commentdelete_class._constructor__1_constructor"
+            "label": "blockly.events_namespace.commentdelete_class",
+            "id": "reference/js/blockly.events_namespace.commentdelete_class"
           },
           {
             "type": "doc",
             "label": "blockly.events_namespace.commentdelete_class.json_property",
             "id": "reference/js/blockly.events_namespace.commentdelete_class.json_property"
-          },
-          {
-            "type": "doc",
-            "label": "blockly.events_namespace.commentdelete_class",
-            "id": "reference/js/blockly.events_namespace.commentdelete_class"
           },
           {
             "type": "doc",
@@ -14632,8 +14563,8 @@ export const referenceSidebar = [
           },
           {
             "type": "doc",
-            "label": "blockly.events_namespace.commentdrag_class._constructor__1_constructor",
-            "id": "reference/js/blockly.events_namespace.commentdrag_class._constructor__1_constructor"
+            "label": "blockly.events_namespace.commentdrag_class",
+            "id": "reference/js/blockly.events_namespace.commentdrag_class"
           },
           {
             "type": "doc",
@@ -14647,11 +14578,6 @@ export const referenceSidebar = [
           },
           {
             "type": "doc",
-            "label": "blockly.events_namespace.commentdrag_class",
-            "id": "reference/js/blockly.events_namespace.commentdrag_class"
-          },
-          {
-            "type": "doc",
             "label": "blockly.events_namespace.commentdrag_class.tojson_1_method",
             "id": "reference/js/blockly.events_namespace.commentdrag_class.tojson_1_method"
           },
@@ -14659,6 +14585,11 @@ export const referenceSidebar = [
             "type": "doc",
             "label": "blockly.events_namespace.commentdrag_class.type_property",
             "id": "reference/js/blockly.events_namespace.commentdrag_class.type_property"
+          },
+          {
+            "type": "doc",
+            "label": "blockly.events_namespace.commentdragjson_interface",
+            "id": "reference/js/blockly.events_namespace.commentdragjson_interface"
           },
           {
             "type": "doc",
@@ -14672,13 +14603,8 @@ export const referenceSidebar = [
           },
           {
             "type": "doc",
-            "label": "blockly.events_namespace.commentdragjson_interface",
-            "id": "reference/js/blockly.events_namespace.commentdragjson_interface"
-          },
-          {
-            "type": "doc",
-            "label": "blockly.events_namespace.commentmove_class._constructor__1_constructor",
-            "id": "reference/js/blockly.events_namespace.commentmove_class._constructor__1_constructor"
+            "label": "blockly.events_namespace.commentmove_class",
+            "id": "reference/js/blockly.events_namespace.commentmove_class"
           },
           {
             "type": "doc",
@@ -14689,11 +14615,6 @@ export const referenceSidebar = [
             "type": "doc",
             "label": "blockly.events_namespace.commentmove_class.isnull_1_method",
             "id": "reference/js/blockly.events_namespace.commentmove_class.isnull_1_method"
-          },
-          {
-            "type": "doc",
-            "label": "blockly.events_namespace.commentmove_class",
-            "id": "reference/js/blockly.events_namespace.commentmove_class"
           },
           {
             "type": "doc",
@@ -14757,18 +14678,13 @@ export const referenceSidebar = [
           },
           {
             "type": "doc",
-            "label": "blockly.events_namespace.commentresize_class._constructor__1_constructor",
-            "id": "reference/js/blockly.events_namespace.commentresize_class._constructor__1_constructor"
+            "label": "blockly.events_namespace.commentresize_class",
+            "id": "reference/js/blockly.events_namespace.commentresize_class"
           },
           {
             "type": "doc",
             "label": "blockly.events_namespace.commentresize_class.isnull_1_method",
             "id": "reference/js/blockly.events_namespace.commentresize_class.isnull_1_method"
-          },
-          {
-            "type": "doc",
-            "label": "blockly.events_namespace.commentresize_class",
-            "id": "reference/js/blockly.events_namespace.commentresize_class"
           },
           {
             "type": "doc",
@@ -14862,18 +14778,13 @@ export const referenceSidebar = [
           },
           {
             "type": "doc",
-            "label": "blockly.events_namespace.finishedloading_class._constructor__1_constructor",
-            "id": "reference/js/blockly.events_namespace.finishedloading_class._constructor__1_constructor"
+            "label": "blockly.events_namespace.finishedloading_class",
+            "id": "reference/js/blockly.events_namespace.finishedloading_class"
           },
           {
             "type": "doc",
             "label": "blockly.events_namespace.finishedloading_class.isblank_property",
             "id": "reference/js/blockly.events_namespace.finishedloading_class.isblank_property"
-          },
-          {
-            "type": "doc",
-            "label": "blockly.events_namespace.finishedloading_class",
-            "id": "reference/js/blockly.events_namespace.finishedloading_class"
           },
           {
             "type": "doc",
@@ -14919,11 +14830,6 @@ export const referenceSidebar = [
             "type": "doc",
             "label": "blockly.events_namespace.move_variable",
             "id": "reference/js/blockly.events_namespace.move_variable"
-          },
-          {
-            "type": "doc",
-            "label": "blockly.events_namespace.selected_class._constructor__1_constructor",
-            "id": "reference/js/blockly.events_namespace.selected_class._constructor__1_constructor"
           },
           {
             "type": "doc",
@@ -14987,11 +14893,6 @@ export const referenceSidebar = [
           },
           {
             "type": "doc",
-            "label": "blockly.events_namespace.themechange_class._constructor__1_constructor",
-            "id": "reference/js/blockly.events_namespace.themechange_class._constructor__1_constructor"
-          },
-          {
-            "type": "doc",
             "label": "blockly.events_namespace.themechange_class",
             "id": "reference/js/blockly.events_namespace.themechange_class"
           },
@@ -15024,11 +14925,6 @@ export const referenceSidebar = [
             "type": "doc",
             "label": "blockly.events_namespace.toolbox_item_select_variable",
             "id": "reference/js/blockly.events_namespace.toolbox_item_select_variable"
-          },
-          {
-            "type": "doc",
-            "label": "blockly.events_namespace.toolboxitemselect_class._constructor__1_constructor",
-            "id": "reference/js/blockly.events_namespace.toolboxitemselect_class._constructor__1_constructor"
           },
           {
             "type": "doc",
@@ -15077,18 +14973,13 @@ export const referenceSidebar = [
           },
           {
             "type": "doc",
-            "label": "blockly.events_namespace.trashcanopen_class._constructor__1_constructor",
-            "id": "reference/js/blockly.events_namespace.trashcanopen_class._constructor__1_constructor"
+            "label": "blockly.events_namespace.trashcanopen_class",
+            "id": "reference/js/blockly.events_namespace.trashcanopen_class"
           },
           {
             "type": "doc",
             "label": "blockly.events_namespace.trashcanopen_class.isopen_property",
             "id": "reference/js/blockly.events_namespace.trashcanopen_class.isopen_property"
-          },
-          {
-            "type": "doc",
-            "label": "blockly.events_namespace.trashcanopen_class",
-            "id": "reference/js/blockly.events_namespace.trashcanopen_class"
           },
           {
             "type": "doc",
@@ -15102,13 +14993,13 @@ export const referenceSidebar = [
           },
           {
             "type": "doc",
-            "label": "blockly.events_namespace.trashcanopenjson_interface.isopen_propertysignature",
-            "id": "reference/js/blockly.events_namespace.trashcanopenjson_interface.isopen_propertysignature"
+            "label": "blockly.events_namespace.trashcanopenjson_interface",
+            "id": "reference/js/blockly.events_namespace.trashcanopenjson_interface"
           },
           {
             "type": "doc",
-            "label": "blockly.events_namespace.trashcanopenjson_interface",
-            "id": "reference/js/blockly.events_namespace.trashcanopenjson_interface"
+            "label": "blockly.events_namespace.trashcanopenjson_interface.isopen_propertysignature",
+            "id": "reference/js/blockly.events_namespace.trashcanopenjson_interface.isopen_propertysignature"
           },
           {
             "type": "doc",
@@ -15117,8 +15008,8 @@ export const referenceSidebar = [
           },
           {
             "type": "doc",
-            "label": "blockly.events_namespace.uibase_class._constructor__1_constructor",
-            "id": "reference/js/blockly.events_namespace.uibase_class._constructor__1_constructor"
+            "label": "blockly.events_namespace.uibase_class",
+            "id": "reference/js/blockly.events_namespace.uibase_class"
           },
           {
             "type": "doc",
@@ -15129,11 +15020,6 @@ export const referenceSidebar = [
             "type": "doc",
             "label": "blockly.events_namespace.uibase_class.isuievent_property",
             "id": "reference/js/blockly.events_namespace.uibase_class.isuievent_property"
-          },
-          {
-            "type": "doc",
-            "label": "blockly.events_namespace.uibase_class",
-            "id": "reference/js/blockly.events_namespace.uibase_class"
           },
           {
             "type": "doc",
@@ -15162,18 +15048,13 @@ export const referenceSidebar = [
           },
           {
             "type": "doc",
-            "label": "blockly.events_namespace.varbase_class._constructor__1_constructor",
-            "id": "reference/js/blockly.events_namespace.varbase_class._constructor__1_constructor"
+            "label": "blockly.events_namespace.varbase_class",
+            "id": "reference/js/blockly.events_namespace.varbase_class"
           },
           {
             "type": "doc",
             "label": "blockly.events_namespace.varbase_class.isblank_property",
             "id": "reference/js/blockly.events_namespace.varbase_class.isblank_property"
-          },
-          {
-            "type": "doc",
-            "label": "blockly.events_namespace.varbase_class",
-            "id": "reference/js/blockly.events_namespace.varbase_class"
           },
           {
             "type": "doc",
@@ -15194,11 +15075,6 @@ export const referenceSidebar = [
             "type": "doc",
             "label": "blockly.events_namespace.varbasejson_interface.varid_propertysignature",
             "id": "reference/js/blockly.events_namespace.varbasejson_interface.varid_propertysignature"
-          },
-          {
-            "type": "doc",
-            "label": "blockly.events_namespace.varcreate_class._constructor__1_constructor",
-            "id": "reference/js/blockly.events_namespace.varcreate_class._constructor__1_constructor"
           },
           {
             "type": "doc",
@@ -15247,11 +15123,6 @@ export const referenceSidebar = [
           },
           {
             "type": "doc",
-            "label": "blockly.events_namespace.vardelete_class._constructor__1_constructor",
-            "id": "reference/js/blockly.events_namespace.vardelete_class._constructor__1_constructor"
-          },
-          {
-            "type": "doc",
             "label": "blockly.events_namespace.vardelete_class",
             "id": "reference/js/blockly.events_namespace.vardelete_class"
           },
@@ -15297,11 +15168,6 @@ export const referenceSidebar = [
           },
           {
             "type": "doc",
-            "label": "blockly.events_namespace.varrename_class._constructor__1_constructor",
-            "id": "reference/js/blockly.events_namespace.varrename_class._constructor__1_constructor"
-          },
-          {
-            "type": "doc",
             "label": "blockly.events_namespace.varrename_class",
             "id": "reference/js/blockly.events_namespace.varrename_class"
           },
@@ -15344,11 +15210,6 @@ export const referenceSidebar = [
             "type": "doc",
             "label": "blockly.events_namespace.varrenamejson_interface.oldname_propertysignature",
             "id": "reference/js/blockly.events_namespace.varrenamejson_interface.oldname_propertysignature"
-          },
-          {
-            "type": "doc",
-            "label": "blockly.events_namespace.vartypechange_class._constructor__1_constructor",
-            "id": "reference/js/blockly.events_namespace.vartypechange_class._constructor__1_constructor"
           },
           {
             "type": "doc",
@@ -15399,11 +15260,6 @@ export const referenceSidebar = [
             "type": "doc",
             "label": "blockly.events_namespace.viewport_change_variable",
             "id": "reference/js/blockly.events_namespace.viewport_change_variable"
-          },
-          {
-            "type": "doc",
-            "label": "blockly.events_namespace.viewportchange_class._constructor__1_constructor",
-            "id": "reference/js/blockly.events_namespace.viewportchange_class._constructor__1_constructor"
           },
           {
             "type": "doc",
@@ -15464,8 +15320,8 @@ export const referenceSidebar = [
             "type": "doc",
             "label": "blockly.events_namespace.viewportchangejson_interface.viewtop_propertysignature",
             "id": "reference/js/blockly.events_namespace.viewportchangejson_interface.viewtop_propertysignature"
-          }
-        ]
+          },
+        ],
       },
       {
         "type": "category",
@@ -15519,8 +15375,8 @@ export const referenceSidebar = [
             "type": "doc",
             "label": "blockly.extensions_namespace.unregister_1_function",
             "id": "reference/js/blockly.extensions_namespace.unregister_1_function"
-          }
-        ]
+          },
+        ],
       },
       {
         "type": "category",
@@ -15537,6 +15393,11 @@ export const referenceSidebar = [
           },
           {
             "type": "doc",
+            "label": "blockly.fieldregistry_namespace.registrablefield_interface",
+            "id": "reference/js/blockly.fieldregistry_namespace.registrablefield_interface"
+          },
+          {
+            "type": "doc",
             "label": "blockly.fieldregistry_namespace.registrablefield_interface._new__1_constructsignature",
             "id": "reference/js/blockly.fieldregistry_namespace.registrablefield_interface._new__1_constructsignature"
           },
@@ -15547,11 +15408,6 @@ export const referenceSidebar = [
           },
           {
             "type": "doc",
-            "label": "blockly.fieldregistry_namespace.registrablefield_interface",
-            "id": "reference/js/blockly.fieldregistry_namespace.registrablefield_interface"
-          },
-          {
-            "type": "doc",
             "label": "blockly.fieldregistry_namespace.test_only_variable",
             "id": "reference/js/blockly.fieldregistry_namespace.test_only_variable"
           },
@@ -15559,8 +15415,8 @@ export const referenceSidebar = [
             "type": "doc",
             "label": "blockly.fieldregistry_namespace.unregister_1_function",
             "id": "reference/js/blockly.fieldregistry_namespace.unregister_1_function"
-          }
-        ]
+          },
+        ],
       },
       {
         "type": "category",
@@ -15574,6 +15430,51 @@ export const referenceSidebar = [
             "type": "doc",
             "label": "blockly.geras_namespace.constantprovider_class._constructor__1_constructor",
             "id": "reference/js/blockly.geras_namespace.constantprovider_class._constructor__1_constructor"
+          },
+          {
+            "type": "doc",
+            "label": "blockly.geras_namespace.drawer_class._constructor__1_constructor",
+            "id": "reference/js/blockly.geras_namespace.drawer_class._constructor__1_constructor"
+          },
+          {
+            "type": "doc",
+            "label": "blockly.geras_namespace.highlightconstantprovider_class._constructor__1_constructor",
+            "id": "reference/js/blockly.geras_namespace.highlightconstantprovider_class._constructor__1_constructor"
+          },
+          {
+            "type": "doc",
+            "label": "blockly.geras_namespace.highlighter_class._constructor__1_constructor",
+            "id": "reference/js/blockly.geras_namespace.highlighter_class._constructor__1_constructor"
+          },
+          {
+            "type": "doc",
+            "label": "blockly.geras_namespace.inlineinput_class._constructor__1_constructor",
+            "id": "reference/js/blockly.geras_namespace.inlineinput_class._constructor__1_constructor"
+          },
+          {
+            "type": "doc",
+            "label": "blockly.geras_namespace.pathobject_class._constructor__1_constructor",
+            "id": "reference/js/blockly.geras_namespace.pathobject_class._constructor__1_constructor"
+          },
+          {
+            "type": "doc",
+            "label": "blockly.geras_namespace.renderer_class._constructor__1_constructor",
+            "id": "reference/js/blockly.geras_namespace.renderer_class._constructor__1_constructor"
+          },
+          {
+            "type": "doc",
+            "label": "blockly.geras_namespace.renderinfo_class._constructor__1_constructor",
+            "id": "reference/js/blockly.geras_namespace.renderinfo_class._constructor__1_constructor"
+          },
+          {
+            "type": "doc",
+            "label": "blockly.geras_namespace.statementinput_class._constructor__1_constructor",
+            "id": "reference/js/blockly.geras_namespace.statementinput_class._constructor__1_constructor"
+          },
+          {
+            "type": "doc",
+            "label": "blockly.geras_namespace.constantprovider_class",
+            "id": "reference/js/blockly.geras_namespace.constantprovider_class"
           },
           {
             "type": "doc",
@@ -15597,18 +15498,13 @@ export const referenceSidebar = [
           },
           {
             "type": "doc",
-            "label": "blockly.geras_namespace.constantprovider_class",
-            "id": "reference/js/blockly.geras_namespace.constantprovider_class"
-          },
-          {
-            "type": "doc",
             "label": "blockly.geras_namespace.constantprovider_class.statement_bottom_spacer_property",
             "id": "reference/js/blockly.geras_namespace.constantprovider_class.statement_bottom_spacer_property"
           },
           {
             "type": "doc",
-            "label": "blockly.geras_namespace.drawer_class._constructor__1_constructor",
-            "id": "reference/js/blockly.geras_namespace.drawer_class._constructor__1_constructor"
+            "label": "blockly.geras_namespace.drawer_class",
+            "id": "reference/js/blockly.geras_namespace.drawer_class"
           },
           {
             "type": "doc",
@@ -15667,11 +15563,6 @@ export const referenceSidebar = [
           },
           {
             "type": "doc",
-            "label": "blockly.geras_namespace.drawer_class",
-            "id": "reference/js/blockly.geras_namespace.drawer_class"
-          },
-          {
-            "type": "doc",
             "label": "blockly.geras_namespace.drawer_class.positionexternalvalueconnection__1_method",
             "id": "reference/js/blockly.geras_namespace.drawer_class.positionexternalvalueconnection__1_method"
           },
@@ -15692,8 +15583,8 @@ export const referenceSidebar = [
           },
           {
             "type": "doc",
-            "label": "blockly.geras_namespace.highlightconstantprovider_class._constructor__1_constructor",
-            "id": "reference/js/blockly.geras_namespace.highlightconstantprovider_class._constructor__1_constructor"
+            "label": "blockly.geras_namespace.highlightconstantprovider_class",
+            "id": "reference/js/blockly.geras_namespace.highlightconstantprovider_class"
           },
           {
             "type": "doc",
@@ -15747,11 +15638,6 @@ export const referenceSidebar = [
           },
           {
             "type": "doc",
-            "label": "blockly.geras_namespace.highlightconstantprovider_class",
-            "id": "reference/js/blockly.geras_namespace.highlightconstantprovider_class"
-          },
-          {
-            "type": "doc",
             "label": "blockly.geras_namespace.highlightconstantprovider_class.notch_property",
             "id": "reference/js/blockly.geras_namespace.highlightconstantprovider_class.notch_property"
           },
@@ -15782,8 +15668,8 @@ export const referenceSidebar = [
           },
           {
             "type": "doc",
-            "label": "blockly.geras_namespace.highlighter_class._constructor__1_constructor",
-            "id": "reference/js/blockly.geras_namespace.highlighter_class._constructor__1_constructor"
+            "label": "blockly.geras_namespace.highlighter_class",
+            "id": "reference/js/blockly.geras_namespace.highlighter_class"
           },
           {
             "type": "doc",
@@ -15862,11 +15748,6 @@ export const referenceSidebar = [
           },
           {
             "type": "doc",
-            "label": "blockly.geras_namespace.highlighter_class",
-            "id": "reference/js/blockly.geras_namespace.highlighter_class"
-          },
-          {
-            "type": "doc",
             "label": "blockly.geras_namespace.highlighter_class.notchpaths__property",
             "id": "reference/js/blockly.geras_namespace.highlighter_class.notchpaths__property"
           },
@@ -15897,8 +15778,8 @@ export const referenceSidebar = [
           },
           {
             "type": "doc",
-            "label": "blockly.geras_namespace.inlineinput_class._constructor__1_constructor",
-            "id": "reference/js/blockly.geras_namespace.inlineinput_class._constructor__1_constructor"
+            "label": "blockly.geras_namespace.inlineinput_class",
+            "id": "reference/js/blockly.geras_namespace.inlineinput_class"
           },
           {
             "type": "doc",
@@ -15907,13 +15788,8 @@ export const referenceSidebar = [
           },
           {
             "type": "doc",
-            "label": "blockly.geras_namespace.inlineinput_class",
-            "id": "reference/js/blockly.geras_namespace.inlineinput_class"
-          },
-          {
-            "type": "doc",
-            "label": "blockly.geras_namespace.pathobject_class._constructor__1_constructor",
-            "id": "reference/js/blockly.geras_namespace.pathobject_class._constructor__1_constructor"
+            "label": "blockly.geras_namespace.pathobject_class",
+            "id": "reference/js/blockly.geras_namespace.pathobject_class"
           },
           {
             "type": "doc",
@@ -15934,11 +15810,6 @@ export const referenceSidebar = [
             "type": "doc",
             "label": "blockly.geras_namespace.pathobject_class.fliprtl_1_method",
             "id": "reference/js/blockly.geras_namespace.pathobject_class.fliprtl_1_method"
-          },
-          {
-            "type": "doc",
-            "label": "blockly.geras_namespace.pathobject_class",
-            "id": "reference/js/blockly.geras_namespace.pathobject_class"
           },
           {
             "type": "doc",
@@ -15982,8 +15853,8 @@ export const referenceSidebar = [
           },
           {
             "type": "doc",
-            "label": "blockly.geras_namespace.renderer_class._constructor__1_constructor",
-            "id": "reference/js/blockly.geras_namespace.renderer_class._constructor__1_constructor"
+            "label": "blockly.geras_namespace.renderer_class",
+            "id": "reference/js/blockly.geras_namespace.renderer_class"
           },
           {
             "type": "doc",
@@ -16022,18 +15893,13 @@ export const referenceSidebar = [
           },
           {
             "type": "doc",
-            "label": "blockly.geras_namespace.renderer_class",
-            "id": "reference/js/blockly.geras_namespace.renderer_class"
-          },
-          {
-            "type": "doc",
             "label": "blockly.geras_namespace.renderer_class.refreshdom_1_method",
             "id": "reference/js/blockly.geras_namespace.renderer_class.refreshdom_1_method"
           },
           {
             "type": "doc",
-            "label": "blockly.geras_namespace.renderinfo_class._constructor__1_constructor",
-            "id": "reference/js/blockly.geras_namespace.renderinfo_class._constructor__1_constructor"
+            "label": "blockly.geras_namespace.renderinfo_class",
+            "id": "reference/js/blockly.geras_namespace.renderinfo_class"
           },
           {
             "type": "doc",
@@ -16087,11 +15953,6 @@ export const referenceSidebar = [
           },
           {
             "type": "doc",
-            "label": "blockly.geras_namespace.renderinfo_class",
-            "id": "reference/js/blockly.geras_namespace.renderinfo_class"
-          },
-          {
-            "type": "doc",
             "label": "blockly.geras_namespace.renderinfo_class.populatebottomrow__1_method",
             "id": "reference/js/blockly.geras_namespace.renderinfo_class.populatebottomrow__1_method"
           },
@@ -16102,20 +15963,15 @@ export const referenceSidebar = [
           },
           {
             "type": "doc",
-            "label": "blockly.geras_namespace.statementinput_class._constructor__1_constructor",
-            "id": "reference/js/blockly.geras_namespace.statementinput_class._constructor__1_constructor"
+            "label": "blockly.geras_namespace.statementinput_class",
+            "id": "reference/js/blockly.geras_namespace.statementinput_class"
           },
           {
             "type": "doc",
             "label": "blockly.geras_namespace.statementinput_class.constants__property",
             "id": "reference/js/blockly.geras_namespace.statementinput_class.constants__property"
           },
-          {
-            "type": "doc",
-            "label": "blockly.geras_namespace.statementinput_class",
-            "id": "reference/js/blockly.geras_namespace.statementinput_class"
-          }
-        ]
+        ],
       },
       {
         "type": "category",
@@ -16129,6 +15985,26 @@ export const referenceSidebar = [
             "type": "doc",
             "label": "blockly.icons_namespace.commenticon_class._constructor__1_constructor",
             "id": "reference/js/blockly.icons_namespace.commenticon_class._constructor__1_constructor"
+          },
+          {
+            "type": "doc",
+            "label": "blockly.icons_namespace.icon_class._constructor__1_constructor",
+            "id": "reference/js/blockly.icons_namespace.icon_class._constructor__1_constructor"
+          },
+          {
+            "type": "doc",
+            "label": "blockly.icons_namespace.icontype_class._constructor__1_constructor",
+            "id": "reference/js/blockly.icons_namespace.icontype_class._constructor__1_constructor"
+          },
+          {
+            "type": "doc",
+            "label": "blockly.icons_namespace.mutatoricon_class._constructor__1_constructor",
+            "id": "reference/js/blockly.icons_namespace.mutatoricon_class._constructor__1_constructor"
+          },
+          {
+            "type": "doc",
+            "label": "blockly.icons_namespace.commenticon_class",
+            "id": "reference/js/blockly.icons_namespace.commenticon_class"
           },
           {
             "type": "doc",
@@ -16202,11 +16078,6 @@ export const referenceSidebar = [
           },
           {
             "type": "doc",
-            "label": "blockly.icons_namespace.commenticon_class",
-            "id": "reference/js/blockly.icons_namespace.commenticon_class"
-          },
-          {
-            "type": "doc",
             "label": "blockly.icons_namespace.commenticon_class.onbubblelocationchange_1_method",
             "id": "reference/js/blockly.icons_namespace.commenticon_class.onbubblelocationchange_1_method"
           },
@@ -16277,13 +16148,13 @@ export const referenceSidebar = [
           },
           {
             "type": "doc",
-            "label": "blockly.icons_namespace.commentstate_interface.height_propertysignature",
-            "id": "reference/js/blockly.icons_namespace.commentstate_interface.height_propertysignature"
+            "label": "blockly.icons_namespace.commentstate_interface",
+            "id": "reference/js/blockly.icons_namespace.commentstate_interface"
           },
           {
             "type": "doc",
-            "label": "blockly.icons_namespace.commentstate_interface",
-            "id": "reference/js/blockly.icons_namespace.commentstate_interface"
+            "label": "blockly.icons_namespace.commentstate_interface.height_propertysignature",
+            "id": "reference/js/blockly.icons_namespace.commentstate_interface.height_propertysignature"
           },
           {
             "type": "doc",
@@ -16312,8 +16183,8 @@ export const referenceSidebar = [
           },
           {
             "type": "doc",
-            "label": "blockly.icons_namespace.exceptions_namespace.duplicateicontype_class.icon_property",
-            "id": "reference/js/blockly.icons_namespace.exceptions_namespace.duplicateicontype_class.icon_property"
+            "label": "blockly.icons_namespace.exceptions_namespace",
+            "id": "reference/js/blockly.icons_namespace.exceptions_namespace"
           },
           {
             "type": "doc",
@@ -16322,13 +16193,13 @@ export const referenceSidebar = [
           },
           {
             "type": "doc",
-            "label": "blockly.icons_namespace.exceptions_namespace",
-            "id": "reference/js/blockly.icons_namespace.exceptions_namespace"
+            "label": "blockly.icons_namespace.exceptions_namespace.duplicateicontype_class.icon_property",
+            "id": "reference/js/blockly.icons_namespace.exceptions_namespace.duplicateicontype_class.icon_property"
           },
           {
             "type": "doc",
-            "label": "blockly.icons_namespace.icon_class._constructor__1_constructor",
-            "id": "reference/js/blockly.icons_namespace.icon_class._constructor__1_constructor"
+            "label": "blockly.icons_namespace.icon_class",
+            "id": "reference/js/blockly.icons_namespace.icon_class"
           },
           {
             "type": "doc",
@@ -16402,11 +16273,6 @@ export const referenceSidebar = [
           },
           {
             "type": "doc",
-            "label": "blockly.icons_namespace.icon_class",
-            "id": "reference/js/blockly.icons_namespace.icon_class"
-          },
-          {
-            "type": "doc",
             "label": "blockly.icons_namespace.icon_class.offsetinblock_property",
             "id": "reference/js/blockly.icons_namespace.icon_class.offsetinblock_property"
           },
@@ -16472,8 +16338,8 @@ export const referenceSidebar = [
           },
           {
             "type": "doc",
-            "label": "blockly.icons_namespace.icontype_class._constructor__1_constructor",
-            "id": "reference/js/blockly.icons_namespace.icontype_class._constructor__1_constructor"
+            "label": "blockly.icons_namespace.icontype_class",
+            "id": "reference/js/blockly.icons_namespace.icontype_class"
           },
           {
             "type": "doc",
@@ -16484,11 +16350,6 @@ export const referenceSidebar = [
             "type": "doc",
             "label": "blockly.icons_namespace.icontype_class.equals_1_method",
             "id": "reference/js/blockly.icons_namespace.icontype_class.equals_1_method"
-          },
-          {
-            "type": "doc",
-            "label": "blockly.icons_namespace.icontype_class",
-            "id": "reference/js/blockly.icons_namespace.icontype_class"
           },
           {
             "type": "doc",
@@ -16507,8 +16368,8 @@ export const referenceSidebar = [
           },
           {
             "type": "doc",
-            "label": "blockly.icons_namespace.mutatoricon_class._constructor__1_constructor",
-            "id": "reference/js/blockly.icons_namespace.mutatoricon_class._constructor__1_constructor"
+            "label": "blockly.icons_namespace.mutatoricon_class",
+            "id": "reference/js/blockly.icons_namespace.mutatoricon_class"
           },
           {
             "type": "doc",
@@ -16562,11 +16423,6 @@ export const referenceSidebar = [
           },
           {
             "type": "doc",
-            "label": "blockly.icons_namespace.mutatoricon_class",
-            "id": "reference/js/blockly.icons_namespace.mutatoricon_class"
-          },
-          {
-            "type": "doc",
             "label": "blockly.icons_namespace.mutatoricon_class.onclick_1_method",
             "id": "reference/js/blockly.icons_namespace.mutatoricon_class.onclick_1_method"
           },
@@ -16614,6 +16470,11 @@ export const referenceSidebar = [
             "type": "doc",
             "label": "blockly.icons_namespace.registry_namespace.unregister_1_function",
             "id": "reference/js/blockly.icons_namespace.registry_namespace.unregister_1_function"
+          },
+          {
+            "type": "doc",
+            "label": "blockly.icons_namespace.warningicon_class",
+            "id": "reference/js/blockly.icons_namespace.warningicon_class"
           },
           {
             "type": "doc",
@@ -16667,11 +16528,6 @@ export const referenceSidebar = [
           },
           {
             "type": "doc",
-            "label": "blockly.icons_namespace.warningicon_class",
-            "id": "reference/js/blockly.icons_namespace.warningicon_class"
-          },
-          {
-            "type": "doc",
             "label": "blockly.icons_namespace.warningicon_class.onclick_1_method",
             "id": "reference/js/blockly.icons_namespace.warningicon_class.onclick_1_method"
           },
@@ -16704,8 +16560,8 @@ export const referenceSidebar = [
             "type": "doc",
             "label": "blockly.icons_namespace.warningicon_class.weight_property",
             "id": "reference/js/blockly.icons_namespace.warningicon_class.weight_property"
-          }
-        ]
+          },
+        ],
       },
       {
         "type": "category",
@@ -16724,8 +16580,8 @@ export const referenceSidebar = [
             "type": "doc",
             "label": "blockly.icopyable_namespace.icopydata_interface.paster_propertysignature",
             "id": "reference/js/blockly.icopyable_namespace.icopydata_interface.paster_propertysignature"
-          }
-        ]
+          },
+        ],
       },
       {
         "type": "category",
@@ -16737,13 +16593,33 @@ export const referenceSidebar = [
         "items": [
           {
             "type": "doc",
-            "label": "blockly.inputs_namespace.align_enum",
-            "id": "reference/js/blockly.inputs_namespace.align_enum"
+            "label": "blockly.inputs_namespace.dummyinput_class._constructor__1_constructor",
+            "id": "reference/js/blockly.inputs_namespace.dummyinput_class._constructor__1_constructor"
           },
           {
             "type": "doc",
-            "label": "blockly.inputs_namespace.dummyinput_class._constructor__1_constructor",
-            "id": "reference/js/blockly.inputs_namespace.dummyinput_class._constructor__1_constructor"
+            "label": "blockly.inputs_namespace.endrowinput_class._constructor__1_constructor",
+            "id": "reference/js/blockly.inputs_namespace.endrowinput_class._constructor__1_constructor"
+          },
+          {
+            "type": "doc",
+            "label": "blockly.inputs_namespace.input_class._constructor__1_constructor",
+            "id": "reference/js/blockly.inputs_namespace.input_class._constructor__1_constructor"
+          },
+          {
+            "type": "doc",
+            "label": "blockly.inputs_namespace.statementinput_class._constructor__1_constructor",
+            "id": "reference/js/blockly.inputs_namespace.statementinput_class._constructor__1_constructor"
+          },
+          {
+            "type": "doc",
+            "label": "blockly.inputs_namespace.valueinput_class._constructor__1_constructor",
+            "id": "reference/js/blockly.inputs_namespace.valueinput_class._constructor__1_constructor"
+          },
+          {
+            "type": "doc",
+            "label": "blockly.inputs_namespace.align_enum",
+            "id": "reference/js/blockly.inputs_namespace.align_enum"
           },
           {
             "type": "doc",
@@ -16762,11 +16638,6 @@ export const referenceSidebar = [
           },
           {
             "type": "doc",
-            "label": "blockly.inputs_namespace.endrowinput_class._constructor__1_constructor",
-            "id": "reference/js/blockly.inputs_namespace.endrowinput_class._constructor__1_constructor"
-          },
-          {
-            "type": "doc",
             "label": "blockly.inputs_namespace.endrowinput_class",
             "id": "reference/js/blockly.inputs_namespace.endrowinput_class"
           },
@@ -16782,8 +16653,8 @@ export const referenceSidebar = [
           },
           {
             "type": "doc",
-            "label": "blockly.inputs_namespace.input_class._constructor__1_constructor",
-            "id": "reference/js/blockly.inputs_namespace.input_class._constructor__1_constructor"
+            "label": "blockly.inputs_namespace.input_class",
+            "id": "reference/js/blockly.inputs_namespace.input_class"
           },
           {
             "type": "doc",
@@ -16842,11 +16713,6 @@ export const referenceSidebar = [
           },
           {
             "type": "doc",
-            "label": "blockly.inputs_namespace.input_class",
-            "id": "reference/js/blockly.inputs_namespace.input_class"
-          },
-          {
-            "type": "doc",
             "label": "blockly.inputs_namespace.input_class.name_property",
             "id": "reference/js/blockly.inputs_namespace.input_class.name_property"
           },
@@ -16882,18 +16748,13 @@ export const referenceSidebar = [
           },
           {
             "type": "doc",
-            "label": "blockly.inputs_namespace.statementinput_class._constructor__1_constructor",
-            "id": "reference/js/blockly.inputs_namespace.statementinput_class._constructor__1_constructor"
+            "label": "blockly.inputs_namespace.statementinput_class",
+            "id": "reference/js/blockly.inputs_namespace.statementinput_class"
           },
           {
             "type": "doc",
             "label": "blockly.inputs_namespace.statementinput_class.connection_property",
             "id": "reference/js/blockly.inputs_namespace.statementinput_class.connection_property"
-          },
-          {
-            "type": "doc",
-            "label": "blockly.inputs_namespace.statementinput_class",
-            "id": "reference/js/blockly.inputs_namespace.statementinput_class"
           },
           {
             "type": "doc",
@@ -16904,11 +16765,6 @@ export const referenceSidebar = [
             "type": "doc",
             "label": "blockly.inputs_namespace.statementinput_class.type_property",
             "id": "reference/js/blockly.inputs_namespace.statementinput_class.type_property"
-          },
-          {
-            "type": "doc",
-            "label": "blockly.inputs_namespace.valueinput_class._constructor__1_constructor",
-            "id": "reference/js/blockly.inputs_namespace.valueinput_class._constructor__1_constructor"
           },
           {
             "type": "doc",
@@ -16924,8 +16780,8 @@ export const referenceSidebar = [
             "type": "doc",
             "label": "blockly.inputs_namespace.valueinput_class.type_property",
             "id": "reference/js/blockly.inputs_namespace.valueinput_class.type_property"
-          }
-        ]
+          },
+        ],
       },
       {
         "type": "category",
@@ -16944,8 +16800,8 @@ export const referenceSidebar = [
             "type": "doc",
             "label": "blockly.layers_namespace.bubble_variable",
             "id": "reference/js/blockly.layers_namespace.bubble_variable"
-          }
-        ]
+          },
+        ],
       },
       {
         "type": "category",
@@ -17004,8 +16860,8 @@ export const referenceSidebar = [
             "type": "doc",
             "label": "blockly.libraryblocks_namespace.variablesdynamic_variable",
             "id": "reference/js/blockly.libraryblocks_namespace.variablesdynamic_variable"
-          }
-        ]
+          },
+        ],
       },
       {
         "type": "category",
@@ -17017,18 +16873,23 @@ export const referenceSidebar = [
         "items": [
           {
             "type": "doc",
-            "label": "blockly.metricsmanager_namespace.absolutemetrics_interface.left_propertysignature",
-            "id": "reference/js/blockly.metricsmanager_namespace.absolutemetrics_interface.left_propertysignature"
-          },
-          {
-            "type": "doc",
             "label": "blockly.metricsmanager_namespace.absolutemetrics_interface",
             "id": "reference/js/blockly.metricsmanager_namespace.absolutemetrics_interface"
           },
           {
             "type": "doc",
+            "label": "blockly.metricsmanager_namespace.absolutemetrics_interface.left_propertysignature",
+            "id": "reference/js/blockly.metricsmanager_namespace.absolutemetrics_interface.left_propertysignature"
+          },
+          {
+            "type": "doc",
             "label": "blockly.metricsmanager_namespace.absolutemetrics_interface.top_propertysignature",
             "id": "reference/js/blockly.metricsmanager_namespace.absolutemetrics_interface.top_propertysignature"
+          },
+          {
+            "type": "doc",
+            "label": "blockly.metricsmanager_namespace.containerregion_interface",
+            "id": "reference/js/blockly.metricsmanager_namespace.containerregion_interface"
           },
           {
             "type": "doc",
@@ -17042,11 +16903,6 @@ export const referenceSidebar = [
           },
           {
             "type": "doc",
-            "label": "blockly.metricsmanager_namespace.containerregion_interface",
-            "id": "reference/js/blockly.metricsmanager_namespace.containerregion_interface"
-          },
-          {
-            "type": "doc",
             "label": "blockly.metricsmanager_namespace.containerregion_interface.top_propertysignature",
             "id": "reference/js/blockly.metricsmanager_namespace.containerregion_interface.top_propertysignature"
           },
@@ -17054,6 +16910,11 @@ export const referenceSidebar = [
             "type": "doc",
             "label": "blockly.metricsmanager_namespace.containerregion_interface.width_propertysignature",
             "id": "reference/js/blockly.metricsmanager_namespace.containerregion_interface.width_propertysignature"
+          },
+          {
+            "type": "doc",
+            "label": "blockly.metricsmanager_namespace.fixededges_interface",
+            "id": "reference/js/blockly.metricsmanager_namespace.fixededges_interface"
           },
           {
             "type": "doc",
@@ -17067,11 +16928,6 @@ export const referenceSidebar = [
           },
           {
             "type": "doc",
-            "label": "blockly.metricsmanager_namespace.fixededges_interface",
-            "id": "reference/js/blockly.metricsmanager_namespace.fixededges_interface"
-          },
-          {
-            "type": "doc",
             "label": "blockly.metricsmanager_namespace.fixededges_interface.right_propertysignature",
             "id": "reference/js/blockly.metricsmanager_namespace.fixededges_interface.right_propertysignature"
           },
@@ -17082,13 +16938,13 @@ export const referenceSidebar = [
           },
           {
             "type": "doc",
-            "label": "blockly.metricsmanager_namespace.toolboxmetrics_interface.height_propertysignature",
-            "id": "reference/js/blockly.metricsmanager_namespace.toolboxmetrics_interface.height_propertysignature"
+            "label": "blockly.metricsmanager_namespace.toolboxmetrics_interface",
+            "id": "reference/js/blockly.metricsmanager_namespace.toolboxmetrics_interface"
           },
           {
             "type": "doc",
-            "label": "blockly.metricsmanager_namespace.toolboxmetrics_interface",
-            "id": "reference/js/blockly.metricsmanager_namespace.toolboxmetrics_interface"
+            "label": "blockly.metricsmanager_namespace.toolboxmetrics_interface.height_propertysignature",
+            "id": "reference/js/blockly.metricsmanager_namespace.toolboxmetrics_interface.height_propertysignature"
           },
           {
             "type": "doc",
@@ -17102,13 +16958,13 @@ export const referenceSidebar = [
           },
           {
             "type": "doc",
-            "label": "blockly.metricsmanager_namespace.uimetrics_interface.absolutemetrics_propertysignature",
-            "id": "reference/js/blockly.metricsmanager_namespace.uimetrics_interface.absolutemetrics_propertysignature"
+            "label": "blockly.metricsmanager_namespace.uimetrics_interface",
+            "id": "reference/js/blockly.metricsmanager_namespace.uimetrics_interface"
           },
           {
             "type": "doc",
-            "label": "blockly.metricsmanager_namespace.uimetrics_interface",
-            "id": "reference/js/blockly.metricsmanager_namespace.uimetrics_interface"
+            "label": "blockly.metricsmanager_namespace.uimetrics_interface.absolutemetrics_propertysignature",
+            "id": "reference/js/blockly.metricsmanager_namespace.uimetrics_interface.absolutemetrics_propertysignature"
           },
           {
             "type": "doc",
@@ -17119,8 +16975,8 @@ export const referenceSidebar = [
             "type": "doc",
             "label": "blockly.metricsmanager_namespace.uimetrics_interface.viewmetrics_propertysignature",
             "id": "reference/js/blockly.metricsmanager_namespace.uimetrics_interface.viewmetrics_propertysignature"
-          }
-        ]
+          },
+        ],
       },
       {
         "type": "category",
@@ -17134,8 +16990,8 @@ export const referenceSidebar = [
             "type": "doc",
             "label": "blockly.names_namespace.nametype_enum",
             "id": "reference/js/blockly.names_namespace.nametype_enum"
-          }
-        ]
+          },
+        ],
       },
       {
         "type": "category",
@@ -17147,6 +17003,11 @@ export const referenceSidebar = [
         "items": [
           {
             "type": "doc",
+            "label": "blockly.options_namespace.gridoptions_interface",
+            "id": "reference/js/blockly.options_namespace.gridoptions_interface"
+          },
+          {
+            "type": "doc",
             "label": "blockly.options_namespace.gridoptions_interface.colour_propertysignature",
             "id": "reference/js/blockly.options_namespace.gridoptions_interface.colour_propertysignature"
           },
@@ -17154,11 +17015,6 @@ export const referenceSidebar = [
             "type": "doc",
             "label": "blockly.options_namespace.gridoptions_interface.length_propertysignature",
             "id": "reference/js/blockly.options_namespace.gridoptions_interface.length_propertysignature"
-          },
-          {
-            "type": "doc",
-            "label": "blockly.options_namespace.gridoptions_interface",
-            "id": "reference/js/blockly.options_namespace.gridoptions_interface"
           },
           {
             "type": "doc",
@@ -17172,13 +17028,13 @@ export const referenceSidebar = [
           },
           {
             "type": "doc",
-            "label": "blockly.options_namespace.moveoptions_interface.drag_propertysignature",
-            "id": "reference/js/blockly.options_namespace.moveoptions_interface.drag_propertysignature"
+            "label": "blockly.options_namespace.moveoptions_interface",
+            "id": "reference/js/blockly.options_namespace.moveoptions_interface"
           },
           {
             "type": "doc",
-            "label": "blockly.options_namespace.moveoptions_interface",
-            "id": "reference/js/blockly.options_namespace.moveoptions_interface"
+            "label": "blockly.options_namespace.moveoptions_interface.drag_propertysignature",
+            "id": "reference/js/blockly.options_namespace.moveoptions_interface.drag_propertysignature"
           },
           {
             "type": "doc",
@@ -17192,18 +17048,23 @@ export const referenceSidebar = [
           },
           {
             "type": "doc",
-            "label": "blockly.options_namespace.scrollbaroptions_interface.horizontal_propertysignature",
-            "id": "reference/js/blockly.options_namespace.scrollbaroptions_interface.horizontal_propertysignature"
-          },
-          {
-            "type": "doc",
             "label": "blockly.options_namespace.scrollbaroptions_interface",
             "id": "reference/js/blockly.options_namespace.scrollbaroptions_interface"
           },
           {
             "type": "doc",
+            "label": "blockly.options_namespace.scrollbaroptions_interface.horizontal_propertysignature",
+            "id": "reference/js/blockly.options_namespace.scrollbaroptions_interface.horizontal_propertysignature"
+          },
+          {
+            "type": "doc",
             "label": "blockly.options_namespace.scrollbaroptions_interface.vertical_propertysignature",
             "id": "reference/js/blockly.options_namespace.scrollbaroptions_interface.vertical_propertysignature"
+          },
+          {
+            "type": "doc",
+            "label": "blockly.options_namespace.zoomoptions_interface",
+            "id": "reference/js/blockly.options_namespace.zoomoptions_interface"
           },
           {
             "type": "doc",
@@ -17214,11 +17075,6 @@ export const referenceSidebar = [
             "type": "doc",
             "label": "blockly.options_namespace.zoomoptions_interface.maxscale_propertysignature",
             "id": "reference/js/blockly.options_namespace.zoomoptions_interface.maxscale_propertysignature"
-          },
-          {
-            "type": "doc",
-            "label": "blockly.options_namespace.zoomoptions_interface",
-            "id": "reference/js/blockly.options_namespace.zoomoptions_interface"
           },
           {
             "type": "doc",
@@ -17244,8 +17100,8 @@ export const referenceSidebar = [
             "type": "doc",
             "label": "blockly.options_namespace.zoomoptions_interface.wheel_propertysignature",
             "id": "reference/js/blockly.options_namespace.zoomoptions_interface.wheel_propertysignature"
-          }
-        ]
+          },
+        ],
       },
       {
         "type": "category",
@@ -17297,6 +17153,11 @@ export const referenceSidebar = [
           },
           {
             "type": "doc",
+            "label": "blockly.procedures_namespace.iparametermodel_interface",
+            "id": "reference/js/blockly.procedures_namespace.iparametermodel_interface"
+          },
+          {
+            "type": "doc",
             "label": "blockly.procedures_namespace.iparametermodel_interface.getid_1_methodsignature",
             "id": "reference/js/blockly.procedures_namespace.iparametermodel_interface.getid_1_methodsignature"
           },
@@ -17309,11 +17170,6 @@ export const referenceSidebar = [
             "type": "doc",
             "label": "blockly.procedures_namespace.iparametermodel_interface.gettypes_1_methodsignature",
             "id": "reference/js/blockly.procedures_namespace.iparametermodel_interface.gettypes_1_methodsignature"
-          },
-          {
-            "type": "doc",
-            "label": "blockly.procedures_namespace.iparametermodel_interface",
-            "id": "reference/js/blockly.procedures_namespace.iparametermodel_interface"
           },
           {
             "type": "doc",
@@ -17337,6 +17193,11 @@ export const referenceSidebar = [
           },
           {
             "type": "doc",
+            "label": "blockly.procedures_namespace.iprocedureblock_interface",
+            "id": "reference/js/blockly.procedures_namespace.iprocedureblock_interface"
+          },
+          {
+            "type": "doc",
             "label": "blockly.procedures_namespace.iprocedureblock_interface.doprocedureupdate_1_methodsignature",
             "id": "reference/js/blockly.procedures_namespace.iprocedureblock_interface.doprocedureupdate_1_methodsignature"
           },
@@ -17352,8 +17213,8 @@ export const referenceSidebar = [
           },
           {
             "type": "doc",
-            "label": "blockly.procedures_namespace.iprocedureblock_interface",
-            "id": "reference/js/blockly.procedures_namespace.iprocedureblock_interface"
+            "label": "blockly.procedures_namespace.iproceduremap_interface",
+            "id": "reference/js/blockly.procedures_namespace.iproceduremap_interface"
           },
           {
             "type": "doc",
@@ -17367,8 +17228,8 @@ export const referenceSidebar = [
           },
           {
             "type": "doc",
-            "label": "blockly.procedures_namespace.iproceduremap_interface",
-            "id": "reference/js/blockly.procedures_namespace.iproceduremap_interface"
+            "label": "blockly.procedures_namespace.iproceduremodel_interface",
+            "id": "reference/js/blockly.procedures_namespace.iproceduremodel_interface"
           },
           {
             "type": "doc",
@@ -17412,11 +17273,6 @@ export const referenceSidebar = [
           },
           {
             "type": "doc",
-            "label": "blockly.procedures_namespace.iproceduremodel_interface",
-            "id": "reference/js/blockly.procedures_namespace.iproceduremodel_interface"
-          },
-          {
-            "type": "doc",
             "label": "blockly.procedures_namespace.iproceduremodel_interface.savestate_1_methodsignature",
             "id": "reference/js/blockly.procedures_namespace.iproceduremodel_interface.savestate_1_methodsignature"
           },
@@ -17452,6 +17308,11 @@ export const referenceSidebar = [
           },
           {
             "type": "doc",
+            "label": "blockly.procedures_namespace.observableproceduremap_class",
+            "id": "reference/js/blockly.procedures_namespace.observableproceduremap_class"
+          },
+          {
+            "type": "doc",
             "label": "blockly.procedures_namespace.observableproceduremap_class.add_1_method",
             "id": "reference/js/blockly.procedures_namespace.observableproceduremap_class.add_1_method"
           },
@@ -17472,11 +17333,6 @@ export const referenceSidebar = [
           },
           {
             "type": "doc",
-            "label": "blockly.procedures_namespace.observableproceduremap_class",
-            "id": "reference/js/blockly.procedures_namespace.observableproceduremap_class"
-          },
-          {
-            "type": "doc",
             "label": "blockly.procedures_namespace.observableproceduremap_class.set_1_method",
             "id": "reference/js/blockly.procedures_namespace.observableproceduremap_class.set_1_method"
           },
@@ -17489,8 +17345,8 @@ export const referenceSidebar = [
             "type": "doc",
             "label": "blockly.procedures_namespace.rename_1_function",
             "id": "reference/js/blockly.procedures_namespace.rename_1_function"
-          }
-        ]
+          },
+        ],
       },
       {
         "type": "category",
@@ -17500,6 +17356,11 @@ export const referenceSidebar = [
           "id": "reference/js/blockly.registry_namespace"
         },
         "items": [
+          {
+            "type": "doc",
+            "label": "blockly.registry_namespace.type_class._constructor__1_constructor",
+            "id": "reference/js/blockly.registry_namespace.type_class._constructor__1_constructor"
+          },
           {
             "type": "doc",
             "label": "blockly.registry_namespace.default_variable",
@@ -17542,8 +17403,8 @@ export const referenceSidebar = [
           },
           {
             "type": "doc",
-            "label": "blockly.registry_namespace.type_class._constructor__1_constructor",
-            "id": "reference/js/blockly.registry_namespace.type_class._constructor__1_constructor"
+            "label": "blockly.registry_namespace.type_class",
+            "id": "reference/js/blockly.registry_namespace.type_class"
           },
           {
             "type": "doc",
@@ -17597,11 +17458,6 @@ export const referenceSidebar = [
           },
           {
             "type": "doc",
-            "label": "blockly.registry_namespace.type_class",
-            "id": "reference/js/blockly.registry_namespace.type_class"
-          },
-          {
-            "type": "doc",
             "label": "blockly.registry_namespace.type_class.metrics_manager_property",
             "id": "reference/js/blockly.registry_namespace.type_class.metrics_manager_property"
           },
@@ -17644,8 +17500,8 @@ export const referenceSidebar = [
             "type": "doc",
             "label": "blockly.registry_namespace.unregister_1_function",
             "id": "reference/js/blockly.registry_namespace.unregister_1_function"
-          }
-        ]
+          },
+        ],
       },
       {
         "type": "category",
@@ -17659,8 +17515,8 @@ export const referenceSidebar = [
             "type": "doc",
             "label": "blockly.renderedconnection_namespace.trackedstate_enum",
             "id": "reference/js/blockly.renderedconnection_namespace.trackedstate_enum"
-          }
-        ]
+          },
+        ],
       },
       {
         "type": "category",
@@ -17674,8 +17530,8 @@ export const referenceSidebar = [
             "type": "doc",
             "label": "blockly.rendermanagement_namespace.finishqueuedrenders_1_function",
             "id": "reference/js/blockly.rendermanagement_namespace.finishqueuedrenders_1_function"
-          }
-        ]
+          },
+        ],
       },
       {
         "type": "category",
@@ -17687,13 +17543,38 @@ export const referenceSidebar = [
         "items": [
           {
             "type": "doc",
+            "label": "blockly.serialization_namespace.blocks_namespace.blockserializer_class._constructor__1_constructor",
+            "id": "reference/js/blockly.serialization_namespace.blocks_namespace.blockserializer_class._constructor__1_constructor"
+          },
+          {
+            "type": "doc",
+            "label": "blockly.serialization_namespace.exceptions_namespace.unregisteredicon_class._constructor__1_constructor",
+            "id": "reference/js/blockly.serialization_namespace.exceptions_namespace.unregisteredicon_class._constructor__1_constructor"
+          },
+          {
+            "type": "doc",
+            "label": "blockly.serialization_namespace.procedures_namespace.procedureserializer_class._constructor__1_constructor",
+            "id": "reference/js/blockly.serialization_namespace.procedures_namespace.procedureserializer_class._constructor__1_constructor"
+          },
+          {
+            "type": "doc",
+            "label": "blockly.serialization_namespace.variables_namespace.variableserializer_class._constructor__1_constructor",
+            "id": "reference/js/blockly.serialization_namespace.variables_namespace.variableserializer_class._constructor__1_constructor"
+          },
+          {
+            "type": "doc",
+            "label": "blockly.serialization_namespace.blocks_namespace",
+            "id": "reference/js/blockly.serialization_namespace.blocks_namespace"
+          },
+          {
+            "type": "doc",
             "label": "blockly.serialization_namespace.blocks_namespace.append_1_function",
             "id": "reference/js/blockly.serialization_namespace.blocks_namespace.append_1_function"
           },
           {
             "type": "doc",
-            "label": "blockly.serialization_namespace.blocks_namespace.blockserializer_class._constructor__1_constructor",
-            "id": "reference/js/blockly.serialization_namespace.blocks_namespace.blockserializer_class._constructor__1_constructor"
+            "label": "blockly.serialization_namespace.blocks_namespace.blockserializer_class",
+            "id": "reference/js/blockly.serialization_namespace.blocks_namespace.blockserializer_class"
           },
           {
             "type": "doc",
@@ -17707,11 +17588,6 @@ export const referenceSidebar = [
           },
           {
             "type": "doc",
-            "label": "blockly.serialization_namespace.blocks_namespace.blockserializer_class",
-            "id": "reference/js/blockly.serialization_namespace.blocks_namespace.blockserializer_class"
-          },
-          {
-            "type": "doc",
             "label": "blockly.serialization_namespace.blocks_namespace.blockserializer_class.priority_property",
             "id": "reference/js/blockly.serialization_namespace.blocks_namespace.blockserializer_class.priority_property"
           },
@@ -17722,13 +17598,13 @@ export const referenceSidebar = [
           },
           {
             "type": "doc",
-            "label": "blockly.serialization_namespace.blocks_namespace.connectionstate_interface.block_propertysignature",
-            "id": "reference/js/blockly.serialization_namespace.blocks_namespace.connectionstate_interface.block_propertysignature"
+            "label": "blockly.serialization_namespace.blocks_namespace.connectionstate_interface",
+            "id": "reference/js/blockly.serialization_namespace.blocks_namespace.connectionstate_interface"
           },
           {
             "type": "doc",
-            "label": "blockly.serialization_namespace.blocks_namespace.connectionstate_interface",
-            "id": "reference/js/blockly.serialization_namespace.blocks_namespace.connectionstate_interface"
+            "label": "blockly.serialization_namespace.blocks_namespace.connectionstate_interface.block_propertysignature",
+            "id": "reference/js/blockly.serialization_namespace.blocks_namespace.connectionstate_interface.block_propertysignature"
           },
           {
             "type": "doc",
@@ -17737,13 +17613,13 @@ export const referenceSidebar = [
           },
           {
             "type": "doc",
-            "label": "blockly.serialization_namespace.blocks_namespace",
-            "id": "reference/js/blockly.serialization_namespace.blocks_namespace"
+            "label": "blockly.serialization_namespace.blocks_namespace.save_1_function",
+            "id": "reference/js/blockly.serialization_namespace.blocks_namespace.save_1_function"
           },
           {
             "type": "doc",
-            "label": "blockly.serialization_namespace.blocks_namespace.save_1_function",
-            "id": "reference/js/blockly.serialization_namespace.blocks_namespace.save_1_function"
+            "label": "blockly.serialization_namespace.blocks_namespace.state_interface",
+            "id": "reference/js/blockly.serialization_namespace.blocks_namespace.state_interface"
           },
           {
             "type": "doc",
@@ -17807,11 +17683,6 @@ export const referenceSidebar = [
           },
           {
             "type": "doc",
-            "label": "blockly.serialization_namespace.blocks_namespace.state_interface",
-            "id": "reference/js/blockly.serialization_namespace.blocks_namespace.state_interface"
-          },
-          {
-            "type": "doc",
             "label": "blockly.serialization_namespace.blocks_namespace.state_interface.movable_propertysignature",
             "id": "reference/js/blockly.serialization_namespace.blocks_namespace.state_interface.movable_propertysignature"
           },
@@ -17837,6 +17708,16 @@ export const referenceSidebar = [
           },
           {
             "type": "doc",
+            "label": "blockly.serialization_namespace.exceptions_namespace",
+            "id": "reference/js/blockly.serialization_namespace.exceptions_namespace"
+          },
+          {
+            "type": "doc",
+            "label": "blockly.serialization_namespace.exceptions_namespace.badconnectioncheck_class",
+            "id": "reference/js/blockly.serialization_namespace.exceptions_namespace.badconnectioncheck_class"
+          },
+          {
+            "type": "doc",
             "label": "blockly.serialization_namespace.exceptions_namespace.badconnectioncheck_class.childblock_property",
             "id": "reference/js/blockly.serialization_namespace.exceptions_namespace.badconnectioncheck_class.childblock_property"
           },
@@ -17847,18 +17728,8 @@ export const referenceSidebar = [
           },
           {
             "type": "doc",
-            "label": "blockly.serialization_namespace.exceptions_namespace.badconnectioncheck_class",
-            "id": "reference/js/blockly.serialization_namespace.exceptions_namespace.badconnectioncheck_class"
-          },
-          {
-            "type": "doc",
             "label": "blockly.serialization_namespace.exceptions_namespace.deserializationerror_class",
             "id": "reference/js/blockly.serialization_namespace.exceptions_namespace.deserializationerror_class"
-          },
-          {
-            "type": "doc",
-            "label": "blockly.serialization_namespace.exceptions_namespace",
-            "id": "reference/js/blockly.serialization_namespace.exceptions_namespace"
           },
           {
             "type": "doc",
@@ -17872,13 +17743,13 @@ export const referenceSidebar = [
           },
           {
             "type": "doc",
-            "label": "blockly.serialization_namespace.exceptions_namespace.missingconnection_class.block_property",
-            "id": "reference/js/blockly.serialization_namespace.exceptions_namespace.missingconnection_class.block_property"
+            "label": "blockly.serialization_namespace.exceptions_namespace.missingconnection_class",
+            "id": "reference/js/blockly.serialization_namespace.exceptions_namespace.missingconnection_class"
           },
           {
             "type": "doc",
-            "label": "blockly.serialization_namespace.exceptions_namespace.missingconnection_class",
-            "id": "reference/js/blockly.serialization_namespace.exceptions_namespace.missingconnection_class"
+            "label": "blockly.serialization_namespace.exceptions_namespace.missingconnection_class.block_property",
+            "id": "reference/js/blockly.serialization_namespace.exceptions_namespace.missingconnection_class.block_property"
           },
           {
             "type": "doc",
@@ -17897,8 +17768,8 @@ export const referenceSidebar = [
           },
           {
             "type": "doc",
-            "label": "blockly.serialization_namespace.exceptions_namespace.unregisteredicon_class._constructor__1_constructor",
-            "id": "reference/js/blockly.serialization_namespace.exceptions_namespace.unregisteredicon_class._constructor__1_constructor"
+            "label": "blockly.serialization_namespace.exceptions_namespace.unregisteredicon_class",
+            "id": "reference/js/blockly.serialization_namespace.exceptions_namespace.unregisteredicon_class"
           },
           {
             "type": "doc",
@@ -17907,13 +17778,13 @@ export const referenceSidebar = [
           },
           {
             "type": "doc",
-            "label": "blockly.serialization_namespace.exceptions_namespace.unregisteredicon_class",
-            "id": "reference/js/blockly.serialization_namespace.exceptions_namespace.unregisteredicon_class"
+            "label": "blockly.serialization_namespace.exceptions_namespace.unregisteredicon_class.state_property",
+            "id": "reference/js/blockly.serialization_namespace.exceptions_namespace.unregisteredicon_class.state_property"
           },
           {
             "type": "doc",
-            "label": "blockly.serialization_namespace.exceptions_namespace.unregisteredicon_class.state_property",
-            "id": "reference/js/blockly.serialization_namespace.exceptions_namespace.unregisteredicon_class.state_property"
+            "label": "blockly.serialization_namespace.iserializer_interface",
+            "id": "reference/js/blockly.serialization_namespace.iserializer_interface"
           },
           {
             "type": "doc",
@@ -17927,11 +17798,6 @@ export const referenceSidebar = [
           },
           {
             "type": "doc",
-            "label": "blockly.serialization_namespace.iserializer_interface",
-            "id": "reference/js/blockly.serialization_namespace.iserializer_interface"
-          },
-          {
-            "type": "doc",
             "label": "blockly.serialization_namespace.iserializer_interface.priority_propertysignature",
             "id": "reference/js/blockly.serialization_namespace.iserializer_interface.priority_propertysignature"
           },
@@ -17942,13 +17808,13 @@ export const referenceSidebar = [
           },
           {
             "type": "doc",
-            "label": "blockly.serialization_namespace.priorities_namespace.blocks_variable",
-            "id": "reference/js/blockly.serialization_namespace.priorities_namespace.blocks_variable"
+            "label": "blockly.serialization_namespace.priorities_namespace",
+            "id": "reference/js/blockly.serialization_namespace.priorities_namespace"
           },
           {
             "type": "doc",
-            "label": "blockly.serialization_namespace.priorities_namespace",
-            "id": "reference/js/blockly.serialization_namespace.priorities_namespace"
+            "label": "blockly.serialization_namespace.priorities_namespace.blocks_variable",
+            "id": "reference/js/blockly.serialization_namespace.priorities_namespace.blocks_variable"
           },
           {
             "type": "doc",
@@ -17967,23 +17833,23 @@ export const referenceSidebar = [
           },
           {
             "type": "doc",
-            "label": "blockly.serialization_namespace.procedures_namespace.loadprocedure_1_function",
-            "id": "reference/js/blockly.serialization_namespace.procedures_namespace.loadprocedure_1_function"
-          },
-          {
-            "type": "doc",
             "label": "blockly.serialization_namespace.procedures_namespace",
             "id": "reference/js/blockly.serialization_namespace.procedures_namespace"
           },
           {
             "type": "doc",
-            "label": "blockly.serialization_namespace.procedures_namespace.parameterstate_interface.id_propertysignature",
-            "id": "reference/js/blockly.serialization_namespace.procedures_namespace.parameterstate_interface.id_propertysignature"
+            "label": "blockly.serialization_namespace.procedures_namespace.loadprocedure_1_function",
+            "id": "reference/js/blockly.serialization_namespace.procedures_namespace.loadprocedure_1_function"
           },
           {
             "type": "doc",
             "label": "blockly.serialization_namespace.procedures_namespace.parameterstate_interface",
             "id": "reference/js/blockly.serialization_namespace.procedures_namespace.parameterstate_interface"
+          },
+          {
+            "type": "doc",
+            "label": "blockly.serialization_namespace.procedures_namespace.parameterstate_interface.id_propertysignature",
+            "id": "reference/js/blockly.serialization_namespace.procedures_namespace.parameterstate_interface.id_propertysignature"
           },
           {
             "type": "doc",
@@ -17997,8 +17863,8 @@ export const referenceSidebar = [
           },
           {
             "type": "doc",
-            "label": "blockly.serialization_namespace.procedures_namespace.procedureserializer_class._constructor__1_constructor",
-            "id": "reference/js/blockly.serialization_namespace.procedures_namespace.procedureserializer_class._constructor__1_constructor"
+            "label": "blockly.serialization_namespace.procedures_namespace.procedureserializer_class",
+            "id": "reference/js/blockly.serialization_namespace.procedures_namespace.procedureserializer_class"
           },
           {
             "type": "doc",
@@ -18009,11 +17875,6 @@ export const referenceSidebar = [
             "type": "doc",
             "label": "blockly.serialization_namespace.procedures_namespace.procedureserializer_class.load_1_method",
             "id": "reference/js/blockly.serialization_namespace.procedures_namespace.procedureserializer_class.load_1_method"
-          },
-          {
-            "type": "doc",
-            "label": "blockly.serialization_namespace.procedures_namespace.procedureserializer_class",
-            "id": "reference/js/blockly.serialization_namespace.procedures_namespace.procedureserializer_class"
           },
           {
             "type": "doc",
@@ -18032,13 +17893,13 @@ export const referenceSidebar = [
           },
           {
             "type": "doc",
-            "label": "blockly.serialization_namespace.procedures_namespace.state_interface.id_propertysignature",
-            "id": "reference/js/blockly.serialization_namespace.procedures_namespace.state_interface.id_propertysignature"
+            "label": "blockly.serialization_namespace.procedures_namespace.state_interface",
+            "id": "reference/js/blockly.serialization_namespace.procedures_namespace.state_interface"
           },
           {
             "type": "doc",
-            "label": "blockly.serialization_namespace.procedures_namespace.state_interface",
-            "id": "reference/js/blockly.serialization_namespace.procedures_namespace.state_interface"
+            "label": "blockly.serialization_namespace.procedures_namespace.state_interface.id_propertysignature",
+            "id": "reference/js/blockly.serialization_namespace.procedures_namespace.state_interface.id_propertysignature"
           },
           {
             "type": "doc",
@@ -18077,8 +17938,8 @@ export const referenceSidebar = [
           },
           {
             "type": "doc",
-            "label": "blockly.serialization_namespace.variables_namespace.variableserializer_class._constructor__1_constructor",
-            "id": "reference/js/blockly.serialization_namespace.variables_namespace.variableserializer_class._constructor__1_constructor"
+            "label": "blockly.serialization_namespace.variables_namespace.variableserializer_class",
+            "id": "reference/js/blockly.serialization_namespace.variables_namespace.variableserializer_class"
           },
           {
             "type": "doc",
@@ -18092,11 +17953,6 @@ export const referenceSidebar = [
           },
           {
             "type": "doc",
-            "label": "blockly.serialization_namespace.variables_namespace.variableserializer_class",
-            "id": "reference/js/blockly.serialization_namespace.variables_namespace.variableserializer_class"
-          },
-          {
-            "type": "doc",
             "label": "blockly.serialization_namespace.variables_namespace.variableserializer_class.priority_property",
             "id": "reference/js/blockly.serialization_namespace.variables_namespace.variableserializer_class.priority_property"
           },
@@ -18107,18 +17963,23 @@ export const referenceSidebar = [
           },
           {
             "type": "doc",
-            "label": "blockly.serialization_namespace.workspacecomments_namespace.append_1_function",
-            "id": "reference/js/blockly.serialization_namespace.workspacecomments_namespace.append_1_function"
-          },
-          {
-            "type": "doc",
             "label": "blockly.serialization_namespace.workspacecomments_namespace",
             "id": "reference/js/blockly.serialization_namespace.workspacecomments_namespace"
           },
           {
             "type": "doc",
+            "label": "blockly.serialization_namespace.workspacecomments_namespace.append_1_function",
+            "id": "reference/js/blockly.serialization_namespace.workspacecomments_namespace.append_1_function"
+          },
+          {
+            "type": "doc",
             "label": "blockly.serialization_namespace.workspacecomments_namespace.save_1_function",
             "id": "reference/js/blockly.serialization_namespace.workspacecomments_namespace.save_1_function"
+          },
+          {
+            "type": "doc",
+            "label": "blockly.serialization_namespace.workspacecomments_namespace.state_interface",
+            "id": "reference/js/blockly.serialization_namespace.workspacecomments_namespace.state_interface"
           },
           {
             "type": "doc",
@@ -18147,11 +18008,6 @@ export const referenceSidebar = [
           },
           {
             "type": "doc",
-            "label": "blockly.serialization_namespace.workspacecomments_namespace.state_interface",
-            "id": "reference/js/blockly.serialization_namespace.workspacecomments_namespace.state_interface"
-          },
-          {
-            "type": "doc",
             "label": "blockly.serialization_namespace.workspacecomments_namespace.state_interface.movable_propertysignature",
             "id": "reference/js/blockly.serialization_namespace.workspacecomments_namespace.state_interface.movable_propertysignature"
           },
@@ -18177,6 +18033,11 @@ export const referenceSidebar = [
           },
           {
             "type": "doc",
+            "label": "blockly.serialization_namespace.workspacecomments_namespace.workspacecommentserializer_class",
+            "id": "reference/js/blockly.serialization_namespace.workspacecomments_namespace.workspacecommentserializer_class"
+          },
+          {
+            "type": "doc",
             "label": "blockly.serialization_namespace.workspacecomments_namespace.workspacecommentserializer_class.clear_1_method",
             "id": "reference/js/blockly.serialization_namespace.workspacecomments_namespace.workspacecommentserializer_class.clear_1_method"
           },
@@ -18184,11 +18045,6 @@ export const referenceSidebar = [
             "type": "doc",
             "label": "blockly.serialization_namespace.workspacecomments_namespace.workspacecommentserializer_class.load_1_method",
             "id": "reference/js/blockly.serialization_namespace.workspacecomments_namespace.workspacecommentserializer_class.load_1_method"
-          },
-          {
-            "type": "doc",
-            "label": "blockly.serialization_namespace.workspacecomments_namespace.workspacecommentserializer_class",
-            "id": "reference/js/blockly.serialization_namespace.workspacecomments_namespace.workspacecommentserializer_class"
           },
           {
             "type": "doc",
@@ -18202,20 +18058,20 @@ export const referenceSidebar = [
           },
           {
             "type": "doc",
-            "label": "blockly.serialization_namespace.workspaces_namespace.load_1_function",
-            "id": "reference/js/blockly.serialization_namespace.workspaces_namespace.load_1_function"
-          },
-          {
-            "type": "doc",
             "label": "blockly.serialization_namespace.workspaces_namespace",
             "id": "reference/js/blockly.serialization_namespace.workspaces_namespace"
           },
           {
             "type": "doc",
+            "label": "blockly.serialization_namespace.workspaces_namespace.load_1_function",
+            "id": "reference/js/blockly.serialization_namespace.workspaces_namespace.load_1_function"
+          },
+          {
+            "type": "doc",
             "label": "blockly.serialization_namespace.workspaces_namespace.save_1_function",
             "id": "reference/js/blockly.serialization_namespace.workspaces_namespace.save_1_function"
-          }
-        ]
+          },
+        ],
       },
       {
         "type": "category",
@@ -18264,8 +18120,8 @@ export const referenceSidebar = [
             "type": "doc",
             "label": "blockly.shortcutitems_namespace.registerundo_1_function",
             "id": "reference/js/blockly.shortcutitems_namespace.registerundo_1_function"
-          }
-        ]
+          },
+        ],
       },
       {
         "type": "category",
@@ -18275,6 +18131,11 @@ export const referenceSidebar = [
           "id": "reference/js/blockly.shortcutregistry_namespace"
         },
         "items": [
+          {
+            "type": "doc",
+            "label": "blockly.shortcutregistry_namespace.keyboardshortcut_interface",
+            "id": "reference/js/blockly.shortcutregistry_namespace.keyboardshortcut_interface"
+          },
           {
             "type": "doc",
             "label": "blockly.shortcutregistry_namespace.keyboardshortcut_interface.allowcollision_propertysignature",
@@ -18289,11 +18150,6 @@ export const referenceSidebar = [
             "type": "doc",
             "label": "blockly.shortcutregistry_namespace.keyboardshortcut_interface.keycodes_propertysignature",
             "id": "reference/js/blockly.shortcutregistry_namespace.keyboardshortcut_interface.keycodes_propertysignature"
-          },
-          {
-            "type": "doc",
-            "label": "blockly.shortcutregistry_namespace.keyboardshortcut_interface",
-            "id": "reference/js/blockly.shortcutregistry_namespace.keyboardshortcut_interface"
           },
           {
             "type": "doc",
@@ -18314,8 +18170,8 @@ export const referenceSidebar = [
             "type": "doc",
             "label": "blockly.shortcutregistry_namespace.modifierkeys_enum",
             "id": "reference/js/blockly.shortcutregistry_namespace.modifierkeys_enum"
-          }
-        ]
+          },
+        ],
       },
       {
         "type": "category",
@@ -18325,6 +18181,11 @@ export const referenceSidebar = [
           "id": "reference/js/blockly.theme_namespace"
         },
         "items": [
+          {
+            "type": "doc",
+            "label": "blockly.theme_namespace.blockstyle_interface",
+            "id": "reference/js/blockly.theme_namespace.blockstyle_interface"
+          },
           {
             "type": "doc",
             "label": "blockly.theme_namespace.blockstyle_interface.colourprimary_propertysignature",
@@ -18347,8 +18208,8 @@ export const referenceSidebar = [
           },
           {
             "type": "doc",
-            "label": "blockly.theme_namespace.blockstyle_interface",
-            "id": "reference/js/blockly.theme_namespace.blockstyle_interface"
+            "label": "blockly.theme_namespace.categorystyle_interface",
+            "id": "reference/js/blockly.theme_namespace.categorystyle_interface"
           },
           {
             "type": "doc",
@@ -18357,8 +18218,8 @@ export const referenceSidebar = [
           },
           {
             "type": "doc",
-            "label": "blockly.theme_namespace.categorystyle_interface",
-            "id": "reference/js/blockly.theme_namespace.categorystyle_interface"
+            "label": "blockly.theme_namespace.componentstyle_interface",
+            "id": "reference/js/blockly.theme_namespace.componentstyle_interface"
           },
           {
             "type": "doc",
@@ -18394,11 +18255,6 @@ export const referenceSidebar = [
             "type": "doc",
             "label": "blockly.theme_namespace.componentstyle_interface.markercolour_propertysignature",
             "id": "reference/js/blockly.theme_namespace.componentstyle_interface.markercolour_propertysignature"
-          },
-          {
-            "type": "doc",
-            "label": "blockly.theme_namespace.componentstyle_interface",
-            "id": "reference/js/blockly.theme_namespace.componentstyle_interface"
           },
           {
             "type": "doc",
@@ -18447,13 +18303,13 @@ export const referenceSidebar = [
           },
           {
             "type": "doc",
-            "label": "blockly.theme_namespace.fontstyle_interface.family_propertysignature",
-            "id": "reference/js/blockly.theme_namespace.fontstyle_interface.family_propertysignature"
+            "label": "blockly.theme_namespace.fontstyle_interface",
+            "id": "reference/js/blockly.theme_namespace.fontstyle_interface"
           },
           {
             "type": "doc",
-            "label": "blockly.theme_namespace.fontstyle_interface",
-            "id": "reference/js/blockly.theme_namespace.fontstyle_interface"
+            "label": "blockly.theme_namespace.fontstyle_interface.family_propertysignature",
+            "id": "reference/js/blockly.theme_namespace.fontstyle_interface.family_propertysignature"
           },
           {
             "type": "doc",
@@ -18464,8 +18320,8 @@ export const referenceSidebar = [
             "type": "doc",
             "label": "blockly.theme_namespace.fontstyle_interface.weight_propertysignature",
             "id": "reference/js/blockly.theme_namespace.fontstyle_interface.weight_propertysignature"
-          }
-        ]
+          },
+        ],
       },
       {
         "type": "category",
@@ -18477,20 +18333,20 @@ export const referenceSidebar = [
         "items": [
           {
             "type": "doc",
-            "label": "blockly.thememanager_namespace.component_interface.element_propertysignature",
-            "id": "reference/js/blockly.thememanager_namespace.component_interface.element_propertysignature"
-          },
-          {
-            "type": "doc",
             "label": "blockly.thememanager_namespace.component_interface",
             "id": "reference/js/blockly.thememanager_namespace.component_interface"
           },
           {
             "type": "doc",
+            "label": "blockly.thememanager_namespace.component_interface.element_propertysignature",
+            "id": "reference/js/blockly.thememanager_namespace.component_interface.element_propertysignature"
+          },
+          {
+            "type": "doc",
             "label": "blockly.thememanager_namespace.component_interface.propertyname_propertysignature",
             "id": "reference/js/blockly.thememanager_namespace.component_interface.propertyname_propertysignature"
-          }
-        ]
+          },
+        ],
       },
       {
         "type": "category",
@@ -18509,8 +18365,8 @@ export const referenceSidebar = [
             "type": "doc",
             "label": "blockly.themes_namespace.zelos_variable",
             "id": "reference/js/blockly.themes_namespace.zelos_variable"
-          }
-        ]
+          },
+        ],
       },
       {
         "type": "category",
@@ -18527,8 +18383,8 @@ export const referenceSidebar = [
           },
           {
             "type": "doc",
-            "label": "blockly.thrasos_namespace.renderer_class.makerenderinfo__1_method",
-            "id": "reference/js/blockly.thrasos_namespace.renderer_class.makerenderinfo__1_method"
+            "label": "blockly.thrasos_namespace.renderinfo_class._constructor__1_constructor",
+            "id": "reference/js/blockly.thrasos_namespace.renderinfo_class._constructor__1_constructor"
           },
           {
             "type": "doc",
@@ -18537,8 +18393,13 @@ export const referenceSidebar = [
           },
           {
             "type": "doc",
-            "label": "blockly.thrasos_namespace.renderinfo_class._constructor__1_constructor",
-            "id": "reference/js/blockly.thrasos_namespace.renderinfo_class._constructor__1_constructor"
+            "label": "blockly.thrasos_namespace.renderer_class.makerenderinfo__1_method",
+            "id": "reference/js/blockly.thrasos_namespace.renderer_class.makerenderinfo__1_method"
+          },
+          {
+            "type": "doc",
+            "label": "blockly.thrasos_namespace.renderinfo_class",
+            "id": "reference/js/blockly.thrasos_namespace.renderinfo_class"
           },
           {
             "type": "doc",
@@ -18572,15 +18433,10 @@ export const referenceSidebar = [
           },
           {
             "type": "doc",
-            "label": "blockly.thrasos_namespace.renderinfo_class",
-            "id": "reference/js/blockly.thrasos_namespace.renderinfo_class"
-          },
-          {
-            "type": "doc",
             "label": "blockly.thrasos_namespace.renderinfo_class.renderer__property",
             "id": "reference/js/blockly.thrasos_namespace.renderinfo_class.renderer__property"
-          }
-        ]
+          },
+        ],
       },
       {
         "type": "category",
@@ -18594,8 +18450,8 @@ export const referenceSidebar = [
             "type": "doc",
             "label": "blockly.toast_namespace.assertiveness_enum",
             "id": "reference/js/blockly.toast_namespace.assertiveness_enum"
-          }
-        ]
+          },
+        ],
       },
       {
         "type": "category",
@@ -18605,6 +18461,11 @@ export const referenceSidebar = [
           "id": "reference/js/blockly.toolboxcategory_namespace"
         },
         "items": [
+          {
+            "type": "doc",
+            "label": "blockly.toolboxcategory_namespace.cssconfig_interface",
+            "id": "reference/js/blockly.toolboxcategory_namespace.cssconfig_interface"
+          },
           {
             "type": "doc",
             "label": "blockly.toolboxcategory_namespace.cssconfig_interface.closedicon_propertysignature",
@@ -18632,11 +18493,6 @@ export const referenceSidebar = [
           },
           {
             "type": "doc",
-            "label": "blockly.toolboxcategory_namespace.cssconfig_interface",
-            "id": "reference/js/blockly.toolboxcategory_namespace.cssconfig_interface"
-          },
-          {
-            "type": "doc",
             "label": "blockly.toolboxcategory_namespace.cssconfig_interface.openicon_propertysignature",
             "id": "reference/js/blockly.toolboxcategory_namespace.cssconfig_interface.openicon_propertysignature"
           },
@@ -18654,8 +18510,8 @@ export const referenceSidebar = [
             "type": "doc",
             "label": "blockly.toolboxcategory_namespace.cssconfig_interface.selected_propertysignature",
             "id": "reference/js/blockly.toolboxcategory_namespace.cssconfig_interface.selected_propertysignature"
-          }
-        ]
+          },
+        ],
       },
       {
         "type": "category",
@@ -18667,15 +18523,15 @@ export const referenceSidebar = [
         "items": [
           {
             "type": "doc",
-            "label": "blockly.toolboxseparator_namespace.cssconfig_interface.container_propertysignature",
-            "id": "reference/js/blockly.toolboxseparator_namespace.cssconfig_interface.container_propertysignature"
+            "label": "blockly.toolboxseparator_namespace.cssconfig_interface",
+            "id": "reference/js/blockly.toolboxseparator_namespace.cssconfig_interface"
           },
           {
             "type": "doc",
-            "label": "blockly.toolboxseparator_namespace.cssconfig_interface",
-            "id": "reference/js/blockly.toolboxseparator_namespace.cssconfig_interface"
-          }
-        ]
+            "label": "blockly.toolboxseparator_namespace.cssconfig_interface.container_propertysignature",
+            "id": "reference/js/blockly.toolboxseparator_namespace.cssconfig_interface.container_propertysignature"
+          },
+        ],
       },
       {
         "type": "category",
@@ -18769,8 +18625,8 @@ export const referenceSidebar = [
             "type": "doc",
             "label": "blockly.tooltip_namespace.unbindmouseevents_1_function",
             "id": "reference/js/blockly.tooltip_namespace.unbindmouseevents_1_function"
-          }
-        ]
+          },
+        ],
       },
       {
         "type": "category",
@@ -18809,23 +18665,13 @@ export const referenceSidebar = [
             "type": "doc",
             "label": "blockly.touch_namespace.touch_map_variable",
             "id": "reference/js/blockly.touch_namespace.touch_map_variable"
-          }
-        ]
+          },
+        ],
       },
       {
-        "type": "category",
+        "type": "doc",
         "label": "uiPosition",
-        "link": {
-          "type": "doc",
-          "id": "reference/js/blockly.uiposition_namespace"
-        },
-        "items": [
-          {
-            "type": "doc",
-            "label": "Label",
-            "id": "reference/js/blockly.uiposition_namespace"
-          }
-        ]
+        "id": "reference/js/blockly.uiposition_namespace"
       },
       {
         "type": "category",
@@ -18835,6 +18681,21 @@ export const referenceSidebar = [
           "id": "reference/js/blockly.utils_namespace"
         },
         "items": [
+          {
+            "type": "doc",
+            "label": "blockly.utils_namespace.coordinate_class._constructor__1_constructor",
+            "id": "reference/js/blockly.utils_namespace.coordinate_class._constructor__1_constructor"
+          },
+          {
+            "type": "doc",
+            "label": "blockly.utils_namespace.rect_class._constructor__1_constructor",
+            "id": "reference/js/blockly.utils_namespace.rect_class._constructor__1_constructor"
+          },
+          {
+            "type": "doc",
+            "label": "blockly.utils_namespace.size_class._constructor__1_constructor",
+            "id": "reference/js/blockly.utils_namespace.size_class._constructor__1_constructor"
+          },
           {
             "type": "doc",
             "label": "blockly.utils_namespace.aria_namespace",
@@ -18864,6 +18725,11 @@ export const referenceSidebar = [
             "type": "doc",
             "label": "blockly.utils_namespace.array_namespace",
             "id": "reference/js/blockly.utils_namespace.array_namespace"
+          },
+          {
+            "type": "doc",
+            "label": "blockly.utils_namespace.browserevents_namespace",
+            "id": "reference/js/blockly.utils_namespace.browserevents_namespace"
           },
           {
             "type": "doc",
@@ -18897,11 +18763,6 @@ export const referenceSidebar = [
           },
           {
             "type": "doc",
-            "label": "blockly.utils_namespace.browserevents_namespace",
-            "id": "reference/js/blockly.utils_namespace.browserevents_namespace"
-          },
-          {
-            "type": "doc",
             "label": "blockly.utils_namespace.browserevents_namespace.mousetosvg_1_function",
             "id": "reference/js/blockly.utils_namespace.browserevents_namespace.mousetosvg_1_function"
           },
@@ -18909,6 +18770,11 @@ export const referenceSidebar = [
             "type": "doc",
             "label": "blockly.utils_namespace.browserevents_namespace.unbind_1_function",
             "id": "reference/js/blockly.utils_namespace.browserevents_namespace.unbind_1_function"
+          },
+          {
+            "type": "doc",
+            "label": "blockly.utils_namespace.colour_namespace",
+            "id": "reference/js/blockly.utils_namespace.colour_namespace"
           },
           {
             "type": "doc",
@@ -18932,11 +18798,6 @@ export const referenceSidebar = [
           },
           {
             "type": "doc",
-            "label": "blockly.utils_namespace.colour_namespace",
-            "id": "reference/js/blockly.utils_namespace.colour_namespace"
-          },
-          {
-            "type": "doc",
             "label": "blockly.utils_namespace.colour_namespace.names_variable",
             "id": "reference/js/blockly.utils_namespace.colour_namespace.names_variable"
           },
@@ -18952,8 +18813,8 @@ export const referenceSidebar = [
           },
           {
             "type": "doc",
-            "label": "blockly.utils_namespace.coordinate_class._constructor__1_constructor",
-            "id": "reference/js/blockly.utils_namespace.coordinate_class._constructor__1_constructor"
+            "label": "blockly.utils_namespace.coordinate_class",
+            "id": "reference/js/blockly.utils_namespace.coordinate_class"
           },
           {
             "type": "doc",
@@ -18979,11 +18840,6 @@ export const referenceSidebar = [
             "type": "doc",
             "label": "blockly.utils_namespace.coordinate_class.magnitude_1_method",
             "id": "reference/js/blockly.utils_namespace.coordinate_class.magnitude_1_method"
-          },
-          {
-            "type": "doc",
-            "label": "blockly.utils_namespace.coordinate_class",
-            "id": "reference/js/blockly.utils_namespace.coordinate_class"
           },
           {
             "type": "doc",
@@ -19014,6 +18870,11 @@ export const referenceSidebar = [
             "type": "doc",
             "label": "blockly.utils_namespace.deprecation_namespace",
             "id": "reference/js/blockly.utils_namespace.deprecation_namespace"
+          },
+          {
+            "type": "doc",
+            "label": "blockly.utils_namespace.dom_namespace",
+            "id": "reference/js/blockly.utils_namespace.dom_namespace"
           },
           {
             "type": "doc",
@@ -19054,11 +18915,6 @@ export const referenceSidebar = [
             "type": "doc",
             "label": "blockly.utils_namespace.dom_namespace.insertafter_1_function",
             "id": "reference/js/blockly.utils_namespace.dom_namespace.insertafter_1_function"
-          },
-          {
-            "type": "doc",
-            "label": "blockly.utils_namespace.dom_namespace",
-            "id": "reference/js/blockly.utils_namespace.dom_namespace"
           },
           {
             "type": "doc",
@@ -19112,6 +18968,11 @@ export const referenceSidebar = [
           },
           {
             "type": "doc",
+            "label": "blockly.utils_namespace.extensions_namespace",
+            "id": "reference/js/blockly.utils_namespace.extensions_namespace"
+          },
+          {
+            "type": "doc",
             "label": "blockly.utils_namespace.extensions_namespace.apply_1_function",
             "id": "reference/js/blockly.utils_namespace.extensions_namespace.apply_1_function"
           },
@@ -19129,11 +18990,6 @@ export const referenceSidebar = [
             "type": "doc",
             "label": "blockly.utils_namespace.extensions_namespace.isregistered_1_function",
             "id": "reference/js/blockly.utils_namespace.extensions_namespace.isregistered_1_function"
-          },
-          {
-            "type": "doc",
-            "label": "blockly.utils_namespace.extensions_namespace",
-            "id": "reference/js/blockly.utils_namespace.extensions_namespace"
           },
           {
             "type": "doc",
@@ -19162,6 +19018,11 @@ export const referenceSidebar = [
           },
           {
             "type": "doc",
+            "label": "blockly.utils_namespace.idgenerator_namespace",
+            "id": "reference/js/blockly.utils_namespace.idgenerator_namespace"
+          },
+          {
+            "type": "doc",
             "label": "blockly.utils_namespace.idgenerator_namespace.genuid_1_function",
             "id": "reference/js/blockly.utils_namespace.idgenerator_namespace.genuid_1_function"
           },
@@ -19169,11 +19030,6 @@ export const referenceSidebar = [
             "type": "doc",
             "label": "blockly.utils_namespace.idgenerator_namespace.getnextuniqueid_1_function",
             "id": "reference/js/blockly.utils_namespace.idgenerator_namespace.getnextuniqueid_1_function"
-          },
-          {
-            "type": "doc",
-            "label": "blockly.utils_namespace.idgenerator_namespace",
-            "id": "reference/js/blockly.utils_namespace.idgenerator_namespace"
           },
           {
             "type": "doc",
@@ -19187,13 +19043,13 @@ export const referenceSidebar = [
           },
           {
             "type": "doc",
-            "label": "blockly.utils_namespace.math_namespace.clamp_1_function",
-            "id": "reference/js/blockly.utils_namespace.math_namespace.clamp_1_function"
+            "label": "blockly.utils_namespace.math_namespace",
+            "id": "reference/js/blockly.utils_namespace.math_namespace"
           },
           {
             "type": "doc",
-            "label": "blockly.utils_namespace.math_namespace",
-            "id": "reference/js/blockly.utils_namespace.math_namespace"
+            "label": "blockly.utils_namespace.math_namespace.clamp_1_function",
+            "id": "reference/js/blockly.utils_namespace.math_namespace.clamp_1_function"
           },
           {
             "type": "doc",
@@ -19204,6 +19060,11 @@ export const referenceSidebar = [
             "type": "doc",
             "label": "blockly.utils_namespace.math_namespace.toradians_1_function",
             "id": "reference/js/blockly.utils_namespace.math_namespace.toradians_1_function"
+          },
+          {
+            "type": "doc",
+            "label": "blockly.utils_namespace.metrics_interface",
+            "id": "reference/js/blockly.utils_namespace.metrics_interface"
           },
           {
             "type": "doc",
@@ -19244,11 +19105,6 @@ export const referenceSidebar = [
             "type": "doc",
             "label": "blockly.utils_namespace.metrics_interface.flyoutwidth_propertysignature",
             "id": "reference/js/blockly.utils_namespace.metrics_interface.flyoutwidth_propertysignature"
-          },
-          {
-            "type": "doc",
-            "label": "blockly.utils_namespace.metrics_interface",
-            "id": "reference/js/blockly.utils_namespace.metrics_interface"
           },
           {
             "type": "doc",
@@ -19317,23 +19173,23 @@ export const referenceSidebar = [
           },
           {
             "type": "doc",
-            "label": "blockly.utils_namespace.object_namespace.deepmerge_1_function",
-            "id": "reference/js/blockly.utils_namespace.object_namespace.deepmerge_1_function"
-          },
-          {
-            "type": "doc",
             "label": "blockly.utils_namespace.object_namespace",
             "id": "reference/js/blockly.utils_namespace.object_namespace"
           },
           {
             "type": "doc",
-            "label": "blockly.utils_namespace.parsing_namespace.checkmessagereferences_1_function",
-            "id": "reference/js/blockly.utils_namespace.parsing_namespace.checkmessagereferences_1_function"
+            "label": "blockly.utils_namespace.object_namespace.deepmerge_1_function",
+            "id": "reference/js/blockly.utils_namespace.object_namespace.deepmerge_1_function"
           },
           {
             "type": "doc",
             "label": "blockly.utils_namespace.parsing_namespace",
             "id": "reference/js/blockly.utils_namespace.parsing_namespace"
+          },
+          {
+            "type": "doc",
+            "label": "blockly.utils_namespace.parsing_namespace.checkmessagereferences_1_function",
+            "id": "reference/js/blockly.utils_namespace.parsing_namespace.checkmessagereferences_1_function"
           },
           {
             "type": "doc",
@@ -19352,8 +19208,8 @@ export const referenceSidebar = [
           },
           {
             "type": "doc",
-            "label": "blockly.utils_namespace.rect_class._constructor__1_constructor",
-            "id": "reference/js/blockly.utils_namespace.rect_class._constructor__1_constructor"
+            "label": "blockly.utils_namespace.rect_class",
+            "id": "reference/js/blockly.utils_namespace.rect_class"
           },
           {
             "type": "doc",
@@ -19412,11 +19268,6 @@ export const referenceSidebar = [
           },
           {
             "type": "doc",
-            "label": "blockly.utils_namespace.rect_class",
-            "id": "reference/js/blockly.utils_namespace.rect_class"
-          },
-          {
-            "type": "doc",
             "label": "blockly.utils_namespace.rect_class.right_property",
             "id": "reference/js/blockly.utils_namespace.rect_class.right_property"
           },
@@ -19427,8 +19278,8 @@ export const referenceSidebar = [
           },
           {
             "type": "doc",
-            "label": "blockly.utils_namespace.size_class._constructor__1_constructor",
-            "id": "reference/js/blockly.utils_namespace.size_class._constructor__1_constructor"
+            "label": "blockly.utils_namespace.size_class",
+            "id": "reference/js/blockly.utils_namespace.size_class"
           },
           {
             "type": "doc",
@@ -19447,11 +19298,6 @@ export const referenceSidebar = [
           },
           {
             "type": "doc",
-            "label": "blockly.utils_namespace.size_class",
-            "id": "reference/js/blockly.utils_namespace.size_class"
-          },
-          {
-            "type": "doc",
             "label": "blockly.utils_namespace.size_class.min_1_method",
             "id": "reference/js/blockly.utils_namespace.size_class.min_1_method"
           },
@@ -19459,6 +19305,11 @@ export const referenceSidebar = [
             "type": "doc",
             "label": "blockly.utils_namespace.size_class.width_property",
             "id": "reference/js/blockly.utils_namespace.size_class.width_property"
+          },
+          {
+            "type": "doc",
+            "label": "blockly.utils_namespace.string_namespace",
+            "id": "reference/js/blockly.utils_namespace.string_namespace"
           },
           {
             "type": "doc",
@@ -19477,11 +19328,6 @@ export const referenceSidebar = [
           },
           {
             "type": "doc",
-            "label": "blockly.utils_namespace.string_namespace",
-            "id": "reference/js/blockly.utils_namespace.string_namespace"
-          },
-          {
-            "type": "doc",
             "label": "blockly.utils_namespace.string_namespace.shorteststringlength_1_function",
             "id": "reference/js/blockly.utils_namespace.string_namespace.shorteststringlength_1_function"
           },
@@ -19489,6 +19335,11 @@ export const referenceSidebar = [
             "type": "doc",
             "label": "blockly.utils_namespace.string_namespace.wrap_1_function",
             "id": "reference/js/blockly.utils_namespace.string_namespace.wrap_1_function"
+          },
+          {
+            "type": "doc",
+            "label": "blockly.utils_namespace.style_namespace",
+            "id": "reference/js/blockly.utils_namespace.style_namespace"
           },
           {
             "type": "doc",
@@ -19522,11 +19373,6 @@ export const referenceSidebar = [
           },
           {
             "type": "doc",
-            "label": "blockly.utils_namespace.style_namespace",
-            "id": "reference/js/blockly.utils_namespace.style_namespace"
-          },
-          {
-            "type": "doc",
             "label": "blockly.utils_namespace.style_namespace.scrollintocontainerview_1_function",
             "id": "reference/js/blockly.utils_namespace.style_namespace.scrollintocontainerview_1_function"
           },
@@ -19547,6 +19393,11 @@ export const referenceSidebar = [
           },
           {
             "type": "doc",
+            "label": "blockly.utils_namespace.svgmath_namespace",
+            "id": "reference/js/blockly.utils_namespace.svgmath_namespace"
+          },
+          {
+            "type": "doc",
             "label": "blockly.utils_namespace.svgmath_namespace.getdocumentscroll_1_function",
             "id": "reference/js/blockly.utils_namespace.svgmath_namespace.getdocumentscroll_1_function"
           },
@@ -19562,11 +19413,6 @@ export const referenceSidebar = [
           },
           {
             "type": "doc",
-            "label": "blockly.utils_namespace.svgmath_namespace",
-            "id": "reference/js/blockly.utils_namespace.svgmath_namespace"
-          },
-          {
-            "type": "doc",
             "label": "blockly.utils_namespace.svgmath_namespace.screentowscoordinates_1_function",
             "id": "reference/js/blockly.utils_namespace.svgmath_namespace.screentowscoordinates_1_function"
           },
@@ -19579,6 +19425,11 @@ export const referenceSidebar = [
             "type": "doc",
             "label": "blockly.utils_namespace.svgmath_namespace.wstoscreencoordinates_1_function",
             "id": "reference/js/blockly.utils_namespace.svgmath_namespace.wstoscreencoordinates_1_function"
+          },
+          {
+            "type": "doc",
+            "label": "blockly.utils_namespace.svgpaths_namespace",
+            "id": "reference/js/blockly.utils_namespace.svgpaths_namespace"
           },
           {
             "type": "doc",
@@ -19607,11 +19458,6 @@ export const referenceSidebar = [
           },
           {
             "type": "doc",
-            "label": "blockly.utils_namespace.svgpaths_namespace",
-            "id": "reference/js/blockly.utils_namespace.svgpaths_namespace"
-          },
-          {
-            "type": "doc",
             "label": "blockly.utils_namespace.svgpaths_namespace.moveby_1_function",
             "id": "reference/js/blockly.utils_namespace.svgpaths_namespace.moveby_1_function"
           },
@@ -19624,6 +19470,16 @@ export const referenceSidebar = [
             "type": "doc",
             "label": "blockly.utils_namespace.svgpaths_namespace.point_1_function",
             "id": "reference/js/blockly.utils_namespace.svgpaths_namespace.point_1_function"
+          },
+          {
+            "type": "doc",
+            "label": "blockly.utils_namespace.toolbox_namespace",
+            "id": "reference/js/blockly.utils_namespace.toolbox_namespace"
+          },
+          {
+            "type": "doc",
+            "label": "blockly.utils_namespace.toolbox_namespace.blockinfo_interface",
+            "id": "reference/js/blockly.utils_namespace.toolbox_namespace.blockinfo_interface"
           },
           {
             "type": "doc",
@@ -19697,11 +19553,6 @@ export const referenceSidebar = [
           },
           {
             "type": "doc",
-            "label": "blockly.utils_namespace.toolbox_namespace.blockinfo_interface",
-            "id": "reference/js/blockly.utils_namespace.toolbox_namespace.blockinfo_interface"
-          },
-          {
-            "type": "doc",
             "label": "blockly.utils_namespace.toolbox_namespace.blockinfo_interface.next_propertysignature",
             "id": "reference/js/blockly.utils_namespace.toolbox_namespace.blockinfo_interface.next_propertysignature"
           },
@@ -19712,6 +19563,11 @@ export const referenceSidebar = [
           },
           {
             "type": "doc",
+            "label": "blockly.utils_namespace.toolbox_namespace.buttoninfo_interface",
+            "id": "reference/js/blockly.utils_namespace.toolbox_namespace.buttoninfo_interface"
+          },
+          {
+            "type": "doc",
             "label": "blockly.utils_namespace.toolbox_namespace.buttoninfo_interface.callbackkey_propertysignature",
             "id": "reference/js/blockly.utils_namespace.toolbox_namespace.buttoninfo_interface.callbackkey_propertysignature"
           },
@@ -19719,11 +19575,6 @@ export const referenceSidebar = [
             "type": "doc",
             "label": "blockly.utils_namespace.toolbox_namespace.buttoninfo_interface.kind_propertysignature",
             "id": "reference/js/blockly.utils_namespace.toolbox_namespace.buttoninfo_interface.kind_propertysignature"
-          },
-          {
-            "type": "doc",
-            "label": "blockly.utils_namespace.toolbox_namespace.buttoninfo_interface",
-            "id": "reference/js/blockly.utils_namespace.toolbox_namespace.buttoninfo_interface"
           },
           {
             "type": "doc",
@@ -19739,6 +19590,11 @@ export const referenceSidebar = [
             "type": "doc",
             "label": "blockly.utils_namespace.toolbox_namespace.categoryinfo_typealias",
             "id": "reference/js/blockly.utils_namespace.toolbox_namespace.categoryinfo_typealias"
+          },
+          {
+            "type": "doc",
+            "label": "blockly.utils_namespace.toolbox_namespace.dynamiccategoryinfo_interface",
+            "id": "reference/js/blockly.utils_namespace.toolbox_namespace.dynamiccategoryinfo_interface"
           },
           {
             "type": "doc",
@@ -19782,11 +19638,6 @@ export const referenceSidebar = [
           },
           {
             "type": "doc",
-            "label": "blockly.utils_namespace.toolbox_namespace.dynamiccategoryinfo_interface",
-            "id": "reference/js/blockly.utils_namespace.toolbox_namespace.dynamiccategoryinfo_interface"
-          },
-          {
-            "type": "doc",
             "label": "blockly.utils_namespace.toolbox_namespace.flyoutdefinition_typealias",
             "id": "reference/js/blockly.utils_namespace.toolbox_namespace.flyoutdefinition_typealias"
           },
@@ -19802,6 +19653,11 @@ export const referenceSidebar = [
           },
           {
             "type": "doc",
+            "label": "blockly.utils_namespace.toolbox_namespace.labelinfo_interface",
+            "id": "reference/js/blockly.utils_namespace.toolbox_namespace.labelinfo_interface"
+          },
+          {
+            "type": "doc",
             "label": "blockly.utils_namespace.toolbox_namespace.labelinfo_interface.id_propertysignature",
             "id": "reference/js/blockly.utils_namespace.toolbox_namespace.labelinfo_interface.id_propertysignature"
           },
@@ -19812,18 +19668,8 @@ export const referenceSidebar = [
           },
           {
             "type": "doc",
-            "label": "blockly.utils_namespace.toolbox_namespace.labelinfo_interface",
-            "id": "reference/js/blockly.utils_namespace.toolbox_namespace.labelinfo_interface"
-          },
-          {
-            "type": "doc",
             "label": "blockly.utils_namespace.toolbox_namespace.labelinfo_interface.text_propertysignature",
             "id": "reference/js/blockly.utils_namespace.toolbox_namespace.labelinfo_interface.text_propertysignature"
-          },
-          {
-            "type": "doc",
-            "label": "blockly.utils_namespace.toolbox_namespace",
-            "id": "reference/js/blockly.utils_namespace.toolbox_namespace"
           },
           {
             "type": "doc",
@@ -19834,6 +19680,11 @@ export const referenceSidebar = [
             "type": "doc",
             "label": "blockly.utils_namespace.toolbox_namespace.position_enum",
             "id": "reference/js/blockly.utils_namespace.toolbox_namespace.position_enum"
+          },
+          {
+            "type": "doc",
+            "label": "blockly.utils_namespace.toolbox_namespace.separatorinfo_interface",
+            "id": "reference/js/blockly.utils_namespace.toolbox_namespace.separatorinfo_interface"
           },
           {
             "type": "doc",
@@ -19857,8 +19708,8 @@ export const referenceSidebar = [
           },
           {
             "type": "doc",
-            "label": "blockly.utils_namespace.toolbox_namespace.separatorinfo_interface",
-            "id": "reference/js/blockly.utils_namespace.toolbox_namespace.separatorinfo_interface"
+            "label": "blockly.utils_namespace.toolbox_namespace.staticcategoryinfo_interface",
+            "id": "reference/js/blockly.utils_namespace.toolbox_namespace.staticcategoryinfo_interface"
           },
           {
             "type": "doc",
@@ -19902,11 +19753,6 @@ export const referenceSidebar = [
           },
           {
             "type": "doc",
-            "label": "blockly.utils_namespace.toolbox_namespace.staticcategoryinfo_interface",
-            "id": "reference/js/blockly.utils_namespace.toolbox_namespace.staticcategoryinfo_interface"
-          },
-          {
-            "type": "doc",
             "label": "blockly.utils_namespace.toolbox_namespace.staticcategoryinfo_interface.name_propertysignature",
             "id": "reference/js/blockly.utils_namespace.toolbox_namespace.staticcategoryinfo_interface.name_propertysignature"
           },
@@ -19922,6 +19768,11 @@ export const referenceSidebar = [
           },
           {
             "type": "doc",
+            "label": "blockly.utils_namespace.toolbox_namespace.toolboxinfo_interface",
+            "id": "reference/js/blockly.utils_namespace.toolbox_namespace.toolboxinfo_interface"
+          },
+          {
+            "type": "doc",
             "label": "blockly.utils_namespace.toolbox_namespace.toolboxinfo_interface.contents_propertysignature",
             "id": "reference/js/blockly.utils_namespace.toolbox_namespace.toolboxinfo_interface.contents_propertysignature"
           },
@@ -19932,13 +19783,13 @@ export const referenceSidebar = [
           },
           {
             "type": "doc",
-            "label": "blockly.utils_namespace.toolbox_namespace.toolboxinfo_interface",
-            "id": "reference/js/blockly.utils_namespace.toolbox_namespace.toolboxinfo_interface"
+            "label": "blockly.utils_namespace.toolbox_namespace.toolboxiteminfo_typealias",
+            "id": "reference/js/blockly.utils_namespace.toolbox_namespace.toolboxiteminfo_typealias"
           },
           {
             "type": "doc",
-            "label": "blockly.utils_namespace.toolbox_namespace.toolboxiteminfo_typealias",
-            "id": "reference/js/blockly.utils_namespace.toolbox_namespace.toolboxiteminfo_typealias"
+            "label": "blockly.utils_namespace.useragent_namespace",
+            "id": "reference/js/blockly.utils_namespace.useragent_namespace"
           },
           {
             "type": "doc",
@@ -19972,11 +19823,6 @@ export const referenceSidebar = [
           },
           {
             "type": "doc",
-            "label": "blockly.utils_namespace.useragent_namespace",
-            "id": "reference/js/blockly.utils_namespace.useragent_namespace"
-          },
-          {
-            "type": "doc",
             "label": "blockly.utils_namespace.useragent_namespace.mobile_variable",
             "id": "reference/js/blockly.utils_namespace.useragent_namespace.mobile_variable"
           },
@@ -19984,6 +19830,11 @@ export const referenceSidebar = [
             "type": "doc",
             "label": "blockly.utils_namespace.useragent_namespace.raw_variable",
             "id": "reference/js/blockly.utils_namespace.useragent_namespace.raw_variable"
+          },
+          {
+            "type": "doc",
+            "label": "blockly.utils_namespace.xml_namespace",
+            "id": "reference/js/blockly.utils_namespace.xml_namespace"
           },
           {
             "type": "doc",
@@ -20007,11 +19858,6 @@ export const referenceSidebar = [
           },
           {
             "type": "doc",
-            "label": "blockly.utils_namespace.xml_namespace",
-            "id": "reference/js/blockly.utils_namespace.xml_namespace"
-          },
-          {
-            "type": "doc",
             "label": "blockly.utils_namespace.xml_namespace.name_space_variable",
             "id": "reference/js/blockly.utils_namespace.xml_namespace.name_space_variable"
           },
@@ -20019,8 +19865,8 @@ export const referenceSidebar = [
             "type": "doc",
             "label": "blockly.utils_namespace.xml_namespace.texttodom_1_function",
             "id": "reference/js/blockly.utils_namespace.xml_namespace.texttodom_1_function"
-          }
-        ]
+          },
+        ],
       },
       {
         "type": "category",
@@ -20124,8 +19970,8 @@ export const referenceSidebar = [
             "type": "doc",
             "label": "blockly.variables_namespace.var_letter_options_variable",
             "id": "reference/js/blockly.variables_namespace.var_letter_options_variable"
-          }
-        ]
+          },
+        ],
       },
       {
         "type": "category",
@@ -20169,8 +20015,8 @@ export const referenceSidebar = [
             "type": "doc",
             "label": "blockly.variablesdynamic_namespace.oncreatevariablebuttonclick_string_variable",
             "id": "reference/js/blockly.variablesdynamic_namespace.oncreatevariablebuttonclick_string_variable"
-          }
-        ]
+          },
+        ],
       },
       {
         "type": "category",
@@ -20219,8 +20065,8 @@ export const referenceSidebar = [
             "type": "doc",
             "label": "blockly.widgetdiv_namespace.show_1_function",
             "id": "reference/js/blockly.widgetdiv_namespace.show_1_function"
-          }
-        ]
+          },
+        ],
       },
       {
         "type": "category",
@@ -20299,8 +20145,8 @@ export const referenceSidebar = [
             "type": "doc",
             "label": "blockly.xml_namespace.workspacetodom_1_function",
             "id": "reference/js/blockly.xml_namespace.workspacetodom_1_function"
-          }
-        ]
+          },
+        ],
       },
       {
         "type": "category",
@@ -20314,6 +20160,51 @@ export const referenceSidebar = [
             "type": "doc",
             "label": "blockly.zelos_namespace.bottomrow_class._constructor__1_constructor",
             "id": "reference/js/blockly.zelos_namespace.bottomrow_class._constructor__1_constructor"
+          },
+          {
+            "type": "doc",
+            "label": "blockly.zelos_namespace.constantprovider_class._constructor__1_constructor",
+            "id": "reference/js/blockly.zelos_namespace.constantprovider_class._constructor__1_constructor"
+          },
+          {
+            "type": "doc",
+            "label": "blockly.zelos_namespace.drawer_class._constructor__1_constructor",
+            "id": "reference/js/blockly.zelos_namespace.drawer_class._constructor__1_constructor"
+          },
+          {
+            "type": "doc",
+            "label": "blockly.zelos_namespace.pathobject_class._constructor__1_constructor",
+            "id": "reference/js/blockly.zelos_namespace.pathobject_class._constructor__1_constructor"
+          },
+          {
+            "type": "doc",
+            "label": "blockly.zelos_namespace.renderer_class._constructor__1_constructor",
+            "id": "reference/js/blockly.zelos_namespace.renderer_class._constructor__1_constructor"
+          },
+          {
+            "type": "doc",
+            "label": "blockly.zelos_namespace.renderinfo_class._constructor__1_constructor",
+            "id": "reference/js/blockly.zelos_namespace.renderinfo_class._constructor__1_constructor"
+          },
+          {
+            "type": "doc",
+            "label": "blockly.zelos_namespace.rightconnectionshape_class._constructor__1_constructor",
+            "id": "reference/js/blockly.zelos_namespace.rightconnectionshape_class._constructor__1_constructor"
+          },
+          {
+            "type": "doc",
+            "label": "blockly.zelos_namespace.statementinput_class._constructor__1_constructor",
+            "id": "reference/js/blockly.zelos_namespace.statementinput_class._constructor__1_constructor"
+          },
+          {
+            "type": "doc",
+            "label": "blockly.zelos_namespace.toprow_class._constructor__1_constructor",
+            "id": "reference/js/blockly.zelos_namespace.toprow_class._constructor__1_constructor"
+          },
+          {
+            "type": "doc",
+            "label": "blockly.zelos_namespace.bottomrow_class",
+            "id": "reference/js/blockly.zelos_namespace.bottomrow_class"
           },
           {
             "type": "doc",
@@ -20332,13 +20223,8 @@ export const referenceSidebar = [
           },
           {
             "type": "doc",
-            "label": "blockly.zelos_namespace.bottomrow_class",
-            "id": "reference/js/blockly.zelos_namespace.bottomrow_class"
-          },
-          {
-            "type": "doc",
-            "label": "blockly.zelos_namespace.constantprovider_class._constructor__1_constructor",
-            "id": "reference/js/blockly.zelos_namespace.constantprovider_class._constructor__1_constructor"
+            "label": "blockly.zelos_namespace.constantprovider_class",
+            "id": "reference/js/blockly.zelos_namespace.constantprovider_class"
           },
           {
             "type": "doc",
@@ -20477,11 +20363,6 @@ export const referenceSidebar = [
           },
           {
             "type": "doc",
-            "label": "blockly.zelos_namespace.constantprovider_class",
-            "id": "reference/js/blockly.zelos_namespace.constantprovider_class"
-          },
-          {
-            "type": "doc",
             "label": "blockly.zelos_namespace.constantprovider_class.replacement_glow_colour_property",
             "id": "reference/js/blockly.zelos_namespace.constantprovider_class.replacement_glow_colour_property"
           },
@@ -20562,8 +20443,8 @@ export const referenceSidebar = [
           },
           {
             "type": "doc",
-            "label": "blockly.zelos_namespace.drawer_class._constructor__1_constructor",
-            "id": "reference/js/blockly.zelos_namespace.drawer_class._constructor__1_constructor"
+            "label": "blockly.zelos_namespace.drawer_class",
+            "id": "reference/js/blockly.zelos_namespace.drawer_class"
           },
           {
             "type": "doc",
@@ -20627,13 +20508,8 @@ export const referenceSidebar = [
           },
           {
             "type": "doc",
-            "label": "blockly.zelos_namespace.drawer_class",
-            "id": "reference/js/blockly.zelos_namespace.drawer_class"
-          },
-          {
-            "type": "doc",
-            "label": "blockly.zelos_namespace.pathobject_class._constructor__1_constructor",
-            "id": "reference/js/blockly.zelos_namespace.pathobject_class._constructor__1_constructor"
+            "label": "blockly.zelos_namespace.pathobject_class",
+            "id": "reference/js/blockly.zelos_namespace.pathobject_class"
           },
           {
             "type": "doc",
@@ -20659,11 +20535,6 @@ export const referenceSidebar = [
             "type": "doc",
             "label": "blockly.zelos_namespace.pathobject_class.fliprtl_1_method",
             "id": "reference/js/blockly.zelos_namespace.pathobject_class.fliprtl_1_method"
-          },
-          {
-            "type": "doc",
-            "label": "blockly.zelos_namespace.pathobject_class",
-            "id": "reference/js/blockly.zelos_namespace.pathobject_class"
           },
           {
             "type": "doc",
@@ -20697,8 +20568,8 @@ export const referenceSidebar = [
           },
           {
             "type": "doc",
-            "label": "blockly.zelos_namespace.renderer_class._constructor__1_constructor",
-            "id": "reference/js/blockly.zelos_namespace.renderer_class._constructor__1_constructor"
+            "label": "blockly.zelos_namespace.renderer_class",
+            "id": "reference/js/blockly.zelos_namespace.renderer_class"
           },
           {
             "type": "doc",
@@ -20732,13 +20603,8 @@ export const referenceSidebar = [
           },
           {
             "type": "doc",
-            "label": "blockly.zelos_namespace.renderer_class",
-            "id": "reference/js/blockly.zelos_namespace.renderer_class"
-          },
-          {
-            "type": "doc",
-            "label": "blockly.zelos_namespace.renderinfo_class._constructor__1_constructor",
-            "id": "reference/js/blockly.zelos_namespace.renderinfo_class._constructor__1_constructor"
+            "label": "blockly.zelos_namespace.renderinfo_class",
+            "id": "reference/js/blockly.zelos_namespace.renderinfo_class"
           },
           {
             "type": "doc",
@@ -20837,11 +20703,6 @@ export const referenceSidebar = [
           },
           {
             "type": "doc",
-            "label": "blockly.zelos_namespace.renderinfo_class",
-            "id": "reference/js/blockly.zelos_namespace.renderinfo_class"
-          },
-          {
-            "type": "doc",
             "label": "blockly.zelos_namespace.renderinfo_class.measure_1_method",
             "id": "reference/js/blockly.zelos_namespace.renderinfo_class.measure_1_method"
           },
@@ -20867,8 +20728,8 @@ export const referenceSidebar = [
           },
           {
             "type": "doc",
-            "label": "blockly.zelos_namespace.rightconnectionshape_class._constructor__1_constructor",
-            "id": "reference/js/blockly.zelos_namespace.rightconnectionshape_class._constructor__1_constructor"
+            "label": "blockly.zelos_namespace.rightconnectionshape_class",
+            "id": "reference/js/blockly.zelos_namespace.rightconnectionshape_class"
           },
           {
             "type": "doc",
@@ -20877,23 +20738,8 @@ export const referenceSidebar = [
           },
           {
             "type": "doc",
-            "label": "blockly.zelos_namespace.rightconnectionshape_class",
-            "id": "reference/js/blockly.zelos_namespace.rightconnectionshape_class"
-          },
-          {
-            "type": "doc",
             "label": "blockly.zelos_namespace.rightconnectionshape_class.width_property",
             "id": "reference/js/blockly.zelos_namespace.rightconnectionshape_class.width_property"
-          },
-          {
-            "type": "doc",
-            "label": "blockly.zelos_namespace.statementinput_class._constructor__1_constructor",
-            "id": "reference/js/blockly.zelos_namespace.statementinput_class._constructor__1_constructor"
-          },
-          {
-            "type": "doc",
-            "label": "blockly.zelos_namespace.statementinput_class.connectedbottomnextconnection_property",
-            "id": "reference/js/blockly.zelos_namespace.statementinput_class.connectedbottomnextconnection_property"
           },
           {
             "type": "doc",
@@ -20902,8 +20748,13 @@ export const referenceSidebar = [
           },
           {
             "type": "doc",
-            "label": "blockly.zelos_namespace.toprow_class._constructor__1_constructor",
-            "id": "reference/js/blockly.zelos_namespace.toprow_class._constructor__1_constructor"
+            "label": "blockly.zelos_namespace.statementinput_class.connectedbottomnextconnection_property",
+            "id": "reference/js/blockly.zelos_namespace.statementinput_class.connectedbottomnextconnection_property"
+          },
+          {
+            "type": "doc",
+            "label": "blockly.zelos_namespace.toprow_class",
+            "id": "reference/js/blockly.zelos_namespace.toprow_class"
           },
           {
             "type": "doc",
@@ -20920,661 +20771,234 @@ export const referenceSidebar = [
             "label": "blockly.zelos_namespace.toprow_class.hasrightsquarecorner_1_method",
             "id": "reference/js/blockly.zelos_namespace.toprow_class.hasrightsquarecorner_1_method"
           },
-          {
-            "type": "doc",
-            "label": "blockly.zelos_namespace.toprow_class",
-            "id": "reference/js/blockly.zelos_namespace.toprow_class"
-          }
-        ]
-      }
+        ],
+      },
     ]
   },
   {
     "type": "category",
     "label": "Variables",
     "collapsible": true,
-    // "collapsed": false,
-    "className": 'hide-level-3',
+    "className": "hide-level-3",
     "items": [
       {
-        "type": "category",
+        "type": "doc",
         "label": "Blocks",
-        "link": {
-          "type": "doc",
-          "id": "reference/js/blockly.blocks_variable"
-        },
-        "items": [
-          {
-            "type": "doc",
-            "label": "Label",
-            "id": "reference/js/blockly.blocks_variable"
-          }
-        ]
+        "id": "reference/js/blockly.blocks_variable"
       },
       {
-        "type": "category",
+        "type": "doc",
         "label": "COLLAPSE_CHARS",
-        "link": {
-          "type": "doc",
-          "id": "reference/js/blockly.collapse_chars_variable"
-        },
-        "items": [
-          {
-            "type": "doc",
-            "label": "Label",
-            "id": "reference/js/blockly.collapse_chars_variable"
-          }
-        ]
+        "id": "reference/js/blockly.collapse_chars_variable"
       },
       {
-        "type": "category",
+        "type": "doc",
         "label": "COLLAPSED_FIELD_NAME",
-        "link": {
-          "type": "doc",
-          "id": "reference/js/blockly.collapsed_field_name_variable"
-        },
-        "items": [
-          {
-            "type": "doc",
-            "label": "Label",
-            "id": "reference/js/blockly.collapsed_field_name_variable"
-          }
-        ]
+        "id": "reference/js/blockly.collapsed_field_name_variable"
       },
       {
-        "type": "category",
+        "type": "doc",
         "label": "COLLAPSED_INPUT_NAME",
-        "link": {
-          "type": "doc",
-          "id": "reference/js/blockly.collapsed_input_name_variable"
-        },
-        "items": [
-          {
-            "type": "doc",
-            "label": "Label",
-            "id": "reference/js/blockly.collapsed_input_name_variable"
-          }
-        ]
+        "id": "reference/js/blockly.collapsed_input_name_variable"
       },
       {
-        "type": "category",
+        "type": "doc",
         "label": "config",
-        "link": {
-          "type": "doc",
-          "id": "reference/js/blockly.config_variable"
-        },
-        "items": [
-          {
-            "type": "doc",
-            "label": "Label",
-            "id": "reference/js/blockly.config_variable"
-          }
-        ]
+        "id": "reference/js/blockly.config_variable"
       },
       {
-        "type": "category",
+        "type": "doc",
         "label": "defineBlocksWithJsonArray",
-        "link": {
-          "type": "doc",
-          "id": "reference/js/blockly.defineblockswithjsonarray_variable"
-        },
-        "items": [
-          {
-            "type": "doc",
-            "label": "Label",
-            "id": "reference/js/blockly.defineblockswithjsonarray_variable"
-          }
-        ]
+        "id": "reference/js/blockly.defineblockswithjsonarray_variable"
       },
       {
-        "type": "category",
+        "type": "doc",
         "label": "DELETE_VARIABLE_ID",
-        "link": {
-          "type": "doc",
-          "id": "reference/js/blockly.delete_variable_id_variable"
-        },
-        "items": [
-          {
-            "type": "doc",
-            "label": "Label",
-            "id": "reference/js/blockly.delete_variable_id_variable"
-          }
-        ]
+        "id": "reference/js/blockly.delete_variable_id_variable"
       },
       {
-        "type": "category",
+        "type": "doc",
         "label": "DropDownDiv",
-        "link": {
-          "type": "doc",
-          "id": "reference/js/blockly.dropdowndiv_variable"
-        },
-        "items": [
-          {
-            "type": "doc",
-            "label": "Label",
-            "id": "reference/js/blockly.dropdowndiv_variable"
-          }
-        ]
+        "id": "reference/js/blockly.dropdowndiv_variable"
       },
       {
-        "type": "category",
+        "type": "doc",
         "label": "getMainWorkspace",
-        "link": {
-          "type": "doc",
-          "id": "reference/js/blockly.getmainworkspace_variable"
-        },
-        "items": [
-          {
-            "type": "doc",
-            "label": "Label",
-            "id": "reference/js/blockly.getmainworkspace_variable"
-          }
-        ]
+        "id": "reference/js/blockly.getmainworkspace_variable"
       },
       {
-        "type": "category",
+        "type": "doc",
         "label": "getSelected",
-        "link": {
-          "type": "doc",
-          "id": "reference/js/blockly.getselected_variable"
-        },
-        "items": [
-          {
-            "type": "doc",
-            "label": "Label",
-            "id": "reference/js/blockly.getselected_variable"
-          }
-        ]
+        "id": "reference/js/blockly.getselected_variable"
       },
       {
-        "type": "category",
+        "type": "doc",
         "label": "INPUT_VALUE",
-        "link": {
-          "type": "doc",
-          "id": "reference/js/blockly.input_value_variable"
-        },
-        "items": [
-          {
-            "type": "doc",
-            "label": "Label",
-            "id": "reference/js/blockly.input_value_variable"
-          }
-        ]
+        "id": "reference/js/blockly.input_value_variable"
       },
       {
-        "type": "category",
+        "type": "doc",
         "label": "JavaScript",
-        "link": {
-          "type": "doc",
-          "id": "reference/js/blockly.javascript_variable"
-        },
-        "items": [
-          {
-            "type": "doc",
-            "label": "Label",
-            "id": "reference/js/blockly.javascript_variable"
-          }
-        ]
+        "id": "reference/js/blockly.javascript_variable"
       },
       {
-        "type": "category",
+        "type": "doc",
         "label": "keyboardNavigationController",
-        "link": {
-          "type": "doc",
-          "id": "reference/js/blockly.keyboardnavigationcontroller_variable"
-        },
-        "items": [
-          {
-            "type": "doc",
-            "label": "Label",
-            "id": "reference/js/blockly.keyboardnavigationcontroller_variable"
-          }
-        ]
+        "id": "reference/js/blockly.keyboardnavigationcontroller_variable"
       },
       {
-        "type": "category",
+        "type": "doc",
         "label": "Msg",
-        "link": {
-          "type": "doc",
-          "id": "reference/js/blockly.msg_variable"
-        },
-        "items": [
-          {
-            "type": "doc",
-            "label": "Label",
-            "id": "reference/js/blockly.msg_variable"
-          }
-        ]
+        "id": "reference/js/blockly.msg_variable"
       },
       {
-        "type": "category",
+        "type": "doc",
         "label": "NEXT_STATEMENT",
-        "link": {
-          "type": "doc",
-          "id": "reference/js/blockly.next_statement_variable"
-        },
-        "items": [
-          {
-            "type": "doc",
-            "label": "Label",
-            "id": "reference/js/blockly.next_statement_variable"
-          }
-        ]
+        "id": "reference/js/blockly.next_statement_variable"
       },
       {
-        "type": "category",
+        "type": "doc",
         "label": "OPPOSITE_TYPE",
-        "link": {
-          "type": "doc",
-          "id": "reference/js/blockly.opposite_type_variable"
-        },
-        "items": [
-          {
-            "type": "doc",
-            "label": "Label",
-            "id": "reference/js/blockly.opposite_type_variable"
-          }
-        ]
+        "id": "reference/js/blockly.opposite_type_variable"
       },
       {
-        "type": "category",
+        "type": "doc",
         "label": "OUTPUT_VALUE",
-        "link": {
-          "type": "doc",
-          "id": "reference/js/blockly.output_value_variable"
-        },
-        "items": [
-          {
-            "type": "doc",
-            "label": "Label",
-            "id": "reference/js/blockly.output_value_variable"
-          }
-        ]
+        "id": "reference/js/blockly.output_value_variable"
       },
       {
-        "type": "category",
+        "type": "doc",
         "label": "PREVIOUS_STATEMENT",
-        "link": {
-          "type": "doc",
-          "id": "reference/js/blockly.previous_statement_variable"
-        },
-        "items": [
-          {
-            "type": "doc",
-            "label": "Label",
-            "id": "reference/js/blockly.previous_statement_variable"
-          }
-        ]
+        "id": "reference/js/blockly.previous_statement_variable"
       },
       {
-        "type": "category",
+        "type": "doc",
         "label": "PROCEDURE_CATEGORY_NAME",
-        "link": {
-          "type": "doc",
-          "id": "reference/js/blockly.procedure_category_name_variable"
-        },
-        "items": [
-          {
-            "type": "doc",
-            "label": "Label",
-            "id": "reference/js/blockly.procedure_category_name_variable"
-          }
-        ]
+        "id": "reference/js/blockly.procedure_category_name_variable"
       },
       {
-        "type": "category",
+        "type": "doc",
         "label": "RENAME_VARIABLE_ID",
-        "link": {
-          "type": "doc",
-          "id": "reference/js/blockly.rename_variable_id_variable"
-        },
-        "items": [
-          {
-            "type": "doc",
-            "label": "Label",
-            "id": "reference/js/blockly.rename_variable_id_variable"
-          }
-        ]
+        "id": "reference/js/blockly.rename_variable_id_variable"
       },
       {
-        "type": "category",
+        "type": "doc",
         "label": "setParentContainer",
-        "link": {
-          "type": "doc",
-          "id": "reference/js/blockly.setparentcontainer_variable"
-        },
-        "items": [
-          {
-            "type": "doc",
-            "label": "Label",
-            "id": "reference/js/blockly.setparentcontainer_variable"
-          }
-        ]
+        "id": "reference/js/blockly.setparentcontainer_variable"
       },
       {
-        "type": "category",
+        "type": "doc",
         "label": "svgResize",
-        "link": {
-          "type": "doc",
-          "id": "reference/js/blockly.svgresize_variable"
-        },
-        "items": [
-          {
-            "type": "doc",
-            "label": "Label",
-            "id": "reference/js/blockly.svgresize_variable"
-          }
-        ]
+        "id": "reference/js/blockly.svgresize_variable"
       },
       {
-        "type": "category",
+        "type": "doc",
         "label": "TOOLBOX_AT_BOTTOM",
-        "link": {
-          "type": "doc",
-          "id": "reference/js/blockly.toolbox_at_bottom_variable"
-        },
-        "items": [
-          {
-            "type": "doc",
-            "label": "Label",
-            "id": "reference/js/blockly.toolbox_at_bottom_variable"
-          }
-        ]
+        "id": "reference/js/blockly.toolbox_at_bottom_variable"
       },
       {
-        "type": "category",
+        "type": "doc",
         "label": "TOOLBOX_AT_LEFT",
-        "link": {
-          "type": "doc",
-          "id": "reference/js/blockly.toolbox_at_left_variable"
-        },
-        "items": [
-          {
-            "type": "doc",
-            "label": "Label",
-            "id": "reference/js/blockly.toolbox_at_left_variable"
-          }
-        ]
+        "id": "reference/js/blockly.toolbox_at_left_variable"
       },
       {
-        "type": "category",
+        "type": "doc",
         "label": "TOOLBOX_AT_RIGHT",
-        "link": {
-          "type": "doc",
-          "id": "reference/js/blockly.toolbox_at_right_variable"
-        },
-        "items": [
-          {
-            "type": "doc",
-            "label": "Label",
-            "id": "reference/js/blockly.toolbox_at_right_variable"
-          }
-        ]
+        "id": "reference/js/blockly.toolbox_at_right_variable"
       },
       {
-        "type": "category",
+        "type": "doc",
         "label": "TOOLBOX_AT_TOP",
-        "link": {
-          "type": "doc",
-          "id": "reference/js/blockly.toolbox_at_top_variable"
-        },
-        "items": [
-          {
-            "type": "doc",
-            "label": "Label",
-            "id": "reference/js/blockly.toolbox_at_top_variable"
-          }
-        ]
+        "id": "reference/js/blockly.toolbox_at_top_variable"
       },
       {
-        "type": "category",
+        "type": "doc",
         "label": "VARIABLE_CATEGORY_NAME",
-        "link": {
-          "type": "doc",
-          "id": "reference/js/blockly.variable_category_name_variable"
-        },
-        "items": [
-          {
-            "type": "doc",
-            "label": "Label",
-            "id": "reference/js/blockly.variable_category_name_variable"
-          }
-        ]
+        "id": "reference/js/blockly.variable_category_name_variable"
       },
       {
-        "type": "category",
+        "type": "doc",
         "label": "VARIABLE_DYNAMIC_CATEGORY_NAME",
-        "link": {
-          "type": "doc",
-          "id": "reference/js/blockly.variable_dynamic_category_name_variable"
-        },
-        "items": [
-          {
-            "type": "doc",
-            "label": "Label",
-            "id": "reference/js/blockly.variable_dynamic_category_name_variable"
-          }
-        ]
+        "id": "reference/js/blockly.variable_dynamic_category_name_variable"
       },
       {
-        "type": "category",
+        "type": "doc",
         "label": "VERSION",
-        "link": {
-          "type": "doc",
-          "id": "reference/js/blockly.version_variable"
-        },
-        "items": [
-          {
-            "type": "doc",
-            "label": "Label",
-            "id": "reference/js/blockly.version_variable"
-          }
-        ]
-      }
+        "id": "reference/js/blockly.version_variable"
+      },
     ]
   },
   {
     "type": "category",
     "label": "Type Aliases",
     "collapsible": true,
-    // "collapsed": false,
-    "className": 'hide-level-3',
+    "className": "hide-level-3",
     "items": [
       {
-        "type": "category",
+        "type": "doc",
         "label": "FieldCheckboxValidator",
-        "link": {
-          "type": "doc",
-          "id": "reference/js/blockly.fieldcheckboxvalidator_typealias"
-        },
-        "items": [
-          {
-            "type": "doc",
-            "label": "Label",
-            "id": "reference/js/blockly.fieldcheckboxvalidator_typealias"
-          }
-        ]
+        "id": "reference/js/blockly.fieldcheckboxvalidator_typealias"
       },
       {
-        "type": "category",
+        "type": "doc",
         "label": "FieldDropdownConfig",
-        "link": {
-          "type": "doc",
-          "id": "reference/js/blockly.fielddropdownconfig_typealias"
-        },
-        "items": [
-          {
-            "type": "doc",
-            "label": "Label",
-            "id": "reference/js/blockly.fielddropdownconfig_typealias"
-          }
-        ]
+        "id": "reference/js/blockly.fielddropdownconfig_typealias"
       },
       {
-        "type": "category",
+        "type": "doc",
         "label": "FieldDropdownValidator",
-        "link": {
-          "type": "doc",
-          "id": "reference/js/blockly.fielddropdownvalidator_typealias"
-        },
-        "items": [
-          {
-            "type": "doc",
-            "label": "Label",
-            "id": "reference/js/blockly.fielddropdownvalidator_typealias"
-          }
-        ]
+        "id": "reference/js/blockly.fielddropdownvalidator_typealias"
       },
       {
-        "type": "category",
+        "type": "doc",
         "label": "FieldNumberValidator",
-        "link": {
-          "type": "doc",
-          "id": "reference/js/blockly.fieldnumbervalidator_typealias"
-        },
-        "items": [
-          {
-            "type": "doc",
-            "label": "Label",
-            "id": "reference/js/blockly.fieldnumbervalidator_typealias"
-          }
-        ]
+        "id": "reference/js/blockly.fieldnumbervalidator_typealias"
       },
       {
-        "type": "category",
+        "type": "doc",
         "label": "FieldTextInputConfig",
-        "link": {
-          "type": "doc",
-          "id": "reference/js/blockly.fieldtextinputconfig_typealias"
-        },
-        "items": [
-          {
-            "type": "doc",
-            "label": "Label",
-            "id": "reference/js/blockly.fieldtextinputconfig_typealias"
-          }
-        ]
+        "id": "reference/js/blockly.fieldtextinputconfig_typealias"
       },
       {
-        "type": "category",
+        "type": "doc",
         "label": "FieldTextInputValidator",
-        "link": {
-          "type": "doc",
-          "id": "reference/js/blockly.fieldtextinputvalidator_typealias"
-        },
-        "items": [
-          {
-            "type": "doc",
-            "label": "Label",
-            "id": "reference/js/blockly.fieldtextinputvalidator_typealias"
-          }
-        ]
+        "id": "reference/js/blockly.fieldtextinputvalidator_typealias"
       },
       {
-        "type": "category",
+        "type": "doc",
         "label": "FieldValidator",
-        "link": {
-          "type": "doc",
-          "id": "reference/js/blockly.fieldvalidator_typealias"
-        },
-        "items": [
-          {
-            "type": "doc",
-            "label": "Label",
-            "id": "reference/js/blockly.fieldvalidator_typealias"
-          }
-        ]
+        "id": "reference/js/blockly.fieldvalidator_typealias"
       },
       {
-        "type": "category",
+        "type": "doc",
         "label": "FieldVariableValidator",
-        "link": {
-          "type": "doc",
-          "id": "reference/js/blockly.fieldvariablevalidator_typealias"
-        },
-        "items": [
-          {
-            "type": "doc",
-            "label": "Label",
-            "id": "reference/js/blockly.fieldvariablevalidator_typealias"
-          }
-        ]
+        "id": "reference/js/blockly.fieldvariablevalidator_typealias"
       },
       {
-        "type": "category",
+        "type": "doc",
         "label": "ICopyData",
-        "link": {
-          "type": "doc",
-          "id": "reference/js/blockly.icopydata_typealias"
-        },
-        "items": [
-          {
-            "type": "doc",
-            "label": "Label",
-            "id": "reference/js/blockly.icopydata_typealias"
-          }
-        ]
+        "id": "reference/js/blockly.icopydata_typealias"
       },
       {
-        "type": "category",
+        "type": "doc",
         "label": "MenuGenerator",
-        "link": {
-          "type": "doc",
-          "id": "reference/js/blockly.menugenerator_typealias"
-        },
-        "items": [
-          {
-            "type": "doc",
-            "label": "Label",
-            "id": "reference/js/blockly.menugenerator_typealias"
-          }
-        ]
+        "id": "reference/js/blockly.menugenerator_typealias"
       },
       {
-        "type": "category",
+        "type": "doc",
         "label": "MenuGeneratorFunction",
-        "link": {
-          "type": "doc",
-          "id": "reference/js/blockly.menugeneratorfunction_typealias"
-        },
-        "items": [
-          {
-            "type": "doc",
-            "label": "Label",
-            "id": "reference/js/blockly.menugeneratorfunction_typealias"
-          }
-        ]
+        "id": "reference/js/blockly.menugeneratorfunction_typealias"
       },
       {
-        "type": "category",
+        "type": "doc",
         "label": "MenuOption",
-        "link": {
-          "type": "doc",
-          "id": "reference/js/blockly.menuoption_typealias"
-        },
-        "items": [
-          {
-            "type": "doc",
-            "label": "Label",
-            "id": "reference/js/blockly.menuoption_typealias"
-          }
-        ]
+        "id": "reference/js/blockly.menuoption_typealias"
       },
       {
-        "type": "category",
+        "type": "doc",
         "label": "ReturnEphemeralFocus",
-        "link": {
-          "type": "doc",
-          "id": "reference/js/blockly.returnephemeralfocus_typealias"
-        },
-        "items": [
-          {
-            "type": "doc",
-            "label": "Label",
-            "id": "reference/js/blockly.returnephemeralfocus_typealias"
-          }
-        ]
-      }
+        "id": "reference/js/blockly.returnephemeralfocus_typealias"
+      },
     ]
-  }
-]
+  },
+];
