@@ -20,5 +20,3 @@ chromedriver
 build/
 dist/
 temp/
-
-.docusaurus
