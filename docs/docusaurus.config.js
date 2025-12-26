@@ -5,7 +5,6 @@
 // See: https://docusaurus.io/docs/api/docusaurus-config
 
 import { themes as prismThemes } from 'prism-react-renderer';
-import remarkAttributes from 'remark-attributes';
 
 // This runs in Node.js - Don't use client-side code here (browser APIs, JSX...)
 
@@ -70,7 +69,6 @@ const config = {
           // Remove this to remove the "edit this page" links.
           editUrl:
             'https://github.com/Joe-Davis-Blockly/blockly/tree/cybage-blockly/docs',
-          remarkPlugins: [remarkAttributes],
         },
         blog: false,
         theme: {
