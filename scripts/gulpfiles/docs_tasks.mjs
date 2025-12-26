@@ -329,8 +329,8 @@ const convertToMdx = function() {
       .pipe(replace(/<!--\s*([\s\S]*?)\s*-->/g, '{/* $1 */}'))
       // Fix malformed markdown links: [text][/path](https://developers.google.com/path) -> [text](/path)
       .pipe(replace(/\[([^\]]+)\]\[([^\]]+)\]\(https:\/\/developers\.google\.com([^)]+)\)/g, '[$1]($2)'))
-      // Fix all internal links: remove .md extension
-      .pipe(replace(/\]\(\.\/([^)]+)\.md\)/g, '](./$1)'))
+      // Fix all internal links: remove .md extension and convert ./filename to /reference/js/filename
+      .pipe(replace(/\]\(\.\/([^)]+)\.md\)/g, '](/reference/js/$1)'))
       // Replace developers.google.com links with relative paths
       .pipe(replace(/https:\/\/developers\.google\.com(\/blockly\/[^)\s"']+)/g, '$1'))
       // Fix underscore to hyphen in URL fragments
@@ -422,8 +422,8 @@ const parseHtmlTables = function(fileContent) {
     
     if (!sectionName || sectionName === 'blockly package') continue;
     
-    // Find table rows in HTML
-    const tableRowRegex = /<tr><td>\s*\[([^\]]+)\]\(\.\/([^\)]+)\)/g;
+    // Find table rows in HTML - match links with or without ./ prefix
+    const tableRowRegex = /<tr><td>\s*\[([^\]]+)\]\((?:\/reference\/js\/)?([^\)]+)\)/g;
     const items = [];
     
     let match;
