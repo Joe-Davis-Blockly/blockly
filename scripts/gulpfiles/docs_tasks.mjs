@@ -281,8 +281,9 @@ const fixMdxIssues = function(done) {
       if (trimmed && (trimmed.includes('{') || trimmed.includes('\\{')) && 
           (trimmed.includes('}') || trimmed.includes('\\}'))) {
         
-        // Skip if it's a table/code tag line or already in backticks
-        if (trimmed.includes('<td>') || trimmed.includes('</td>') || 
+        // Skip if it's an MDX comment, table/code tag line, or already in backticks
+        if (trimmed.includes('{/*') || trimmed.includes('*/}') ||
+            trimmed.includes('<td>') || trimmed.includes('</td>') || 
             trimmed.includes('<table>') || trimmed.includes('<tr>') ||
             trimmed.startsWith('```') || trimmed.startsWith('`') && trimmed.endsWith('`')) {
           // Process table cell content specifically

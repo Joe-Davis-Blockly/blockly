@@ -332,7 +332,7 @@
 }
 
 /* --- Hide Duplicate Breadcrumb on Reference Pages --- */
-[class*="docs-doc-id-reference/"] .theme-doc-markdown > p:first-child {
+[class*="docs-doc-id-reference/"] .theme-doc-breadcrumbs {
   display: none;
 }
 
@@ -436,3 +436,4 @@ h3{
 td{
   vertical-align: top;
 }
+
