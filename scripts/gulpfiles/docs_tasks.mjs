@@ -333,6 +333,9 @@ const convertToMdx = function() {
       .pipe(replace(/\]\(\.\/([^)]+)\.md\)/g, '](/reference/js/$1)'))
       // Replace developers.google.com links with relative paths
       .pipe(replace(/https:\/\/developers\.google\.com(\/blockly\/[^)\s"']+)/g, '$1'))
+      // Replace developers.devsite.google.com links with relative paths
+      .pipe(replace(/https:\/\/developers\.devsite\.google\.com(\/blockly\/[^)\s"']+)/g, '$1'))
+
       // Fix underscore to hyphen in URL fragments
       .pipe(replace(/(\/blockly\/[^)\s"'#]*#[^)\s"']*)_([^)\s"']*)/g, function(match) {
         return match.replace(/_/g, '-');
