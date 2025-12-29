@@ -437,3 +437,6 @@ td{
   vertical-align: top;
 }
 
+th{
+  text-align: left;
+}

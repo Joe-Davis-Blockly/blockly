@@ -20,7 +20,7 @@ bubbles, and workspace comments.
 
 Draggables have several responsibilities when executing drags:
 
-*   Moving svg elements to the [drag layer][layer-manager].
+*   Moving svg elements to the drag layer.
 *   Translating svg elements.
 *   Firing move [events][events].
 
@@ -179,7 +179,7 @@ class MyDraggable implements ISelectable {
 ### Set selection
 
 The selected element can be set by calling
-[`Blockly.common.setSelected()`][setSelected]. usually you'll want to do this
+`Blockly.common.setSelected()`. usually you'll want to do this
 in response to a `pointerdown` event from the user.
 
 ```js
@@ -230,7 +230,6 @@ For more information about copying pasting see [Copy paste][copy-paste].
 [workspace-visual-glossary]: /blockly/guides/get-started/workspace-anatomy#workspace
 [multiselect-plugin]: https://www.npmjs.com/package/@mit-app-inventor/blockly-plugin-workspace-multiselect
 {/* This doesn't exist yet */}
-[layer-manager]: /blockly/reference/js/blockly.layermanager_class
 [events]: /blockly/guides/configure/web/events
 [IRenderedElement]: /blockly/reference/js/blockly.irenderedelement_interface
 [IDraggable]: /blockly/reference/js/blockly.idraggable_interface
