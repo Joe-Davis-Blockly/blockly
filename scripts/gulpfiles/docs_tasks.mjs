@@ -340,6 +340,8 @@ const convertToMdx = function() {
       .pipe(replace(/(\/blockly\/[^)\s"'#]*#[^)\s"']*)_([^)\s"']*)/g, function(match) {
         return match.replace(/_/g, '-');
       }))
+      // Remove %5C (URL-encoded backslash) and literal backslash before anchor tags
+      .pipe(replace(/(%5C|\\)(#[^)\s"']*)/g, '$2'))
       .pipe(rename({ extname: '.mdx' }))
       .pipe(gulp.dest(DOCS_DIR));
 }

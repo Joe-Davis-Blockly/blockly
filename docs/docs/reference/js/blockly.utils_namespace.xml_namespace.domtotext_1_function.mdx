@@ -13,7 +13,7 @@ description: "Converts a DOM structure into plain text."
 
 Converts a DOM structure into plain text. Currently the text format is fairly ugly: all one line with no whitespace.
 
-Control characters are escaped using their decimal encodings. This includes U+0000 even though it is technically never a valid XML character (even in XML 1.1). https://www.w3.org/TR/xml11/\#charsets
+Control characters are escaped using their decimal encodings. This includes U+0000 even though it is technically never a valid XML character (even in XML 1.1). https://www.w3.org/TR/xml11/#charsets
 
 When decoded U+0000 will be parsed as U+FFFD (the "replacement character").
 
